@@ -3,11 +3,7 @@
 </p>
 
 <p align="center">
-  <strong>Constrained Handoffs · Local Ownership · Yield Assurance</strong>
-</p>
-
-<p align="center">
-  <strong>English</strong> · <a href="README.ru.md">Русский</a>
+  <strong>Constrained context · Clear ownership · Verifiable outcomes</strong>
 </p>
 
 <p align="center">
@@ -17,6 +13,10 @@
   <a href="LICENSE-CC-BY-SA-4.0">
     <img src="https://img.shields.io/badge/content-CC%20BY--SA%204.0-lightgrey.svg" alt="Content license: CC BY-SA 4.0">
   </a>
+</p>
+
+<p align="center">
+  <strong>English</strong> · <a href="README.ru.md">Русский</a>
 </p>
 
 # CHLOYA
@@ -42,49 +42,21 @@ Project knowledge is preserved in portable, human-readable documents rather than
 
 CHLOYA is not tied to a single model, development environment, or AI provider.
 
-## What does the name mean?
+## Ideas behind the name
 
-### Constrained Handoffs
+CHLOYA brings together three central ideas:
 
-Passing a task to a person, model, or agent should not require transferring the entire project history.
+### Constrained context
 
-Instead, the handoff is represented by a bounded package that may contain:
+An executor receives the information required for a particular task rather than the entire project history.
 
-- the task objective;
-- the permitted scope of change;
-- the minimum sufficient context;
-- allowed actions;
-- related contracts;
-- known risks;
-- completion criteria;
-- evidence from completed checks.
+### Local responsibility
 
-Transferring context does not automatically transfer all authority.
+Every area, task, decision, and change should have a clearly defined area of responsibility.
 
-### Local Ownership
+### Verifiable outcomes
 
-Every system area, decision, contract, and change should have a clear area of responsibility.
-
-An AI executor does not become the owner of the architecture or project memory. It performs a bounded task and can be replaced by another executor without losing the current state of the project.
-
-Local ownership means responsibility for a defined area of the system. It does not require all data to be stored only on a local computer.
-
-### Yield Assurance
-
-A plausible model response or successfully generated code does not mean that a task is complete.
-
-Completion should be supported by verifiable results such as:
-
-- code changes;
-- automated tests;
-- contract validation;
-- impact analysis;
-- manual testing;
-- updated documentation;
-- a description of residual risk;
-- a rollback plan for high-risk changes.
-
-A technically prepared change should not necessarily be activated automatically in a production environment.
+Completion is determined by checks, evidence, and human acceptance—not by an AI system's confidence.
 
 ## Why is this approach needed?
 
@@ -316,7 +288,7 @@ Building a single integration platform for models, agents, and development envir
 ## Roadmap
 
 - [x] Define the initial CHLOYA concept.
-- [x] Define the meaning of the name and the main directions of the methodology.
+- [x] Define the core ideas behind the name and the main directions of the methodology.
 - [ ] Split the methodology into topic-focused Markdown documents.
 - [ ] Review and refine each document through several iterations.
 - [ ] Publish the first public version of the methodology.
