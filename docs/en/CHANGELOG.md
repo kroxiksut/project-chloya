@@ -11,5 +11,6 @@ This log concisely records substantive methodology changes between iterations. I
 - Refined the brief CHLOYA definition and the name expansion: Constrained Handoffs, Local Ownership, and Yield Assurance.
 - Prepared the Russian chapter 32 with one shared list of 39 sources, preserving numbering, links, and access dates; the English chapter remains pending.
 - Published the English translation of chapter 32, preserving the shared source numbering, original source titles, links, and access dates.
+- Moved the main table of contents and chapter statuses to `docs/`; unpublished chapters appear there without links.
 
 Substantive changes will be recorded here as version `0.3.1` chapters are developed and agreed.

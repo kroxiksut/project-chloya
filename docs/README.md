@@ -1,8 +1,63 @@
-# CHLOYA documentation
+# CHLOYA methodology
 
-The Russian documentation is the source version of the methodology. English translations are published only after the corresponding Russian document has been approved.
+[Русский](README.ru.md) · English
 
-- [Русская документация](README.ru.md)
-- [English documentation](en/README.md)
+> **Iteration:** `0.3.1` — an extended working draft for analysis, pilot validation, and decision-making. The methodology is not a final standard.
 
-This directory is the entry point for the published CHLOYA methodology, templates, examples, and supporting materials. Language-specific content is kept in separate directories so that equivalent documents have stable, predictable paths.
+## Short formula
+
+> Humans set direction and make decisions. AI organizes and carries out work within constrained authority. Code remains a shared, comprehensible language. Context is localized and carries trust labels. Contracts connect the parts. Project memory belongs to the project, and readiness is supported by verifiable evidence.
+
+## Brief definition
+
+CHLOYA is a methodology for governing the creation and evolution of software. Humans set goals, participate in task definition and decomposition, and approve consequential decisions and outcomes. Temporary AI executors carry out work within a constrained, portable, trust-labelled, and verifiable context.
+
+## Chapter status
+
+> Until iteration `0.3.1` is finally approved, the set, titles, and order of sections may change. A link appears only after a chapter is published.
+
+| No. | Chapter | Russian version | Russian status | English version | English status |
+|---:|---|---|---|---|---|
+| 1 | Why a New Methodology Is Needed | `0.3.1` | in development | `0.3.1` | in development |
+| 2 | Boundaries, Scope, and Non-goals | `0.3.1` | in development | `0.3.1` | in development |
+| 3 | CHLOYA Core Principles at a Glance | `0.3.1` | in development | `0.3.1` | in development |
+| 4 | Minimum Tooling Baseline | `0.3.1` | in development | `0.3.1` | in development |
+| 5 | Testable Hypotheses, Risks, and Usefulness Criteria | `0.3.1` | in development | `0.3.1` | in development |
+| 6 | Roles and Governance Boundaries | `0.3.1` | in development | `0.3.1` | in development |
+| 7 | Context Management and Trust Boundaries | `0.3.1` | in development | `0.3.1` | in development |
+| 8 | Code as a Shared Language for Humans and AI | `0.3.1` | in development | `0.3.1` | in development |
+| 9 | Human Profile and Adaptive Autonomy | `0.3.1` | in development | `0.3.1` | in development |
+| 10 | Scale and Levels of Application | `0.3.1` | in development | `0.3.1` | in development |
+| 11 | Context Module as a Unit of Local Work | `0.3.1` | in development | `0.3.1` | in development |
+| 12 | Project Memory and Context Formats | `0.3.1` | in development | `0.3.1` | in development |
+| 13 | Human-Involved Task Lifecycle | `0.3.1` | in development | `0.3.1` | in development |
+| 14 | Contracts and State Evolution | `0.3.1` | in development | `0.3.1` | in development |
+| 15 | Concurrency, Delegation, Orchestration, and Integration | `0.3.1` | in development | `0.3.1` | in development |
+| 16 | Git and a Single Current State | `0.3.1` | in development | `0.3.1` | in development |
+| 17 | Model Selection and Computational Effort | `0.3.1` | in development | `0.3.1` | in development |
+| 18 | Privacy Policy | `0.3.1` | in development | `0.3.1` | in development |
+| 19 | Reuse of External Code and Dependency Management | `0.3.1` | in development | `0.3.1` | in development |
+| 20 | Testing, Evidence, and Verifiable Readiness | `0.3.1` | in development | `0.3.1` | in development |
+| 21 | Agent Action Security and Analysis of Untrusted Code | `0.3.1` | in development | `0.3.1` | in development |
+| 22 | Risks, Warnings, and Human Responsibility | `0.3.1` | in development | `0.3.1` | in development |
+| 23 | Documentation and Language Policy | `0.3.1` | in development | `0.3.1` | in development |
+| 24 | New Projects and Technology Choices | `0.3.1` | in development | `0.3.1` | in development |
+| 25 | Application to Existing Projects | `0.3.1` | in development | `0.3.1` | in development |
+| 26 | Skills and Adapters for Popular Agents | `0.3.1` | in development | `0.3.1` | in development |
+| 27 | A Dedicated MCP Server | `0.3.1` | in development | `0.3.1` | in development |
+| 28 | Preliminary Assessment of Novelty and Related Approaches | `0.3.1` | in development | `0.3.1` | in development |
+| 29 | Pilot Validation Plan | `0.3.1` | in development | `0.3.1` | in development |
+| 30 | Decisions for the Next Iteration | `0.3.1` | in development | `0.3.1` | in development |
+| 31 | Open Research Questions | `0.3.1` | in development | `0.3.1` | in development |
+| 32 | Sources and Materials | `0.3.1` | in development | `0.3.1` | in development |
+| — | Conclusion | `0.3.1` | in development | `0.3.1` | in development |
+
+## Supporting documents
+
+- [Change history](en/CHANGELOG.md)
+
+Russian-version statuses: `planned`, `in development`, `under discussion`, `approved`.
+
+English-version statuses: `not started`, `in translation`, `published`.
+
+Russian and English versions of a chapter are versioned independently. For example, an approved English translation may remain at version `0.3.1` while the Russian chapter is being developed as `0.3.2`.

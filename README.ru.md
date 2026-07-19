@@ -16,7 +16,7 @@
   <a href="docs/README.ru.md">
     <img src="https://img.shields.io/badge/статус-методология%20в%20разработке-yellow.svg" alt="Статус: методология в разработке">
   </a>
-  <a href="docs/ru/README.md">
+  <a href="docs/README.ru.md">
     <img src="https://img.shields.io/badge/итерация-0.3.1-6f42c1.svg" alt="Текущая итерация: 0.3.1">
   </a>
 </p>

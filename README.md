@@ -13,10 +13,10 @@
   <a href="LICENSE-CC-BY-SA-4.0">
     <img src="https://img.shields.io/badge/content-CC%20BY--SA%204.0-lightgrey.svg" alt="Content license: CC BY-SA 4.0">
   </a>
-  <a href="docs/README.ru.md">
+  <a href="docs/README.md">
     <img src="https://img.shields.io/badge/status-methodology%20in%20development-yellow.svg" alt="Status: methodology in development">
   </a>
-  <a href="docs/ru/README.md">
+  <a href="docs/README.md">
     <img src="https://img.shields.io/badge/iteration-0.3.1-6f42c1.svg" alt="Current iteration: 0.3.1">
   </a>
 </p>
