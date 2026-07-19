@@ -13,6 +13,12 @@
   <a href="LICENSE-CC-BY-SA-4.0">
     <img src="https://img.shields.io/badge/content-CC%20BY--SA%204.0-lightgrey.svg" alt="Content license: CC BY-SA 4.0">
   </a>
+  <a href="docs/README.ru.md">
+    <img src="https://img.shields.io/badge/status-methodology%20in%20development-yellow.svg" alt="Status: methodology in development">
+  </a>
+  <a href="docs/ru/README.md">
+    <img src="https://img.shields.io/badge/iteration-0.3.1-6f42c1.svg" alt="Current iteration: 0.3.1">
+  </a>
 </p>
 
 <p align="center">
@@ -28,35 +34,35 @@
 > Context is transferred in small, verifiable packages.  
 > Project knowledge stays with the project, and completion is supported by evidence.
 
-> **Project status:** CHLOYA is currently being developed as a methodology. Its terminology, processes, and document formats will evolve through discussion and practical validation.
+> **Project status:** CHLOYA is currently being developed as a methodology. The next iteration, `0.3.1`, will be developed and approved chapter by chapter. Its terminology, processes, and document formats will evolve through discussion and practical validation.
+
+## Short formula
+
+> Humans set direction and make decisions. AI organizes and carries out work within constrained authority. Code remains a shared, comprehensible language. Context is localized and carries trust labels. Contracts connect the parts. Project memory belongs to the project, and readiness is supported by verifiable evidence.
 
 ## What is CHLOYA?
 
-CHLOYA is an open approach to organizing software development involving AI models and agentic tools.
+CHLOYA is a methodology for governing the creation and evolution of software. Humans set goals, participate in task definition and decomposition, and approve consequential decisions and outcomes. Temporary AI executors carry out work within a constrained, portable, trust-labelled, and verifiable context.
 
-The methodology treats AI not as the autonomous owner of a project, but as a temporary executor. Humans retain control over goals, architecture, acceptable risk, and acceptance of the result.
-
-Work is divided into bounded areas. Each task receives the minimum sufficient context, an explicit set of permitted actions, completion criteria, and required checks.
-
-Project knowledge is preserved in portable, human-readable documents rather than existing only in chat history or in the internal memory of a particular tool.
+Where practical, a system is divided into contextually self-contained areas. Their interactions are described through explicit contracts, and knowledge about tasks, decisions, risks, and outcomes is preserved in neutral project artifacts that do not depend on the memory of a particular agent, model, or provider.
 
 CHLOYA is not tied to a single model, development environment, or AI provider.
 
-## Ideas behind the name
+## Ideas embedded in the name
 
-CHLOYA brings together three central ideas:
+The name CHLOYA expresses three foundational properties of the methodology.
 
-### Constrained context
+### Constrained Handoffs
 
-An executor receives the information required for a particular task rather than the entire project history.
+Tasks, context, and authority are handed to an executor in a limited scope sufficient for the specific work. The handoff should be understandable, portable, and verifiable.
 
-### Local responsibility
+### Local Ownership
 
-Every area, task, decision, and change should have a clearly defined area of responsibility.
+Modules, decisions, changes, and integrations have locally defined areas of responsibility. An executor receives no implicit authority to modify parts of the system beyond the assigned task.
 
-### Verifiable outcomes
+### Yield Assurance
 
-Completion is determined by checks, evidence, and human acceptance—not by an AI system's confidence.
+Result readiness is supported by code, tests, manual review, and other evidence—not by an AI executor's confidence.
 
 ## Why is this approach needed?
 
@@ -270,6 +276,8 @@ CHLOYA is not:
 The methodology is intended to complement existing engineering processes, not replace them with a parallel ecosystem.
 
 ## Project formats
+
+The methodology is published as a set of topic-focused Markdown documents in [docs/](docs/). Start with the [English documentation index](docs/README.md).
 
 As CHLOYA develops, the project may include:
 
