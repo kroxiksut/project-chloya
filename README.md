@@ -336,19 +336,7 @@ It should also assess the risks of:
 
 ## Contributing
 
-At this stage, the following contributions are especially useful:
-
-- critique of terminology and principles;
-- real experiences with coding agents;
-- examples of failures caused by lost context;
-- threat models;
-- prompt-injection scenarios;
-- proposals for project-memory structures;
-- ideas for pilot projects;
-- measurable effectiveness criteria;
-- examples of applying the approach to existing repositories.
-
-Suggestions and discussions can be opened through [GitHub Issues](../../issues).
+Contribution guidelines, feedback channels, and participation options are described in [CONTRIBUTING.md](CONTRIBUTING.md). Text feedback is accepted for published methodology chapters.
 
 ## Contact and discussion
 

@@ -12,5 +12,8 @@ This log concisely records substantive methodology changes between iterations. I
 - Prepared the Russian chapter 32 with one shared list of 39 sources, preserving numbering, links, and access dates; the English chapter remains pending.
 - Published the English translation of chapter 32, preserving the shared source numbering, original source titles, links, and access dates.
 - Moved the main table of contents and chapter statuses to `docs/`; unpublished chapters appear there without links.
+- Localized the tables of contents by language; the Sources and Materials section is linked as a continuously maintained section with status “in development.”
+- Added contribution guidelines and feedback channels; text feedback is accepted for published chapters.
+- Added rules for freely contributing translations of published chapters into other languages.
 
 Substantive changes will be recorded here as version `0.3.1` chapters are developed and agreed.

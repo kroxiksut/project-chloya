@@ -16,48 +16,44 @@ CHLOYA is a methodology for governing the creation and evolution of software. Hu
 
 > Until iteration `0.3.1` is finally approved, the set, titles, and order of sections may change. A link appears only after a chapter is published.
 
-| No. | Chapter | Russian version | Russian status | English version | English status |
-|---:|---|---|---|---|---|
-| 1 | Why a New Methodology Is Needed | `0.3.1` | in development | `0.3.1` | in development |
-| 2 | Boundaries, Scope, and Non-goals | `0.3.1` | in development | `0.3.1` | in development |
-| 3 | CHLOYA Core Principles at a Glance | `0.3.1` | in development | `0.3.1` | in development |
-| 4 | Minimum Tooling Baseline | `0.3.1` | in development | `0.3.1` | in development |
-| 5 | Testable Hypotheses, Risks, and Usefulness Criteria | `0.3.1` | in development | `0.3.1` | in development |
-| 6 | Roles and Governance Boundaries | `0.3.1` | in development | `0.3.1` | in development |
-| 7 | Context Management and Trust Boundaries | `0.3.1` | in development | `0.3.1` | in development |
-| 8 | Code as a Shared Language for Humans and AI | `0.3.1` | in development | `0.3.1` | in development |
-| 9 | Human Profile and Adaptive Autonomy | `0.3.1` | in development | `0.3.1` | in development |
-| 10 | Scale and Levels of Application | `0.3.1` | in development | `0.3.1` | in development |
-| 11 | Context Module as a Unit of Local Work | `0.3.1` | in development | `0.3.1` | in development |
-| 12 | Project Memory and Context Formats | `0.3.1` | in development | `0.3.1` | in development |
-| 13 | Human-Involved Task Lifecycle | `0.3.1` | in development | `0.3.1` | in development |
-| 14 | Contracts and State Evolution | `0.3.1` | in development | `0.3.1` | in development |
-| 15 | Concurrency, Delegation, Orchestration, and Integration | `0.3.1` | in development | `0.3.1` | in development |
-| 16 | Git and a Single Current State | `0.3.1` | in development | `0.3.1` | in development |
-| 17 | Model Selection and Computational Effort | `0.3.1` | in development | `0.3.1` | in development |
-| 18 | Privacy Policy | `0.3.1` | in development | `0.3.1` | in development |
-| 19 | Reuse of External Code and Dependency Management | `0.3.1` | in development | `0.3.1` | in development |
-| 20 | Testing, Evidence, and Verifiable Readiness | `0.3.1` | in development | `0.3.1` | in development |
-| 21 | Agent Action Security and Analysis of Untrusted Code | `0.3.1` | in development | `0.3.1` | in development |
-| 22 | Risks, Warnings, and Human Responsibility | `0.3.1` | in development | `0.3.1` | in development |
-| 23 | Documentation and Language Policy | `0.3.1` | in development | `0.3.1` | in development |
-| 24 | New Projects and Technology Choices | `0.3.1` | in development | `0.3.1` | in development |
-| 25 | Application to Existing Projects | `0.3.1` | in development | `0.3.1` | in development |
-| 26 | Skills and Adapters for Popular Agents | `0.3.1` | in development | `0.3.1` | in development |
-| 27 | A Dedicated MCP Server | `0.3.1` | in development | `0.3.1` | in development |
-| 28 | Preliminary Assessment of Novelty and Related Approaches | `0.3.1` | in development | `0.3.1` | in development |
-| 29 | Pilot Validation Plan | `0.3.1` | in development | `0.3.1` | in development |
-| 30 | Decisions for the Next Iteration | `0.3.1` | in development | `0.3.1` | in development |
-| 31 | Open Research Questions | `0.3.1` | in development | `0.3.1` | in development |
-| 32 | Sources and Materials | `0.3.1` | in development | `0.3.1` | in development |
-| — | Conclusion | `0.3.1` | in development | `0.3.1` | in development |
+| No. | Chapter | Version | Status |
+|---:|---|---|
+| 1 | Why a New Methodology Is Needed | `0.3.1` | in development |
+| 2 | Boundaries, Scope, and Non-goals | `0.3.1` | in development |
+| 3 | CHLOYA Core Principles at a Glance | `0.3.1` | in development |
+| 4 | Minimum Tooling Baseline | `0.3.1` | in development |
+| 5 | Testable Hypotheses, Risks, and Usefulness Criteria | `0.3.1` | in development |
+| 6 | Roles and Governance Boundaries | `0.3.1` | in development |
+| 7 | Context Management and Trust Boundaries | `0.3.1` | in development |
+| 8 | Code as a Shared Language for Humans and AI | `0.3.1` | in development |
+| 9 | Human Profile and Adaptive Autonomy | `0.3.1` | in development |
+| 10 | Scale and Levels of Application | `0.3.1` | in development |
+| 11 | Context Module as a Unit of Local Work | `0.3.1` | in development |
+| 12 | Project Memory and Context Formats | `0.3.1` | in development |
+| 13 | Human-Involved Task Lifecycle | `0.3.1` | in development |
+| 14 | Contracts and State Evolution | `0.3.1` | in development |
+| 15 | Concurrency, Delegation, Orchestration, and Integration | `0.3.1` | in development |
+| 16 | Git and a Single Current State | `0.3.1` | in development |
+| 17 | Model Selection and Computational Effort | `0.3.1` | in development |
+| 18 | Privacy Policy | `0.3.1` | in development |
+| 19 | Reuse of External Code and Dependency Management | `0.3.1` | in development |
+| 20 | Testing, Evidence, and Verifiable Readiness | `0.3.1` | in development |
+| 21 | Agent Action Security and Analysis of Untrusted Code | `0.3.1` | in development |
+| 22 | Risks, Warnings, and Human Responsibility | `0.3.1` | in development |
+| 23 | Documentation and Language Policy | `0.3.1` | in development |
+| 24 | New Projects and Technology Choices | `0.3.1` | in development |
+| 25 | Application to Existing Projects | `0.3.1` | in development |
+| 26 | Skills and Adapters for Popular Agents | `0.3.1` | in development |
+| 27 | A Dedicated MCP Server | `0.3.1` | in development |
+| 28 | Preliminary Assessment of Novelty and Related Approaches | `0.3.1` | in development |
+| 29 | Pilot Validation Plan | `0.3.1` | in development |
+| 30 | Decisions for the Next Iteration | `0.3.1` | in development |
+| 31 | Open Research Questions | `0.3.1` | in development |
+| 32 | [Sources and Materials](en/sources-materials/sources-materials.md) | `0.3.1` | in development |
+| — | Conclusion | `0.3.1` | in development |
 
 ## Supporting documents
 
 - [Change history](en/CHANGELOG.md)
 
-Russian-version statuses: `planned`, `in development`, `under discussion`, `approved`.
-
-English-version statuses: `not started`, `in translation`, `published`.
-
-Russian and English versions of a chapter are versioned independently. For example, an approved English translation may remain at version `0.3.1` while the Russian chapter is being developed as `0.3.2`.
+Statuses: `planned`, `in development`, `under discussion`, `approved`.

@@ -48,3 +48,19 @@
 37. OpenAI. [Codex sandboxing concepts](https://developers.openai.com/codex/concepts/sandboxing). Дата обращения: 2026-07-19.
 38. Anthropic. [Claude Code IDE integrations — security guidance for untrusted code](https://docs.anthropic.com/en/docs/claude-code/ide-integrations). Дата обращения: 2026-07-19.
 39. NIST AI 600-1. [Artificial Intelligence Risk Management Framework: Generative AI Profile](https://www.nist.gov/publications/artificial-intelligence-risk-management-framework-generative-artificial-intelligence). Дата обращения: 2026-07-19.
+40. OpenAI. [Introducing the Codex app](https://openai.com/index/introducing-the-codex-app/) (2026). Дата обращения: 2026-07-19.
+41. Carlini N. [Building a C compiler with a team of parallel Claudes](https://www.anthropic.com/engineering/building-c-compiler) (2026). Дата обращения: 2026-07-19.
+42. Anthropic. [CCC — Claude's C Compiler](https://github.com/anthropics/claudes-c-compiler). Дата обращения: 2026-07-19.
+43. Şenol K. [VibeOS: A completely vibecoded operating system targeting Aarch64](https://github.com/kaansenol5/VibeOS). Дата обращения: 2026-07-19.
+44. Jiang Y. et al. [OpenGame: Open Agentic Coding for Games](https://arxiv.org/abs/2604.18394) (2026, preprint). Дата обращения: 2026-07-19.
+45. Luo T. et al. [GameCraft-Bench: Can Agents Build Playable Games End-to-End in a Real Game Engine?](https://arxiv.org/abs/2606.17861) (2026, preprint). Дата обращения: 2026-07-19.
+46. METR. [Task-Completion Time Horizons of Frontier AI Models](https://metr.org/time-horizons/) (2026). Дата обращения: 2026-07-19.
+47. OpenAI. [Pricing | OpenAI API](https://developers.openai.com/api/docs/pricing). Дата обращения: 2026-07-19.
+
+
+48. Liu N. F. et al. [Lost in the Middle: How Language Models Use Long Contexts](https://arxiv.org/abs/2307.03172) (2023/2024). Дата обращения: 2026-07-19.
+49. Anthropic. [Effective context engineering for AI agents](https://www.anthropic.com/engineering/effective-context-engineering-for-ai-agents) (2025). Дата обращения: 2026-07-19.
+50. OpenAI. [Prompt caching | OpenAI API](https://developers.openai.com/api/docs/guides/prompt-caching). Дата обращения: 2026-07-19.
+51. Wu D. et al. [Repoformer: Selective Retrieval for Repository-Level Code Completion](https://arxiv.org/abs/2403.10059) (2024). Дата обращения: 2026-07-19.
+52. Anthropic. [How we built our multi-agent research system](https://www.anthropic.com/engineering/multi-agent-research-system) (2025). Дата обращения: 2026-07-19.
+53. Weng H. et al. [When Retrieval Hurts Code Completion: A Diagnostic Study of Stale Repository Context](https://arxiv.org/abs/2605.14478) (2026, preprint). Дата обращения: 2026-07-19.
