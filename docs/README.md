@@ -18,7 +18,7 @@ CHLOYA is a methodology for governing the creation and evolution of software. Hu
 
 | No. | Chapter | Version | Status |
 |---:|---|---|
-| 1 | Why a New Methodology Is Needed | `0.3.1` | in development |
+| 1 | Why a New Methodology Is Needed | `0.3.1` | under discussion |
 | 2 | Boundaries, Scope, and Non-goals | `0.3.1` | in development |
 | 3 | CHLOYA Core Principles at a Glance | `0.3.1` | in development |
 | 4 | Minimum Tooling Baseline | `0.3.1` | in development |

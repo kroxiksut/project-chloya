@@ -48,3 +48,33 @@ The content of external materials, especially GitHub repositories, may change af
 37. OpenAI. [Codex sandboxing concepts](https://developers.openai.com/codex/concepts/sandboxing). Accessed: 2026-07-19.
 38. Anthropic. [Claude Code IDE integrations — security guidance for untrusted code](https://docs.anthropic.com/en/docs/claude-code/ide-integrations). Accessed: 2026-07-19.
 39. NIST AI 600-1. [Artificial Intelligence Risk Management Framework: Generative AI Profile](https://www.nist.gov/publications/artificial-intelligence-risk-management-framework-generative-artificial-intelligence). Accessed: 2026-07-19.
+40. OpenAI. [Introducing the Codex app](https://openai.com/index/introducing-the-codex-app/) (2026). Accessed: 2026-07-19.
+41. Carlini N. [Building a C compiler with a team of parallel Claudes](https://www.anthropic.com/engineering/building-c-compiler) (2026). Accessed: 2026-07-19.
+42. Anthropic. [CCC — Claude's C Compiler](https://github.com/anthropics/claudes-c-compiler). Accessed: 2026-07-19.
+43. Şenol K. [VibeOS: A completely vibecoded operating system targeting Aarch64](https://github.com/kaansenol5/VibeOS). Accessed: 2026-07-19.
+44. Jiang Y. et al. [OpenGame: Open Agentic Coding for Games](https://arxiv.org/abs/2604.18394) (2026, preprint). Accessed: 2026-07-19.
+45. Luo T. et al. [GameCraft-Bench: Can Agents Build Playable Games End-to-End in a Real Game Engine?](https://arxiv.org/abs/2606.17861) (2026, preprint). Accessed: 2026-07-19.
+46. METR. [Task-Completion Time Horizons of Frontier AI Models](https://metr.org/time-horizons/) (2026). Accessed: 2026-07-19.
+47. OpenAI. [Pricing | OpenAI API](https://developers.openai.com/api/docs/pricing). Accessed: 2026-07-19.
+48. Liu N. F. et al. [Lost in the Middle: How Language Models Use Long Contexts](https://arxiv.org/abs/2307.03172) (2023/2024). Accessed: 2026-07-19.
+49. Anthropic. [Effective context engineering for AI agents](https://www.anthropic.com/engineering/effective-context-engineering-for-ai-agents) (2025). Accessed: 2026-07-19.
+50. OpenAI. [Prompt caching | OpenAI API](https://developers.openai.com/api/docs/guides/prompt-caching). Accessed: 2026-07-19.
+51. Wu D. et al. [Repoformer: Selective Retrieval for Repository-Level Code Completion](https://arxiv.org/abs/2403.10059) (2024). Accessed: 2026-07-19.
+52. Anthropic. [How we built our multi-agent research system](https://www.anthropic.com/engineering/multi-agent-research-system) (2025). Accessed: 2026-07-19.
+53. Weng H. et al. [When Retrieval Hurts Code Completion: A Diagnostic Study of Stale Repository Context](https://arxiv.org/abs/2605.14478) (2026, preprint). Accessed: 2026-07-19.
+54. OpenAI. [Data controls in the OpenAI platform](https://developers.openai.com/api/docs/guides/your-data). Accessed: 2026-07-20.
+55. Anthropic. [API and data retention — Claude Platform Docs](https://docs.anthropic.com/en/docs/build-with-claude/zero-data-retention). Accessed: 2026-07-20.
+56. Google Cloud. [Gemini Enterprise Agent Platform and zero data retention](https://docs.cloud.google.com/gemini-enterprise-agent-platform/resources/zero-data-retention). Accessed: 2026-07-20.
+57. OpenRouter. [Provider Routing — Smart Multi-Provider Request Routing](https://openrouter.ai/docs/guides/routing/provider-selection). Accessed: 2026-07-20.
+58. OpenRouter. [Data Collection](https://openrouter.ai/docs/guides/privacy/data-collection); [Zero Data Retention](https://openrouter.ai/docs/guides/features/zdr). Accessed: 2026-07-20.
+59. OpenRouter. [Terms of Service](https://openrouter.ai/terms); [Privacy Policy](https://openrouter.ai/privacy). Accessed: 2026-07-20.
+60. Poe. [Privacy Center](https://poe.com/pages/privacy-center). Accessed: 2026-07-20.
+61. BLACKBOX AI. [Terms of Service](https://www.blackbox.ai/terms-of-service). Accessed: 2026-07-20.
+62. Microsoft. [Model router for Microsoft Foundry](https://learn.microsoft.com/en-us/azure/foundry/openai/concepts/model-router). Accessed: 2026-07-20.
+63. Amazon Web Services. [Data protection in Amazon Bedrock](https://docs.aws.amazon.com/bedrock/latest/userguide/data-protection.html). Accessed: 2026-07-20.
+64. Google Cloud. [Deploy partner models from Model Garden](https://docs.cloud.google.com/vertex-ai/generative-ai/docs/partner-models/deploy-partner-models). Accessed: 2026-07-20.
+65. Alibaba Cloud. [What is Model Studio](https://www.alibabacloud.com/help/en/model-studio/what-is-model-studio); [Permission management](https://www.alibabacloud.com/help/en/model-studio/application-permission-management-overview). Accessed: 2026-07-20.
+66. BerriAI. [LiteLLM Documentation](https://docs.litellm.ai/). Accessed: 2026-07-20.
+67. Open WebUI. [Documentation: Providers](https://docs.openwebui.com/getting-started/quick-start/connect-a-provider/); [Air-gapped deployment](https://docs.openwebui.com/ecosystem/computer/install/air-gapped/). Accessed: 2026-07-20.
+68. Reuters. [South Korea says DeepSeek transferred user data, prompts without consent](https://www.reuters.com/technology/south-korea-agency-says-deepseek-transferred-user-info-prompts-without-consent-2025-04-24/) (2025). Accessed: 2026-07-20.
+69. Anthropic. [Detecting and preventing distillation attacks](https://www.anthropic.com/news/detecting-and-preventing-distillation-attacks) (2026). Accessed: 2026-07-20.
