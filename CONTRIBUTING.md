@@ -41,6 +41,12 @@ The project author currently maintains only the Russian and English versions of 
 
 Before starting a substantial translation, contributors are encouraged to open an Issue or contact the author to agree on the structure and avoid parallel work on the same text.
 
+## Diagrams
+
+All new diagrams created for CHLOYA Markdown documents use Mermaid syntax in `mermaid` code blocks.
+
+Contributors and translators may use any suitable Mermaid editor or edit diagrams directly in Markdown. They must preserve valid Mermaid syntax, the diagram's meaning, and its ability to render in Markdown.
+
 ## Discussion and other ways to contribute
 
 If you would first like to discuss an idea, use case, or comment, contact the author:

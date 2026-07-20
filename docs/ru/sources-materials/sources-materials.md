@@ -64,3 +64,19 @@
 51. Wu D. et al. [Repoformer: Selective Retrieval for Repository-Level Code Completion](https://arxiv.org/abs/2403.10059) (2024). Дата обращения: 2026-07-19.
 52. Anthropic. [How we built our multi-agent research system](https://www.anthropic.com/engineering/multi-agent-research-system) (2025). Дата обращения: 2026-07-19.
 53. Weng H. et al. [When Retrieval Hurts Code Completion: A Diagnostic Study of Stale Repository Context](https://arxiv.org/abs/2605.14478) (2026, preprint). Дата обращения: 2026-07-19.
+54. OpenAI. [Data controls in the OpenAI platform](https://developers.openai.com/api/docs/guides/your-data). Дата обращения: 2026-07-20.
+55. Anthropic. [API and data retention — Claude Platform Docs](https://docs.anthropic.com/en/docs/build-with-claude/zero-data-retention). Дата обращения: 2026-07-20.
+56. Google Cloud. [Gemini Enterprise Agent Platform and zero data retention](https://docs.cloud.google.com/gemini-enterprise-agent-platform/resources/zero-data-retention). Дата обращения: 2026-07-20.
+57. OpenRouter. [Provider Routing — Smart Multi-Provider Request Routing](https://openrouter.ai/docs/guides/routing/provider-selection). Дата обращения: 2026-07-20.
+58. OpenRouter. [Data Collection](https://openrouter.ai/docs/guides/privacy/data-collection); [Zero Data Retention](https://openrouter.ai/docs/guides/features/zdr). Дата обращения: 2026-07-20.
+59. OpenRouter. [Terms of Service](https://openrouter.ai/terms); [Privacy Policy](https://openrouter.ai/privacy). Дата обращения: 2026-07-20.
+60. Poe. [Privacy Center](https://poe.com/pages/privacy-center). Дата обращения: 2026-07-20.
+61. BLACKBOX AI. [Terms of Service](https://www.blackbox.ai/terms-of-service). Дата обращения: 2026-07-20.
+62. Microsoft. [Model router for Microsoft Foundry](https://learn.microsoft.com/en-us/azure/foundry/openai/concepts/model-router). Дата обращения: 2026-07-20.
+63. Amazon Web Services. [Data protection in Amazon Bedrock](https://docs.aws.amazon.com/bedrock/latest/userguide/data-protection.html). Дата обращения: 2026-07-20.
+64. Google Cloud. [Deploy partner models from Model Garden](https://docs.cloud.google.com/vertex-ai/generative-ai/docs/partner-models/deploy-partner-models). Дата обращения: 2026-07-20.
+65. Alibaba Cloud. [What is Model Studio](https://www.alibabacloud.com/help/en/model-studio/what-is-model-studio); [Permission management](https://www.alibabacloud.com/help/en/model-studio/application-permission-management-overview). Дата обращения: 2026-07-20.
+66. BerriAI. [LiteLLM Documentation](https://docs.litellm.ai/). Дата обращения: 2026-07-20.
+67. Open WebUI. [Documentation: Providers](https://docs.openwebui.com/getting-started/quick-start/connect-a-provider/); [Air-gapped deployment](https://docs.openwebui.com/ecosystem/computer/install/air-gapped/). Дата обращения: 2026-07-20.
+68. Reuters. [South Korea says DeepSeek transferred user data, prompts without consent](https://www.reuters.com/technology/south-korea-agency-says-deepseek-transferred-user-info-prompts-without-consent-2025-04-24/) (2025). Дата обращения: 2026-07-20.
+69. Anthropic. [Detecting and preventing distillation attacks](https://www.anthropic.com/news/detecting-and-preventing-distillation-attacks) (2026). Дата обращения: 2026-07-20.
