@@ -40,16 +40,17 @@ CHLOYA is a methodology for governing the creation and evolution of software. Hu
 | 20 | Testing, Evidence, and Verifiable Readiness | `0.3.1` | in development |
 | 21 | Agent Action Security and Analysis of Untrusted Code | `0.3.1` | in development |
 | 22 | Risks, Warnings, and Human Responsibility | `0.3.1` | in development |
-| 23 | Documentation and Language Policy | `0.3.1` | in development |
-| 24 | New Projects and Technology Choices | `0.3.1` | in development |
-| 25 | Application to Existing Projects | `0.3.1` | in development |
-| 26 | Skills and Adapters for Popular Agents | `0.3.1` | in development |
-| 27 | A Dedicated MCP Server | `0.3.1` | in development |
-| 28 | Preliminary Assessment of Novelty and Related Approaches | `0.3.1` | in development |
-| 29 | Pilot Validation Plan | `0.3.1` | in development |
-| 30 | Decisions for the Next Iteration | `0.3.1` | in development |
-| 31 | Open Research Questions | `0.3.1` | in development |
-| 32 | [Sources and Materials](en/sources-materials/sources-materials.md) | `0.3.1` | in development |
+| 23 | Intellectual Property, Licensing, and Publication Control | `0.3.1` | in development |
+| 24 | Documentation and Language Policy | `0.3.1` | in development |
+| 25 | New Projects and Technology Choices | `0.3.1` | in development |
+| 26 | Application to Existing Projects | `0.3.1` | in development |
+| 27 | Skills and Adapters for Popular Agents | `0.3.1` | in development |
+| 28 | A Dedicated MCP Server | `0.3.1` | in development |
+| 29 | Preliminary Assessment of Novelty and Related Approaches | `0.3.1` | in development |
+| 30 | Pilot Validation Plan | `0.3.1` | in development |
+| 31 | Decisions for the Next Iteration | `0.3.1` | in development |
+| 32 | Open Research Questions | `0.3.1` | in development |
+| 33 | [Sources and Materials](en/sources-materials/sources-materials.md) | `0.3.1` | in development |
 | — | Conclusion | `0.3.1` | in development |
 
 ## Supporting documents

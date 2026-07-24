@@ -80,3 +80,16 @@
 67. Open WebUI. [Documentation: Providers](https://docs.openwebui.com/getting-started/quick-start/connect-a-provider/); [Air-gapped deployment](https://docs.openwebui.com/ecosystem/computer/install/air-gapped/). Дата обращения: 2026-07-20.
 68. Reuters. [South Korea says DeepSeek transferred user data, prompts without consent](https://www.reuters.com/technology/south-korea-agency-says-deepseek-transferred-user-info-prompts-without-consent-2025-04-24/) (2025). Дата обращения: 2026-07-20.
 69. Anthropic. [Detecting and preventing distillation attacks](https://www.anthropic.com/news/detecting-and-preventing-distillation-attacks) (2026). Дата обращения: 2026-07-20.
+
+70. Jimenez C. E. et al. [SWE-bench: Can Language Models Resolve Real-World GitHub Issues?](https://arxiv.org/abs/2310.06770) (2023). Дата обращения: 2026-07-24.
+71. GitHub. [Allowing and denying tool use](https://docs.github.com/en/copilot/how-tos/copilot-cli/use-copilot-cli/allowing-tools). GitHub Copilot CLI documentation. Дата обращения: 2026-07-24.
+72. GitHub. [About agentic memory for GitHub Copilot](https://docs.github.com/en/copilot/concepts/agents/copilot-memory). GitHub Docs. Дата обращения: 2026-07-24.
+73. Replit. [Doubling down on our commitment to secure vibe coding](https://replit.com/blog/doubling-down-on-our-commitment-to-secure-vibe-coding) (2025). Дата обращения: 2026-07-24.
+74. Perry N. et al. [Do Users Write More Insecure Code with AI Assistants?](https://arxiv.org/abs/2211.03622) (2022; ACM CCS 2023). Дата обращения: 2026-07-24.
+75. Stenberg D. [Death by a Thousand Slops](https://daniel.haxx.se/blog/2025/07/14/death-by-a-thousand-slops/) (2025). Дата обращения: 2026-07-24.
+
+76. Parnas D. L. [On the Criteria to Be Used in Decomposing Systems into Modules](https://doi.org/10.1145/361598.361623). Communications of the ACM, 1972, Vol. 15, No. 12, pp. 1053–1058. Дата обращения: 2026-07-24.
+77. Cataldo M., Herbsleb J. D., Carley K. M. [Socio-Technical Congruence: A Framework for Assessing the Impact of Technical and Work Dependencies on Software Development Productivity](https://doi.org/10.1145/1414004.1414008). Proceedings of the Second ACM-IEEE International Symposium on Empirical Software Engineering and Measurement (ESEM 2008), pp. 2–11. Дата обращения: 2026-07-24.
+78. Mauerer W. et al. [In Search of Socio-Technical Congruence: A Large-Scale Longitudinal Study](https://arxiv.org/abs/2105.08198) (2021, preprint). Дата обращения: 2026-07-24.
+79. Conway M. E. [How Do Committees Invent?](https://www.melconway.com/Home/Committees_Paper.html). Datamation, 1968, Vol. 14, No. 4, pp. 28–31. Дата обращения: 2026-07-24.
+80. Skelton M., Pais M. [Team Topologies: Organizing Business and Technology Teams for Fast Flow](https://teamtopologies.com/book). IT Revolution Press, 2019. ISBN 978-1942788812. Дата обращения: 2026-07-24.

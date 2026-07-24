@@ -16,5 +16,6 @@ This log concisely records substantive methodology changes between iterations. I
 - Added contribution guidelines and feedback channels; text feedback is accepted for published chapters.
 - Added rules for freely contributing translations of published chapters into other languages.
 - Established Mermaid as the format for new diagrams in Markdown documents for authors, contributors, translators, and AI agents.
+- Added chapter 23 on intellectual property, licensing, and publication control; subsequent chapters were renumbered by one.
 
 Substantive changes will be recorded here as version `0.3.1` chapters are developed and agreed.
