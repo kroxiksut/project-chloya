@@ -93,3 +93,6 @@
 78. Mauerer W. et al. [In Search of Socio-Technical Congruence: A Large-Scale Longitudinal Study](https://arxiv.org/abs/2105.08198) (2021, preprint). Дата обращения: 2026-07-24.
 79. Conway M. E. [How Do Committees Invent?](https://www.melconway.com/Home/Committees_Paper.html). Datamation, 1968, Vol. 14, No. 4, pp. 28–31. Дата обращения: 2026-07-24.
 80. Skelton M., Pais M. [Team Topologies: Organizing Business and Technology Teams for Fast Flow](https://teamtopologies.com/book). IT Revolution Press, 2019. ISBN 978-1942788812. Дата обращения: 2026-07-24.
+
+81. Prieto J. [Denying the Worm: Detecting SANDWORM_MODE and the Emerging Class of AI Toolchain Supply Chain Attacks](https://www.crowdstrike.com/en-us/blog/denying-the-worm-sandworm-mode-and-ai-toolchain-supply-chain-attacks/). CrowdStrike, 2026. Дата обращения: 2026-07-25.
+82. Socket Research Team. [SANDWORM_MODE: Shai-Hulud-Style npm Worm Hijacks CI Workflows and Poisons AI Toolchains](https://socket.dev/blog/sandworm-mode-npm-worm-ai-toolchain-poisoning). Socket, 2026. Дата обращения: 2026-07-25.
