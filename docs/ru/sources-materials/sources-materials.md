@@ -96,3 +96,19 @@
 
 81. Prieto J. [Denying the Worm: Detecting SANDWORM_MODE and the Emerging Class of AI Toolchain Supply Chain Attacks](https://www.crowdstrike.com/en-us/blog/denying-the-worm-sandworm-mode-and-ai-toolchain-supply-chain-attacks/). CrowdStrike, 2026. Дата обращения: 2026-07-25.
 82. Socket Research Team. [SANDWORM_MODE: Shai-Hulud-Style npm Worm Hijacks CI Workflows and Poisons AI Toolchains](https://socket.dev/blog/sandworm-mode-npm-worm-ai-toolchain-poisoning). Socket, 2026. Дата обращения: 2026-07-25.
+
+83. Debenedetti E., Shumailov I., Fan T. et al. [Defeating Prompt Injections by Design](https://arxiv.org/abs/2503.18813) (2025). Дата обращения: 2026-07-26.
+84. Beurer-Kellner L., Buesser B., Creţu A.-M. et al. [Design Patterns for Securing LLM Agents against Prompt Injections](https://arxiv.org/abs/2506.08837) (2025). Дата обращения: 2026-07-26.
+85. Costa M., Köpf B., Kolluri A. et al. [Securing AI Agents with Information-Flow Control](https://arxiv.org/abs/2505.23643) (2025). Дата обращения: 2026-07-26.
+86. Nasr M., Carlini N., Sitawarin C. et al. [The Attacker Moves Second: Stronger Adaptive Attacks Bypass Defenses Against LLM Jailbreaks and Prompt Injections](https://www.usenix.org/conference/usenixsecurity26/presentation/nasr). 35th USENIX Security Symposium, 2026. Дата обращения: 2026-07-26.
+87. Meta AI. [Agents Rule of Two: A Practical Approach to AI Agent Security](https://ai.meta.com/blog/practical-ai-agent-security/) (2025). Дата обращения: 2026-07-26.
+88. Willison S. [The Lethal Trifecta for AI Agents: Private Data, Untrusted Content, and External Communication](https://simonwillison.net/2025/Jun/16/the-lethal-trifecta/) (2025). Дата обращения: 2026-07-26.
+89. Reddy P., Gujral A. S. [EchoLeak: The First Real-World Zero-Click Prompt Injection Exploit in a Production LLM System](https://arxiv.org/abs/2509.10540) (2025). Дата обращения: 2026-07-26.
+90. Paz R. [BioShocking AI: “Gaming” the AI Browser and Escaping Its Guardrails](https://layerxsecurity.com/blog/bioshocking-ai-gaming-the-ai-browser-and-escaping-its-guardrails/) (2026). Дата обращения: 2026-07-26.
+91. Maaz M., DeVoe L., Hatfield-Dodds Z., Carlini N. [Agentic Property-Based Testing: Finding Bugs Across the Python Ecosystem](https://arxiv.org/abs/2510.09907) (2025). Дата обращения: 2026-07-26.
+92. Maaz M., DeVoe L., Hatfield-Dodds Z., Carlini N. [Finding Bugs Across the Python Ecosystem with Claude and Property-Based Testing](https://www.anthropic.com/research/property-based-testing) (Anthropic, 2026). Дата обращения: 2026-07-26.
+93. Wilkinson M. D., Dumontier M., Aalbersberg I. J. J. et al. [The FAIR Guiding Principles for Scientific Data Management and Stewardship](https://doi.org/10.1038/sdata.2016.18). Scientific Data, 2016, Vol. 3, Article 160018. Дата обращения: 2026-07-26.
+94. Sandve G. K., Nekrutenko A., Taylor J., Hovig E. [Ten Simple Rules for Reproducible Computational Research](https://doi.org/10.1371/journal.pcbi.1003285). PLOS Computational Biology, 2013, Vol. 9, No. 10, e1003285. Дата обращения: 2026-07-26.
+95. W3C. [PROV-O: The PROV Ontology](https://www.w3.org/TR/prov-o/). W3C Recommendation, 30 April 2013. Дата обращения: 2026-07-26.
+96. Koster M., Illyes G., Zeller H., Sassman L. [Robots Exclusion Protocol](https://www.rfc-editor.org/rfc/rfc9309.html). RFC 9309, IETF, 2022. Дата обращения: 2026-07-26.
+97. W3C Text and Data Mining Reservation Protocol Community Group. [TDM Reservation Protocol (TDMRep)](https://www.w3.org/community/reports/tdmrep/CG-FINAL-tdmrep-20240510/). Final Community Group Report, version 3, 2024. Дата обращения: 2026-07-26.

@@ -20,7 +20,7 @@ CHLOYA is a methodology for governing the creation and evolution of software. Hu
 |---:|---|---|---|
 | 1 | [Why a New Methodology Is Needed](en/why-new-methodology/why-new-methodology.md) | `0.3.1` | under discussion |
 | 2 | [Boundaries, Scope, and Non-goals](en/boundaries-scope-non-goals/boundaries-scope-non-goals.md) | `0.3.1` | under discussion |
-| 3 | CHLOYA Core Principles at a Glance | `0.3.1` | in development |
+| 3 | [CHLOYA Core Principles at a Glance](en/core-principles/core-principles.md) | `0.3.1` | in translation |
 | 4 | Minimum Tooling Baseline | `0.3.1` | in development |
 | 5 | Deterministic Core, Policies, and Boundaries of AI Use | `0.3.1` | in development |
 | 6 | Testable Hypotheses, Risks, and Usefulness Criteria | `0.3.1` | in development |

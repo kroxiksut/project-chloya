@@ -1,0 +1,22 @@
+cff-version: 1.2.0
+message: "If you use CHLOYA, please cite it as below."
+title: "CHLOYA"
+version: 0.3.1
+date-released: 2026-07-26
+repository-code: "https://github.com/kroxiksut/project-chloya"
+url: "https://github.com/kroxiksut/project-chloya"
+license: "CC-BY-SA-4.0"
+authors:
+  - family-names: "Malkov"
+    given-names: "Fedor"
+    orcid: "https://orcid.org/0000-0002-7905-4145"
+preferred-citation:
+  type: generic
+  authors:
+    - family-names: "Malkov"
+      given-names: "Fedor"
+      orcid: "https://orcid.org/0000-0002-7905-4145"
+  title: "CHLOYA"
+  version: 0.3.1
+  date-released: 2026-07-26
+  url: "https://github.com/kroxiksut/project-chloya"

@@ -19,5 +19,6 @@ This log concisely records substantive methodology changes between iterations. I
 - Added chapter 23 on intellectual property, licensing, and publication control; subsequent chapters were renumbered by one.
 - Added chapter 5, “Deterministic Core, Policies, and Boundaries of AI Use”; subsequent chapters were renumbered by one.
 - Published the English translation of chapter 2, preserving its structure and shared bibliography numbering; both language versions are under discussion.
+- Added the English translation of chapter 3, preserving its P1–P27 structure and shared bibliography numbering; the translation is in progress.
 
 Substantive changes will be recorded here as version `0.3.1` chapters are developed and agreed.
