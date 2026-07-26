@@ -1,11 +1,11 @@
-# 23. Intellectual Property, Licensing, and Publication Control
+# 24. Intellectual Property, Licensing, and Publication Control
 
 > **Version:** `0.3.1`  
 > **Status:** in development
 
 This file defines the working structure of the chapter. Normative provisions will be formulated and validated separately.
 
-## 23.1. Rights, Authorship, and Material Provenance
+## 24.1. Rights, Authorship, and Material Provenance
 
 ### Purpose
 
@@ -19,7 +19,7 @@ Define which information about provenance, authorship, and rights in materials i
 - use and distribution restrictions;
 - open questions and testable assumptions.
 
-## 23.2. Licenses and External Materials
+## 24.2. Licenses and External Materials
 
 ### Purpose
 
@@ -33,7 +33,7 @@ Define an approach to selecting licenses, using external materials, and recordin
 - attribution and preservation of notices;
 - open questions and testable assumptions.
 
-## 23.3. Publication and Disclosure Control
+## 24.3. Publication and Disclosure Control
 
 ### Purpose
 

@@ -17,6 +17,7 @@ This log concisely records substantive methodology changes between iterations. I
 - Added rules for freely contributing translations of published chapters into other languages.
 - Established Mermaid as the format for new diagrams in Markdown documents for authors, contributors, translators, and AI agents.
 - Added chapter 23 on intellectual property, licensing, and publication control; subsequent chapters were renumbered by one.
+- Added chapter 5, “Deterministic Core, Policies, and Boundaries of AI Use”; subsequent chapters were renumbered by one.
 - Published the English translation of chapter 2, preserving its structure and shared bibliography numbering; both language versions are under discussion.
 
 Substantive changes will be recorded here as version `0.3.1` chapters are developed and agreed.
