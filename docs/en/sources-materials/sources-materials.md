@@ -1,4 +1,4 @@
-# 34. Sources and Materials
+# 35. Sources and Materials
 
 > **Version:** `0.3.1`  
 > **Status:** in development
@@ -110,3 +110,7 @@ The content of external materials, especially GitHub repositories, may change af
 95. W3C. [PROV-O: The PROV Ontology](https://www.w3.org/TR/prov-o/). W3C Recommendation, 30 April 2013. Accessed: 2026-07-26.
 96. Koster M., Illyes G., Zeller H., Sassman L. [Robots Exclusion Protocol](https://www.rfc-editor.org/rfc/rfc9309.html). RFC 9309, IETF, 2022. Accessed: 2026-07-26.
 97. W3C Text and Data Mining Reservation Protocol Community Group. [TDM Reservation Protocol (TDMRep)](https://www.w3.org/community/reports/tdmrep/CG-FINAL-tdmrep-20240510/). Final Community Group Report, version 3, 2024. Accessed: 2026-07-26.
+
+98. Amershi S., Weld D., Vorvoreanu M. et al. [Guidelines for Human-AI Interaction](https://doi.org/10.1145/3290605.3300233). Proceedings of the 2019 CHI Conference on Human Factors in Computing Systems, 2019, Paper 3, pp. 1–13. Accessed: 2026-07-27.
+99. Parasuraman R., Sheridan T. B., Wickens C. D. [A Model for Types and Levels of Human Interaction with Automation](https://doi.org/10.1109/3468.844354). IEEE Transactions on Systems, Man, and Cybernetics — Part A: Systems and Humans, 2000, Vol. 30, No. 3, pp. 286–297. Accessed: 2026-07-27.
+100. Horvitz E. [Principles of Mixed-Initiative User Interfaces](https://doi.org/10.1145/302979.303030). Proceedings of the SIGCHI Conference on Human Factors in Computing Systems, 1999, pp. 159–166. Accessed: 2026-07-27.

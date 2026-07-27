@@ -38,7 +38,9 @@
 
 ## Short formula
 
-> Humans set direction and make decisions. AI organizes and carries out work within constrained authority. Code remains a shared, comprehensible language. Context is localized and carries trust labels. Contracts connect the parts. Project memory belongs to the project, and readiness is supported by verifiable evidence.
+> CHLOYA brings together and connects the best practices of AI-assisted development into a single verifiable methodology. It can be used as a whole or on top of existing tools. When a specialized external solution better fits a particular task, CHLOYA should recommend it honestly.
+>
+> Not to replace all tools, but to help choose, connect, constrain, and verify them properly.
 
 ## What is CHLOYA?
 
@@ -46,7 +48,9 @@ CHLOYA is a methodology for governing the creation and evolution of software. Hu
 
 Where practical, a system is divided into contextually self-contained areas. Their interactions are described through explicit contracts, and knowledge about tasks, decisions, risks, and outcomes is preserved in neutral project artifacts that do not depend on the memory of a particular agent, model, or provider.
 
-CHLOYA is not tied to a single model, development environment, or AI provider.
+CHLOYA is not tied to a single model, agent environment, orchestrator, or AI provider. It sits above specific tools and helps select, connect, constrain, and, when necessary, replace them while considering purpose, quality, cost, confidentiality, maintainability, and acceptable risk.
+
+The methodology can be used as a whole or applied through individual principles, processes, and recommendations alongside existing tools.
 
 ## Ideas embedded in the name
 
@@ -260,6 +264,33 @@ When the functionality is complex, critical, or requires deep domain expertise, 
 
 Dependency updates should be reviewed before use in sensitive or production environments.
 
+## Neutrality and choosing the best solutions
+
+CHLOYA treats existing methodologies, frameworks, research work, agent environments, and developers' practical experience as sources of solutions that should be compared, verified, and applied in the appropriate context.
+
+The task of CHLOYA is not to reproduce every existing tool inside the project or declare its own implementation the best by default. The methodology should help determine:
+
+- what problem a particular approach solves;
+- what supports its effectiveness;
+- under which conditions it works;
+- where its limitations and risks lie;
+- how portable the solution is across projects and providers;
+- whether the license permits the required use;
+- whether the component can be replaced without losing project memory, contracts, or process control.
+
+CHLOYA can be used as a complete methodology or as a layer over already selected tools. CHLOYA's own templates, skills, adapters, and integrations should remain optional reference implementations, not a mandatory gateway for development.
+
+If an external methodology, library, agent environment, or specialized tool solves a particular task better, CHLOYA should state this directly and recommend the more suitable solution. Such a recommendation should consider not only stated capabilities, but also maturity, cost, security, licensing, maintainability, portability, and the path out of the dependency.
+
+Related and competing approaches are considered simultaneously as:
+
+- sources of useful and validated practices;
+- sources of real errors and anti-patterns;
+- possible specialized components;
+- comparison points for practical validation of CHLOYA itself.
+
+CHLOYA aims not to lock users inside its own ecosystem, but to preserve their ability to make informed choices and replace people, models, agents, tools, and providers.
+
 ## What CHLOYA is not
 
 CHLOYA is not:
@@ -271,9 +302,11 @@ CHLOYA is not:
 - a requirement to adopt microservices;
 - a methodology tied to one model or development environment;
 - a promise that every project will automatically become faster;
-- a mandatory tool through which all development must pass.
+- a mandatory tool through which all development must pass;
+- a closed ecosystem of its own models, agents, and integrations;
+- a claim that CHLOYA solutions are always better than specialized external tools.
 
-The methodology is intended to complement existing engineering processes, not replace them with a parallel ecosystem.
+The methodology is intended to complement existing engineering processes, not replace them with a parallel closed ecosystem. The components used should remain justified, verifiable, and replaceable where possible without losing accumulated knowledge or project control.
 
 ## Project formats
 
@@ -290,6 +323,8 @@ As CHLOYA develops, the project may include:
 - skills for supported agent environments;
 - experimental integrations where practical value is clear;
 - reports from pilot projects.
+
+These materials and integrations should serve as examples of applying the methodology. Their use is not mandatory when an existing external tool better fits the task and CHLOYA's principles.
 
 Building a single integration platform for models, agents, and development environments is not a goal of the project.
 

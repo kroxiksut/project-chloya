@@ -21,7 +21,6 @@ CHLOYA is a methodology for governing the creation and evolution of software. Hu
 | 1 | [Why a New Methodology Is Needed](en/why-new-methodology/why-new-methodology.md) | `0.3.1` | under discussion |
 | 2 | [Boundaries, Scope, and Non-goals](en/boundaries-scope-non-goals/boundaries-scope-non-goals.md) | `0.3.1` | under discussion |
 | 3 | [CHLOYA Core Principles at a Glance](en/core-principles/core-principles.md) | `0.3.1` | in translation |
-| 4 | Minimum Tooling Baseline | `0.3.1` | in development |
 | 5 | Deterministic Core, Policies, and Boundaries of AI Use | `0.3.1` | in development |
 | 6 | Testable Hypotheses, Risks, and Usefulness Criteria | `0.3.1` | in development |
 | 7 | Roles and Governance Boundaries | `0.3.1` | in development |
@@ -45,13 +44,15 @@ CHLOYA is a methodology for governing the creation and evolution of software. Hu
 | 25 | Documentation and Language Policy | `0.3.1` | in development |
 | 26 | New Projects and Technology Choices | `0.3.1` | in development |
 | 27 | Application to Existing Projects | `0.3.1` | in development |
-| 28 | Skills and Adapters for Popular Agents | `0.3.1` | in development |
-| 29 | A Dedicated MCP Server | `0.3.1` | in development |
-| 30 | Preliminary Assessment of Novelty and Related Approaches | `0.3.1` | in development |
-| 31 | Pilot Validation Plan | `0.3.1` | in development |
-| 32 | Decisions for the Next Iteration | `0.3.1` | in development |
-| 33 | Open Research Questions | `0.3.1` | in development |
-| 34 | [Sources and Materials](en/sources-materials/sources-materials.md) | `0.3.1` | in development |
+| 4 | [CHLOYA Operational Model](en/operational-model/operational-model.md) | `0.3.1` | under discussion |
+| 28 | Minimum Implementation Profile of CHLOYA | `0.3.1` | in development |
+| 29 | Skills and Adapters for Popular Agents | `0.3.1` | in development |
+| 30 | A Dedicated MCP Server | `0.3.1` | in development |
+| 31 | Preliminary Assessment of Novelty and Related Approaches | `0.3.1` | in development |
+| 32 | Pilot Validation Plan | `0.3.1` | in development |
+| 33 | Decisions for the Next Iteration | `0.3.1` | in development |
+| 34 | Open Research Questions | `0.3.1` | in development |
+| 35 | [Sources and Materials](en/sources-materials/sources-materials.md) | `0.3.1` | in development |
 | — | Conclusion | `0.3.1` | in development |
 
 ## Supporting documents

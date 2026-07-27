@@ -26,12 +26,12 @@ CHLOYA principles are therefore a system of mutual constraints rather than an in
 | [P1](#p1) | **Human governance** | A person sets goals, boundaries, and material decisions | 7, 10, 14, 23 |
 | [P2](#p2) | **Meaningful human governance** | Confirmation requires understanding consequences and risk | 7, 10, 14, 21, 23 |
 | [P3](#p3) | **Assigned responsibility** | A task, change, and integration have an accountable owner | 7, 14, 16, 17, 24 |
-| [P4](#p4) | **Temporary and replaceable executor** | A project does not depend on one person, agent, or session | 7, 13, 25, 28 |
+| [P4](#p4) | **Temporary and replaceable executor** | A project does not depend on one person, agent, or session | 7, 13, 25, 29 |
 | [P5](#p5) | **Proportionality** | Effort and control match scale and risk | 4, 6, 11, 14, 18, 21, 23 |
 | [P6](#p6) | **Evolutionary adoption** | The methodology grows from a minimum useful contour | 4, 6, 11, 26, 27, 31, 32 |
-| [P7](#p7) | **Human- and machine-readability of artifacts** | Representation works for people while structure remains available to machines | 9, 13, 21, 25, 28 |
-| [P8](#p8) | **Project memory belongs to the project** | Canonical knowledge does not remain only in chats and agents | 13, 17, 25, 28 |
-| [P9](#p9) | **Tool neutrality and portability** | The methodology is not tied to one model or platform | 4, 13, 18, 26, 28, 29 |
+| [P7](#p7) | **Human- and machine-readability of artifacts** | Representation works for people while structure remains available to machines | 9, 13, 21, 25, 29 |
+| [P8](#p8) | **Project memory belongs to the project** | Canonical knowledge does not remain only in chats and agents | 13, 17, 25, 29 |
+| [P9](#p9) | **Tool neutrality and portability** | The methodology is not tied to one model or platform | 13, 18, 26, 28, 29, 30 |
 | [P10](#p10) | **Local sufficiency** | Context is constrained but sufficient for correct work | 8, 12, 13, 14 |
 | [P11](#p11) | **Known provenance and trust** | Context has a source, status, and trust level | 8, 13, 22 |
 | [P12](#p12) | **Data are not instructions** | Text being analyzed gains no authority | 8, 22 |

@@ -18,7 +18,9 @@ This log concisely records substantive methodology changes between iterations. I
 - Established Mermaid as the format for new diagrams in Markdown documents for authors, contributors, translators, and AI agents.
 - Added chapter 23 on intellectual property, licensing, and publication control; subsequent chapters were renumbered by one.
 - Added chapter 5, “Deterministic Core, Policies, and Boundaries of AI Use”; subsequent chapters were renumbered by one.
+- Removed the empty chapter 4; new chapter 28, “CHLOYA Operational Model,” replaced the former minimum-tooling chapter, and former chapters 28–34 were renumbered by one.
 - Published the English translation of chapter 2, preserving its structure and shared bibliography numbering; both language versions are under discussion.
 - Added the English translation of chapter 3, preserving its P1–P27 structure and shared bibliography numbering; the translation is in progress.
+- Published the English translation of chapter 4, preserving its structure and shared bibliography numbering; both language versions are under discussion.
 
 Substantive changes will be recorded here as version `0.3.1` chapters are developed and agreed.
