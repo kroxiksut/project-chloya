@@ -116,3 +116,21 @@
 98. Amershi S., Weld D., Vorvoreanu M. et al. [Guidelines for Human-AI Interaction](https://doi.org/10.1145/3290605.3300233). Proceedings of the 2019 CHI Conference on Human Factors in Computing Systems, 2019, Paper 3, pp. 1–13. Дата обращения: 2026-07-27.
 99. Parasuraman R., Sheridan T. B., Wickens C. D. [A Model for Types and Levels of Human Interaction with Automation](https://doi.org/10.1109/3468.844354). IEEE Transactions on Systems, Man, and Cybernetics — Part A: Systems and Humans, 2000, Vol. 30, No. 3, pp. 286–297. Дата обращения: 2026-07-27.
 100. Horvitz E. [Principles of Mixed-Initiative User Interfaces](https://doi.org/10.1145/302979.303030). Proceedings of the SIGCHI Conference on Human Factors in Computing Systems, 1999, pp. 159–166. Дата обращения: 2026-07-27.
+
+101. National Institute of Standards and Technology. [AI Agent Standards Initiative](https://www.nist.gov/artificial-intelligence/ai-agent-standards-initiative). 2026. Дата обращения: 2026-07-30.
+102. OpenAI. [Building a Safe, Effective Sandbox to Enable Codex on Windows](https://openai.com/index/building-codex-windows-sandbox/). 2026. Дата обращения: 2026-07-30.
+103. Anthropic. [Beyond Permission Prompts: Making Claude Code More Secure and Autonomous](https://www.anthropic.com/engineering/claude-code-sandboxing). 2025. Дата обращения: 2026-07-30.
+104. Huang L., Yu W., Ma W. et al. [A Survey on Hallucination in Large Language Models: Principles, Taxonomy, Challenges, and Open Questions](https://doi.org/10.1145/3703155). ACM Transactions on Information Systems, 2025, Vol. 43, No. 2, Article 42, pp. 1–55. Дата обращения: 2026-07-30.
+105. Huang J., Chen X., Mishra S. et al. [Large Language Models Cannot Self-Correct Reasoning Yet](https://arxiv.org/abs/2310.01798). International Conference on Learning Representations, 2024. Дата обращения: 2026-07-30.
+106. Fu T., Martínez G., Conde J. et al. [Beyond Reproducibility: Token Probabilities Expose Large Language Model Nondeterminism](https://arxiv.org/abs/2601.06118). 2026. Дата обращения: 2026-07-30.
+107. Uchibeke U. [Before the Tool Call: Deterministic Pre-Action Authorization for Autonomous AI Agents](https://arxiv.org/abs/2603.20953). 2026. Дата обращения: 2026-07-30.
+108. Kaptein M., Khan V.-J., Podstavnychy A. [Runtime Governance for AI Agents: Policies on Paths](https://arxiv.org/abs/2603.16586). 2026. Дата обращения: 2026-07-30.
+109. Replit. [Doubling Down on Our Commitment to Secure Vibe Coding](https://replit.com/blog/doubling-down-on-our-commitment-to-secure-vibe-coding). 2025. Дата обращения: 2026-07-30.
+110. NIST Computer Security Resource Center. [Glossary: Trusted Computing Base; Reference Monitor; Security Kernel](https://csrc.nist.gov/glossary). Дата обращения: 2026-07-30.
+111. Saltzer J. H., Schroeder M. D. [The Protection of Information in Computer Systems](https://web.mit.edu/Saltzer/www/publications/protection/). Proceedings of the IEEE, 1975, Vol. 63, No. 9, pp. 1278–1308. Дата обращения: 2026-07-30.
+112. Anderson J. P. [Computer Security Technology Planning Study](https://seclab.cs.ucdavis.edu/projects/history/papers/ande72.pdf). ESD-TR-73-51, U.S. Air Force Electronic Systems Division, 1972. Дата обращения: 2026-07-30.
+113. seL4 Foundation. [seL4 White Paper: An Introduction to seL4](https://sel4.systems/About/whitepaper.html); [Verification](https://sel4.systems/Verification/). Дата обращения: 2026-07-30.
+114. Open Policy Agent. [Open Policy Agent Documentation](https://www.openpolicyagent.org/docs); [Management APIs and Architecture](https://www.openpolicyagent.org/docs/management-introduction). Дата обращения: 2026-07-30.
+115. Cedar Policy Language. [Cedar Policy Language Reference Guide](https://docs.cedarpolicy.com/); [How Cedar Authorization Works](https://docs.cedarpolicy.com/auth/authorization.html). Дата обращения: 2026-07-30.
+116. Pang R., Caceres R., Burrows M. et al. [Zanzibar: Google’s Consistent, Global Authorization System](https://www.usenix.org/conference/atc19/presentation/pang). Proceedings of the 2019 USENIX Annual Technical Conference, pp. 33–46. Дата обращения: 2026-07-30.
+117. Yao S., Zhao J., Yu D. et al. [ReAct: Synergizing Reasoning and Acting in Language Models](https://arxiv.org/abs/2210.03629). International Conference on Learning Representations, 2023. Дата обращения: 2026-07-30.
