@@ -390,3 +390,5 @@ Source code, executable examples, and technical integrations are licensed under 
 The methodology, documentation, diagrams, text, and other non-code materials are licensed under the [Creative Commons Attribution-ShareAlike 4.0 International License](LICENSE-CC-BY-SA-4.0).
 
 Derivative materials must preserve attribution and be distributed under compatible terms.
+
+See [LICENSES.md](LICENSES.md) for the scope of each license.

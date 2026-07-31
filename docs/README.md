@@ -53,6 +53,7 @@ CHLOYA is a methodology for governing the creation and evolution of software. Hu
 | 33 | Decisions for the Next Iteration | `0.3.1` | in development |
 | 34 | Open Research Questions | `0.3.1` | in development |
 | 35 | [Sources and Materials](en/sources-materials/sources-materials.md) | `0.3.1` | in development |
+| — | [Glossary](research/GLOSSARY.en.md) | `0.3.1` | public reference |
 | — | Conclusion | `0.3.1` | in development |
 
 ## Supporting documents

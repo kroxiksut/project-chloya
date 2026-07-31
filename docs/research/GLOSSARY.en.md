@@ -6,758 +6,1452 @@
 
 ## Purpose
 
-This glossary records the principal terms of the CHLOYA methodology and their agreed meanings.
+This glossary records the CHLOYA methodology's agreed English terminology. It is the source for links and wording in English-language chapters.
 
-It is intended to:
-
-* ensure consistent use of terms in documentation;
-* distinguish closely related concepts;
-* make individual chapters easier to read;
-* prepare translations;
-* support correct citation and discussion of the methodology.
-
-The presence of a term in this glossary does not claim that the corresponding idea was first proposed in its entirety by CHLOYA. The methodology uses and develops established approaches from software engineering, risk management, contract-driven development, the principle of least privilege, human-in-the-loop practice, and knowledge management.
-
-CHLOYA's distinctive feature is primarily the systematic application of these approaches to software development involving temporary AI executors.
+CHLOYA applies established engineering, risk-management, contract, least-privilege, human-control, and knowledge-management approaches to development involving temporary AI executors. A term's presence does not claim that CHLOYA first proposed the underlying idea.
 
 ---
 
-## CHLOYA
+<a id="alphabetical-contents"></a>
 
-**CHLOYA** is an open agent-modular methodology for governing software development involving people, AI executors, and engineering tools.
+## Alphabetical contents
 
-CHLOYA describes:
-
-* dividing a system into semantic areas;
-* limiting transferred context;
-* allocating authority and responsibility;
-* risk management;
-* preserving project memory;
-* verifying results;
-* handing changes between areas;
-* transitioning a prepared result into the current project state.
-
-CHLOYA is not a standalone artificial-intelligence model, a model aggregator, or a mandatory agent-orchestration platform.
+[A](#a) · [B](#b) · [C](#c) · [D](#d) · [E](#e) · [F](#f) · [G](#g) · [H](#h) · [I](#i) · [J](#j) · [K](#k) · [L](#l) · [M](#m) · [N](#n) · [O](#o) · [P](#p) · [Q](#q) · [R](#r) · [S](#s) · [T](#t) · [U](#u) · [V](#v) · [W](#w) · [X](#x) · [Y](#y) · [Z](#z)
 
 ---
 
-## Agent-Modular Approach
+<a id="a"></a>
 
-**Agent-modular approach** is an organization of development in which work is divided among people, temporary AI executors, and software tools, while context, responsibility, authority, and the consequences of changes are localized within semantic project areas.
+## A
 
-In CHLOYA, modularity applies not only to source code, but also to:
+<a id="acceptable-risk"></a>
 
-* project knowledge;
-* tasks;
-* decisions;
-* risks;
-* contracts;
-* evidence;
-* areas of responsibility.
+### Acceptable Risk
 
----
+The level of risk that the owner of the relevant decision is willing to accept after considering the expected benefit, the cost of controls, and possible consequences. It is context-dependent: no single threshold is suitable for every task, resource, or environment.
 
-## AI Executor
+An acceptable risk decision names both the decision owner and the assumptions on which it relies. It does not turn an unassessed or irreversible action into an acceptable one.
 
-**AI executor** is an artificial-intelligence model, agent system, or software tool to which limited project work has been assigned.
+<a id="accepted-result"></a>
 
-An AI executor can:
+### Accepted Result
 
-* analyze;
-* propose solutions;
-* create or modify artifacts;
-* run permitted tools;
-* prepare evidence;
-* hand a result to the next participant.
+A result for which an authorized person, or a policy-permitted control plane, has decided to include a change in the project under stated conditions. The decision records what was accepted, on what evidence, and with which remaining restrictions.
 
-The ability to propose or technically perform an action does not mean that the executor is authorized to perform it.
+Acceptance does not itself integrate, activate, deploy, or publish the result. Those are separate transitions and may require different authority.
 
----
+<a id="acting-executor"></a>
 
-## Temporary AI Executor
+### Acting Executor
 
-**Temporary AI executor** is an AI executor whose participation is limited by a task, stage, session, budget, or time limit.
+The agent, workload, or execution component that directly initiates a technical operation. It can differ from the human or organizational function that owns the goal and the authority on whose behalf the action occurs.
 
-It must not become the sole holder of:
+Identifying the acting executor makes technical attribution possible without confusing it with accountability for the decision.
 
-* project memory;
-* architectural decisions;
-* security rules;
-* reasons for previous decisions;
-* the current project state.
+<a id="action-contract"></a>
 
-The project must remain capable of continuing work after replacing the model, agent, platform, or provider.
+### Action Contract
 
----
+An explicit agreement defining a proposed action's allowed operation, target resource, parameters, preconditions, expected effect, and required evidence. It also states stopping and escalation conditions.
 
-## Human Goal Owner
+An action contract turns a broad request into a checkable operation. It is useful when an executor may be able to perform many operations but has been authorized for only one narrowly described change.
 
-**Human goal owner** is a participant who determines the purpose of the work, acceptable risk, consequential constraints, and the criteria by which a result is acceptable.
+<a id="activated-change"></a>
 
-The human need not manually perform every action, but must retain control over decisions whose consequences cannot safely be delegated.
+### Activated Change
 
-The presence of a human in the process does not itself guarantee safety. The person must have sufficient competence and receive understandable information for decision-making.
+An accepted and integrated change that has begun to affect a running system, users, data, or the external world.
 
----
+Activation is distinct from acceptance and integration. A change can be included in the project yet wait for deployment, migration, a release window, or separate authorization before it is activated.
 
-## Context
+<a id="active-context"></a>
 
-**Context** is information used by an executor to understand a task and make decisions.
+### Active Context
 
-Context can include:
+Information directly transferred to an executor for the current task. It must be sufficient for the work, but need not contain every available project material.
 
-* source code;
-* documentation;
-* contracts;
-* architectural decisions;
-* constraints;
-* requirements;
-* change history;
-* verification results;
-* risk information;
-* data from external sources.
+Active context is a deliberately selected working set, not a copy of repository history, chat history, or every document the project owns.
 
-The presence of information in a project does not mean it must be automatically transferred to every executor.
+<a id="agent-execution-identity"></a>
 
----
+### Agent Execution Identity
 
-## Active Context
+The identity under which an agent or its runtime performs a technical action. It must be distinguishable from the human or service that owns the goal or authority.
 
-**Active context** is information directly transferred to an executor to perform the current task.
+This distinction supports auditability: a record can say both who decided that work was appropriate and which workload actually made the call.
 
-Active context must be sufficient for the work, but need not include all available project materials.
+<a id="agent-modular-approach"></a>
 
----
+### Agent-Modular Approach
 
-## Context on Demand
+An organization of development in which people, temporary AI executors, and tools divide work while context, responsibility, authority, and consequences are localized within semantic project areas.
 
-**Context on demand** is information not initially transferred to an executor but obtainable after discovering a dependency, contradiction, or lack of information.
+In CHLOYA, modularity applies not only to source code, but also to project knowledge, tasks, decisions, risks, contracts, evidence, and areas of responsibility. This makes work transferable and limits the amount of unrelated material an executor needs.
 
-Obtaining additional context must be purposeful and must not automatically expand an executor's authority.
+<a id="ai-executor"></a>
 
----
+### AI Executor
 
-## Minimally Sufficient Context
+An AI model, agent system, or AI-based software tool assigned limited project work. Its ability to propose or technically perform an action does not itself authorize that action.
 
-**Minimally sufficient context** is the smallest justified amount of information that enables a task to be completed with account taken of applicable contracts, constraints, and risks.
+An AI executor is treated as a temporary executor: its session, budget, task, and authority can end without making the project dependent on its private interaction history.
 
-It does not mean seeking to give an executor as little data as possible at any cost.
+<a id="api"></a>
 
-Insufficient context can lead to erroneous assumptions, whereas excessive context can increase cost, analysis time, trust surface, and verification difficulty.
+### API
 
----
+*Application Programming Interface* — a defined interface and set of rules through which one program or service accesses another program's functions or data.
 
-## Controlled Context Expansion
+For CHLOYA, an API is often an external contract and therefore may create a consequence boundary beyond the module that implements it.
 
-**Controlled context expansion** is an executor's obtaining additional information after the initial context proves insufficient.
+<a id="architecture-as-an-attention-distribution-structure"></a>
 
-The executor must:
+### Architecture as an Attention-Distribution Structure
 
-1. identify the uncertainty discovered;
-2. state what information is required;
-3. explain its connection to the current task;
-4. not perform the affected action until sufficient grounds are obtained;
-5. check whether the task boundaries and risk level have changed.
+A view of architectural boundaries as a way to determine which knowledge an executor needs for particular work.
 
----
+Architecture should help determine which context must be supplied, which internal details of neighboring areas may remain undisclosed, which contracts are mandatory, when a change stops being local, and when context must expand.
 
-## Context Module
+<a id="assigned-accountability"></a>
 
-**Context module** is a stable semantic area of a system that can be understood, analyzed, or changed with limited knowledge of the internal details of the rest of the project.
+### Assigned Accountability
 
-A context module can describe:
+An explicit assignment of responsibility for a consequential decision, action, integration, or outcome to a named human role or policy-governed organizational function.
 
-* purpose;
-* boundaries;
-* responsibility;
-* inputs and outputs;
-* external contracts;
-* dependencies;
-* consequential decisions;
-* known risks;
-* mandatory checks.
+The assignment must remain understandable after the specific agent session or tool has ended. It is not satisfied merely by recording the name of the model that made a proposal.
 
-A context module need not correspond to a directory, package, service, repository, or operating-system process.
+<a id="authoritative-data"></a>
 
----
+### Authoritative Data
 
-## Task Context Capsule
+Information from a controlled source on which a binding decision is made, such as an active policy version, resource state, role, delegation, or subject attribute.
 
-**Task context capsule** is a package of information, constraints, authority, and result criteria formed for a particular piece of work.
+Unlike a model's retelling, authoritative data has a system-defined provenance, freshness expectation, and retrieval method.
 
-A capsule can include:
+<a id="authority"></a>
 
-* goal;
-* expected artifact;
-* permitted area of change;
-* necessary parts of the code;
-* applicable contracts;
-* prohibited actions;
-* verification requirements;
-* budget;
-* stopping conditions;
-* format of the returned result.
+### Authority
 
-A context module is a relatively stable project area, whereas a context capsule is formed for a particular task.
+An explicitly granted right to perform a particular action within a defined area and under stated conditions. Technical capability is not authority.
+
+Authority answers who may cause a particular effect; it must be bounded by operation, resource, parameters, time, and consequences where those distinctions matter.
+
+<a id="authority-boundary"></a>
+
+### Authority Boundary
+
+The limit beyond which an executor must stop, request expanded authority, or hand the question to another decision owner.
+
+An authority boundary need not match a context boundary or a code-module boundary. An executor can understand an area without being allowed to change it.
+
+<a id="authority-scope"></a>
+
+### Authority Scope
+
+The set of operation classes permitted by issued authority or a token. In OAuth, this is commonly called a *scope*.
+
+Scope alone is often insufficient: a safe authorization decision may additionally constrain the target resource, parameters, amount of change, time, environment, and allowed consequences.
+
+<a id="authorization-control-plane"></a>
+
+### Authorization Control Plane
+
+The trusted part of an architecture that determines whether a proposed action is allowed from identity, delegation, active policies, authoritative data, and current system state. It does not originate the goal and must not independently execute the permitted operation.
+
+**See also:** [Execution Plane](#execution-plane), [Policy](#policy), [Proposed Action](#proposed-action), [Reasoning Plane](#reasoning-plane).
+[Back to top](#alphabetical-contents)
 
 ---
 
-## Constrained Handoff
+<a id="b"></a>
 
-**Constrained handoff** is the transfer to an executor of only the task, information, area of responsibility, and set of authorities required for particular work.
+## B
 
-A constrained handoff can include:
+<a id="bearer-token"></a>
 
-* goal;
-* expected result;
-* permitted area of change;
-* applicable contracts;
-* known risks;
-* acceptance criteria;
-* result format;
-* stopping and escalation conditions.
+### Bearer Token
 
-Transferring context does not automatically transfer authority.
+A token usable by any party that possesses its value, without proving possession of a separate key. Leakage can enable reuse until expiry or revocation.
+
+Bearer tokens are convenient but increase the significance of storage, transport, lifetime, audience, and logging controls. Where the threat model requires it, sender-constrained tokens reduce this replay risk.
+[Back to top](#alphabetical-contents)
 
 ---
 
-## Local Ownership
+<a id="c"></a>
 
-**Local ownership** is the presence of a clear owner and responsibility boundaries for a module, contract, decision, change, or integration.
+## C
 
-An AI executor can temporarily work in the relevant area but does not become its permanent owner.
+<a id="canonical-project-state"></a>
 
-The term does not mean local data storage and is unrelated to the transfer of property rights.
+### Canonical Project State
+
+The coherent, project-recognized version of code, documentation, contracts, decisions, and other consequential artifacts on which subsequent work relies.
+
+A local agent result does not become canonical project state automatically. It first has to pass the relevant verification, acceptance, and integration path.
+
+<a id="canonical-source"></a>
+
+### Canonical Source
+
+An officially accepted source of project knowledge used as the basis for subsequent work. A conversation history, tool output, or individual agent response is not canonical automatically.
+
+Canonical sources make it possible to replace an executor without losing the reason for an earlier decision or forcing the replacement to infer it from incidental traces.
+
+<a id="capability"></a>
+
+### Capability
+
+A protected object, reference, or token whose possession grants a narrowly defined right over a resource. A capability may be delegated and attenuated.
+
+Its use should remain subject to the constraints encoded with it or checked by the surrounding authorization system; possession is not a blanket right over the project.
+
+<a id="caveat"></a>
+
+### Caveat
+
+An additional, verifiable condition on use of a delegated capability, such as a time limit, target resource, operation, location, environment, or other constraint.
+
+Caveats make delegation narrower and inspectable. They should be enforceable by a trusted component rather than left to an executor's interpretation alone.
+
+<a id="chloya"></a>
+
+### CHLOYA
+
+An open agent-modular methodology for governing software development involving people, AI executors, and engineering tools. It is not a model, a model aggregator, or a mandatory orchestration platform.
+
+CHLOYA places human control over goals, architecture, risk, and acceptance alongside constrained authority for temporary executors, portable project memory, and evidence-based readiness.
+
+<a id="ci-cd"></a>
+
+### CI/CD
+
+*Continuous Integration / Continuous Delivery (or Deployment)* — practices for regularly integrating changes and automatically delivering or deploying them.
+
+Automation of integration or deployment does not replace authority checks, consequence assessment, or a decision about whether an AI-proposed change should be accepted.
+
+<a id="cli"></a>
+
+### CLI
+
+*Command-Line Interface* — a text-based interface for operating a program or service.
+
+In an agentic workflow, CLI access is a technical capability. It must still be bounded by the executor's authority and the environment's controls.
+
+<a id="confirmed-state"></a>
+
+### Confirmed State
+
+A state that has passed the system's prescribed admission path and is recognized as authoritative for subsequent operations.
+
+Before this transition, a model-generated artifact remains a proposal or draft even if it appears complete. Confirmation gives later work a defined object to rely on and preserves the distinction between suggestion and project decision.
+
+<a id="consequence-boundary"></a>
+
+### Consequence Boundary
+
+The area of a system, product, or organization in which a change's effects must be assessed. The size of a code change does not determine the size of its consequences.
+
+One small function can affect an external contract, several modules, users, security controls, stored data, or legal and operational obligations.
+
+<a id="constrained-handoff"></a>
+
+### Constrained Handoff
+
+Transfer to an executor of only the task, information, responsibility area, and authority required for particular work.
+
+Constrained handoff does not equate context transfer with authority transfer. Receiving a document, secret, or implementation detail is not permission to modify the associated resource or make its owner’s decision.
+
+<a id="context"></a>
+
+### Context
+
+Information used by an executor to understand a task and make decisions: for example code, documentation, contracts, constraints, decisions, verification results, and risk information.
+
+Context is not synonymous with instruction. Its parts can have different provenance and trust levels, and data must not silently become an instruction merely because it was placed in the same prompt or workspace.
+
+<a id="context-engineering"></a>
+
+### Context Engineering
+
+The deliberate selection, structuring, and updating of information available to an executor for a particular task. Its aim is to provide sufficient, current, and attributable material without treating the whole project as active context.
+
+Context engineering considers relevance, provenance, authority, freshness, and the conditions under which additional information may be requested.
+
+<a id="context-layers"></a>
+
+### Context Layers
+
+Separated classes of task information that differ in purpose, authority, provenance, and trust level.
+
+Typical layers include goal and constraints, approved project knowledge, task-specific materials, external data, and generated intermediate results. Separation prevents an untrusted data layer from silently becoming an instruction layer.
+
+<a id="context-module"></a>
+
+### Context Module
+
+A stable semantic area of a system that can be understood, analyzed, or changed with limited knowledge of the rest of the project.
+
+It need not correspond to a directory, package, service, or repository. A context module is defined by the coherence of its knowledge, contracts, responsibility, and consequence boundaries.
+
+<a id="context-on-demand"></a>
+
+### Context on Demand
+
+Information not initially transferred to an executor but obtainable after discovering a dependency, contradiction, or lack of information.
+
+Context on demand limits unnecessary disclosure while allowing work to proceed when a real dependency appears. Obtaining more information does not automatically expand authority.
+
+<a id="context-provenance"></a>
+
+### Context Provenance
+
+Information about where a context item came from and how it entered a project or task. It can include the source, author, date, version, acquisition method, integrity, and applicability.
+
+Provenance helps a reviewer distinguish an approved contract from an unverified web page, a current state record from stale output, and evidence from an unsupported assertion.
+
+<a id="context-window"></a>
+
+### Context Window
+
+The bounded portion of input and prior interaction that a model can process in one invocation.
+
+A larger context window does not guarantee equal attention to all included material, correct prioritization, or reliable recall. Context engineering therefore remains necessary even when the technical window is large.
+
+<a id="contract"></a>
+
+### Contract
+
+An explicitly described obligation between system areas, participants, or process stages. It can define data format, behavior, compatibility, authority, transition conditions, and readiness criteria.
+
+Contracts make a boundary explicit. They allow a local change to be assessed against the expectations of other modules, systems, users, and organizational processes.
+
+<a id="controlled-context-expansion"></a>
+
+### Controlled Context Expansion
+
+Obtaining additional information after the initial context proves insufficient, while stating the uncertainty, requested material, its relation to the task, and any changed boundaries or risk.
+
+The request is itself a governed transition: it should make clear whether more context resolves an information gap only or also requires a new authority decision.
+
+<a id="credential-broker"></a>
+
+### Credential Broker
+
+A trusted component or logical role that, after authorizing a specific action, issues an executor a short-lived and limited technical authority instead of exposing persistent secrets to a model's free context.
+
+**See also:** [Service for Issuing Temporary Tokens](#service-for-issuing-temporary-tokens), [Workload Identity Federation](#workload-identity-federation).
+
+<a id="credentials"></a>
+
+### Credentials
+
+A secret or other identifier proving a subject, program, or workload's right to access a protected resource, such as a password, key, token, or certificate.
+
+Credentials are not ordinary context. Their exposure, lifetime, storage, audience, and ability to be replayed must be considered separately from whether an executor understands the task.
+
+<a id="current-project-state"></a>
+
+### Current Project State
+
+The officially accepted set of code, documentation, contracts, decisions, and other artifacts on which subsequent participants must rely.
+
+An executor's local result is not included automatically. The project must preserve a visible transition from proposal or local output to an accepted, canonical state.
+[Back to top](#alphabetical-contents)
 
 ---
 
-## Contract
+<a id="d"></a>
 
-**Contract** is an explicitly described obligation between system areas, participants, or process stages.
+## D
 
-A contract can define:
+<a id="data-is-not-instruction"></a>
 
-* data format;
-* permitted states;
-* external behavior;
-* compatibility requirements;
-* mandatory checks;
-* authority;
-* transition conditions;
-* readiness criteria.
+### Data Is Not Instruction
 
-Changing an internal implementation must not automatically be treated as changing an external contract.
+The principle that files, documents, web pages, issue-tracker items, comments, and tool results are objects of analysis. They do not automatically gain the right to change an executor's behavior.
 
----
+This is especially important for prompt injection: untrusted material can ask for actions, but an executor must continue to follow the task, applicable contracts, and authorization boundaries.
 
-## Internal Contract
+<a id="decision-point"></a>
 
-**Internal contract** is an obligation that applies within a context module or a limited project area.
+### Decision Point
 
-Its change can remain local if it does not affect external consumers or system requirements.
+A point in the operational cycle at which an authorized person or policy-permitted control plane chooses the next disposition of a result, task, or proposal from known authority, evidence, and consequences.
 
----
+Possible dispositions include accepting, rejecting, integrating, activating, suspending, requesting more evidence, or escalating the question. A decision point makes that transition attributable rather than implicit.
 
-## External Contract
+<a id="delegation"></a>
 
-**External contract** is an obligation relied upon by other modules, systems, users, integrations, or processes.
+### Delegation
 
-Changing an external contract requires assessing consequences beyond the internal implementation of the area being changed.
+The deliberate transfer of limited authority or a task to another participant while retaining a traceable connection to the authority owner, scope, constraints, and consequences.
 
----
+Delegation is not abandonment of accountability. It must say what is delegated, to whom, for how long, under which constraints, and whether further delegation is allowed.
 
-## Semantic Change Handoff
+<a id="delegation-attenuation"></a>
 
-**Semantic change handoff** is the transfer to a neighboring module or executor of a description of a change's meaning and consequences rather than the full context of its development.
+### Delegation Attenuation
 
-It can contain:
+The principle that derived authority may preserve or narrow its parent authority but may not expand it.
 
-* what changed in external behavior;
-* which contract is affected;
-* how compatibility is ensured;
-* which consumers are affected;
-* which checks were performed;
-* when the new behavior is activated.
+Attenuation protects against a chain of agents gradually acquiring broader rights than the original decision owner granted. Each subsequent delegation remains bounded by its parent envelope.
 
-A diff shows implementation changes. A semantic handoff explains what those changes mean for the consumer.
+<a id="delegation-envelope"></a>
 
----
+### Delegation Envelope
 
-## Project Memory
+A CHLOYA entity describing the boundaries of authority transferred to a particular agent execution: its owner, actual executor, task, operations, resources, environment, duration, scale, and onward-delegation rules.
 
-**Project memory** is a portable and versionable representation of consequential knowledge about a project.
+The envelope makes the delegation inspectable and supplies a stopping point when a proposed operation does not fit the original grant.
 
-Project memory includes:
+<a id="deterministic-core"></a>
 
-* architectural decisions;
-* contracts;
-* history of consequential changes;
-* reasons for decisions made;
-* known risks;
-* verification results;
-* completed tasks;
-* information about unresolved constraints.
+### Deterministic Core
 
-Project memory must not exist only in chat history, a provider's internal memory, or the closed format of a particular agent platform.
+The part of a system whose required behavior is defined by explicit rules, checks, and state transitions rather than by probabilistic model output.
 
----
+Authorization, invariant checks, admission transitions, and irreversible-effect controls belong in a deterministic core whenever possible. A strong model output does not replace these independent checks.
 
-## Project-Owned Memory
+<a id="devops"></a>
 
-**Project-owned memory** is the principle that canonical knowledge must be stored in formats controlled by the project and remain available after replacing a model, agent, or provider.
+### DevOps
 
-Vector databases, indexes, caches, and internal storage of agent systems can be used as supporting means, but must not be the sole source of truth.
+An approach that joins software development and operation through shared processes, tools, and responsibility for delivering and running a system.
 
----
+CHLOYA can use DevOps practices, but automated delivery does not by itself decide authority, risk acceptance, or the readiness of an AI-produced result.
 
-## Interaction History
+<a id="domain-model"></a>
 
-**Interaction history** is the sequence of requests, responses, actions, checks, and corrections produced while working with AI.
+### Domain Model
 
-It can contain:
+A formal description of subjects, actions, resources, their types, attributes, and relations against which the admissibility of an operation is computed.
 
-* requirements;
-* reasoning;
-* errors;
-* rejected options;
-* test results;
-* reasons for changes to decisions.
+A domain model prevents a policy engine from deciding only on vague labels. It gives authorization a shared vocabulary for the operation, its target, and the relevant context.
 
-Interaction history can be a useful project asset, but must not automatically be considered canonical project memory.
+<a id="double-action-attribution"></a>
+
+### Double Action Attribution
+
+Recording both the authority owner and the actual technical executor for an action, so that delegation does not erase responsibility or accountability.
+
+This attribution distinguishes “who was permitted to decide” from “which agent, workload, or tool initiated the technical call.”
+
+<a id="dpop"></a>
+
+### DPoP
+
+*Demonstrating Proof of Possession* — an OAuth mechanism that binds a token to a client's public key and requires proof of possession of the corresponding private key [133].
+
+DPoP is one way to make a token sender-constrained, reducing the usefulness of a copied token value to a party that lacks the associated private key.
+[Back to top](#alphabetical-contents)
 
 ---
 
-## Context Provenance
+<a id="e"></a>
 
-**Context provenance** is information about where an information fragment came from and how it entered a project or task.
+## E
 
-The following can be recorded:
+<a id="effective-irreversibility"></a>
 
-* source;
-* author;
-* originating system;
-* date;
-* version;
-* method of acquisition;
-* scope of applicability;
-* relationship to the current task.
+### Effective Irreversibility
 
----
+A state in which a technical change can be reversed but its external consequences can no longer be fully eliminated, such as publication of a secret or data transfer outside the controlled environment.
 
-## Trust Metadata
+Risk decisions must consider this practical, external irreversibility rather than only whether a repository commit or configuration file can be rolled back.
 
-**Trust metadata** is a characteristic of context reflecting the degree to which it has been verified, is current, and is permissible to use.
+<a id="enterprise-ai-gateway"></a>
 
-Trust metadata must not be based only on the confident style of a text or the authority of the model that produced it.
+### Enterprise AI Gateway
 
----
+An organization-managed layer for access to models and agent tools that can provide routing, access control, logging, model selection, data restrictions, and policy application.
 
-## Data Is Not Instruction
+It may make model use more governable, but it is not a substitute for task-specific authority, a trustworthy project memory, or verification of the resulting change.
 
-**Data Is Not Instruction** is the principle that the contents of files, documents, web pages, issues, comments, and tool results are objects of analysis, but do not automatically gain the right to change an executor's behavior.
+<a id="escalation"></a>
 
-Text inside analyzed material may contain commands or prompt-injection attempts, but their presence does not create authorization to execute them.
+### Escalation
 
----
+Handing an unresolved question or decision to a participant with the required authority, competence, or accountability because the current executor lacks grounds to continue independently.
 
-## Separation of Analysis, Authorization, and Execution
+Escalation is a normal controlled outcome, not necessarily a failure. It prevents a temporary executor from filling a material uncertainty by guessing or extending its own authority.
 
-**Separation of analysis, authorization, and execution** is the principle that the following must be distinguished:
+<a id="escalation-condition"></a>
 
-1. identifying a possible action;
-2. assessing whether it is permissible;
-3. granting authority;
-4. actually performing it.
+### Escalation Condition
 
-An executor's ability to analyze or propose an action does not create authority to perform it.
+A circumstance in which a decision must be handed to a participant with broader authority or necessary competence.
 
----
+Examples include an external-contract change, an exceeded consequence boundary, missing evidence, an uncertain security impact, or a request beyond the delegation envelope. The recipient receives a minimally sufficient decision package, not necessarily all context.
 
-## Authority
+<a id="escalation-package"></a>
 
-**Authority** is an explicitly granted right to perform a particular action within a defined area and under stated conditions.
+### Escalation Package
 
-Authority can be limited by:
+A structured description of an unresolved question for the next decision-maker, including the goal, completed work, constraint, unperformed action, possible consequences, options, and authority required.
 
-* action type;
-* module;
-* environment;
-* data;
-* time limit;
-* budget;
-* risk level;
-* need for additional confirmation.
+It should preserve the decision context rather than force the recipient to reconstruct it from an opaque interaction history.
 
-The technical ability to perform an action is not authority.
+<a id="evidence"></a>
 
----
+### Evidence
 
-## Authority Boundary
+A verifiable artifact confirming a particular property of a result, such as a test result, execution record, static-analysis report, contract check, migration verification, or review.
 
-**Authority boundary** is the limit beyond which an executor must stop, request expanded permissions, or hand the question to another decision owner.
+Evidence answers a defined question; it is not a generic claim that the work “looks correct.” Its provenance and relation to the stated readiness criterion must be inspectable.
 
-An authority boundary need not coincide with a context boundary or a software-module boundary.
+<a id="evidence-package"></a>
 
----
+### Evidence Package
 
-## Risk-Adaptive Autonomy
+The verification results and explanations sufficient to decide whether a change is ready. Its composition depends on task type, risk, consequence boundary, and verification difficulty.
 
-**Risk-adaptive autonomy** is changing an executor's level of independence according to the risk of a particular task and action.
+The package can combine automated checks, review, records of performed operations, and an explicit account of residual risk. It supports a decision; it does not replace the decision owner.
 
-The assessment can consider:
+<a id="execution-plane"></a>
 
-* cost of error;
-* scope of consequences;
-* data sensitivity;
-* reversibility;
-* difficulty of verification;
-* context uncertainty;
-* provenance of tools;
-* competence of the person making the decision.
+### Execution Plane
 
-CHLOYA does not seek maximum autonomy. Its goal is the maximum useful autonomy within justified boundaries.
+The part of an architecture that performs a strictly authorized operation within issued technical authority.
 
----
+It must not expand the operation's meaning, resources, or scope on its own. The execution plane enforces the distinction between an allowed, typed action and a more general tool capability.
 
-## Escalating the Mode
+<a id="executor-adapter"></a>
 
-**Escalating the mode** is a transition to stricter requirements after new risks, dependencies, or constraints are discovered.
+### Executor Adapter
 
-Grounds can include:
+A component or configuration that derives CHLOYA instructions, contracts, permissions, and tool connections from the portable core for a particular executor or agent environment.
 
-* sensitive data;
-* a change to a public contract;
-* an irreversible action;
-* going beyond the task area;
-* a new external integration;
-* contradictory context;
-* absence of a competent decision owner.
+An adapter accounts for provider-specific behavior, but must not become a competing source of truth about the project, its decisions, or its policies.
 
-The mode can be escalated after a task has already begun.
+<a id="external-contract"></a>
+
+### External Contract
+
+An obligation relied on by other modules, systems, users, integrations, or processes.
+
+Changing an external contract requires consequence assessment beyond the internal implementation of the changed area. It may trigger broader review, compatibility work, or escalation.
+
+<a id="external-control-plane"></a>
+
+### External Control Plane
+
+Mechanisms outside a model's free reasoning that enforce system boundaries, including authorization, validation, isolation, environment restrictions, and state recording.
+
+This plane keeps constraints effective when a model makes an error, receives unreliable context, or proposes an impermissible operation.
+
+<a id="external-model"></a>
+
+### External Model
+
+An AI model or service that processes information outside the environment controlled by the project or organization. Its use requires separate assessment of data route, processing, storage, connected tools, and the permissibility of disclosing particular information.
+
+External hosting alone does not determine either the risk level or the model's quality.
+[Back to top](#alphabetical-contents)
 
 ---
 
-## Suspension
+<a id="f"></a>
 
-**Suspension** is a deliberate halt of a particular action until sufficient context, authority, evidence, or a competent owner's decision is obtained.
+## F
 
-Suspension does not necessarily terminate the whole task. An executor can preserve and hand over safely prepared results without applying them to the current project state.
+<a id="functional-contour"></a>
 
----
+### Functional Contour
 
-## Escalation Package
+A semantic area of an operating model that groups related functions, decisions, and artifacts without having to coincide with one program, role, or organizational unit.
 
-**Escalation package** is a structured description of an unresolved question handed to the next participant for decision-making.
-
-It can include:
-
-* original goal;
-* completed part;
-* constraint discovered;
-* action not performed;
-* possible consequences;
-* solution options;
-* authority or confirmation required.
-
-An escalation package must enable a decision without fully repeating all previous work.
+Functional contours help allocate ownership and evidence without pretending that a real operational responsibility always maps one-to-one to an application component.
+[Back to top](#alphabetical-contents)
 
 ---
 
-## Reversibility
+<a id="g"></a>
 
-**Reversibility** is the ability to restore the technical and actual state after an action has been performed.
+## G
 
-The existence of Git, a backup, or a reverse migration confirms only part of reversibility.
+<a id="git"></a>
 
----
+### Git
 
-## Effective Irreversibility
+A distributed version-control system used to retain change history, collaborate, and recover project states.
 
-**Effective irreversibility** is a state in which a technical change can be reversed, but its external consequences can no longer be fully eliminated.
+Git may preserve a technical history, but its presence alone does not make a change reversible: external publication, data transfer, deployment, or a security incident can have consequences outside the repository.
 
-Examples include:
+<a id="governance-gap"></a>
 
-* a published secret;
-* personal data transferred to an external system;
-* a sent message;
-* a payment made;
-* a released public package.
+### Governance Gap
 
-Even a read operation can have irreversible consequences if the data obtained is transferred outside the controlled environment.
+A divergence between human intent and a system's actual evolution when the meaning of a goal, decision grounds, authority, or verification results is lost between participants or project states.
 
----
+The gap grows when work is handed over as opaque chat history or unexplained patches rather than as a task capsule, decision record, contract, and evidence package.
 
-## Consequence Boundary
+<a id="governed-orchestration"></a>
 
-**Consequence boundary** is the area of a system, product, or organization in which the effect of a change must be assessed.
+### Governed Orchestration
 
-The size of a change does not determine the size of its consequences.
+Coordination of several executors, tools, and work stages with explicit allocation of task, context, authority, integration order, and accountable owner.
 
-Changing one function can affect:
-
-* an external contract;
-* several modules;
-* users;
-* security;
-* publication;
-* legal obligations;
-* organizational processes.
+It does not require a single orchestration product. What matters is that coordination preserves boundaries and makes cross-executor transitions reviewable.
+[Back to top](#alphabetical-contents)
 
 ---
 
-## Level of CHLOYA Application
+<a id="h"></a>
 
-**Level of CHLOYA application** is the scale at which the methodology's rules are used.
+## H
 
-Possible levels are:
+<a id="handoff"></a>
 
-* local change;
-* context module;
-* product;
-* system or platform;
-* organization.
+### Handoff
 
-The levels do not form a mandatory maturity ladder and can be applied simultaneously.
+Transfer of work to another participant with enough information about the goal, completed work, decisions, constraints, and open questions to continue without the prior conversation.
 
----
+A useful handoff carries the current decision context and evidence, rather than relying on the next participant to reconstruct intent from a long interaction history.
 
-## Verifiable Readiness
+<a id="human-and-machine-readability"></a>
 
-**Verifiable readiness** is a result state in which conformity with the task, contracts, and constraints is confirmed by sufficient evidence.
+### Human- and Machine-Readability
 
-Completion of generation, the absence of obvious errors, or a confident executor message does not confirm a result's readiness.
+The property of a project artifact that it can be understood by people and reliably processed by tools without making either audience dependent on an opaque representation.
 
----
+Portable project memory should remain inspectable by a human while being structured enough for a tool to locate, validate, and transfer relevant parts.
 
-## Evidence
+<a id="human-control"></a>
 
-**Evidence** is a verifiable artifact confirming a specific property of a result.
+### Human Control
 
-Evidence can include:
+The ability of a competent human to set goals, boundaries, and consequential decisions, and to understand enough of a system's state and evidence to exercise that authority.
 
-* a test;
-* an execution result;
-* a static-analysis report;
-* a contract check;
-* a verified migration;
-* manual review;
-* a description of affected areas;
-* confirmation of compatibility.
+Human control is not constant manual execution. It is retained when a human can define the authority boundary, review material changes, and stop or redirect a governed process.
 
-Evidence must be connected to a specific requirement, risk, contract, or result version.
+<a id="human-goal-owner"></a>
+
+### Human Goal Owner
+
+The participant who determines a work's purpose, acceptable risk, consequential constraints, and criteria for an acceptable result.
+
+The goal owner is distinct from the acting executor and may be distinct from a reviewer or policy enforcement component.
+[Back to top](#alphabetical-contents)
 
 ---
 
-## Evidence Package
+<a id="i"></a>
 
-**Evidence package** is the set of verification results and explanations sufficient to decide whether a change is ready.
+## I
 
-Its composition depends on:
+<a id="ide"></a>
 
-* task type;
-* risk level;
-* consequence boundary;
-* project requirements;
-* difficulty of independent verification.
+### IDE
 
----
+*Integrated Development Environment* — a software environment that combines code editing, execution, debugging, and other engineering tools.
 
-## Prepared Result
+An IDE can be one executor environment or one source of evidence; its convenience does not define the authority of an attached agent or plugin.
 
-**Prepared result** is an artifact created by an executor that has not necessarily been accepted, applied, or published.
+<a id="impersonation"></a>
 
-A prepared result can be:
+### Impersonation
 
-* analysis;
-* a patch;
-* a diagram;
-* documentation;
-* a migration;
-* tests;
-* a solution design;
-* an escalation package.
+A mode in which an automated executor acts under another subject's identity and an external system may not distinguish the actual executor from the account owner.
 
----
+Explicit delegation is preferred where possible, because it preserves double action attribution and can give the execution identity a narrower, revocable technical authority.
 
-## Current Project State
+<a id="integrated-change"></a>
 
-**Current project state** is the officially accepted set of code, documentation, contracts, decisions, and other artifacts on which subsequent participants must rely.
+### Integrated Change
 
-An agent's local result does not automatically become part of the current state.
+An accepted result included in the canonical project state and reconciled with current contracts, constraints, and project memory.
 
----
+Integration does not automatically activate or publish it. The distinction lets a project accept and reconcile a result while retaining control over when it affects users, data, or external systems.
 
-## Transition to the Current Project State
+<a id="interaction-history"></a>
 
-**Transition to the current project state** is the governed inclusion of a prepared result in the project's canonical state.
+### Interaction History
 
-The transition can include:
+The sequence of requests, responses, actions, checks, and corrections produced while working with AI.
 
-* verification;
-* acceptance;
-* merging;
-* publication;
-* deployment;
-* activation.
+It can be useful evidence, diagnostics, or an audit trace, but it is not canonical project memory automatically. Important decisions and accepted outcomes must be recorded in durable project-owned artifacts.
 
-Authorization for a previous stage does not automatically grant authorization for the next one.
+<a id="internal-contract"></a>
 
----
+### Internal Contract
 
-## Tool-Neutral Governance
+An obligation applying inside a context module or a limited project area.
 
-**Tool-neutral governance** is the absence of a requirement to use a single model, platform, IDE, agent system, aggregator, or provider.
+Its change can remain local if it does not affect external consumers, cross-module contracts, or system requirements. The classification must be reassessed when new dependencies are found.
 
-CHLOYA permits the use of:
+<a id="invariant"></a>
 
-* direct APIs;
-* aggregators;
-* local models;
-* enterprise gateways;
-* agent platforms;
-* specialized tools.
+### Invariant
 
-The choice must take account of goal, cost, quality, confidentiality, and acceptable risk.
+A property of a process or system that must remain true under permitted changes of tools, executors, scale, or execution order.
+
+CHLOYA invariants constrain meaning rather than prescribe one implementation. For example, replacing a model or platform must not remove human authority over consequential decisions or turn a proposal into accepted state without the required transition.
+[Back to top](#alphabetical-contents)
 
 ---
 
-## Provider-Independent Project Memory
+<a id="j"></a>
 
-**Provider-independent project memory** is the ability to change the model, agent, platform, or means of accessing AI without losing a project's canonical knowledge.
+## J
 
-This does not mean that all models are interchangeable in quality, cost, or capabilities.
+<a id="json"></a>
 
----
+### JSON
 
-## Enterprise AI Gateway
+*JavaScript Object Notation* — a text format for structured data, commonly used for message exchange and configuration.
 
-**Enterprise AI gateway** is an organization-managed layer for access to models and agent tools.
-
-It can provide:
-
-* routing;
-* access control;
-* logging;
-* restrictions on data transferred;
-* selection of permitted models;
-* application of enterprise policies.
-
-An enterprise gateway must not be considered automatically safe solely because it is hosted internally. Its architecture and rules require separate evaluation.
+JSON can carry structured contracts or authorization requests, but a syntactically valid JSON object is not automatically a valid, authorized, or trusted instruction.
+[Back to top](#alphabetical-contents)
 
 ---
 
-## Model Aggregator
+<a id="k"></a>
 
-**Model aggregator** is a service or platform that provides access to several models or providers through a single interface.
+## K
 
-CHLOYA does not aim to replace aggregators or create its own universal aggregator.
-
-Aggregators can be useful for tasks with an acceptable risk level if the following are understood:
-
-* request routing;
-* data-storage rules;
-* the provider performing the work in fact;
-* cost;
-* confidentiality constraints;
-* data-use conditions.
+[Back to top](#alphabetical-contents)
 
 ---
 
-## Architecture as an Attention-Distribution Structure
+<a id="l"></a>
 
-**Architecture as an attention-distribution structure** is a view of architectural boundaries as a means of determining what knowledge an executor needs for particular work.
+## L
 
-Architecture must help establish:
+<a id="lethal-triad-of-agent-systems"></a>
 
-* which context must be transferred;
-* which internal details of neighboring areas need not be disclosed;
-* which contracts are mandatory;
-* when a change ceases to be local;
-* when context expansion is required.
+### Lethal Triad of Agent Systems
 
----
+The combination of access to private data, exposure to untrusted content, and the ability to communicate or act externally. Together these capabilities make prompt injection especially consequential.
 
-## System Change
+The combination calls for architectural controls: data must not become instruction, external effects need authorization, and secrets should not be placed in a model's unrestricted context.
 
-**System change** is a change whose consequences go beyond local implementation and require assessment across several modules, contracts, products, or organizational processes.
+<a id="level-of-chloya-application"></a>
 
-Systemic character is determined by consequences, not the number of files changed.
+### Level of CHLOYA Application
 
----
+The scale at which CHLOYA rules are used: a local change, context module, product, system or platform, or organization.
 
-## Local Change
+The levels do not form a required maturity ladder. A project can apply strict controls to one high-consequence change without first adopting every organizational-scale practice.
 
-**Local change** is a change whose consequences remain within an explicitly defined area and do not violate external contracts.
+<a id="lightweight-mode"></a>
 
-A small change size does not guarantee locality.
+### Lightweight Mode
 
----
+A mode for a low-risk, reversible, verifiable task that reduces procedural volume while preserving the goal, authority boundaries, result criteria, and stopping conditions.
 
-## Canonical Source
+Lightweight mode is not an exemption from governance. It is appropriate only while its assumptions remain true; discovering a broader consequence boundary or sensitive data requires mode escalation.
 
-**Canonical source** is an officially accepted source of project knowledge that must be used as a basis for subsequent work.
+<a id="llm"></a>
 
-A canonical source can be:
+### LLM
 
-* a document version;
-* a contract;
-* an architectural decision;
-* a risk register;
-* the current branch or a release;
-* an approved project-memory entry.
+*Large Language Model* — a language model that processes and generates text, code, and other data sequences.
 
-Conversation history or an individual agent's response is not automatically canonical.
+Plausible output is neither authority nor a system guarantee. An LLM may interpret a task and propose work, while deterministic components enforce the policy and state transitions that have consequences.
 
----
+<a id="local-change"></a>
 
-## Residual Risk
+### Local Change
 
-**Residual risk** is risk that remains after prescribed checks and controls have been performed.
+A change whose consequences stay within an explicitly defined area and do not violate external contracts.
 
-Verifiable readiness does not mean that risk is entirely absent. A result must honestly identify known constraints and unverified assumptions.
+A small change is not necessarily local. Locality follows from the assessed consequence boundary and contracts, not from line count or an executor's confidence.
 
----
+<a id="local-model"></a>
 
-## Acceptable Risk
+### Local Model
 
-**Acceptable risk** is the level of risk that the owner of the relevant decision is willing to accept, given the expected benefit, cost of control, and possible consequences.
+An AI model operated in an environment controlled by the project or organization.
 
-Risk acceptability depends on context and cannot be determined universally for all tasks.
+Local deployment does not itself guarantee adequate security, privacy, reliable isolation, or appropriate authority controls. The model still needs a bounded context and governed access to tools and resources.
 
----
+<a id="locally-defined-accountability"></a>
 
-## Stopping Condition
+### Locally Defined Accountability
 
-**Stopping condition** is a predefined circumstance in which an executor must not continue the relevant action.
+An explicit assignment of responsibility for a module, contract, decision, change, or integration within a defined project area.
 
-Examples include:
-
-* discovery of sensitive data;
-* absence of a required contract;
-* going beyond the permitted area;
-* inability to verify the result;
-* emergence of an irreversible external action;
-* contradiction between sources;
-* absence of the necessary competence.
+Local definition makes responsibility usable at the point of work, while preserving escalation paths when the decision exceeds the area’s authority boundary.
+[Back to top](#alphabetical-contents)
 
 ---
 
-## Escalation Condition
+<a id="m"></a>
 
-**Escalation condition** is a circumstance in which a decision must be handed to a participant with broader authority or the necessary competence.
+## M
 
-Escalation does not necessarily mean transferring all context. The next participant must receive the minimally sufficient package for making a decision.
+<a id="managed-autonomy"></a>
+
+### Managed Autonomy
+
+An executor's ability to act independently inside a predefined and technically enforced authority boundary.
+
+It depends on reliable constraints, not on the absence of constraints. Autonomy increases when the permitted operation, evidence, and stop conditions are clear enough to make independent execution safe.
+
+<a id="markdown"></a>
+
+### Markdown
+
+A lightweight text markup language that stores document structure and formatting in a human-readable form.
+
+Markdown is suitable for portable project memory when conventions, explicit anchors, and version control make the intended structure stable for both people and tools.
+
+<a id="mcp"></a>
+
+### MCP
+
+*Model Context Protocol* — an open protocol for connecting agent applications to tools, resources, and other context providers through structured interfaces [5].
+
+MCP can make connections more structured, but the protocol itself does not grant authority to use every connected resource or tool.
+
+<a id="mediation-layer"></a>
+
+### Mediation Layer
+
+An infrastructure layer between a user or project and a model that may route requests, filter data, connect tools, keep logs, or provide access to several providers.
+
+The layer can centralize controls, but should not silently redefine the project’s canonical state, task authority, or accountability.
+
+<a id="meta-policy"></a>
+
+### Meta-Policy
+
+A policy governing the creation, versioning, approval, activation, observation, and retirement of other policies.
+
+Meta-policy makes policy administration itself governed: it identifies who may change a rule, what evidence or review is needed, and how an active version is recognized.
+
+<a id="methodological-tool-neutrality"></a>
+
+### Methodological Tool Neutrality
+
+The principle that CHLOYA's required governance properties do not depend on one agent platform, model provider, file format, interface, or orchestration tool.
+
+Implementations can vary, provided they preserve the methodological invariants: explicit authority, portable project memory, human control, and verifiable readiness.
+
+<a id="minimally-sufficient-context"></a>
+
+### Minimally Sufficient Context
+
+The smallest justified body of information that enables a task while accounting for applicable contracts, constraints, and risks.
+
+It is not simply the least data possible. Omitting a decisive contract or prior decision can make a context smaller but insufficient, causing unsafe inference or unnecessary escalation later.
+
+<a id="mode-escalation"></a>
+
+### Mode Escalation
+
+A transition to stricter requirements after new risks, dependencies, or constraints are discovered.
+
+Typical triggers include sensitive data, an external-contract change, an irreversible action, a broader consequence boundary, or contradictory context. Escalation adjusts the operating mode instead of pretending that the original low-risk assumptions still hold.
+
+<a id="model-aggregator"></a>
+
+### Model Aggregator
+
+A service or platform that provides access to several models or providers through one interface.
+
+CHLOYA does not aim to replace aggregators or create a universal one. An aggregator may be suitable for an acceptable-risk task only when routing, data retention, actual execution provider, cost, confidentiality constraints, and terms of use are understood.
+
+<a id="model-token"></a>
+
+### Model Token
+
+A unit into which a particular model divides input and output data for processing and often cost calculation.
+
+It differs from an access token, a bearer token, or a payment unit. A larger token budget is a resource constraint, not an expansion of the executor's authority.
+
+<a id="mtls"></a>
+
+### mTLS
+
+*mutual Transport Layer Security* — TLS authentication in which both connection parties present and verify certificates.
+
+It can bind a connection to a client or workload identity and is useful for protecting service-to-service calls. It does not independently determine whether the identified workload is authorized for a particular action.
+
+<a id="multi-agent-work"></a>
+
+### Multi-Agent Work
+
+Work divided among several AI executors or agents whose tasks, context, authority, and result integration must be coordinated explicitly.
+
+Adding agents does not distribute accountability away. Each handoff must preserve decision context, the delegation envelope, and the integration conditions for the resulting artifacts.
+[Back to top](#alphabetical-contents)
 
 ---
 
-## Using the Glossary
+<a id="n"></a>
 
-When adding a new term, check:
+## N
 
-1. whether it is used in the published part of the methodology;
-2. whether it differs from an existing concept;
-3. whether its definition reveals a closed research roadmap;
-4. whether the Russian and English names are consistent;
-5. whether the term is used consistently across chapters.
+<a id="nist-ai-rmf"></a>
 
-Hypotheses, metrics, experimental plans, and preliminary claims of scientific novelty are not included in the public glossary.
+### NIST AI RMF
+
+*NIST Artificial Intelligence Risk Management Framework* — a framework for managing risks associated with AI systems [25].
+
+CHLOYA uses such risk-management guidance as an external reference, not as a claim that a framework alone supplies task-level authorization or project-memory practices.
+
+<a id="nist-ssdf"></a>
+
+### NIST SSDF
+
+*NIST Secure Software Development Framework* — a set of secure software-development practices [13].
+
+Its practices can inform evidence, controls, and lifecycle work, while CHLOYA defines how temporary AI executors participate within explicit authority boundaries.
+[Back to top](#alphabetical-contents)
+
+---
+
+<a id="o"></a>
+
+## O
+
+<a id="oauth-20-token-exchange"></a>
+
+### OAuth 2.0 Token Exchange
+
+A standard for exchanging one set of credentials for another to obtain new, limited authority for an action on behalf of a subject or through a delegation chain [131].
+
+It can support short-lived, task-specific authority rather than exposing a long-lived secret to an executor. The resulting token must remain no broader than the authorized delegation.
+
+<a id="oauth-target-resource"></a>
+
+### OAuth Target Resource
+
+The protected resource or resource server for which an OAuth access token is requested or issued.
+
+Restricting the target resource helps keep authority tied to its intended recipient and limits the harm if a token is misused or a delegation is interpreted too broadly.
+
+<a id="operational-cycle"></a>
+
+### Operational Cycle
+
+A recurring sequence from signal or intent through boundaries, context, preparation, verification, decision, integration, and project-memory update.
+
+The cycle can include return for rework, suspension, and escalation. It describes controlled state transitions, not a mandate to use a particular agent framework or workflow engine.
+
+<a id="operational-model"></a>
+
+### Operational Model
+
+An agreed description of how CHLOYA turns a signal or intent into a bounded, verified, and governably accepted project-state change without prescribing a particular platform or toolset.
+
+It separates reasoning, authorization, and execution; identifies decision points; and records the evidence and project-memory update needed for a result to become usable by later participants.
+[Back to top](#alphabetical-contents)
+
+---
+
+<a id="p"></a>
+
+## P
+
+<a id="parc"></a>
+
+### PARC
+
+An authorization-request model in which a decision is determined by *principal*, *action*, *resource*, and *context* [115], [124].
+
+The structure makes a proposed operation explicit enough for policy evaluation and for later inspection of why a decision applied to this subject, action, and target.
+
+<a id="pdp"></a>
+
+### PDP
+
+*Policy Decision Point* — see [Policy Decision Point](#policy-decision-point).
+
+<a id="pep"></a>
+
+### PEP
+
+*Policy Enforcement Point* — see [Policy Enforcement Point](#policy-enforcement-point).
+
+<a id="policy"></a>
+
+### Policy
+
+An explicit, versioned rule that connects an organizational requirement to a computable decision about whether a particular action is allowed and to a mechanism that enforces that decision.
+
+A policy needs defined inputs, applicability, lifecycle, and enforcement point. Natural-language guidance alone can inform a decision, but should not be presented as deterministic enforcement.
+
+<a id="policy-decision-point"></a>
+
+### Policy Decision Point
+
+A component that computes an authorization decision from applicable policies and authoritative input data [118], [119].
+
+It determines whether the proposed action is permitted; it does not need to perform the action itself.
+
+<a id="policy-enforcement-point"></a>
+
+### Policy Enforcement Point
+
+A component that requests an authorization decision and technically enforces it when a protected object is accessed [118], [119].
+
+The PEP must apply the decision at the relevant technical boundary; merely logging a denial after the external effect is not enforcement.
+
+<a id="policy-lifecycle"></a>
+
+### Policy Lifecycle
+
+The controlled sequence of drafting, reviewing, approving, activating, observing, changing, and retiring a policy.
+
+Lifecycle controls preserve the ability to identify which policy version was active for a decision and who could authorize a change to that policy.
+
+<a id="policy-management-plane"></a>
+
+### Policy Management Plane
+
+The function or components that create, version, review, approve, activate, and retire policies.
+
+It is distinct from the point that decides or enforces one runtime action. Separating these planes limits the ability of an executor to alter the rule that governs its own request.
+
+<a id="policy-observability"></a>
+
+### Policy Observability
+
+The ability to determine which policy, data, decision, and enforcement result affected an action, and to investigate deviations or failures.
+
+Observability requires more than raw logs: relevant records must be attributable, sufficiently complete, and retained so that a reviewer can reconstruct the governed transition.
+
+<a id="portable-core"></a>
+
+### Portable Core
+
+A human-readable, versioned set of CHLOYA goals, constraints, decisions, contracts, project memory, and rules from which materials for particular executors are derived.
+
+It is portable across models and agent environments. Provider-specific adapters may transform or supplement it, but should not replace it as the project’s durable source of meaning.
+
+<a id="prepared-result"></a>
+
+### Prepared Result
+
+An artifact created by an executor that has not necessarily been accepted, integrated, activated, or published.
+
+Examples include an analysis, patch, migration, test, document, or escalation package. Calling it “prepared” preserves the distinction between a technically available output and a project-approved result.
+
+<a id="privileged-intermediary-problem"></a>
+
+### Privileged Intermediary Problem
+
+A situation in which a component with broader authority is used by another party to perform an action that party could not perform itself [140]. Also known as the *confused deputy problem*.
+
+The defense is to bind authority to the real requester, target resource, operation, and context rather than letting a privileged intermediary apply its own broad permissions without distinction.
+
+<a id="probabilistic-component"></a>
+
+### Probabilistic Component
+
+A part of a system that uses probabilistic computation to interpret a goal, analyze context, make a plan, or propose an action.
+
+Its output does not replace independent authority, invariant, or consequence checks. CHLOYA uses probabilistic components for reasoning while keeping binding transitions in deterministic controls where possible.
+
+<a id="project-memory"></a>
+
+### Project Memory
+
+A portable, versionable representation of consequential project knowledge, including decisions, contracts, risks, verification results, and reasons for important choices.
+
+Project memory must make continuation possible without the same model, provider, or chat history. It is not merely a vector index or an archive of uncurated conversation.
+
+<a id="project-memory-provider-independence"></a>
+
+### Project-Memory Provider Independence
+
+The property that project memory remains usable after changing a model, platform, provider, or agent environment.
+
+Independence reduces lock-in and preserves human reviewability. It requires stable, project-controlled artifacts rather than knowledge held only in a vendor session or proprietary agent state.
+
+<a id="project-owned-memory"></a>
+
+### Project-Owned Memory
+
+Project memory controlled, stored, versioned, and made available by the project rather than by a particular model, provider, or agent platform.
+
+The project can therefore inspect, correct, transfer, and preserve it even when a temporary executor or service is replaced.
+
+<a id="project-state-transition"></a>
+
+### Project-State Transition
+
+The governed inclusion of a prepared result in the current project state.
+
+Its stages can include verification, acceptance, merge, deployment, activation, or publication, but permission for one does not automatically permit the next. Explicit transitions prevent a proposal from acquiring consequences merely because a tool can reach the next stage.
+
+<a id="prompt-injection"></a>
+
+### Prompt Injection
+
+An attempt to influence an executor through instructions embedded in data it processes, such as a document, web page, repository content, comment, or tool output [83]–[89].
+
+The injected text can be persuasive, indirect, or formatted as if it were authoritative. The operational defense is to treat processed material as data, constrain tool authority, and require deterministic authorization before external effects.
+
+<a id="proposed-action"></a>
+
+### Proposed Action
+
+A formal request to perform a specific operation, recording the operation, initiator, resource, parameters, and expected effect.
+
+It is not authorization to execute the operation. A proposal becomes executable only after the applicable policy and authority checks approve this particular request.
+
+<a id="proposed-result"></a>
+
+### Proposed Result
+
+A candidate solution, plan, change, or artifact that lacks sufficient evidence and has not been accepted by the project.
+
+The label makes uncertainty visible. It avoids presenting a fluent model answer or an unreviewed patch as canonical project state.
+[Back to top](#alphabetical-contents)
+
+---
+
+<a id="q"></a>
+
+## Q
+
+[Back to top](#alphabetical-contents)
+
+---
+
+<a id="r"></a>
+
+## R
+
+<a id="reasoning-plane"></a>
+
+### Reasoning Plane
+
+The part of an architecture in which a person or probabilistic component interprets goals, analyzes context, and proposes actions. It does not itself make execution permissible.
+
+<a id="reference-monitor"></a>
+
+### Reference Monitor
+
+A trusted mechanism that mediates each protected access according to policy, remains protected from modification, and is small enough to be analyzed [116], [117].
+
+<a id="residual-risk"></a>
+
+### Residual Risk
+
+Risk remaining after prescribed checks and controls have been applied. Verifiable readiness does not mean that all risk has disappeared.
+
+<a id="reversibility"></a>
+
+### Reversibility
+
+The ability to restore technical and factual state after an action. A backup, Git history, or reverse migration establishes only part of it.
+
+<a id="risk-adaptive-autonomy"></a>
+
+### Risk-Adaptive Autonomy
+
+An approach in which the permissible degree of executor autonomy is chosen from the risk, reversibility, consequence boundary, available evidence, and human-control requirements of the particular task.
+[Back to top](#alphabetical-contents)
+
+---
+
+<a id="s"></a>
+
+## S
+
+<a id="safe-state-after-suspension"></a>
+
+### Safe State After Suspension
+
+A task or system state in which stopping does not continue unauthorized impact and retained information is sufficient for later analysis and decision by a competent owner.
+
+It does not require completing the task or discarding every earlier result. It does exclude automatic continuation of a potentially harmful operation after the executor has been suspended.
+
+<a id="semantic-change-handoff"></a>
+
+### Semantic Change Handoff
+
+Transfer to another module or executor of the meaning and consequences of a change rather than the full development context.
+
+It identifies the affected contract, compatibility implications, consumers, required checks, and activation conditions. The receiving party gets the information needed to make its own bounded decision without unnecessary disclosure.
+
+<a id="sender-constrained-token"></a>
+
+### Sender-Constrained Token
+
+A token whose use requires proof of possession of a key or other identifier of a particular client or workload, reducing replay of a captured token [132], [133].
+
+Binding the token to a workload or client makes theft of the token value alone less useful, though the associated key and runtime identity must still be protected.
+
+<a id="separation-of-analysis-authorization-and-execution"></a>
+
+### Separation of Analysis, Authorization, and Execution
+
+The structural separation between proposing or analyzing an action, deciding whether it is allowed, and technically performing it.
+
+One participant may serve more than one function only when the distinction remains explicit, attributable, and controlled. The separation prevents a probabilistic suggestion from silently becoming both its own authorization and its own external effect.
+
+<a id="service-for-issuing-temporary-tokens"></a>
+
+### Service for Issuing Temporary Tokens
+
+A trusted service that issues short-lived, limited tokens or other technical authority for an authorized action and can revoke, rotate, or constrain that authority.
+
+It limits the need to give a model persistent credentials. Issuance should follow a specific authorization decision and bind the authority to the intended operation, resource, and workload where feasible.
+
+<a id="skill"></a>
+
+### Skill
+
+A package of instructions, knowledge, scenarios, or tools that extends an agent's capabilities for a defined class of work.
+
+Its format depends on the agent environment. A skill can standardize useful practice, but it is not an independent source of authority and must follow the task’s contracts and policy boundaries.
+
+<a id="slsa"></a>
+
+### SLSA
+
+*Supply-chain Levels for Software Artifacts* — a framework of practices and requirements for improving software supply-chain integrity [12].
+
+Its concepts can support evidence about build provenance and artifact integrity; they do not by themselves determine whether a change is authorized or acceptable to a project.
+
+<a id="spiffe"></a>
+
+### SPIFFE
+
+Specifications for identifying software workloads in dynamic, distributed infrastructure [130]. The name expands to *Secure Production Identity Framework for Everyone*.
+
+SPIFFE supports a distinct workload identity so a runtime need not impersonate a shared human or service account when requesting bounded technical authority.
+
+<a id="spiffe-id"></a>
+
+### SPIFFE ID
+
+A standardized workload identifier in the SPIFFE ecosystem. It identifies a workload within a trust domain and is not itself a secret [130].
+
+The identifier is an input to trust and policy decisions; possession of the string alone is not proof that a workload is the subject it names.
+
+<a id="spire"></a>
+
+### SPIRE
+
+An implementation of SPIFFE specifications that attests nodes and workloads and issues verifiable identity documents [130].
+
+It is one possible implementation for workload identity and short-lived credentials, rather than a required CHLOYA component.
+
+<a id="stopping-condition"></a>
+
+### Stopping Condition
+
+A predefined circumstance in which an executor must not continue an action.
+
+Examples include missing required context, sensitive data outside the approved boundary, an unverified result, a conflict with an invariant, or an irreversible external action. A stopping condition makes suspension or escalation a specified response, not an improvised failure.
+
+<a id="structured-authorization-request"></a>
+
+### Structured Authorization Request
+
+A machine-readable request that expresses an action, resource, parameters, and constraints so authorization can be decided with more precision than broad scopes alone.
+
+It can carry the details needed for typed authorization, such as the actual target, amount, environment, and conditions, while retaining a record of what was requested.
+
+<a id="suspension"></a>
+
+### Suspension
+
+A deliberate stop of an action until sufficient context, authority, evidence, or a competent owner's decision is available.
+
+Suspension can retain and hand over safe prepared results without applying them to project state. It is appropriate when continuing would require the executor to guess, extend its own authority, or create an uncontrolled effect.
+
+<a id="svid"></a>
+
+### SVID
+
+*SPIFFE Verifiable Identity Document* — a verifiable document binding a workload to a SPIFFE ID; it can be an X.509 certificate or JWT token [130].
+
+An SVID supplies proof of workload identity for a trust decision, not unlimited authorization for every action available to that workload.
+
+<a id="swe-bench"></a>
+
+### SWE-bench
+
+A benchmark of tasks for evaluating AI systems' ability to fix real software-repository issues [70].
+
+Benchmark performance may inform an assessment of an executor’s technical capability, but it does not establish its authority, a project’s risk tolerance, or readiness of a particular change.
+
+<a id="system-change"></a>
+
+### System Change
+
+A change whose consequences extend beyond a local implementation and require assessment across modules, contracts, products, or organizational processes.
+
+The change may be small in code terms while still being systemic because it affects an external interface, shared data, security posture, deployment behavior, or an organizational commitment.
+[Back to top](#alphabetical-contents)
+
+---
+
+<a id="t"></a>
+
+## T
+
+<a id="task-context-capsule"></a>
+
+### Task Context Capsule
+
+A structured, bounded package of information for a task, including its goal, constraints, applicable contracts, known risks, and required result format.
+
+A capsule can also name the authority boundary, evidence required, expected handoff form, and stopping or escalation conditions. It provides a reproducible starting point without transferring the entire project.
+
+<a id="temporary-ai-executor"></a>
+
+### Temporary AI Executor
+
+An AI executor whose participation is limited by task, stage, session, budget, or time.
+
+It must not become the only holder of project memory, architectural decisions, security rules, reasons for earlier choices, or current project state. The project must remain able to continue after replacing the model, agent, platform, or provider.
+
+<a id="token-introspection"></a>
+
+### Token Introspection
+
+An inquiry to an authorization server to determine whether a token is active and what authority it carries.
+
+Introspection can account for revocation and current state, but it depends on the central server’s availability and on clear semantics for which returned claims the enforcement point trusts.
+
+<a id="trust-metadata"></a>
+
+### Trust Metadata
+
+Recorded information about a material's provenance, source, integrity, classification, review, or permitted use that helps an executor and control plane evaluate its trust status.
+
+Metadata supports differentiated handling of context: for example, an approved contract may be authoritative, while a retrieved web page is analyzed as untrusted data.
+
+<a id="trust-surface"></a>
+
+### Trust Surface
+
+The set of components, interfaces, data, identities, and assumptions whose compromise or failure can affect whether a decision or action remains trustworthy.
+
+Mapping this surface helps decide which controls must be independent of a model and which data flows or intermediaries need special scrutiny.
+
+<a id="trusted-boundary"></a>
+
+### Trusted Boundary
+
+The boundary within which components, identities, data flows, and enforcement mechanisms are trusted to satisfy stated assumptions.
+
+Crossing the boundary requires explicit controls, such as verified identity, limited credentials, data restrictions, or an authorization decision. A network location alone is not necessarily a trusted boundary.
+
+<a id="trusted-computing-base"></a>
+
+### Trusted Computing Base
+
+The minimum set of hardware, software, policies, and procedures that must work correctly for a system's security properties to hold.
+
+The smaller and more analyzable the base, the more credible an enforcement claim can be. A model’s unrestricted reasoning should not be placed inside the trusted computing base for a consequential control when a deterministic alternative exists.
+
+<a id="typed-authorization"></a>
+
+### Typed Authorization
+
+An approach in which action admissibility is computed over formally described and verifiable types of subjects, actions, resources, attributes, and context.
+
+Typed authorization makes it harder to treat a broad natural-language request as sufficient permission. It enables a policy to decide on a specific operation and target rather than a vague class of intent.
+[Back to top](#alphabetical-contents)
+
+---
+
+<a id="u"></a>
+
+## U
+
+[Back to top](#alphabetical-contents)
+
+---
+
+<a id="v"></a>
+
+## V
+
+<a id="verifiable-readiness"></a>
+
+### Verifiable Readiness
+
+A result state in which conformity with the task, contracts, and constraints is confirmed by sufficient evidence.
+
+Completion of generation or a confident executor statement is not enough. Readiness is judged against the required evidence package, remaining risk, and the decision needed for the next transition.
+
+<a id="verified-result"></a>
+
+### Verified Result
+
+A prepared result that has completed the prescribed checks and whose results are available for decision-making.
+
+Verification reduces uncertainty but does not itself mean acceptance, integration, activation, or publication. Those transitions require the separately assigned authority.
+[Back to top](#alphabetical-contents)
+
+---
+
+<a id="w"></a>
+
+## W
+
+<a id="workload-identity"></a>
+
+### Workload Identity
+
+A verifiable identity of a program, process, container, or other workload used to make access and policy decisions independently of a human user's identity.
+
+It supports least privilege and double attribution by identifying the runtime that acts, while a separate record can identify the human or organizational owner of the goal and authority.
+
+<a id="workload-identity-federation"></a>
+
+### Workload Identity Federation
+
+A mechanism that exchanges a verified external workload identity for short-lived authority on a target platform without storing a permanent service key [136]–[138].
+
+Federation is useful for temporary executors because authority can be issued for the current workload and task rather than copied into a prompt, repository, or long-lived agent configuration.
+[Back to top](#alphabetical-contents)
+
+---
+
+<a id="x"></a>
+
+## X
+
+[Back to top](#alphabetical-contents)
+
+---
+
+<a id="y"></a>
+
+## Y
+
+<a id="yaml"></a>
+
+### YAML
+
+A text format for serializing structured data, often used for configuration and process descriptions.
+
+Like other project artifacts, YAML can contain untrusted content or operationally consequential configuration. It must be interpreted under the applicable task and authorization boundaries, not treated as self-authorizing instruction.
+[Back to top](#alphabetical-contents)
+
+---
+
+<a id="z"></a>
+
+## Z
+
+<a id="zero-trust-architecture"></a>
+
+### Zero Trust Architecture
+
+An architectural approach that does not grant trust merely because a subject is inside a corporate network, uses an organizational device, or has a prior session. Access follows identity, state, and applicable policy checks [127], [128].
+
+Zero trust architecture supports the CHLOYA distinction between an executor's presence in an environment and its authority for a particular operation.
+[Back to top](#alphabetical-contents)
+
+---
+
+## Using the glossary
+
+This is CHLOYA's public English glossary. English chapters keep their literary flow and use links to these definitions rather than repeated translations or long explanations.
+
+Entries are ordered under the English alphabet A–Z. Each term uses an explicit HTML anchor so that links do not depend on automatic anchor generation. Links belong in ordinary chapter text, not headings, diagrams, or reference-definition blocks.
+
+When Russian source material introduces a candidate term, its English equivalent is added here only after the Russian term and meaning are established. A glossary definition may cite the shared bibliography as `[N]` where needed.

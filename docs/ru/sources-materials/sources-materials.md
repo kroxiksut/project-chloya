@@ -134,3 +134,28 @@
 115. Cedar Policy Language. [Cedar Policy Language Reference Guide](https://docs.cedarpolicy.com/); [How Cedar Authorization Works](https://docs.cedarpolicy.com/auth/authorization.html). Дата обращения: 2026-07-30.
 116. Pang R., Caceres R., Burrows M. et al. [Zanzibar: Google’s Consistent, Global Authorization System](https://www.usenix.org/conference/atc19/presentation/pang). Proceedings of the 2019 USENIX Annual Technical Conference, pp. 33–46. Дата обращения: 2026-07-30.
 117. Yao S., Zhao J., Yu D. et al. [ReAct: Synergizing Reasoning and Acting in Language Models](https://arxiv.org/abs/2210.03629). International Conference on Learning Representations, 2023. Дата обращения: 2026-07-30.
+
+118. OASIS. [eXtensible Access Control Markup Language (XACML) Version 3.0 Plus Errata 01](https://docs.oasis-open.org/xacml/3.0/xacml-3.0-core-spec-en.html). OASIS Standard, 2013; Approved Errata 01, 2017. Дата обращения: 2026-07-31.
+119. Hu V. C., Ferraiolo D., Kuhn R. et al. [Guide to Attribute Based Access Control (ABAC) Definition and Considerations](https://doi.org/10.6028/NIST.SP.800-162). NIST Special Publication 800-162, updated 2019. Дата обращения: 2026-07-31.
+120. Amazon Web Services. [Amazon Verified Permissions Documentation](https://docs.aws.amazon.com/verifiedpermissions/). Дата обращения: 2026-07-31.
+121. OpenFGA. [OpenFGA Documentation](https://openfga.dev/docs). Cloud Native Computing Foundation. Дата обращения: 2026-07-31.
+122. AuthZed. [SpiceDB Documentation](https://authzed.com/docs/spicedb). Дата обращения: 2026-07-31.
+123. Casbin. [Casbin Documentation: How It Works](https://www.casbin.org/docs/how-it-works/). Дата обращения: 2026-07-31.
+124. Cutler J. W., Disselkoen C., Eline A. et al. [Cedar: A New Language for Expressive, Fast, Safe, and Analyzable Authorization](https://doi.org/10.1145/3649835). Proceedings of the ACM on Programming Languages, 2024, Vol. 8, OOPSLA1, pp. 670–697. Дата обращения: 2026-07-31.
+125. Disselkoen C., Eline A., He S. et al. [How We Built Cedar: A Verification-Guided Approach](https://arxiv.org/abs/2407.01688) (2024, preprint). Дата обращения: 2026-07-31.
+126. Vatsa A., Shome S., Zhou Y., Eiers W. [AutoCedar: An Agentic Framework for Verifier-Guided Access Control Policy Synthesis](https://arxiv.org/abs/2607.03656) (2026, preprint). Дата обращения: 2026-07-31.
+127. Rose S., Borchert O., Mitchell S., Connelly S. [Zero Trust Architecture](https://doi.org/10.6028/NIST.SP.800-207). NIST Special Publication 800-207, 2020. Дата обращения: 2026-07-31.
+128. Chandramouli R., Butcher Z. [A Zero Trust Architecture Model for Access Control in Cloud-Native Applications in Multi-Location Environments](https://doi.org/10.6028/NIST.SP.800-207A). NIST Special Publication 800-207A, 2023. Дата обращения: 2026-07-31.
+129. Booth H., Fisher W., Galluzzo R., Roberts J. [Accelerating the Adoption of Software and Artificial Intelligence Agent Identity and Authorization](https://www.nccoe.nist.gov/publications/other/accelerating-adoption-software-and-ai-agent-identity-and-authorization-concept). NIST NCCoE Concept Paper, Initial Public Draft, 2026. Дата обращения: 2026-07-31.
+130. Cloud Native Computing Foundation. [SPIFFE Specification, Workload API and SPIRE Documentation](https://spiffe.io/docs/latest/). Дата обращения: 2026-07-31.
+131. Jones M., Wahlstroem H., Erdtman S., Salgueiro G. [OAuth 2.0 Token Exchange](https://www.rfc-editor.org/rfc/rfc8693.html). RFC 8693, 2020. Дата обращения: 2026-07-31.
+132. Lodderstedt T., Bradley J., Labunets A., Fett D. [Best Current Practice for OAuth 2.0 Security](https://www.rfc-editor.org/rfc/rfc9700.html). RFC 9700, BCP 240, 2025. Дата обращения: 2026-07-31.
+133. Fett D., Campbell B., Bradley J. et al. [OAuth 2.0 Demonstrating Proof of Possession](https://www.rfc-editor.org/rfc/rfc9449.html). RFC 9449, 2023. Дата обращения: 2026-07-31.
+134. Campbell B., Bradley J., Tschofenig H. [Resource Indicators for OAuth 2.0](https://www.rfc-editor.org/rfc/rfc8707.html). RFC 8707, 2020. Дата обращения: 2026-07-31.
+135. Lodderstedt T., Richer J., Campbell B. [OAuth 2.0 Rich Authorization Requests](https://www.rfc-editor.org/rfc/rfc9396.html). RFC 9396, 2023. Дата обращения: 2026-07-31.
+136. Google Cloud. [Workload Identity Federation](https://cloud.google.com/iam/docs/workload-identity-federation). Дата обращения: 2026-07-31.
+137. Microsoft. [Microsoft Entra Workload ID and Workload Identity Federation](https://learn.microsoft.com/en-us/entra/workload-id/). Дата обращения: 2026-07-31.
+138. Amazon Web Services. [AWS Identity and Access Management Roles Anywhere](https://docs.aws.amazon.com/rolesanywhere/latest/userguide/introduction.html). Дата обращения: 2026-07-31.
+139. Birgisson A., Politz J. G., Erlingsson U. et al. [Macaroons: Cookies with Contextual Caveats for Decentralized Authorization in the Cloud](https://www.ndss-symposium.org/ndss2014/ndss-2014-programme/macaroons-cookies-contextual-caveats-decentralized-authorization-cloud/). NDSS Symposium, 2014. Дата обращения: 2026-07-31.
+140. Hardy N. [The Confused Deputy: Or Why Capabilities Might Have Been Invented](https://dl.acm.org/doi/10.1145/54289.871709). ACM SIGOPS Operating Systems Review, 1988, Vol. 22, No. 4, pp. 36–38. Дата обращения: 2026-07-31.
+141. Niyikiza N. A. [Attenuating Authorization Tokens for Agentic Delegation Chains](https://www.ietf.org/archive/id/draft-niyikiza-oauth-attenuating-agent-tokens-01.html). IETF Internet-Draft, Work in Progress, 2026. Дата обращения: 2026-07-31.
