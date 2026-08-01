@@ -159,3 +159,167 @@
 139. Birgisson A., Politz J. G., Erlingsson U. et al. [Macaroons: Cookies with Contextual Caveats for Decentralized Authorization in the Cloud](https://www.ndss-symposium.org/ndss2014/ndss-2014-programme/macaroons-cookies-contextual-caveats-decentralized-authorization-cloud/). NDSS Symposium, 2014. Дата обращения: 2026-07-31.
 140. Hardy N. [The Confused Deputy: Or Why Capabilities Might Have Been Invented](https://dl.acm.org/doi/10.1145/54289.871709). ACM SIGOPS Operating Systems Review, 1988, Vol. 22, No. 4, pp. 36–38. Дата обращения: 2026-07-31.
 141. Niyikiza N. A. [Attenuating Authorization Tokens for Agentic Delegation Chains](https://www.ietf.org/archive/id/draft-niyikiza-oauth-attenuating-agent-tokens-01.html). IETF Internet-Draft, Work in Progress, 2026. Дата обращения: 2026-07-31.
+142. Moreau L., Missier P. et al. [PROV-DM: The PROV Data Model](https://www.w3.org/TR/prov-dm/). W3C Recommendation, 30 April 2013. Дата обращения: 2026-08-01.
+
+143. OpenLineage. [OpenLineage Documentation and Specification](https://openlineage.io/docs/); [OpenLineage Specification](https://github.com/OpenLineage/OpenLineage/blob/main/spec/OpenLineage.md). Дата обращения: 2026-08-01.
+
+144. Denning D. E. [A Lattice Model of Secure Information Flow](https://doi.org/10.1145/360051.360056). Communications of the ACM, 1976, Vol. 19, No. 5, pp. 236–243.
+
+145. Myers A. C. [JFlow: Practical Mostly-Static Information Flow Control](https://www.cs.cornell.edu/andru/papers/popl99/popl99.pdf). Proceedings of the 26th ACM Symposium on Principles of Programming Languages, 1999, pp. 228–241.
+
+146. eullrich. [Prompt injection не чинится фильтром. Разбираем архитектуру, которая изолирует недоверенный текст](https://habr.com/ru/articles/1062548/). Хабр, 24 июля 2026 года. Дата обращения: 2026-08-01.
+
+147. artemidoor. [Ваш AI-агент не понимает код. Он просто очень уверенно угадывает — поэтому мы создали SLICER](https://habr.com/ru/articles/1063004/). Хабр, 26 июля 2026 года. Дата обращения: 2026-08-01.
+
+148. Гуляев И. [MCP Gateway: когда инструменты перестают быть интеграцией и становятся архитектурой](https://habr.com/ru/companies/runity/articles/1060856/). Хабр, блог компании Рунити, 20 июля 2026 года. Дата обращения: 2026-08-01.
+
+149. Sabelfeld A., Myers A. C. [Language-Based Information-Flow Security](https://doi.org/10.1109/JSAC.2002.806121). IEEE Journal on Selected Areas in Communications, 2003, Vol. 21, No. 1, pp. 5–19.
+
+150. Askarov A., Myers A. C. [Attacker Control and Impact for Confidentiality and Integrity](https://doi.org/10.2168/LMCS-7%283:17%292011). Logical Methods in Computer Science, 2011, Vol. 7, No. 3, Article 17.
+
+151. Souza R., Gueroudji A., DeWitt S. et al. [PROV-AGENT: Unified Provenance for Tracking AI Agent Interactions in Agentic Workflows](https://doi.org/10.1109/eScience65000.2025.00093). Proceedings of the 2025 IEEE International Conference on e-Science, 2025, pp. 467–473.
+152. Park J., Sandhu R. [The UCONABC Usage Control Model](https://doi.org/10.1145/984334.984339). ACM Transactions on Information and System Security, 2004, Vol. 7, No. 1, pp. 128–174.
+
+153. Schneider F. B. [Enforceable Security Policies](https://doi.org/10.1145/353323.353382). ACM Transactions on Information and System Security, 2000, Vol. 3, No. 1, pp. 30–50.
+
+154. Abadi M., Fournet C. [Access Control Based on Execution History](https://www.ndss-symposium.org/ndss2003/access-control-based-execution-history/). Proceedings of the Network and Distributed System Security Symposium, NDSS 2003. Дата обращения: 2026-08-01.
+
+155. Agent Client Protocol. [Architecture](https://agentclientprotocol.com/get-started/architecture); [Tool Calls — ACP v1](https://agentclientprotocol.com/protocol/v1/tool-calls). Дата обращения: 2026-08-01.
+
+156. Фролов С. [Claude Code умеет всё, кроме одного — слушаться вашу программу. Чиним это протоколом ACP](https://habr.com/ru/articles/1059218/). Хабр, 22 июля 2026 года. Дата обращения: 2026-08-01.
+157. Chen Z., Liu H., Xu D., Dong D., Li J., Pu B., Zhai J. [Cordon: Semantic Transactions for Tool-Using LLM Agents](https://arxiv.org/abs/2606.17573). 2026. Препринт arXiv:2606.17573; работа заявлена авторами как принятая к публикации на EuroSys 2027. Дата обращения: 2026-08-01.
+
+158. Mohammadi B., Potamitis N., Klein L. H., Arora A., Bindschaedler L. [Atomix: Timely, Transactional Tool Use for Reliable Agentic Workflows](https://arxiv.org/abs/2602.14849). 2026. ICLR 2026 Workshop *Agents in the Wild: Safety, Security, and Beyond*; arXiv:2602.14849. Дата обращения: 2026-08-01.
+
+159. Lilienthal D., Hong S. [Mind the Gap: Time-of-Check to Time-of-Use Vulnerabilities in LLM-Enabled Agents](https://arxiv.org/abs/2508.17155). 2025. NeurIPS 2025 Workshop on Machine Learning for Systems; arXiv:2508.17155. Дата обращения: 2026-08-01.
+
+160. Garcia-Molina H., Salem K. [Sagas](https://doi.org/10.1145/38713.38742). Proceedings of the 1987 ACM SIGMOD International Conference on Management of Data, 1987, pp. 249–259.
+
+161. Helland P. [Idempotence Is Not a Medical Condition](https://doi.org/10.1145/2160718.2160734). Communications of the ACM, 2012, Vol. 55, No. 5, pp. 56–65.
+
+162. Kung H. T., Robinson J. T. [On Optimistic Methods for Concurrency Control](https://doi.org/10.1145/319566.319567). ACM Transactions on Database Systems, 1981, Vol. 6, No. 2, pp. 213–226.
+
+163. Wei J., Pu C. [Modeling and Preventing TOCTTOU Vulnerabilities in Unix-style File Systems](https://doi.org/10.1016/j.cose.2010.09.004). Computers & Security, 2010, Vol. 29, No. 8, pp. 815–830.
+
+164. Zeng J., Wu E., Krishnan S. [A Simple and Fast Way to Handle Semantic Errors in Transactions](https://arxiv.org/abs/2412.12493). 2024. Препринт arXiv:2412.12493. Дата обращения: 2026-08-01.
+
+165. Zhai Z., Li M., Wang X. [Revisable by Design: A Theory of Streaming LLM Agent Execution](https://arxiv.org/abs/2604.23283). 2026. Препринт arXiv:2604.23283. Дата обращения: 2026-08-01.
+
+166. Фомин Д. С., Бальзамов А. В. [Проблематика обработки транзакций при использовании микросервисной архитектуры](https://doi.org/10.21685/2072-3059-2021-2-2) // Известия высших учебных заведений. Поволжский регион. Технические науки. 2021. № 2. С. 15–23. DOI: 10.21685/2072-3059-2021-2-2.
+
+167. Perera S., Hapuarachchi K., Leymann F., Khalaf R. [Robust Agent Compensation (RAC): Teaching AI Agents to Compensate](https://doi.org/10.1145/3786335.3813141). Proceedings of the ACM Conference on AI and Agentic Systems (ACM CAIS ’26), 2026, pp. 253–262.
+
+168. Saltzer J. H., Reed D. P., Clark D. D. [End-to-End Arguments in System Design](https://doi.org/10.1145/357401.357402). ACM Transactions on Computer Systems, 1984, Vol. 2, No. 4, pp. 277–288.
+169. Parasuraman R., Sheridan T. B., Wickens C. D. [A Model for Types and Levels of Human Interaction with Automation](https://doi.org/10.1109/3468.844354). IEEE Transactions on Systems, Man, and Cybernetics — Part A: Systems and Humans. 2000. Vol. 30, No. 3. P. 286–297.
+
+170. Onnasch L., Wickens C. D., Li H., Manzey D. [Human Performance Consequences of Stages and Levels of Automation: An Integrated Meta-Analysis](https://doi.org/10.1177/0018720813501549). Human Factors. 2014. Vol. 56, No. 3. P. 476–488.
+
+171. Bainbridge L. [Ironies of Automation](https://doi.org/10.1016/0005-1098%2883%2990046-8). Automatica. 1983. Vol. 19, No. 6. P. 775–779.
+
+172. Endsley M. R., Kiris E. O. [The Out-of-the-Loop Performance Problem and Level of Control in Automation](https://doi.org/10.1518/001872095779064555). Human Factors. 1995. Vol. 37, No. 2. P. 381–394.
+
+173. Parasuraman R., Riley V. [Humans and Automation: Use, Misuse, Disuse, Abuse](https://doi.org/10.1518/001872097778543886). Human Factors. 1997. Vol. 39, No. 2. P. 230–253.
+
+174. Feigh K. M., Pritchett A. R. [Requirements for Effective Function Allocation: A Critical Review](https://doi.org/10.1177/1555343413490945). Journal of Cognitive Engineering and Decision Making. 2014. Vol. 8, No. 1. P. 23–32.
+
+175. Simkute A., Tankelevitch L., Kewenig V., Scott A. E., Sellen A., Rintel S. [Ironies of Generative AI: Understanding and Mitigating Productivity Loss in Human-AI Interactions](https://arxiv.org/abs/2402.11364). 2024. Препринт arXiv:2402.11364. Дата обращения: 2026-08-01.
+
+### Изменения для глоссария по разделу 5.9
+
+### Изменения для глоссария по разделу 5.8
+
+<a id="внешний-эффект"></a>
+
+#### Внешний эффект
+
+Наблюдаемое изменение авторитетного состояния системы, проекта либо внешней среды, возникшее вследствие исполнения действия.
+
+Внешним эффектом может быть изменение файла или базы данных, отправка сообщения, публикация артефакта, изменение инфраструктуры, проведение внешней операции или другое воздействие, выходящее за пределы чернового вычисления агента.
+
+Термин не означает, что эффект является нежелательным.
+
+**См. также:** [Подготовленный эффект](#подготовленный-эффект), [Граница фиксации эффекта](#граница-фиксации-эффекта), [Журнал внешних эффектов](#журнал-внешних-эффектов).
+
+---
+
+<a id="граница-фиксации-эффекта"></a>
+
+#### Граница фиксации эффекта
+
+Точка исполнительного процесса, при пересечении которой подготовленное изменение начинает воздействовать на авторитетное или внешнее состояние.
+
+До границы фиксации изменение должно по возможности оставаться доступным для проверки, замены или отказа без целевого внешнего эффекта.
+
+Для эффектов, которые невозможно полностью откатить после выпуска, граница фиксации является одной из основных точек применения обязательной политики.
+
+**См. также:** [Внешний эффект](#внешний-эффект), [Подготовленный эффект](#подготовленный-эффект), [Представление эффекта](#представление-эффекта).
+
+---
+
+<a id="журнал-внешних-эффектов"></a>
+
+#### Журнал внешних эффектов
+
+Прослеживаемая запись подготовленных, разрешённых, зафиксированных, повторённых, неудачных, частичных и компенсированных внешних эффектов.
+
+Журнал должен позволять связать эффект с задачей, делегированием, его представлением, исходным состоянием, решением о фиксации и подтверждённым результатом.
+
+Журнал внешних эффектов является логической ролью и не требует отдельной специализированной системы хранения.
+
+**См. также:** [Внешний эффект](#внешний-эффект), [Траектория агентного исполнения](#траектория-агентного-исполнения).
+
+---
+
+<a id="компенсирующее-действие"></a>
+
+#### Компенсирующее действие
+
+Новое действие, предназначенное для нейтрализации, уменьшения или предметного исправления последствий ранее зафиксированного внешнего эффекта [160], [167].
+
+Компенсация отличается от настоящего отката: она не означает, что первоначальный эффект не происходил, и сама является новым внешним эффектом.
+
+Компенсирующее действие требует собственных полномочий, условий применимости и проверки результата.
+
+**См. также:** [Внешний эффект](#внешний-эффект), [Журнал внешних эффектов](#журнал-внешних-эффектов).
+
+---
+
+<a id="неопределённый-исход-эффекта"></a>
+
+#### Неопределённый исход эффекта
+
+Состояние, при котором система не располагает достаточным подтверждением, чтобы установить, был ли внешний эффект применён полностью, частично либо не был применён.
+
+Типичный случай — потеря ответа после отправки запроса во внешнюю систему.
+
+Неопределённый исход не должен автоматически трактоваться как отсутствие эффекта или как успешное выполнение. До следующего значимого действия система должна по возможности установить авторитетное состояние, безопасно повторить тот же логический эффект либо приостановить выполнение.
+
+**См. также:** [Внешний эффект](#внешний-эффект), [Статус подтверждённости данных](#статус-подтверждённости-данных).
+
+---
+
+<a id="подготовленный-эффект"></a>
+
+#### Подготовленный эффект
+
+Конкретно определённое изменение состояния, сформированное для проверки, но ещё не применённое к целевой авторитетной или внешней системе.
+
+Подготовленный эффект должен по возможности содержать достаточно сведений, чтобы установить затрагиваемые ресурсы, параметры изменения и состояние, относительно которого изменение было построено.
+
+Подготовка не должна скрыто выполнять целевой внешний эффект; если подготовительная операция имеет собственные последствия, они рассматриваются отдельно.
+
+**См. также:** [Внешний эффект](#внешний-эффект), [Представление эффекта](#представление-эффекта), [Граница фиксации эффекта](#граница-фиксации-эффекта).
+
+---
+
+<a id="представление-эффекта"></a>
+
+#### Представление эффекта
+
+Проверяемое описание конкретного изменения, которое ожидается при фиксации подготовленного эффекта.
+
+Представлением может быть diff, plan, manifest, перечень затрагиваемых объектов, получатель и содержание сообщения, параметры платежа или описание изменения прав.
+
+Представление предназначено как для человеческой проверки, так и для применения автоматических политик, схем, инвариантов и других детерминированных проверок.
+
+**См. также:** [Подготовленный эффект](#подготовленный-эффект), [Граница фиксации эффекта](#граница-фиксации-эффекта).
