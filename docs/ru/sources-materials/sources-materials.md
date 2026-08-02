@@ -224,102 +224,96 @@
 
 175. Simkute A., Tankelevitch L., Kewenig V., Scott A. E., Sellen A., Rintel S. [Ironies of Generative AI: Understanding and Mitigating Productivity Loss in Human-AI Interactions](https://arxiv.org/abs/2402.11364). 2024. Препринт arXiv:2402.11364. Дата обращения: 2026-08-01.
 
-### Изменения для глоссария по разделу 5.9
+176. Zhu L., Lu Q., Ding M., Lee S. U., Wang C. *Designing Meaningful Human Oversight in AI*. AI and Ethics. 2026. Vol. 6. Article 286. DOI: 10.1007/s43681-026-01147-7.
 
-### Изменения для глоссария по разделу 5.8
+177. Amershi S., Weld D., Vorvoreanu M. et al. *Guidelines for Human-AI Interaction*. Proceedings of the 2019 CHI Conference on Human Factors in Computing Systems. 2019. Paper 3. P. 1–13. DOI: 10.1145/3290605.3300233.
 
-<a id="внешний-эффект"></a>
+178. Lee J. D., See K. A. *Trust in Automation: Designing for Appropriate Reliance*. Human Factors. 2004. Vol. 46, No. 1. P. 50–80. DOI: 10.1518/hfes.46.1.50_30392.
 
-#### Внешний эффект
+179. Parasuraman R., Manzey D. H. *Complacency and Bias in Human Use of Automation: An Attentional Integration*. Human Factors. 2010. Vol. 52, No. 3. P. 381–410. DOI: 10.1177/0018720810376055.
 
-Наблюдаемое изменение авторитетного состояния системы, проекта либо внешней среды, возникшее вследствие исполнения действия.
+180. Buçinca Z., Malaya M. B., Gajos K. Z. *To Trust or to Think: Cognitive Forcing Functions Can Reduce Overreliance on AI in AI-Assisted Decision-Making*. Proceedings of the ACM on Human-Computer Interaction. 2021. Vol. 5, CSCW1. Article 188. P. 1–21. DOI: 10.1145/3449287.
 
-Внешним эффектом может быть изменение файла или базы данных, отправка сообщения, публикация артефакта, изменение инфраструктуры, проведение внешней операции или другое воздействие, выходящее за пределы чернового вычисления агента.
+181. Mehrotra S., Degachi C., Vereschak O., Jonker C. M., Tielman M. L. *A Systematic Review on Fostering Appropriate Trust in Human-AI Interaction: Trends, Opportunities and Challenges*. ACM Journal on Responsible Computing. 2024. Vol. 1, No. 4. Article 26. P. 1–45. DOI: 10.1145/3696449.
 
-Термин не означает, что эффект является нежелательным.
+182. Raees M., Khan V.-J., Lykourentzou I., Papangelis K. *Do People Appropriately Rely on AI-Advice? An Analytical Review of HCI Research on Human-AI Decision-Making*. Proceedings of the 2026 CHI Conference on Human Factors in Computing Systems. 2026. Article 805. P. 1–24. DOI: 10.1145/3772318.3791467.
 
-**См. также:** [Подготовленный эффект](#подготовленный-эффект), [Граница фиксации эффекта](#граница-фиксации-эффекта), [Журнал внешних эффектов](#журнал-внешних-эффектов).
+183. Santoni de Sio F., van den Hoven J. *Meaningful Human Control over Autonomous Systems: A Philosophical Account*. Frontiers in Robotics and AI. 2018. Vol. 5. Article 15. DOI: 10.3389/frobt.2018.00015.
 
----
+184. Cavalcante Siebert L., Lupetti M. L., Aizenberg E. et al. *Meaningful Human Control: Actionable Properties for AI System Development*. AI and Ethics. 2023. Vol. 3. P. 241–255. DOI: 10.1007/s43681-022-00167-3.
 
-<a id="граница-фиксации-эффекта"></a>
+185. Vered M., Livni T., Howe P. D. L., Miller T., Sonenberg L. *The Effects of Explanations on Automation Bias*. Artificial Intelligence. 2023. Vol. 322. Article 103952. DOI: 10.1016/j.artint.2023.103952.
 
-#### Граница фиксации эффекта
+186. European Parliament and Council of the European Union. *Regulation (EU) 2024/1689 laying down harmonised rules on artificial intelligence (Artificial Intelligence Act)*. 2024. Article 14 — Human Oversight. CELEX: 32024R1689.
 
-Точка исполнительного процесса, при пересечении которой подготовленное изменение начинает воздействовать на авторитетное или внешнее состояние.
+187. Лучанинов В. *Разработчик 2.0. Следующий уровень абстракции*. Хабр. 2026. Статья 1065548. Дата обращения: 2026-08-02.
 
-До границы фиксации изменение должно по возможности оставаться доступным для проверки, замены или отказа без целевого внешнего эффекта.
+188. Kücking F., Hübner U., Przysucha M. et al. *Automation Bias in AI-Decision Support: Results from an Empirical Study*. Studies in Health Technology and Informatics. 2024. Vol. 317. P. 298–304. DOI: 10.3233/SHTI240871.
 
-Для эффектов, которые невозможно полностью откатить после выпуска, граница фиксации является одной из основных точек применения обязательной политики.
+189. Rosbach E., Ammeling J., Ganz J., Bertram C. A., Conrad T., Riener A., Aubreville M. *Stuck on Suggestions: Automation Bias, the Anchoring Effect, and the Factors That Shape Them in Computational Pathology*. Machine Learning for Biomedical Imaging. 2026. Vol. 2026. MELBA–BVM 2025 Special Issue. P. 126–147. DOI: 10.59275/j.melba.2026-87b1.
 
-**См. также:** [Внешний эффект](#внешний-эффект), [Подготовленный эффект](#подготовленный-эффект), [Представление эффекта](#представление-эффекта).
+190. Дробышев В. *«У вас в резюме указаны навыки ИИ. Что вы имели в виду?» Что отвечать, кроме количества потраченных токенов*. Хабр. 2026. Статья 1064110. Дата обращения: 2026-08-02.
 
----
+191. Александр (@bububebe). *7 месяцев вайбкодинга: как в одиночку делать то, что раньше требовало команду*. Хабр. 2026. Статья 1065582. Дата обращения: 2026-08-02.
 
-<a id="журнал-внешних-эффектов"></a>
+192. Razzhigaev A. (@Razant). *Мой агент Ouroboros побил Codex с Claude Code на Terminal-Bench, OSWorld и CL-Bench. Он написал себя сам*. Хабр, блог компании AIRI. 31 июля 2026 года. Статья 1065428. Дата обращения: 2026-08-02.
 
-#### Журнал внешних эффектов
+193. Краснобаев А. (@PsyGab). *ИИ-агент 4 месяца дежурит на наших прод-логах: 113 алертов, 2 галлюцинации и фикс за 3,5 часа*. Хабр. 2026. Статья 1065610. Дата обращения: 2026-08-02.
 
-Прослеживаемая запись подготовленных, разрешённых, зафиксированных, повторённых, неудачных, частичных и компенсированных внешних эффектов.
+194. Albada M. *Building Applications with AI Agents: Designing and Implementing Multiagent Systems*. O’Reilly Media, 2025. Chapter 13: Human-Agent Collaboration. ISBN 978-1-098-17650-1.
 
-Журнал должен позволять связать эффект с задачей, делегированием, его представлением, исходным состоянием, решением о фиксации и подтверждённым результатом.
+195. Sio U. N., Ormerod T. C. *Does Incubation Enhance Problem Solving? A Meta-Analytic Review*. Psychological Bulletin. 2009. Vol. 135, No. 1. P. 94–120. DOI: 10.1037/a0014212.
 
-Журнал внешних эффектов является логической ролью и не требует отдельной специализированной системы хранения.
+196. Sio U. N., Kotovsky K., Cagan J. *Fixation or Inspiration? A Meta-Analytic Review of the Role of Examples on Design Processes*. Design Studies. 2015. Vol. 39. P. 70–99. DOI: 10.1016/j.destud.2015.04.004.
 
-**См. также:** [Внешний эффект](#внешний-эффект), [Траектория агентного исполнения](#траектория-агентного-исполнения).
+197. Jiang S., Li W., Qian Y., Zhang Y., Luo J. *AutoTRIZ: Automating Engineering Innovation with TRIZ and Large Language Models*. Advanced Engineering Informatics. 2025. Vol. 65, Part C. Article 103312. DOI: 10.1016/j.aei.2025.103312.
 
----
+198. Jiang S., Hu J., Wood K. L., Luo J. *Data-Driven Design-by-Analogy: State of the Art and Future Directions*. Journal of Mechanical Design. 2022. Vol. 144, No. 2. Article 020801. DOI: 10.1115/1.4051681.
 
-<a id="компенсирующее-действие"></a>
+199. Liu X., Zhang Y. E., Kasprova V. et al. [AgentAbstain: Do LLM Agents Know When Not to Act?](https://arxiv.org/abs/2607.10059). 2026. Препринт arXiv:2607.10059. Дата обращения: 2026-08-02.
 
-#### Компенсирующее действие
+200. Gloaguen T., Mündler N., Müller M., Raychev V., Vechev M. [Coding Agents Don't Know When to Act](https://arxiv.org/abs/2605.07769). 2026. Препринт arXiv:2605.07769. Дата обращения: 2026-08-02.
 
-Новое действие, предназначенное для нейтрализации, уменьшения или предметного исправления последствий ранее зафиксированного внешнего эффекта [160], [167].
+201. Avizienis A., Laprie J.-C., Randell B., Landwehr C. [Basic Concepts and Taxonomy of Dependable and Secure Computing](https://doi.org/10.1109/TDSC.2004.2). IEEE Transactions on Dependable and Secure Computing. 2004. Vol. 1, No. 1. P. 11–33.
 
-Компенсация отличается от настоящего отката: она не означает, что первоначальный эффект не происходил, и сама является новым внешним эффектом.
+202. Saltzer J. H., Schroeder M. D. [The Protection of Information in Computer Systems](https://doi.org/10.1109/PROC.1975.9939). Proceedings of the IEEE. 1975. Vol. 63, No. 9. P. 1278–1308.
 
-Компенсирующее действие требует собственных полномочий, условий применимости и проверки результата.
+203. Rivera J. G., Danylyszyn A. A., Weinstock C., Sha L. R., Gagliardi M. [An Architectural Description of the Simplex Architecture](https://www.sei.cmu.edu/library/an-architectural-description-of-the-simplex-architecture/). Software Engineering Institute, Carnegie Mellon University. Technical Report CMU/SEI-96-TR-006. 1996. Дата обращения: 2026-08-02.
 
-**См. также:** [Внешний эффект](#внешний-эффект), [Журнал внешних эффектов](#журнал-внешних-эффектов).
+204. Slagel J. T., White L. M., Dutle A., Muñoz C. A., Crespo N. [A Formal Verification Framework for Runtime Assurance](https://doi.org/10.1007/978-3-031-60698-4_19). NASA Formal Methods 2024. Lecture Notes in Computer Science. 2024. P. 322–328. ([ResearchGate][8])
 
----
+205. Ulrich M. [Addressing Cascading Failures](https://sre.google/sre-book/addressing-cascading-failures/). In: *Site Reliability Engineering: How Google Runs Production Systems*. O’Reilly Media. Дата обращения: 2026-08-02.
 
-<a id="неопределённый-исход-эффекта"></a>
+206. Chacon S., Straub B. [Pro Git. 2nd Edition](https://git-scm.com/book/en/v2). Apress. 2014. Раздел 3: Git Branching. Дата обращения: 2026-08-02.
 
-#### Неопределённый исход эффекта
+207. IEEE. [IEEE Std 1012-2024 — IEEE Standard for System, Software, and Hardware Verification and Validation](https://standards.ieee.org/ieee/1012/7324/). IEEE Standards Association. Стандарт утверждён в 2024 году, опубликован 22 августа 2025 года. Дата обращения: 2026-08-02.
 
-Состояние, при котором система не располагает достаточным подтверждением, чтобы установить, был ли внешний эффект применён полностью, частично либо не был применён.
+208. NASA. [Distinctions between Product Verification and Product Validation](https://www.nasa.gov/reference/2-4-distinctions-between-product-verification-and-product-validation/); [Product Verification](https://www.nasa.gov/reference/5-3-product-verification/); [Product Validation](https://www.nasa.gov/reference/5-4-product-validation/). *NASA Systems Engineering Handbook*. Дата обращения: 2026-08-02.
 
-Типичный случай — потеря ответа после отправки запроса во внешнюю систему.
+209. Barr E. T., Harman M., McMinn P., Shahbaz M., Yoo S. [The Oracle Problem in Software Testing: A Survey](https://doi.org/10.1109/TSE.2014.2372785). IEEE Transactions on Software Engineering. 2015. Vol. 41, No. 5. P. 507–525. DOI: 10.1109/TSE.2014.2372785.
 
-Неопределённый исход не должен автоматически трактоваться как отсутствие эффекта или как успешное выполнение. До следующего значимого действия система должна по возможности установить авторитетное состояние, безопасно повторить тот же логический эффект либо приостановить выполнение.
+210. Claessen K., Hughes J. [QuickCheck: A Lightweight Tool for Random Testing of Haskell Programs](https://doi.org/10.1145/351240.351266). Proceedings of the Fifth ACM SIGPLAN International Conference on Functional Programming, ICFP ’00. 2000. P. 268–279. DOI: 10.1145/351240.351266.
 
-**См. также:** [Внешний эффект](#внешний-эффект), [Статус подтверждённости данных](#статус-подтверждённости-данных).
+211. Jia Y., Harman M. [An Analysis and Survey of the Development of Mutation Testing](https://doi.org/10.1109/TSE.2010.62). IEEE Transactions on Software Engineering. 2011. Vol. 37, No. 5. P. 649–678. DOI: 10.1109/TSE.2010.62.
 
----
+212. Chen T. Y., Kuo F.-C., Liu H., Poon P.-L., Towey D., Tse T. H., Zhou Z. Q. [Metamorphic Testing: A Review of Challenges and Opportunities](https://doi.org/10.1145/3143561). ACM Computing Surveys. 2018. Vol. 51, No. 1. Article 4. P. 4:1–4:27. DOI: 10.1145/3143561.
 
-<a id="подготовленный-эффект"></a>
+213. Leucker M., Schallhart C. [A Brief Account of Runtime Verification](https://doi.org/10.1016/j.jlap.2008.08.004). Journal of Logic and Algebraic Programming. 2009. Vol. 78, No. 5. P. 293–303. DOI: 10.1016/j.jlap.2008.08.004.
 
-#### Подготовленный эффект
+214. Sahoo P., Mittal G., Li X., Ma S., Steenhoek B., Lin P., Hu Y. [AgentLens: Revealing The Lucky Pass Problem in SWE-Agent Evaluation](https://arxiv.org/abs/2605.12925). 2026. Препринт arXiv:2605.12925. Дата обращения: 2026-08-02.
 
-Конкретно определённое изменение состояния, сформированное для проверки, но ещё не применённое к целевой авторитетной или внешней системе.
+215. Wang J., Hu Y., Yang W., Pan Z., Li X., Guo L.-Z. [Aligning Agents via Planning: A Benchmark for Trajectory-Level Reward Modeling](https://doi.org/10.18653/v1/2026.acl-long.1062). Proceedings of the 64th Annual Meeting of the Association for Computational Linguistics. 2026. P. 23174–23200. DOI: 10.18653/v1/2026.acl-long.1062.
 
-Подготовленный эффект должен по возможности содержать достаточно сведений, чтобы установить затрагиваемые ресурсы, параметры изменения и состояние, относительно которого изменение было построено.
+216. Shi L., Ma C., Liang W., Ma W., Vosoughi S. [Judging the Judges: A Systematic Study of Position Bias in LLM-as-a-Judge](https://arxiv.org/abs/2406.07791). 2024. Препринт arXiv:2406.07791. Дата обращения: 2026-08-02.
 
-Подготовка не должна скрыто выполнять целевой внешний эффект; если подготовительная операция имеет собственные последствия, они рассматриваются отдельно.
+217. OpenAI. [Why SWE-bench Verified no longer measures frontier coding capabilities](https://openai.com/index/why-we-no-longer-evaluate-swe-bench-verified/). 23 февраля 2026 года. Дата обращения: 2026-08-02.
 
-**См. также:** [Внешний эффект](#внешний-эффект), [Представление эффекта](#представление-эффекта), [Граница фиксации эффекта](#граница-фиксации-эффекта).
+218. OpenAI. [Separating signal from noise in coding evaluations](https://openai.com/index/separating-signal-from-noise-coding-evaluations/). 8 июля 2026 года. Дата обращения: 2026-08-02.
 
----
+219. Konstantinou M., Tambon F., Papadakis M. [On the Risk of Coding Before Testing: An Empirical Study on LLM-Based Test Generation Workflow](https://arxiv.org/abs/2607.05139). 2026. Препринт arXiv:2607.05139. Дата обращения: 2026-08-02.
 
-<a id="представление-эффекта"></a>
+220. Zhao J., Zhou S., Cohen E. [Evaluating and Mitigating the Misguidance Effect of Buggy Code in LLM-Generated Unit Tests](https://arxiv.org/abs/2607.22883). ISSTA 2026 Research Papers. 2026. arXiv:2607.22883. Дата обращения: 2026-08-02.
 
-#### Представление эффекта
+221. Yu H., Chen T., Huang J., Li Z., Ran D., Wang X., Li Y., Marron A., Harel D., Xie Y., Xie T. [DeCon: Detecting Incorrect Assertions via Postconditions Generated by a Large Language Model](https://arxiv.org/abs/2501.02901). 2025. Препринт arXiv:2501.02901. Дата обращения: 2026-08-02.
 
-Проверяемое описание конкретного изменения, которое ожидается при фиксации подготовленного эффекта.
-
-Представлением может быть diff, plan, manifest, перечень затрагиваемых объектов, получатель и содержание сообщения, параметры платежа или описание изменения прав.
-
-Представление предназначено как для человеческой проверки, так и для применения автоматических политик, схем, инвариантов и других детерминированных проверок.
-
-**См. также:** [Подготовленный эффект](#подготовленный-эффект), [Граница фиксации эффекта](#граница-фиксации-эффекта).
+222. Arkes H. R., Blumer C. [The Psychology of Sunk Cost](https://doi.org/10.1016/0749-5978%2885%2990049-4). *Organizational Behavior and Human Decision Processes*. 1985. Vol. 35, No. 1. P. 124–140. DOI: 10.1016/0749-5978(85)90049-4.
