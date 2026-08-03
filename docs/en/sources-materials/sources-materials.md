@@ -114,3 +114,204 @@ The content of external materials, especially GitHub repositories, may change af
 98. Amershi S., Weld D., Vorvoreanu M. et al. [Guidelines for Human-AI Interaction](https://doi.org/10.1145/3290605.3300233). Proceedings of the 2019 CHI Conference on Human Factors in Computing Systems, 2019, Paper 3, pp. 1–13. Accessed: 2026-07-27.
 99. Parasuraman R., Sheridan T. B., Wickens C. D. [A Model for Types and Levels of Human Interaction with Automation](https://doi.org/10.1109/3468.844354). IEEE Transactions on Systems, Man, and Cybernetics — Part A: Systems and Humans, 2000, Vol. 30, No. 3, pp. 286–297. Accessed: 2026-07-27.
 100. Horvitz E. [Principles of Mixed-Initiative User Interfaces](https://doi.org/10.1145/302979.303030). Proceedings of the SIGCHI Conference on Human Factors in Computing Systems, 1999, pp. 159–166. Accessed: 2026-07-27.
+
+101. National Institute of Standards and Technology. [AI Agent Standards Initiative](https://www.nist.gov/artificial-intelligence/ai-agent-standards-initiative). 2026. Accessed: 2026-07-30.
+102. OpenAI. [Building a Safe, Effective Sandbox to Enable Codex on Windows](https://openai.com/index/building-codex-windows-sandbox/). 2026. Accessed: 2026-07-30.
+103. Anthropic. [Beyond Permission Prompts: Making Claude Code More Secure and Autonomous](https://www.anthropic.com/engineering/claude-code-sandboxing). 2025. Accessed: 2026-07-30.
+104. Huang L., Yu W., Ma W. et al. [A Survey on Hallucination in Large Language Models: Principles, Taxonomy, Challenges, and Open Questions](https://doi.org/10.1145/3703155). ACM Transactions on Information Systems, 2025, Vol. 43, No. 2, Article 42, pp. 1–55. Accessed: 2026-07-30.
+105. Huang J., Chen X., Mishra S. et al. [Large Language Models Cannot Self-Correct Reasoning Yet](https://arxiv.org/abs/2310.01798). International Conference on Learning Representations, 2024. Accessed: 2026-07-30.
+106. Fu T., Martínez G., Conde J. et al. [Beyond Reproducibility: Token Probabilities Expose Large Language Model Nondeterminism](https://arxiv.org/abs/2601.06118). 2026. Accessed: 2026-07-30.
+107. Uchibeke U. [Before the Tool Call: Deterministic Pre-Action Authorization for Autonomous AI Agents](https://arxiv.org/abs/2603.20953). 2026. Accessed: 2026-07-30.
+108. Kaptein M., Khan V.-J., Podstavnychy A. [Runtime Governance for AI Agents: Policies on Paths](https://arxiv.org/abs/2603.16586). 2026. Accessed: 2026-07-30.
+109. Replit. [Doubling Down on Our Commitment to Secure Vibe Coding](https://replit.com/blog/doubling-down-on-our-commitment-to-secure-vibe-coding). 2025. Accessed: 2026-07-30.
+110. NIST Computer Security Resource Center. [Glossary: Trusted Computing Base; Reference Monitor; Security Kernel](https://csrc.nist.gov/glossary). Accessed: 2026-07-30.
+111. Saltzer J. H., Schroeder M. D. [The Protection of Information in Computer Systems](https://web.mit.edu/Saltzer/www/publications/protection/). Proceedings of the IEEE, 1975, Vol. 63, No. 9, pp. 1278–1308. Accessed: 2026-07-30.
+112. Anderson J. P. [Computer Security Technology Planning Study](https://seclab.cs.ucdavis.edu/projects/history/papers/ande72.pdf). ESD-TR-73-51, U.S. Air Force Electronic Systems Division, 1972. Accessed: 2026-07-30.
+113. seL4 Foundation. [seL4 White Paper: An Introduction to seL4](https://sel4.systems/About/whitepaper.html); [Verification](https://sel4.systems/Verification/). Accessed: 2026-07-30.
+114. Open Policy Agent. [Open Policy Agent Documentation](https://www.openpolicyagent.org/docs); [Management APIs and Architecture](https://www.openpolicyagent.org/docs/management-introduction). Accessed: 2026-07-30.
+115. Cedar Policy Language. [Cedar Policy Language Reference Guide](https://docs.cedarpolicy.com/); [How Cedar Authorization Works](https://docs.cedarpolicy.com/auth/authorization.html). Accessed: 2026-07-30.
+116. Pang R., Caceres R., Burrows M. et al. [Zanzibar: Google’s Consistent, Global Authorization System](https://www.usenix.org/conference/atc19/presentation/pang). Proceedings of the 2019 USENIX Annual Technical Conference, pp. 33–46. Accessed: 2026-07-30.
+117. Yao S., Zhao J., Yu D. et al. [ReAct: Synergizing Reasoning and Acting in Language Models](https://arxiv.org/abs/2210.03629). International Conference on Learning Representations, 2023. Accessed: 2026-07-30.
+
+118. OASIS. [eXtensible Access Control Markup Language (XACML) Version 3.0 Plus Errata 01](https://docs.oasis-open.org/xacml/3.0/xacml-3.0-core-spec-en.html). OASIS Standard, 2013; Approved Errata 01, 2017. Accessed: 2026-07-31.
+119. Hu V. C., Ferraiolo D., Kuhn R. et al. [Guide to Attribute Based Access Control (ABAC) Definition and Considerations](https://doi.org/10.6028/NIST.SP.800-162). NIST Special Publication 800-162, updated 2019. Accessed: 2026-07-31.
+120. Amazon Web Services. [Amazon Verified Permissions Documentation](https://docs.aws.amazon.com/verifiedpermissions/). Accessed: 2026-07-31.
+121. OpenFGA. [OpenFGA Documentation](https://openfga.dev/docs). Cloud Native Computing Foundation. Accessed: 2026-07-31.
+122. AuthZed. [SpiceDB Documentation](https://authzed.com/docs/spicedb). Accessed: 2026-07-31.
+123. Casbin. [Casbin Documentation: How It Works](https://www.casbin.org/docs/how-it-works/). Accessed: 2026-07-31.
+124. Cutler J. W., Disselkoen C., Eline A. et al. [Cedar: A New Language for Expressive, Fast, Safe, and Analyzable Authorization](https://doi.org/10.1145/3649835). Proceedings of the ACM on Programming Languages, 2024, Vol. 8, OOPSLA1, pp. 670–697. Accessed: 2026-07-31.
+125. Disselkoen C., Eline A., He S. et al. [How We Built Cedar: A Verification-Guided Approach](https://arxiv.org/abs/2407.01688) (2024, preprint). Accessed: 2026-07-31.
+126. Vatsa A., Shome S., Zhou Y., Eiers W. [AutoCedar: An Agentic Framework for Verifier-Guided Access Control Policy Synthesis](https://arxiv.org/abs/2607.03656) (2026, preprint). Accessed: 2026-07-31.
+127. Rose S., Borchert O., Mitchell S., Connelly S. [Zero Trust Architecture](https://doi.org/10.6028/NIST.SP.800-207). NIST Special Publication 800-207, 2020. Accessed: 2026-07-31.
+128. Chandramouli R., Butcher Z. [A Zero Trust Architecture Model for Access Control in Cloud-Native Applications in Multi-Location Environments](https://doi.org/10.6028/NIST.SP.800-207A). NIST Special Publication 800-207A, 2023. Accessed: 2026-07-31.
+129. Booth H., Fisher W., Galluzzo R., Roberts J. [Accelerating the Adoption of Software and Artificial Intelligence Agent Identity and Authorization](https://www.nccoe.nist.gov/publications/other/accelerating-adoption-software-and-ai-agent-identity-and-authorization-concept). NIST NCCoE Concept Paper, Initial Public Draft, 2026. Accessed: 2026-07-31.
+130. Cloud Native Computing Foundation. [SPIFFE Specification, Workload API and SPIRE Documentation](https://spiffe.io/docs/latest/). Accessed: 2026-07-31.
+131. Jones M., Wahlstroem H., Erdtman S., Salgueiro G. [OAuth 2.0 Token Exchange](https://www.rfc-editor.org/rfc/rfc8693.html). RFC 8693, 2020. Accessed: 2026-07-31.
+132. Lodderstedt T., Bradley J., Labunets A., Fett D. [Best Current Practice for OAuth 2.0 Security](https://www.rfc-editor.org/rfc/rfc9700.html). RFC 9700, BCP 240, 2025. Accessed: 2026-07-31.
+133. Fett D., Campbell B., Bradley J. et al. [OAuth 2.0 Demonstrating Proof of Possession](https://www.rfc-editor.org/rfc/rfc9449.html). RFC 9449, 2023. Accessed: 2026-07-31.
+134. Campbell B., Bradley J., Tschofenig H. [Resource Indicators for OAuth 2.0](https://www.rfc-editor.org/rfc/rfc8707.html). RFC 8707, 2020. Accessed: 2026-07-31.
+135. Lodderstedt T., Richer J., Campbell B. [OAuth 2.0 Rich Authorization Requests](https://www.rfc-editor.org/rfc/rfc9396.html). RFC 9396, 2023. Accessed: 2026-07-31.
+136. Google Cloud. [Workload Identity Federation](https://cloud.google.com/iam/docs/workload-identity-federation). Accessed: 2026-07-31.
+137. Microsoft. [Microsoft Entra Workload ID and Workload Identity Federation](https://learn.microsoft.com/en-us/entra/workload-id/). Accessed: 2026-07-31.
+138. Amazon Web Services. [AWS Identity and Access Management Roles Anywhere](https://docs.aws.amazon.com/rolesanywhere/latest/userguide/introduction.html). Accessed: 2026-07-31.
+139. Birgisson A., Politz J. G., Erlingsson U. et al. [Macaroons: Cookies with Contextual Caveats for Decentralized Authorization in the Cloud](https://www.ndss-symposium.org/ndss2014/ndss-2014-programme/macaroons-cookies-contextual-caveats-decentralized-authorization-cloud/). NDSS Symposium, 2014. Accessed: 2026-07-31.
+140. Hardy N. [The Confused Deputy: Or Why Capabilities Might Have Been Invented](https://dl.acm.org/doi/10.1145/54289.871709). ACM SIGOPS Operating Systems Review, 1988, Vol. 22, No. 4, pp. 36–38. Accessed: 2026-07-31.
+141. Niyikiza N. A. [Attenuating Authorization Tokens for Agentic Delegation Chains](https://www.ietf.org/archive/id/draft-niyikiza-oauth-attenuating-agent-tokens-01.html). IETF Internet-Draft, Work in Progress, 2026. Accessed: 2026-07-31.
+142. Moreau L., Missier P. et al. [PROV-DM: The PROV Data Model](https://www.w3.org/TR/prov-dm/). W3C Recommendation, 30 April 2013. Accessed: 2026-08-01.
+
+143. OpenLineage. [OpenLineage Documentation and Specification](https://openlineage.io/docs/); [OpenLineage Specification](https://github.com/OpenLineage/OpenLineage/blob/main/spec/OpenLineage.md). Accessed: 2026-08-01.
+
+144. Denning D. E. [A Lattice Model of Secure Information Flow](https://doi.org/10.1145/360051.360056). Communications of the ACM, 1976, Vol. 19, No. 5, pp. 236–243.
+
+145. Myers A. C. [JFlow: Practical Mostly-Static Information Flow Control](https://www.cs.cornell.edu/andru/papers/popl99/popl99.pdf). Proceedings of the 26th ACM Symposium on Principles of Programming Languages, 1999, pp. 228–241.
+
+146. eullrich. [Prompt injection не чинится фильтром. Разбираем архитектуру, которая изолирует недоверенный текст](https://habr.com/ru/articles/1062548/). Habr, 24 July 2026. Accessed: 2026-08-01.
+
+147. artemidoor. [Ваш AI-агент не понимает код. Он просто очень уверенно угадывает — поэтому мы создали SLICER](https://habr.com/ru/articles/1063004/). Habr, 26 July 2026. Accessed: 2026-08-01.
+
+148. Гуляев И. [MCP Gateway: когда инструменты перестают быть интеграцией и становятся архитектурой](https://habr.com/ru/companies/runity/articles/1060856/). Habr, company blog Рунити, 20 July 2026. Accessed: 2026-08-01.
+
+149. Sabelfeld A., Myers A. C. [Language-Based Information-Flow Security](https://doi.org/10.1109/JSAC.2002.806121). IEEE Journal on Selected Areas in Communications, 2003, Vol. 21, No. 1, pp. 5–19.
+
+150. Askarov A., Myers A. C. [Attacker Control and Impact for Confidentiality and Integrity](https://doi.org/10.2168/LMCS-7%283:17%292011). Logical Methods in Computer Science, 2011, Vol. 7, No. 3, Article 17.
+
+151. Souza R., Gueroudji A., DeWitt S. et al. [PROV-AGENT: Unified Provenance for Tracking AI Agent Interactions in Agentic Workflows](https://doi.org/10.1109/eScience65000.2025.00093). Proceedings of the 2025 IEEE International Conference on e-Science, 2025, pp. 467–473.
+152. Park J., Sandhu R. [The UCONABC Usage Control Model](https://doi.org/10.1145/984334.984339). ACM Transactions on Information and System Security, 2004, Vol. 7, No. 1, pp. 128–174.
+
+153. Schneider F. B. [Enforceable Security Policies](https://doi.org/10.1145/353323.353382). ACM Transactions on Information and System Security, 2000, Vol. 3, No. 1, pp. 30–50.
+
+154. Abadi M., Fournet C. [Access Control Based on Execution History](https://www.ndss-symposium.org/ndss2003/access-control-based-execution-history/). Proceedings of the Network and Distributed System Security Symposium, NDSS 2003. Accessed: 2026-08-01.
+
+155. Agent Client Protocol. [Architecture](https://agentclientprotocol.com/get-started/architecture); [Tool Calls — ACP v1](https://agentclientprotocol.com/protocol/v1/tool-calls). Accessed: 2026-08-01.
+
+156. Фролов С. [Claude Code умеет всё, кроме одного — слушаться вашу программу. Чиним это протоколом ACP](https://habr.com/ru/articles/1059218/). Habr, 22 July 2026. Accessed: 2026-08-01.
+157. Chen Z., Liu H., Xu D., Dong D., Li J., Pu B., Zhai J. [Cordon: Semantic Transactions for Tool-Using LLM Agents](https://arxiv.org/abs/2606.17573). 2026. arXiv preprint arXiv:2606.17573; the authors state that the work has been accepted for publication at EuroSys 2027. Accessed: 2026-08-01.
+
+158. Mohammadi B., Potamitis N., Klein L. H., Arora A., Bindschaedler L. [Atomix: Timely, Transactional Tool Use for Reliable Agentic Workflows](https://arxiv.org/abs/2602.14849). 2026. ICLR 2026 Workshop *Agents in the Wild: Safety, Security, and Beyond*; arXiv:2602.14849. Accessed: 2026-08-01.
+
+159. Lilienthal D., Hong S. [Mind the Gap: Time-of-Check to Time-of-Use Vulnerabilities in LLM-Enabled Agents](https://arxiv.org/abs/2508.17155). 2025. NeurIPS 2025 Workshop on Machine Learning for Systems; arXiv:2508.17155. Accessed: 2026-08-01.
+
+160. Garcia-Molina H., Salem K. [Sagas](https://doi.org/10.1145/38713.38742). Proceedings of the 1987 ACM SIGMOD International Conference on Management of Data, 1987, pp. 249–259.
+
+161. Helland P. [Idempotence Is Not a Medical Condition](https://doi.org/10.1145/2160718.2160734). Communications of the ACM, 2012, Vol. 55, No. 5, pp. 56–65.
+
+162. Kung H. T., Robinson J. T. [On Optimistic Methods for Concurrency Control](https://doi.org/10.1145/319566.319567). ACM Transactions on Database Systems, 1981, Vol. 6, No. 2, pp. 213–226.
+
+163. Wei J., Pu C. [Modeling and Preventing TOCTTOU Vulnerabilities in Unix-style File Systems](https://doi.org/10.1016/j.cose.2010.09.004). Computers & Security, 2010, Vol. 29, No. 8, pp. 815–830.
+
+164. Zeng J., Wu E., Krishnan S. [A Simple and Fast Way to Handle Semantic Errors in Transactions](https://arxiv.org/abs/2412.12493). 2024. arXiv preprint arXiv:2412.12493. Accessed: 2026-08-01.
+
+165. Zhai Z., Li M., Wang X. [Revisable by Design: A Theory of Streaming LLM Agent Execution](https://arxiv.org/abs/2604.23283). 2026. arXiv preprint arXiv:2604.23283. Accessed: 2026-08-01.
+
+166. Фомин Д. С., Бальзамов А. В. [Проблематика обработки транзакций при использовании микросервисной архитектуры](https://doi.org/10.21685/2072-3059-2021-2-2) // Известия высших учебных заведений. Поволжский регион. Технические науки. 2021. № 2. С. 15–23. DOI: 10.21685/2072-3059-2021-2-2.
+
+167. Perera S., Hapuarachchi K., Leymann F., Khalaf R. [Robust Agent Compensation (RAC): Teaching AI Agents to Compensate](https://doi.org/10.1145/3786335.3813141). Proceedings of the ACM Conference on AI and Agentic Systems (ACM CAIS ’26), 2026, pp. 253–262.
+
+168. Saltzer J. H., Reed D. P., Clark D. D. [End-to-End Arguments in System Design](https://doi.org/10.1145/357401.357402). ACM Transactions on Computer Systems, 1984, Vol. 2, No. 4, pp. 277–288.
+169. Parasuraman R., Sheridan T. B., Wickens C. D. [A Model for Types and Levels of Human Interaction with Automation](https://doi.org/10.1109/3468.844354). IEEE Transactions on Systems, Man, and Cybernetics — Part A: Systems and Humans. 2000. Vol. 30, No. 3. P. 286–297.
+
+170. Onnasch L., Wickens C. D., Li H., Manzey D. [Human Performance Consequences of Stages and Levels of Automation: An Integrated Meta-Analysis](https://doi.org/10.1177/0018720813501549). Human Factors. 2014. Vol. 56, No. 3. P. 476–488.
+
+171. Bainbridge L. [Ironies of Automation](https://doi.org/10.1016/0005-1098%2883%2990046-8). Automatica. 1983. Vol. 19, No. 6. P. 775–779.
+
+172. Endsley M. R., Kiris E. O. [The Out-of-the-Loop Performance Problem and Level of Control in Automation](https://doi.org/10.1518/001872095779064555). Human Factors. 1995. Vol. 37, No. 2. P. 381–394.
+
+173. Parasuraman R., Riley V. [Humans and Automation: Use, Misuse, Disuse, Abuse](https://doi.org/10.1518/001872097778543886). Human Factors. 1997. Vol. 39, No. 2. P. 230–253.
+
+174. Feigh K. M., Pritchett A. R. [Requirements for Effective Function Allocation: A Critical Review](https://doi.org/10.1177/1555343413490945). Journal of Cognitive Engineering and Decision Making. 2014. Vol. 8, No. 1. P. 23–32.
+
+175. Simkute A., Tankelevitch L., Kewenig V., Scott A. E., Sellen A., Rintel S. [Ironies of Generative AI: Understanding and Mitigating Productivity Loss in Human-AI Interactions](https://arxiv.org/abs/2402.11364). 2024. arXiv preprint arXiv:2402.11364. Accessed: 2026-08-01.
+
+176. Zhu L., Lu Q., Ding M., Lee S. U., Wang C. *Designing Meaningful Human Oversight in AI*. AI and Ethics. 2026. Vol. 6. Article 286. DOI: 10.1007/s43681-026-01147-7.
+
+177. Amershi S., Weld D., Vorvoreanu M. et al. *Guidelines for Human-AI Interaction*. Proceedings of the 2019 CHI Conference on Human Factors in Computing Systems. 2019. Paper 3. P. 1–13. DOI: 10.1145/3290605.3300233.
+
+178. Lee J. D., See K. A. *Trust in Automation: Designing for Appropriate Reliance*. Human Factors. 2004. Vol. 46, No. 1. P. 50–80. DOI: 10.1518/hfes.46.1.50_30392.
+
+179. Parasuraman R., Manzey D. H. *Complacency and Bias in Human Use of Automation: An Attentional Integration*. Human Factors. 2010. Vol. 52, No. 3. P. 381–410. DOI: 10.1177/0018720810376055.
+
+180. Buçinca Z., Malaya M. B., Gajos K. Z. *To Trust or to Think: Cognitive Forcing Functions Can Reduce Overreliance on AI in AI-Assisted Decision-Making*. Proceedings of the ACM on Human-Computer Interaction. 2021. Vol. 5, CSCW1. Article 188. P. 1–21. DOI: 10.1145/3449287.
+
+181. Mehrotra S., Degachi C., Vereschak O., Jonker C. M., Tielman M. L. *A Systematic Review on Fostering Appropriate Trust in Human-AI Interaction: Trends, Opportunities and Challenges*. ACM Journal on Responsible Computing. 2024. Vol. 1, No. 4. Article 26. P. 1–45. DOI: 10.1145/3696449.
+
+182. Raees M., Khan V.-J., Lykourentzou I., Papangelis K. *Do People Appropriately Rely on AI-Advice? An Analytical Review of HCI Research on Human-AI Decision-Making*. Proceedings of the 2026 CHI Conference on Human Factors in Computing Systems. 2026. Article 805. P. 1–24. DOI: 10.1145/3772318.3791467.
+
+183. Santoni de Sio F., van den Hoven J. *Meaningful Human Control over Autonomous Systems: A Philosophical Account*. Frontiers in Robotics and AI. 2018. Vol. 5. Article 15. DOI: 10.3389/frobt.2018.00015.
+
+184. Cavalcante Siebert L., Lupetti M. L., Aizenberg E. et al. *Meaningful Human Control: Actionable Properties for AI System Development*. AI and Ethics. 2023. Vol. 3. P. 241–255. DOI: 10.1007/s43681-022-00167-3.
+
+185. Vered M., Livni T., Howe P. D. L., Miller T., Sonenberg L. *The Effects of Explanations on Automation Bias*. Artificial Intelligence. 2023. Vol. 322. Article 103952. DOI: 10.1016/j.artint.2023.103952.
+
+186. European Parliament and Council of the European Union. *Regulation (EU) 2024/1689 laying down harmonised rules on artificial intelligence (Artificial Intelligence Act)*. 2024. Article 14 — Human Oversight. CELEX: 32024R1689.
+
+187. Лучанинов В. *Разработчик 2.0. Следующий уровень абстракции*. Habr. 2026. Article 1065548. Accessed: 2026-08-02.
+
+188. Kücking F., Hübner U., Przysucha M. et al. *Automation Bias in AI-Decision Support: Results from an Empirical Study*. Studies in Health Technology and Informatics. 2024. Vol. 317. P. 298–304. DOI: 10.3233/SHTI240871.
+
+189. Rosbach E., Ammeling J., Ganz J., Bertram C. A., Conrad T., Riener A., Aubreville M. *Stuck on Suggestions: Automation Bias, the Anchoring Effect, and the Factors That Shape Them in Computational Pathology*. Machine Learning for Biomedical Imaging. 2026. Vol. 2026. MELBA–BVM 2025 Special Issue. P. 126–147. DOI: 10.59275/j.melba.2026-87b1.
+
+190. Дробышев В. *«У вас в резюме указаны навыки ИИ. Что вы имели в виду?» Что отвечать, кроме количества потраченных токенов*. Habr. 2026. Article 1064110. Accessed: 2026-08-02.
+
+191. Александр (@bububebe). *7 месяцев вайбкодинга: как в одиночку делать то, что раньше требовало команду*. Habr. 2026. Article 1065582. Accessed: 2026-08-02.
+
+192. Razzhigaev A. (@Razant). *Мой агент Ouroboros побил Codex с Claude Code на Terminal-Bench, OSWorld и CL-Bench. Он написал себя сам*. Habr, company blog AIRI. 31 July 2026. Article 1065428. Accessed: 2026-08-02.
+
+193. Краснобаев А. (@PsyGab). *ИИ-агент 4 месяца дежурит на наших прод-логах: 113 алертов, 2 галлюцинации и фикс за 3,5 часа*. Habr. 2026. Article 1065610. Accessed: 2026-08-02.
+
+194. Albada M. *Building Applications with AI Agents: Designing and Implementing Multiagent Systems*. O’Reilly Media, 2025. Chapter 13: Human-Agent Collaboration. ISBN 978-1-098-17650-1.
+
+195. Sio U. N., Ormerod T. C. *Does Incubation Enhance Problem Solving? A Meta-Analytic Review*. Psychological Bulletin. 2009. Vol. 135, No. 1. P. 94–120. DOI: 10.1037/a0014212.
+
+196. Sio U. N., Kotovsky K., Cagan J. *Fixation or Inspiration? A Meta-Analytic Review of the Role of Examples on Design Processes*. Design Studies. 2015. Vol. 39. P. 70–99. DOI: 10.1016/j.destud.2015.04.004.
+
+197. Jiang S., Li W., Qian Y., Zhang Y., Luo J. *AutoTRIZ: Automating Engineering Innovation with TRIZ and Large Language Models*. Advanced Engineering Informatics. 2025. Vol. 65, Part C. Article 103312. DOI: 10.1016/j.aei.2025.103312.
+
+198. Jiang S., Hu J., Wood K. L., Luo J. *Data-Driven Design-by-Analogy: State of the Art and Future Directions*. Journal of Mechanical Design. 2022. Vol. 144, No. 2. Article 020801. DOI: 10.1115/1.4051681.
+
+199. Liu X., Zhang Y. E., Kasprova V. et al. [AgentAbstain: Do LLM Agents Know When Not to Act?](https://arxiv.org/abs/2607.10059). 2026. arXiv preprint arXiv:2607.10059. Accessed: 2026-08-02.
+
+200. Gloaguen T., Mündler N., Müller M., Raychev V., Vechev M. [Coding Agents Don't Know When to Act](https://arxiv.org/abs/2605.07769). 2026. arXiv preprint arXiv:2605.07769. Accessed: 2026-08-02.
+
+201. Avizienis A., Laprie J.-C., Randell B., Landwehr C. [Basic Concepts and Taxonomy of Dependable and Secure Computing](https://doi.org/10.1109/TDSC.2004.2). IEEE Transactions on Dependable and Secure Computing. 2004. Vol. 1, No. 1. P. 11–33.
+
+202. Saltzer J. H., Schroeder M. D. [The Protection of Information in Computer Systems](https://doi.org/10.1109/PROC.1975.9939). Proceedings of the IEEE. 1975. Vol. 63, No. 9. P. 1278–1308.
+
+203. Rivera J. G., Danylyszyn A. A., Weinstock C., Sha L. R., Gagliardi M. [An Architectural Description of the Simplex Architecture](https://www.sei.cmu.edu/library/an-architectural-description-of-the-simplex-architecture/). Software Engineering Institute, Carnegie Mellon University. Technical Report CMU/SEI-96-TR-006. 1996. Accessed: 2026-08-02.
+
+204. Slagel J. T., White L. M., Dutle A., Muñoz C. A., Crespo N. [A Formal Verification Framework for Runtime Assurance](https://doi.org/10.1007/978-3-031-60698-4_19). NASA Formal Methods 2024. Lecture Notes in Computer Science. 2024. P. 322–328. ([ResearchGate][8])
+
+205. Ulrich M. [Addressing Cascading Failures](https://sre.google/sre-book/addressing-cascading-failures/). In: *Site Reliability Engineering: How Google Runs Production Systems*. O’Reilly Media. Accessed: 2026-08-02.
+
+206. Chacon S., Straub B. [Pro Git. 2nd Edition](https://git-scm.com/book/en/v2). Apress. 2014. Chapter 3: Git Branching. Accessed: 2026-08-02.
+
+207. IEEE. [IEEE Std 1012-2024 — IEEE Standard for System, Software, and Hardware Verification and Validation](https://standards.ieee.org/ieee/1012/7324/). IEEE Standards Association. Standard approved in 2024 and published on 22 August 2025. Accessed: 2026-08-02.
+
+208. NASA. [Distinctions between Product Verification and Product Validation](https://www.nasa.gov/reference/2-4-distinctions-between-product-verification-and-product-validation/); [Product Verification](https://www.nasa.gov/reference/5-3-product-verification/); [Product Validation](https://www.nasa.gov/reference/5-4-product-validation/). *NASA Systems Engineering Handbook*. Accessed: 2026-08-02.
+
+209. Barr E. T., Harman M., McMinn P., Shahbaz M., Yoo S. [The Oracle Problem in Software Testing: A Survey](https://doi.org/10.1109/TSE.2014.2372785). IEEE Transactions on Software Engineering. 2015. Vol. 41, No. 5. P. 507–525. DOI: 10.1109/TSE.2014.2372785.
+
+210. Claessen K., Hughes J. [QuickCheck: A Lightweight Tool for Random Testing of Haskell Programs](https://doi.org/10.1145/351240.351266). Proceedings of the Fifth ACM SIGPLAN International Conference on Functional Programming, ICFP ’00. 2000. P. 268–279. DOI: 10.1145/351240.351266.
+
+211. Jia Y., Harman M. [An Analysis and Survey of the Development of Mutation Testing](https://doi.org/10.1109/TSE.2010.62). IEEE Transactions on Software Engineering. 2011. Vol. 37, No. 5. P. 649–678. DOI: 10.1109/TSE.2010.62.
+
+212. Chen T. Y., Kuo F.-C., Liu H., Poon P.-L., Towey D., Tse T. H., Zhou Z. Q. [Metamorphic Testing: A Review of Challenges and Opportunities](https://doi.org/10.1145/3143561). ACM Computing Surveys. 2018. Vol. 51, No. 1. Article 4. P. 4:1–4:27. DOI: 10.1145/3143561.
+
+213. Leucker M., Schallhart C. [A Brief Account of Runtime Verification](https://doi.org/10.1016/j.jlap.2008.08.004). Journal of Logic and Algebraic Programming. 2009. Vol. 78, No. 5. P. 293–303. DOI: 10.1016/j.jlap.2008.08.004.
+
+214. Sahoo P., Mittal G., Li X., Ma S., Steenhoek B., Lin P., Hu Y. [AgentLens: Revealing The Lucky Pass Problem in SWE-Agent Evaluation](https://arxiv.org/abs/2605.12925). 2026. arXiv preprint arXiv:2605.12925. Accessed: 2026-08-02.
+
+215. Wang J., Hu Y., Yang W., Pan Z., Li X., Guo L.-Z. [Aligning Agents via Planning: A Benchmark for Trajectory-Level Reward Modeling](https://doi.org/10.18653/v1/2026.acl-long.1062). Proceedings of the 64th Annual Meeting of the Association for Computational Linguistics. 2026. P. 23174–23200. DOI: 10.18653/v1/2026.acl-long.1062.
+
+216. Shi L., Ma C., Liang W., Ma W., Vosoughi S. [Judging the Judges: A Systematic Study of Position Bias in LLM-as-a-Judge](https://arxiv.org/abs/2406.07791). 2024. arXiv preprint arXiv:2406.07791. Accessed: 2026-08-02.
+
+217. OpenAI. [Why SWE-bench Verified no longer measures frontier coding capabilities](https://openai.com/index/why-we-no-longer-evaluate-swe-bench-verified/). 23 February 2026. Accessed: 2026-08-02.
+
+218. OpenAI. [Separating signal from noise in coding evaluations](https://openai.com/index/separating-signal-from-noise-coding-evaluations/). 8 July 2026. Accessed: 2026-08-02.
+
+219. Konstantinou M., Tambon F., Papadakis M. [On the Risk of Coding Before Testing: An Empirical Study on LLM-Based Test Generation Workflow](https://arxiv.org/abs/2607.05139). 2026. arXiv preprint arXiv:2607.05139. Accessed: 2026-08-02.
+
+220. Zhao J., Zhou S., Cohen E. [Evaluating and Mitigating the Misguidance Effect of Buggy Code in LLM-Generated Unit Tests](https://arxiv.org/abs/2607.22883). ISSTA 2026 Research Papers. 2026. arXiv:2607.22883. Accessed: 2026-08-02.
+
+221. Yu H., Chen T., Huang J., Li Z., Ran D., Wang X., Li Y., Marron A., Harel D., Xie Y., Xie T. [DeCon: Detecting Incorrect Assertions via Postconditions Generated by a Large Language Model](https://arxiv.org/abs/2501.02901). 2025. arXiv preprint arXiv:2501.02901. Accessed: 2026-08-02.
+
+222. Arkes H. R., Blumer C. [The Psychology of Sunk Cost](https://doi.org/10.1016/0749-5978%2885%2990049-4). *Organizational Behavior and Human Decision Processes*. 1985. Vol. 35, No. 1. P. 124–140. DOI: 10.1016/0749-5978(85)90049-4.

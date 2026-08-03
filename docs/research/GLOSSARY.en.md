@@ -10,7 +10,6 @@ This glossary records the CHLOYA methodology's agreed English terminology. It is
 
 CHLOYA applies established engineering, risk-management, contract, least-privilege, human-control, and knowledge-management approaches to development involving temporary AI executors. A term's presence does not claim that CHLOYA first proposed the underlying idea.
 
----
 
 <a id="alphabetical-contents"></a>
 
@@ -18,7 +17,6 @@ CHLOYA applies established engineering, risk-management, contract, least-privile
 
 [A](#a) · [B](#b) · [C](#c) · [D](#d) · [E](#e) · [F](#f) · [G](#g) · [H](#h) · [I](#i) · [J](#j) · [K](#k) · [L](#l) · [M](#m) · [N](#n) · [O](#o) · [P](#p) · [Q](#q) · [R](#r) · [S](#s) · [T](#t) · [U](#u) · [V](#v) · [W](#w) · [X](#x) · [Y](#y) · [Z](#z)
 
----
 
 <a id="a"></a>
 
@@ -71,6 +69,60 @@ Activation is distinct from acceptance and integration. A change can be included
 Information directly transferred to an executor for the current task. It must be sufficient for the work, but need not contain every available project material.
 
 Active context is a deliberately selected working set, not a copy of repository history, chat history, or every document the project owns.
+
+<a id="acceptance-responsibility"></a>
+
+### Acceptance Responsibility
+
+The accountability of an authorized person or role for accepting a specific versioned result or effect within stated scope and conditions. It does not create a standing authorization for later changes.
+
+<a id="action-proposal"></a>
+
+### Action Proposal
+
+A formal request produced by a reasoning component that identifies an intended operation, initiator, target resource, material parameters, environment, and expected effect. It is input to authorization, not evidence of permission.
+
+<a id="actor"></a>
+
+### Actor
+
+The actual agent, workload, or execution component that performs a technical operation. The actor is recorded separately from the holder of the authority used.
+
+<a id="agent-execution-trajectory"></a>
+
+### Agent Execution Trajectory
+
+The observed sequence of policy-material states, proposals, decisions, operations, and outcomes within one task or related tasks.
+
+<a id="agent-trajectory"></a>
+
+### Agent Trajectory
+
+See [Agent Execution Trajectory](#agent-execution-trajectory).
+
+<a id="ai-control-cost"></a>
+
+### AI Control Cost
+
+The total cost of governing AI use, including integration, verification, policy enforcement, monitoring, human review, incident response, and maintenance—not only the price of a model call.
+
+<a id="attenuation"></a>
+
+### Attenuation
+
+The rule that a derived delegation may preserve or narrow its parent authority but must not expand it.
+
+<a id="automation-bias"></a>
+
+### Automation Bias
+
+The tendency to over-rely on an automated recommendation or fail to detect its error, especially under time pressure, repetition, or weak understanding of its basis.
+
+<a id="automation-profile"></a>
+
+### Automation Profile
+
+An explicit allocation of a workflow function’s stages among people, probabilistic components, and deterministic mechanisms, including authority and required checking points.
 
 <a id="agent-execution-identity"></a>
 
@@ -161,7 +213,6 @@ The trusted part of an architecture that determines whether a proposed action is
 **See also:** [Execution Plane](#execution-plane), [Policy](#policy), [Proposed Action](#proposed-action), [Reasoning Plane](#reasoning-plane).
 [Back to top](#alphabetical-contents)
 
----
 
 <a id="b"></a>
 
@@ -176,7 +227,6 @@ A token usable by any party that possesses its value, without proving possession
 Bearer tokens are convenient but increase the significance of storage, transport, lifetime, audience, and logging controls. Where the threat model requires it, sender-constrained tokens reduce this replay risk.
 [Back to top](#alphabetical-contents)
 
----
 
 <a id="c"></a>
 
@@ -359,7 +409,42 @@ The officially accepted set of code, documentation, contracts, decisions, and ot
 An executor's local result is not included automatically. The project must preserve a visible transition from proposal or local output to an accepted, canonical state.
 [Back to top](#alphabetical-contents)
 
----
+
+<a id="compensating-action"></a>
+
+### Compensating Action
+
+A new controlled effect intended to reduce or correct the consequence of an earlier external effect that cannot be genuinely rolled back.
+
+<a id="confirmed-baseline"></a>
+
+### Confirmed Baseline
+
+The latest state whose provenance, effects, and applicable constraints are known sufficiently to serve as a safe point for comparison, recovery, or new work.
+
+<a id="confused-deputy"></a>
+
+### Confused Deputy
+
+A vulnerability in which a component with broad authority is induced by a less-privileged party to exercise that authority on the party’s behalf.
+
+<a id="control-competence"></a>
+
+### Control Competence
+
+The knowledge, authority, and practical ability required for a person or role to make a substantive decision about a controlled proposal or effect.
+
+<a id="controlled-declassification"></a>
+
+### Controlled Declassification
+
+A policy-defined, verifiable procedure that changes or removes a data restriction after an appropriate transformation or confirmation; it is not a model’s informal claim that data are safe.
+
+<a id="control-plane"></a>
+
+### Control Plane
+
+The logical plane containing policies, permissions, action contracts, confirmed control parameters, and binding execution rules.
 
 <a id="d"></a>
 
@@ -446,7 +531,60 @@ This attribution distinguishes “who was permitted to decide” from “which a
 DPoP is one way to make a token sender-constrained, reducing the usefulness of a copied token value to a party that lacks the associated private key.
 [Back to top](#alphabetical-contents)
 
----
+
+<a id="data-confirmation-status"></a>
+
+### Data Confirmation Status
+
+The explicit status showing whether data are proposed, derived, independently confirmed, disputed, stale, or otherwise limited for a stated use.
+
+<a id="data-constraint-inheritance"></a>
+
+### Data-Constraint Inheritance
+
+The rule that restrictions of material input data remain associated with a derived object until a controlled procedure changes or removes them.
+
+<a id="data-not-instructions"></a>
+
+### Data-Are-Not-Instructions Principle
+
+The rule that untrusted content does not acquire control authority merely because a model can parse it as an instruction.
+
+<a id="data-plane"></a>
+
+### Data Plane
+
+The logical plane carrying documents, messages, source code, tool responses, and other processed content rather than binding control rules.
+
+<a id="data-profile"></a>
+
+### Data Provenance, Trust, and Use Profile
+
+A set of independently retained characteristics that records data source, confirmed properties, currency, sensitivity, transformations, restrictions, and permitted recipients or uses.
+
+<a id="data-provenance"></a>
+
+### Data Provenance
+
+The recorded history of data creation, acquisition, transformation, and responsible agents or systems.
+
+<a id="degradation-profile"></a>
+
+### Degradation Profile
+
+The specified capabilities, retained guarantees, prohibited effects, evidence requirements, and restoration conditions of a degraded operating mode.
+
+<a id="derived-data"></a>
+
+### Derived Data
+
+A new data object formed by transformation, combination, extraction, translation, classification, or generation from one or more inputs; it retains material provenance and applicable restrictions.
+
+<a id="dual-attribution"></a>
+
+### Dual Attribution
+
+Recording both the holder of the authority used and the actual executor that performed a material operation.
 
 <a id="e"></a>
 
@@ -549,7 +687,42 @@ An AI model or service that processes information outside the environment contro
 External hosting alone does not determine either the risk level or the model's quality.
 [Back to top](#alphabetical-contents)
 
----
+
+<a id="effect-commit-boundary"></a>
+
+### Effect Commitment Boundary
+
+The controlled transition at which a prepared effect is allowed to alter authoritative or external state.
+
+<a id="effect-representation"></a>
+
+### Effect Representation
+
+A checkable form of a prepared external effect, such as a diff, plan, manifest, recipient/content pair, amount, or change set.
+
+<a id="escalation-routing"></a>
+
+### Escalation Routing
+
+Directing a bounded decision and its evidence to the role that has the appropriate authority and competence to resolve it.
+
+<a id="external-control-loop"></a>
+
+### External Control Loop
+
+A mechanism outside the probabilistic component that observes, constrains, or authorizes actions and effects before they occur.
+
+<a id="external-effect"></a>
+
+### External Effect
+
+An observable change to authoritative project state, an information system, or the external world that leaves an agent’s draft computation.
+
+<a id="evidence-scope"></a>
+
+### Evidence Scope
+
+The declared claim, object version, environment, configuration, time, and conditions for which an item of evidence supports a conclusion; evidence outside that scope requires reassessment.
 
 <a id="f"></a>
 
@@ -564,7 +737,6 @@ A semantic area of an operating model that groups related functions, decisions, 
 Functional contours help allocate ownership and evidence without pretending that a real operational responsibility always maps one-to-one to an application component.
 [Back to top](#alphabetical-contents)
 
----
 
 <a id="g"></a>
 
@@ -595,7 +767,6 @@ Coordination of several executors, tools, and work stages with explicit allocati
 It does not require a single orchestration product. What matters is that coordination preserves boundaries and makes cross-executor transitions reviewable.
 [Back to top](#alphabetical-contents)
 
----
 
 <a id="h"></a>
 
@@ -634,7 +805,12 @@ The participant who determines a work's purpose, acceptable risk, consequential 
 The goal owner is distinct from the acting executor and may be distinct from a reviewer or policy enforcement component.
 [Back to top](#alphabetical-contents)
 
----
+
+<a id="human-decision-object"></a>
+
+### Human Decision Object
+
+A bounded, versioned representation of a proposal or effect that supplies an authorized person with the information needed to accept, deny, constrain, or redirect it.
 
 <a id="i"></a>
 
@@ -689,7 +865,12 @@ A property of a process or system that must remain true under permitted changes 
 CHLOYA invariants constrain meaning rather than prescribe one implementation. For example, replacing a model or platform must not remove human authority over consequential decisions or turn a proposal into accepted state without the required transition.
 [Back to top](#alphabetical-contents)
 
----
+
+<a id="information-flow"></a>
+
+### Information Flow
+
+The directed movement of data or derived data among objects, components, environments, or recipients, assessed by source, transformation, destination, purpose, and active authority.
 
 <a id="j"></a>
 
@@ -704,7 +885,6 @@ CHLOYA invariants constrain meaning rather than prescribe one implementation. Fo
 JSON can carry structured contracts or authorization requests, but a syntactically valid JSON object is not automatically a valid, authorized, or trusted instruction.
 [Back to top](#alphabetical-contents)
 
----
 
 <a id="k"></a>
 
@@ -712,7 +892,6 @@ JSON can carry structured contracts or authorization requests, but a syntactical
 
 [Back to top](#alphabetical-contents)
 
----
 
 <a id="l"></a>
 
@@ -775,7 +954,18 @@ An explicit assignment of responsibility for a module, contract, decision, chang
 Local definition makes responsibility usable at the point of work, while preserving escalation paths when the decision exceeds the area’s authority boundary.
 [Back to top](#alphabetical-contents)
 
----
+
+<a id="lethal-trifecta"></a>
+
+### Lethal Trifecta
+
+The combination of access to private data, exposure to untrusted content, and the ability to communicate externally, which enables prompt-injection-driven data exfiltration.
+
+<a id="localized-degradation"></a>
+
+### Localized Degradation
+
+Restriction of only the affected functions and dependencies when normal grounds are lost, while preserving unaffected confirmed operation and its guarantees.
 
 <a id="m"></a>
 
@@ -878,7 +1068,12 @@ Work divided among several AI executors or agents whose tasks, context, authorit
 Adding agents does not distribute accountability away. Each handoff must preserve decision context, the delegation envelope, and the integration conditions for the resulting artifacts.
 [Back to top](#alphabetical-contents)
 
----
+
+<a id="meaningful-human-control"></a>
+
+### Meaningful Human Control
+
+Control in which a competent, authorized person can understand, change, or refuse a concrete decision before the corresponding accountable effect occurs.
 
 <a id="n"></a>
 
@@ -901,7 +1096,6 @@ CHLOYA uses such risk-management guidance as an external reference, not as a cla
 Its practices can inform evidence, controls, and lifecycle work, while CHLOYA defines how temporary AI executors participate within explicit authority boundaries.
 [Back to top](#alphabetical-contents)
 
----
 
 <a id="o"></a>
 
@@ -940,7 +1134,6 @@ An agreed description of how CHLOYA turns a signal or intent into a bounded, ver
 It separates reasoning, authorization, and execution; identifies decision points; and records the evidence and project-memory update needed for a result to become usable by later participants.
 [Back to top](#alphabetical-contents)
 
----
 
 <a id="p"></a>
 
@@ -1103,7 +1296,36 @@ A candidate solution, plan, change, or artifact that lacks sufficient evidence a
 The label makes uncertainty visible. It avoids presenting a fluent model answer or an unreviewed patch as canonical project state.
 [Back to top](#alphabetical-contents)
 
----
+
+<a id="policy-enforcement-loop"></a>
+
+### Policy Enforcement Loop
+
+The runtime loop that receives a proposal, active policy version, and authoritative inputs; computes or receives a decision; enforces it; and retains material outcome evidence.
+
+<a id="policy-management-loop"></a>
+
+### Policy Management Loop
+
+The governed lifecycle through which a policy requirement is formalized, validated, approved, versioned, distributed, and activated.
+
+<a id="prepared-effect"></a>
+
+### Prepared Effect
+
+A concrete, checkable future state change that has not yet crossed the effect commitment boundary.
+
+<a id="progressive-delegation"></a>
+
+### Progressive Delegation
+
+A controlled expansion of a defined automation scope only after evidence supports it; the scope remains revocable and can also be narrowed.
+
+<a id="provenance-plane"></a>
+
+### Provenance Plane
+
+The logical plane linking data and control objects to their sources, versions, transformations, confirmations, and restrictions.
 
 <a id="q"></a>
 
@@ -1111,7 +1333,6 @@ The label makes uncertainty visible. It avoids presenting a fluent model answer 
 
 [Back to top](#alphabetical-contents)
 
----
 
 <a id="r"></a>
 
@@ -1148,7 +1369,42 @@ The ability to restore technical and factual state after an action. A backup, Gi
 An approach in which the permissible degree of executor autonomy is chosen from the risk, reversibility, consequence boundary, available evidence, and human-control requirements of the particular task.
 [Back to top](#alphabetical-contents)
 
----
+
+<a id="rar"></a>
+
+### Rich Authorization Requests (RAR)
+
+The OAuth mechanism for expressing detailed authorization parameters beyond ordinary scope strings, such as a particular action, object, amount, recipient, or condition.
+
+<a id="resource-indicator"></a>
+
+### Resource Indicator
+
+An OAuth parameter that associates a token with a particular protected resource or a narrowly defined audience.
+
+<a id="safe-degradation-mode"></a>
+
+### Safe Degradation Mode
+
+An operating mode that reduces permitted functionality after normal grounds are lost while retaining mandatory guarantees and explicit restoration conditions.
+
+<a id="scope"></a>
+
+### Scope
+
+The bounded set of authority, operations, resources, conditions, or effects to which a permission or delegation applies.
+
+<a id="sts"></a>
+
+### Security Token Service (STS)
+
+A trusted service that issues short-lived credentials or exchanges verified identity and authorization context for constrained technical authority.
+
+<a id="sufficient-deterministic-mechanism"></a>
+
+### Sufficient Deterministic Mechanism
+
+An existing or conventionally implementable non-probabilistic mechanism that provides a required function with acceptable quality, cost, and risk.
 
 <a id="s"></a>
 
@@ -1283,7 +1539,6 @@ A change whose consequences extend beyond a local implementation and require ass
 The change may be small in code terms while still being systemic because it affects an external interface, shared data, security posture, deployment behavior, or an organizational commitment.
 [Back to top](#alphabetical-contents)
 
----
 
 <a id="t"></a>
 
@@ -1354,7 +1609,54 @@ An approach in which action admissibility is computed over formally described an
 Typed authorization makes it harder to treat a broad natural-language request as sufficient permission. It enables a policy to decide on a specific operation and target rather than a vague class of intent.
 [Back to top](#alphabetical-contents)
 
----
+
+<a id="test-oracle"></a>
+
+### Test Oracle
+
+The defensible basis used to decide whether a test outcome is correct, such as a specification, invariant, trusted reference, authoritative state, or qualified human judgment.
+
+<a id="token-exchange"></a>
+
+### OAuth 2.0 Token Exchange
+
+The OAuth mechanism for exchanging one set of credentials for another while representing the subject, actual executor, audience, scope, and other delegation constraints where supported.
+
+<a id="trajectory-budget"></a>
+
+### Trajectory Budget
+
+An established limit on an accumulated effect along an execution trajectory, such as cost, operations, changed objects, transferred data, duration, retries, or subagents.
+
+<a id="trajectory-checkpoint"></a>
+
+### Trajectory Checkpoint
+
+A state or transition where risk changes materially and policy, delegation, data currency, or human participation must be reassessed.
+
+<a id="trajectory-policy"></a>
+
+### Trajectory Policy
+
+A policy whose decision depends on the current proposal together with relevant observed history, order of actions, accumulated effects, or preceding states.
+
+<a id="trajectory-segment"></a>
+
+### Trajectory Segment
+
+A bounded sequence of steps permitted between checkpoints within defined resources, tools, data, authority, and cumulative limits.
+
+<a id="trajectory-state"></a>
+
+### Trajectory State
+
+The minimum policy-material set of accumulated facts necessary to evaluate the next execution transition.
+
+<a id="uncertain-effect-outcome"></a>
+
+### Uncertain Effect Outcome
+
+A state in which the system cannot yet establish whether a proposed external operation took effect, so speculative retry or compensation is not justified.
 
 <a id="u"></a>
 
@@ -1362,7 +1664,6 @@ Typed authorization makes it harder to treat a broad natural-language request as
 
 [Back to top](#alphabetical-contents)
 
----
 
 <a id="v"></a>
 
@@ -1385,7 +1686,12 @@ A prepared result that has completed the prescribed checks and whose results are
 Verification reduces uncertainty but does not itself mean acceptance, integration, activation, or publication. Those transitions require the separately assigned authority.
 [Back to top](#alphabetical-contents)
 
----
+
+<a id="workload-federation"></a>
+
+### Workload Federation
+
+See [Workload Identity Federation](#workload-identity-federation).
 
 <a id="w"></a>
 
@@ -1408,7 +1714,6 @@ A mechanism that exchanges a verified external workload identity for short-lived
 Federation is useful for temporary executors because authority can be issued for the current workload and task rather than copied into a prompt, repository, or long-lived agent configuration.
 [Back to top](#alphabetical-contents)
 
----
 
 <a id="x"></a>
 
@@ -1416,7 +1721,6 @@ Federation is useful for temporary executors because authority can be issued for
 
 [Back to top](#alphabetical-contents)
 
----
 
 <a id="y"></a>
 
@@ -1431,7 +1735,12 @@ A text format for serializing structured data, often used for configuration and 
 Like other project artifacts, YAML can contain untrusted content or operationally consequential configuration. It must be interpreted under the applicable task and authorization boundaries, not treated as self-authorizing instruction.
 [Back to top](#alphabetical-contents)
 
----
+
+<a id="zero-trust"></a>
+
+### Zero Trust
+
+See [Zero Trust Architecture](#zero-trust-architecture).
 
 <a id="z"></a>
 
@@ -1446,7 +1755,6 @@ An architectural approach that does not grant trust merely because a subject is 
 Zero trust architecture supports the CHLOYA distinction between an executor's presence in an environment and its authority for a particular operation.
 [Back to top](#alphabetical-contents)
 
----
 
 ## Using the glossary
 

@@ -23,4 +23,6 @@ This log concisely records substantive methodology changes between iterations. I
 - Added the English translation of chapter 3, preserving its P1–P27 structure and shared bibliography numbering; the translation is in progress.
 - Published the English translation of chapter 4, preserving its structure and shared bibliography numbering; both language versions are under discussion.
 
+- Added the complete English translation of chapter 5, synchronized shared bibliography entries [101]–[222], and expanded the global English glossary for the chapter; the translation is under discussion.
+
 Substantive changes will be recorded here as version `0.3.1` chapters are developed and agreed.
