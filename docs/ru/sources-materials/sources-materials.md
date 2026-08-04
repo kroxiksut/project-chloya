@@ -359,3 +359,27 @@
 242. Newman S. [When an Agent Deletes the Production Database: Revisiting the PocketOS Incident](https://www.oreilly.com/radar/when-an-agent-deletes-the-production-database/). *O’Reilly Radar*. 19 May 2026. Отраслевой разбор практического инцидента. Дата обращения: 2026-08-03.
 
 243. OpenAI. [OpenAI and Hugging Face Partner to Address Security Incident During Model Evaluation](https://openai.com/index/hugging-face-model-evaluation-security-incident/). 21 July 2026. Первичный отраслевой отчёт об инциденте безопасности; описываемая среда являлась специальной оценкой кибервозможностей с ослабленными производственными защитами. Дата обращения: 2026-08-03.
+
+244. Albada M. [Building Applications with AI Agents: Designing and Implementing Multiagent Systems](https://www.oreilly.com/library/view/building-applications-with/9781098176495/ch08.html). O’Reilly Media, 2025. First Edition. ISBN 978-1-098-17650-1. Практическая монография; глава 8 рассматривает координацию через управляющего агента, иерархическую координацию, взаимодействие агентов и организацию многоагентной работы. Дата обращения: 2026-08-04.
+
+245. Yang Y., Chai H., Shao S., Song Y., Qi S., Rui R., Zhang W. [AgentNet: Decentralized Evolutionary Coordination for LLM-based Multi-Agent Systems](https://arxiv.org/abs/2504.00587). arXiv:2504.00587. 2025. Препринт. Дата обращения: 2026-08-04.
+
+246. Dong J.-K., Huang I.-W., Wu C.-T., Tsai Y.-t. [ETOM: A Five-Level Benchmark for Evaluating Tool Orchestration within the MCP Ecosystem](https://aclanthology.org/2026.findings-eacl.75/). *Findings of the Association for Computational Linguistics: EACL 2026*. P. 1453–1488. DOI: 10.18653/v1/2026.findings-eacl.75. Дата обращения: 2026-08-04.
+
+247. Zhang J., Fan Y., Cai K., Sun X., Wang K. [OSC: Cognitive Orchestration through Dynamic Knowledge Alignment in Multi-Agent LLM Collaboration](https://aclanthology.org/2025.findings-emnlp.335/). *Findings of the Association for Computational Linguistics: EMNLP 2025*. P. 6320–6337. DOI: 10.18653/v1/2025.findings-emnlp.335. Дата обращения: 2026-08-04.
+
+248. Anjum S., Zheng W., Kettimuthu R., Fan H., Feng Y. [ProMCP: Profiling Token Flows and Latency Costs in Model Context Protocol–Based LLM Agents](https://aclanthology.org/2026.findings-acl.1967/). *Findings of the Association for Computational Linguistics: ACL 2026*. P. 39476–39487. DOI: 10.18653/v1/2026.findings-acl.1967. Дата обращения: 2026-08-04.
+
+249. MaryNeKotova. [Ваш AI-агент не ошибся. Он точно выполнил плохую спецификацию](https://habr.com/ru/articles/1066182/). *Хабр*. 2026. Статья 1066182. Практическая аналитическая публикация, не научное исследование; полезна для рассмотрения агента как усилителя качества и дефектов спецификации, приоритета нормативных источников и явной миграции при конфликте кода и спецификации. Дата обращения: 2026-08-04.
+
+250. GitHub. [Spec Kit Documentation: Spec Persistence Models; Evolving Specs in Existing Projects](https://github.github.com/spec-kit/concepts/spec-persistence.html). 2026. Официальная документация инструмента; описывает способы поддержания спецификаций при развитии проекта и риск незаметного расхождения между спецификацией и нижележащими артефактами. Дата обращения: 2026-08-04.
+
+251. Kiecker T., Sparka J. A., Reuter M., Ziegler A., Grunske L. [CASCADE: Detecting Inconsistencies between Code and Documentation with Automatic Test Generation](https://doi.org/10.1145/3808175). *Proceedings of the ACM on Software Engineering*. 2026. Vol. 3, FSE. Article FSE168. P. 3816–3838. DOI: 10.1145/3808175. Дата обращения: 2026-08-04.
+
+252. Mazhar H. B., Wang Y., Mäntylä M. V. [Fault Injection in OpenAPI Specifications for Evaluating Black-Box Testing Effectiveness](https://arxiv.org/abs/2607.12101). arXiv:2607.12101. 2026. Препринт. Дата обращения: 2026-08-04.
+
+253. Lehvä J., Mäkitalo N., Mikkonen T. [Consumer-Driven Contract Tests for Microservices: A Case Study](https://doi.org/10.1007/978-3-030-35333-9_35). In: *Product-Focused Software Process Improvement, PROFES 2019*. Lecture Notes in Computer Science. Vol. 11915. Springer, 2019. P. 497–512. DOI: 10.1007/978-3-030-35333-9_35. Дата обращения: 2026-08-04.
+
+254. Li X. et al. [An Empirical Study on the State-of-the-Art Methods for Requirement-to-Code Traceability Link Recovery](https://doi.org/10.1016/j.jksuci.2024.102118). *Journal of King Saud University — Computer and Information Sciences*. 2024. Vol. 36, No. 6. Article 102118. DOI: 10.1016/j.jksuci.2024.102118. Дата обращения: 2026-08-04.
+
+255. Dasanayake S., Aaramaa S., Markkula J., Oivo M. [Impact of Requirements Volatility on Software Architecture: How Do Software Teams Keep Up with Ever-Changing Requirements?](https://doi.org/10.1002/smr.2160). *Journal of Software: Evolution and Process*. 2019. Vol. 31, No. 6. Article e2160. DOI: 10.1002/smr.2160. Дата обращения: 2026-08-04.
