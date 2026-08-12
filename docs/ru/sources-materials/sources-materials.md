@@ -383,3 +383,55 @@
 254. Li X. et al. [An Empirical Study on the State-of-the-Art Methods for Requirement-to-Code Traceability Link Recovery](https://doi.org/10.1016/j.jksuci.2024.102118). *Journal of King Saud University — Computer and Information Sciences*. 2024. Vol. 36, No. 6. Article 102118. DOI: 10.1016/j.jksuci.2024.102118. Дата обращения: 2026-08-04.
 
 255. Dasanayake S., Aaramaa S., Markkula J., Oivo M. [Impact of Requirements Volatility on Software Architecture: How Do Software Teams Keep Up with Ever-Changing Requirements?](https://doi.org/10.1002/smr.2160). *Journal of Software: Evolution and Process*. 2019. Vol. 31, No. 6. Article e2160. DOI: 10.1002/smr.2160. Дата обращения: 2026-08-04.
+
+256. Passi S., Dhanorkar S., Vorvoreanu M. [Appropriate Reliance on Generative AI: Research Synthesis](https://www.microsoft.com/en-us/research/publication/appropriate-reliance-on-generative-ai-research-synthesis/). Microsoft Research Technical Report MSR-TR-2024-7. March 2024. Исследовательский технический отчёт; синтез примерно 50 публикаций о чрезмерном и недостаточном доверии к генеративному ИИ. Дата обращения: 2026-08-04.
+
+257. Dikmen M., Burns C. [The Effects of Domain Knowledge on Trust in Explainable AI and Task Performance: A Case of Peer-to-Peer Lending](https://doi.org/10.1016/j.ijhcs.2022.102792). *International Journal of Human-Computer Studies*. 2022. Vol. 162. Article 102792. DOI: 10.1016/j.ijhcs.2022.102792. Дата обращения: 2026-08-04.
+
+258. Chen V., Liao Q. V., Vaughan J. W., Bansal G. [Understanding the Role of Human Intuition on Reliance in Human-AI Decision-Making with Explanations](https://doi.org/10.1145/3610219). *Proceedings of the ACM on Human-Computer Interaction*. 2023. Vol. 7, CSCW2. Article 370. P. 1–32. DOI: 10.1145/3610219. Дата обращения: 2026-08-04.
+
+259. Klingbeil A., Grützner C., Schreck P. [Trust and Reliance on AI — An Experimental Study on the Extent and Costs of Overreliance on AI](https://doi.org/10.1016/j.chb.2024.108352). *Computers in Human Behavior*. 2024. Vol. 160. Article 108352. DOI: 10.1016/j.chb.2024.108352. Дата обращения: 2026-08-04.
+
+260. Peng L., Li D., Zhang Z., Zhang T., Huang A., Yang S., Hu Y. [Human-AI Collaboration: Unraveling the Effects of User Proficiency and AI Agent Capability in Intelligent Decision Support Systems](https://doi.org/10.1016/j.ergon.2024.103629). *International Journal of Industrial Ergonomics*. 2024. Vol. 103. Article 103629. DOI: 10.1016/j.ergon.2024.103629. Дата обращения: 2026-08-04.
+
+261. Cecil J., Lermer E., Hudecek M. F. C., Sauer J., Gaube S. [Explainability Does Not Mitigate the Negative Impact of Incorrect AI Advice in a Personnel Selection Task](https://doi.org/10.1038/s41598-024-60220-5). *Scientific Reports*. 2024. Vol. 14. Article 9736. DOI: 10.1038/s41598-024-60220-5. Дата обращения: 2026-08-04.
+
+262. Grawitch M. J., Winton S. L., Mudigonda S. P. [Who Listens to ChatGPT and When Should They? A Two-Study Examination of AI-Assisted Decision Making](https://doi.org/10.1016/j.chbah.2026.100283). *Computers in Human Behavior: Artificial Humans*. 2026. Vol. 7. Article 100283. DOI: 10.1016/j.chbah.2026.100283. Дата обращения: 2026-08-04.
+
+263. de Jong S., Paananen V., Tag B., van Berkel N. [Cognitive Forcing for Better Decision-Making: Reducing Overreliance on AI Systems Through Partial Explanations](https://doi.org/10.1145/3710946). *Proceedings of the ACM on Human-Computer Interaction*. 2025. Vol. 9, No. 2. Article CSCW048. P. 1–30. DOI: 10.1145/3710946. Дата обращения: 2026-08-04.
+
+264. Lopopolo R. [Harness Engineering: Leveraging Codex in an Agent-First World](https://openai.com/index/harness-engineering/). *OpenAI Engineering*. 11 February 2026. Отраслевая публикация самой OpenAI о внутреннем эксперименте. Дата обращения: 2026-08-04.
+
+265. Adams C., Banga A. S., Bansal P. et al. [Automating Low-Risk Code Review at Meta: RADAR, Risk Calibration, and Review Efficiency](https://arxiv.org/abs/2605.30208). 2026. DOI: 10.1145/3643774. Крупномасштабное промышленное исследование Meta. Дата обращения: 2026-08-04.
+
+266. Zhong S., Noei S., Adams B., Zou Y. [From Human-Centric to Agentic Code Review: The Impact of Different Generations of Generative AI Technology on Review Quality](https://arxiv.org/abs/2607.13196). arXiv:2607.13196. 2026. Препринт. Дата обращения: 2026-08-04.
+
+267. Sonar. [2026 State of Code Developer Survey](https://www.sonarsource.com/the-state-of-code/developer-survey-report/). 2026. Отраслевой опрос поставщика средств анализа кода; 1149 респондентов. Дата обращения: 2026-08-04.
+
+268. Sjøberg D. I. K. [An Empirical Study of WIP in Kanban Teams](https://doi.org/10.1145/3239235.3239238). *Proceedings of the 12th ACM/IEEE International Symposium on Empirical Software Engineering and Measurement (ESEM 2018)*. 2018. P. 13:1–13:8. DOI: 10.1145/3239235.3239238. Дата обращения: 2026-08-04.
+
+269. Ram A., Sawant A. A., Castelluccio M., Bacchelli A. [What Makes a Code Change Easier to Review? An Empirical Investigation on Code Change Reviewability](https://doi.org/10.1145/3236024.3236080). *Proceedings of the 26th ACM Joint Meeting on European Software Engineering Conference and Symposium on the Foundations of Software Engineering (ESEC/FSE 2018)*. 2018. P. 201–212. DOI: 10.1145/3236024.3236080. Дата обращения: 2026-08-04.
+
+270. di Biase M., Bruntink M., van Deursen A., Bacchelli A. [The Effects of Change Decomposition on Code Review — A Controlled Experiment](https://doi.org/10.7717/peerj-cs.193). *PeerJ Computer Science*. 2019. Vol. 5. Article e193. P. 1–25. DOI: 10.7717/peerj-cs.193. Дата обращения: 2026-08-04.
+
+271. Tufano R., Dabić O., Mastropaolo A., Ciniselli M., Bavota G. [Code Review Automation: Strengths and Weaknesses of the State of the Art](https://arxiv.org/abs/2401.05136). 2024. Препринт arXiv:2401.05136. Дата обращения: 2026-08-04.
+
+272. Sclar M., Choi Y., Tsvetkov Y., Suhr A. [Quantifying Language Models' Sensitivity to Spurious Features in Prompt Design or: How I Learned to Start Worrying about Prompt Formatting](https://proceedings.iclr.cc/paper_files/paper/2024/hash/6c0e99d736da621403018ca7b32b1a4d-Abstract-Conference.html). *International Conference on Learning Representations (ICLR 2024)*. 2024. Дата обращения: 2026-08-04.
+
+273. Gloaguen T., Mündler N., Müller M. N., Raychev V., Vechev M. [Evaluating AGENTS.md: Are Repository-Level Context Files Helpful for Coding Agents?](https://arxiv.org/abs/2602.11988). *ICLR 2026 Workshop on Memory for LLM-Based Agentic Systems*. 2026. arXiv:2602.11988. Публикация специализированного семинара. Дата обращения: 2026-08-04.
+
+274. Ding D., Liu S., Yang E. et al. [OctoBench: Benchmarking Scaffold-Aware Instruction Following in Repository-Grounded Agentic Coding](https://aclanthology.org/2026.acl-long.269/). *Proceedings of the 64th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)*. 2026. P. 5958–5978. DOI: 10.18653/v1/2026.acl-long.269. Дата обращения: 2026-08-04.
+
+275. Wang B., Xu W., Li Y., Gao X., Xie Y., Sun H., Chen D. [Improving Code Localization with Repository Memory](https://www.microsoft.com/en-us/research/publication/improving-code-localization-with-repository-memory/). *International Conference on Learning Representations (ICLR 2026)*. 2026. Дата обращения: 2026-08-04.
+
+276. Liu S., Jiang B., Yang J., Li Y., Guo J., Liu X., Dai B. [Context as a Tool: Context Management for Long-Horizon SWE-Agents](https://aclanthology.org/2026.findings-acl.1032/). *Findings of the Association for Computational Linguistics: ACL 2026*. 2026. P. 20604–20617. DOI: 10.18653/v1/2026.findings-acl.1032. Дата обращения: 2026-08-04.
+
+277. Fu W., Qin X., Zhang J., Lin Q., Wutschitz L., Sim R., Rajmohan S., Zhang D. [CI-Work: Benchmarking Contextual Integrity in Enterprise LLM Agents](https://aclanthology.org/2026.acl-industry.103/). *Proceedings of the 64th Annual Meeting of the Association for Computational Linguistics, Volume 6: Industry Track*. 2026. P. 1483–1508. DOI: 10.18653/v1/2026.acl-industry.103. Дата обращения: 2026-08-12.
+
+278. Wang S., Yu F., Liu X., Qin X., Zhang J., Lin Q., Zhang D., Rajmohan S. [Privacy in Action: Towards Realistic Privacy Mitigation and Evaluation for LLM-Powered Agents](https://aclanthology.org/2025.findings-emnlp.925/). *Findings of the Association for Computational Linguistics: EMNLP 2025*. 2025. P. 17055–17074. DOI: 10.18653/v1/2025.findings-emnlp.925. Дата обращения: 2026-08-12.
+
+279. Shayesteh S., Wilson S. [From Conventional Web Privacy to Agentic Disclosure: How Tool Schemas May Invite LLM Oversharing](https://aclanthology.org/2026.privatenlp-main.1/). *Proceedings of the Seventh Workshop on Privacy in Natural Language Processing*. 2026. P. 1–6. DOI: 10.18653/v1/2026.privatenlp-main.1. Позиционная и диагностическая работа. Дата обращения: 2026-08-12.
+
+280. Chen Z., Zhang Y., Liu Y., Deng G., Li Y., Zhang Y., Ning J., Zhang L. Y., Ma L., Li Z. [Credential Leakage in LLM Agent Skills: A Large-Scale Empirical Study](https://arxiv.org/abs/2604.03070). arXiv:2604.03070. 2026. Препринт. Дата обращения: 2026-08-12.
+
+281. GitHub. [Content Exclusion for GitHub Copilot](https://docs.github.com/en/copilot/concepts/context/content-exclusion). *GitHub Docs*. 2026. Официальная документация продукта; отдельные агентные режимы не поддерживают механизм, а часть семантической информации может поступать косвенно через среду разработки. Дата обращения: 2026-08-12.
