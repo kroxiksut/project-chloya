@@ -435,3 +435,47 @@
 280. Chen Z., Zhang Y., Liu Y., Deng G., Li Y., Zhang Y., Ning J., Zhang L. Y., Ma L., Li Z. [Credential Leakage in LLM Agent Skills: A Large-Scale Empirical Study](https://arxiv.org/abs/2604.03070). arXiv:2604.03070. 2026. Препринт. Дата обращения: 2026-08-12.
 
 281. GitHub. [Content Exclusion for GitHub Copilot](https://docs.github.com/en/copilot/concepts/context/content-exclusion). *GitHub Docs*. 2026. Официальная документация продукта; отдельные агентные режимы не поддерживают механизм, а часть семантической информации может поступать косвенно через среду разработки. Дата обращения: 2026-08-12.
+
+282. Soria Parra D., Delimarsky D. [The 2026-07-28 Specification](https://modelcontextprotocol.io/specification/2026-07-28). *Model Context Protocol Blog*. 28 July 2026. Официальное описание выпуска спецификации MCP. Дата обращения: 2026-08-14.
+
+283. Model Context Protocol. [Security Best Practices](https://modelcontextprotocol.io/specification/2026-06-18/basic/security_best_practices); [Understanding Authorization in MCP](https://modelcontextprotocol.io/docs/tutorials/security/authorization). Official MCP Documentation. 2026. Дата обращения: 2026-08-14.
+
+284. Zhan Z., Zhou H., Li Z., Jing P., Li K., Haddadi H. [How Adversarial Environments Mislead Agentic AI?](https://aclanthology.org/2026.findings-acl.499/). *Findings of the Association for Computational Linguistics: ACL 2026*. 2026. P. 10264–10280. DOI: 10.18653/v1/2026.findings-acl.499. Дата обращения: 2026-08-14.
+
+285. Yergattikar S. [Securing the Tool Layer: A Threat Taxonomy and Runtime Defense Framework for Model Context Protocol Deployments](https://aclanthology.org/2026.acl-industry.58/). *Proceedings of the 64th Annual Meeting of the Association for Computational Linguistics, Volume 6: Industry Track*. 2026. P. 865–871. DOI: 10.18653/v1/2026.acl-industry.58. Дата обращения: 2026-08-14.
+
+286. Song H., Shen Y., Luo W., Guo L., Chen T., Wang J., Li B., Zhang X., Chen J. [Beyond the Protocol: Unveiling Attack Vectors in the Model Context Protocol Ecosystem](https://arxiv.org/abs/2506.02040). arXiv:2506.02040. 2025. Препринт. Дата обращения: 2026-08-14.
+
+287. Hasan M. M., Li H., Fallahzadeh E., Adams B., Hassan A. E. [Model Context Protocol (MCP) at First Glance: Studying the Security and Maintainability of MCP Servers](https://arxiv.org/abs/2506.13538). arXiv:2506.13538. 2025. Препринт. Дата обращения: 2026-08-14.
+
+288. Xia H., Wang H., Liu Z., Yu Q., Guo Y., Wang H. [SafeToolBench: Pioneering a Prospective Benchmark to Evaluating Tool Utilization Safety in LLMs](https://aclanthology.org/2025.findings-emnlp.958/). *Findings of the Association for Computational Linguistics: EMNLP 2025*. 2025. P. 17643–17660. DOI: 10.18653/v1/2025.findings-emnlp.958. Дата обращения: 2026-08-14.
+
+289. Mou Y., Xue Z., Li L., Liu P., Zhang S., Ye W., Shao J. [ToolSafe: Enhancing Tool Invocation Safety of LLM-based agents via Proactive Step-level Guardrail and Feedback](https://aclanthology.org/2026.findings-acl.1850/). *Findings of the Association for Computational Linguistics: ACL 2026*. 2026. P. 37125–37153. DOI: 10.18653/v1/2026.findings-acl.1850. Дата обращения: 2026-08-14.
+
+290. Liu X., Zhang Y. E., Kasprova V., Rabbani P., Zahraei P. S., Zhang T., Ebrahimpour-Boroojeny A., Chandrasekaran V. [AgentAbstain: Do LLM Agents Know When Not to Act?](https://arxiv.org/abs/2607.10059). arXiv:2607.10059. 2026. Препринт. Дата обращения: 2026-08-14.
+
+291. Zhou X., Wang W., Lu L., Shi J., Tie G., Yongtian X., Chen L., Zhou P., Gong N. Z., Sun L. [SafeAgent: Safeguarding LLM Agents via an Automated Risk Simulator](https://aclanthology.org/2026.acl-long.1501/). *Proceedings of the 64th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)*. 2026. P. 32516–32543. DOI: 10.18653/v1/2026.acl-long.1501. Дата обращения: 2026-08-14.
+
+292. OpenAI. [Running Codex safely at OpenAI](https://openai.com/index/codex-safety/). 8 May 2026. Отраслевая публикация разработчика продукта. Дата обращения: 2026-08-14.
+
+293. Zhai Z., Li M., Wang X. [Revisable by Design: A Theory of Streaming LLM Agent Execution](https://arxiv.org/abs/2604.23283). arXiv:2604.23283. 2026. Препринт. Дата обращения: 2026-08-14.
+
+294. Gloaguen T., Mündler N., Müller M., Raychev V., Vechev M. [Coding Agents Don't Know When to Act](https://arxiv.org/abs/2605.07769). arXiv:2605.07769. 2026. Препринт. Дата обращения: 2026-08-14.
+
+295. Barr E. T., Harman M., McMinn P., Shahbaz M., Yoo S. [The Oracle Problem in Software Testing: A Survey](https://doi.org/10.1109/TSE.2014.2372785). *IEEE Transactions on Software Engineering*. 2015. Vol. 41, No. 5. P. 507–525. DOI: 10.1109/TSE.2014.2372785. Дата обращения: 2026-08-14.
+
+296. Yu B., Zhu Y., He P., Kang D. [UTBoost: Rigorous Evaluation of Coding Agents on SWE-Bench](https://aclanthology.org/2025.acl-long.189/). *Proceedings of the 63rd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)*. 2025. P. 3762–3774. DOI: 10.18653/v1/2025.acl-long.189. Дата обращения: 2026-08-14.
+
+297. Sun Y., Zhao Y., Wang Y., Du Y., Ma Z., Wang J., Zhang M., Zhang K., Huang Z. [SWE-Mutation: Can LLMs Generate Reliable Test Suites in Software Engineering?](https://aclanthology.org/2026.findings-acl.1976/). *Findings of the Association for Computational Linguistics: ACL 2026*. 2026. P. 39651–39674. DOI: 10.18653/v1/2026.findings-acl.1976. Дата обращения: 2026-08-14.
+
+298. Zhao J., Zhou S., Cohen E. [Do Coverage and Mutation Scores of LLM-Generated Test Suites Correlate With Their Effectiveness? (Replicability Study)](https://arxiv.org/abs/2607.22880). *ISSTA 2026 Research Papers*. 2026. Принята к публикации; arXiv:2607.22880. Дата обращения: 2026-08-14.
+
+299. Ogenrwot D., Businge J. [AgenticFlict: A Large-Scale Dataset of Merge Conflicts in AI Coding Agent Pull Requests on GitHub](https://arxiv.org/abs/2604.03551). arXiv:2604.03551. 2026. Препринт и набор данных. Дата обращения: 2026-08-14.
+
+300. Xu G., Subramanian A., Karthik N. [AI Agent Pull Requests on GitHub: Frequency, Structure, and Merge Conflict Rates](https://arxiv.org/abs/2607.04697). arXiv:2607.04697. 2026. Препринт. Дата обращения: 2026-08-14.
+
+301. Geng J., Neubig G. [Effective Strategies for Asynchronous Software Engineering Agents](https://arxiv.org/abs/2603.21489). arXiv:2603.21489. 2026. Препринт. Дата обращения: 2026-08-14.
+
+302. Herzig K., Zeller A. [The Impact of Tangled Code Changes](https://doi.org/10.1109/MSR.2013.6624018). *Proceedings of the 10th Working Conference on Mining Software Repositories (MSR 2013)*. 2013. P. 121–130. DOI: 10.1109/MSR.2013.6624018. Дата обращения: 2026-08-14.
+
+303. Shen B., Xiao C., Meng N., He F. [Automatic Detection and Resolution of Software Merge Conflicts: Are We There Yet?](https://arxiv.org/abs/2102.11307). arXiv:2102.11307. 2021. Препринт. Дата обращения: 2026-08-14.
