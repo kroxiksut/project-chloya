@@ -479,3 +479,23 @@
 302. Herzig K., Zeller A. [The Impact of Tangled Code Changes](https://doi.org/10.1109/MSR.2013.6624018). *Proceedings of the 10th Working Conference on Mining Software Repositories (MSR 2013)*. 2013. P. 121–130. DOI: 10.1109/MSR.2013.6624018. Дата обращения: 2026-08-14.
 
 303. Shen B., Xiao C., Meng N., He F. [Automatic Detection and Resolution of Software Merge Conflicts: Are We There Yet?](https://arxiv.org/abs/2102.11307). arXiv:2102.11307. 2021. Препринт. Дата обращения: 2026-08-14.
+
+304. Aghajani E., Nagy C., Vega-Márquez O. L., Linares-Vásquez M., Moreno L., Bavota G., Lanza M. [Software Documentation Issues Unveiled](https://doi.org/10.1109/ICSE.2019.00122). *Proceedings of the 41st International Conference on Software Engineering (ICSE 2019)*. 2019. P. 1199–1210. DOI: 10.1109/ICSE.2019.00122. Дата обращения: 2026-08-16.
+
+305. Tan W. S., Wagner M., Treude C. *Detecting Outdated Code Element References in Software Repository Documentation*. *Empirical Software Engineering*. 2024. Vol. 29. Article 5.
+
+306. Yamasaki K. et al. [Who Writes the Docs in SE 3.0? Agent vs. Human Documentation Pull Requests](https://arxiv.org/abs/2601.20171). arXiv:2601.20171. 2026. Препринт. Дата обращения: 2026-08-16.
+
+307. Feng Z. et al. [Restructure This: Using AI to Restructure Onboarding Documents to Reduce Cognitive Overload](https://arxiv.org/abs/2605.19174). arXiv:2605.19174. 2026. Препринт. Дата обращения: 2026-08-16.
+
+308. Silva L., Unterkalmsteiner M., Wnuk K. [Towards Identifying and Minimizing Customer-Facing Documentation Debt](https://arxiv.org/abs/2402.11048). arXiv:2402.11048. 2024. Препринт. Дата обращения: 2026-08-16.
+
+309. Jabrayilzade E., Yurtoğlu A., Tüzün E. *Taxonomy of Inline Code Comment Smells*. *Empirical Software Engineering*. 2024. Vol. 29. Article 58.
+
+310. kroxiksut. [CommentRake — local-first tool for reviewing and cleaning unnecessary source-code comments](https://github.com/kroxiksut/CommentRake). GitHub repository. 2026. Собственный экспериментальный инженерный артефакт автора CHLOYA; не является независимым источником доказательств. Дата обращения: 2026-08-16.
+
+311. Mohanani R., Ralph P., Shreeve B. [Requirements Fixation](https://doi.org/10.1145/2568225.2568235). *Proceedings of the 36th International Conference on Software Engineering (ICSE 2014)*. 2014. P. 895–906. DOI: 10.1145/2568225.2568235. Дата обращения: 2026-08-16.
+
+312. Mohanani R., Turhan B., Ralph P. [Requirements Framing Affects Design Creativity](https://doi.org/10.1109/TSE.2019.2909033). *IEEE Transactions on Software Engineering*. 2021. Vol. 47, No. 5. P. 936–947. DOI: 10.1109/TSE.2019.2909033. Дата обращения: 2026-08-16.
+
+313. Mohanani R., Ralph P., Turhan B., Mandić V. [How Templated Requirements Specifications Inhibit Creativity in Software Engineering](https://doi.org/10.1109/TSE.2021.3112503). *IEEE Transactions on Software Engineering*. 2022. Vol. 48, No. 10. P. 4074–4086. DOI: 10.1109/TSE.2021.3112503. Дата обращения: 2026-08-16.
