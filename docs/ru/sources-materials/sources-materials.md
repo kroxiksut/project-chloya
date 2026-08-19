@@ -499,3 +499,55 @@
 312. Mohanani R., Turhan B., Ralph P. [Requirements Framing Affects Design Creativity](https://doi.org/10.1109/TSE.2019.2909033). *IEEE Transactions on Software Engineering*. 2021. Vol. 47, No. 5. P. 936–947. DOI: 10.1109/TSE.2019.2909033. Дата обращения: 2026-08-16.
 
 313. Mohanani R., Ralph P., Turhan B., Mandić V. [How Templated Requirements Specifications Inhibit Creativity in Software Engineering](https://doi.org/10.1109/TSE.2021.3112503). *IEEE Transactions on Software Engineering*. 2022. Vol. 48, No. 10. P. 4074–4086. DOI: 10.1109/TSE.2021.3112503. Дата обращения: 2026-08-16.
+
+314. Chen L., Zaharia M., Zou J. [FrugalGPT: How to Use Large Language Models While Reducing Cost and Improving Performance](https://arxiv.org/abs/2305.05176). *Transactions on Machine Learning Research*. 2024. arXiv:2305.05176. Дата обращения: 2026-08-17.
+
+315. Ong I., Almahairi A., Wu V., Chiang W.-L., Wu T., Gonzalez J. E., Kadous M. W., Stoica I. [RouteLLM: Learning to Route LLMs with Preference Data](https://arxiv.org/abs/2406.18665). *International Conference on Learning Representations (ICLR 2025)*. 2025. arXiv:2406.18665. Дата обращения: 2026-08-17.
+
+316. Hu Q. J., Bieker J., Li X., Jiang N., Keigwin B., Ranganath G., Keutzer K., Upadhyay S. K. [RouterBench: A Benchmark for Multi-LLM Routing System](https://arxiv.org/abs/2403.12031). arXiv:2403.12031. 2024. Препринт. Дата обращения: 2026-08-17.
+
+317. Li H. et al. [LLMRouterBench: A Massive Benchmark and Unified Framework for LLM Routing](https://aclanthology.org/2026.findings-acl.1881/). *Findings of the Association for Computational Linguistics: ACL 2026*. Association for Computational Linguistics, 2026. P. 37733–37754. DOI: 10.18653/v1/2026.findings-acl.1881. Дата обращения: 2026-08-17.
+
+318. Rabanser S. et al. [Gatekeeper: Improving Model Cascades Through Confidence Tuning](https://arxiv.org/abs/2502.19335). arXiv:2502.19335. 2025. Препринт. Дата обращения: 2026-08-17.
+
+319. Yang P. et al. [TwinRouterBench: Fast Static and Live Dynamic Evaluation for Realistic Agentic LLM Routing](https://arxiv.org/abs/2605.18859). arXiv:2605.18859. 2026. Препринт. Дата обращения: 2026-08-17.
+
+320. Hogan M., Liu F., Sokol A., Tong J. [NIST Cloud Computing Standards Roadmap](https://doi.org/10.6028/NIST.SP.500-291r2). NIST Special Publication 500-291, Revision 2. National Institute of Standards and Technology, 2013. DOI: 10.6028/NIST.SP.500-291r2. Дата обращения: 2026-08-19.
+
+321. JSON Schema. [JSON Schema Specification — Draft 2020-12](https://json-schema.org/draft/2020-12). JSON Schema Project, 2020. Дата обращения: 2026-08-19.
+
+322. Model Context Protocol. [Model Context Protocol Specification — 2026-07-28](https://modelcontextprotocol.io/specification/2026-07-28). Model Context Protocol Project, 2026. Дата обращения: 2026-08-19.
+
+323. Agent2Agent Protocol. [Agent2Agent (A2A) Protocol Specification, Version 1.0](https://a2a-protocol.org/v1.0.0/). A2A Protocol Project / Linux Foundation, 2026. Дата обращения: 2026-08-19.
+
+324. JSON Schema. [Draft 2020-12 Release Notes](https://json-schema.org/draft/2020-12/release-notes). JSON Schema Project. Дата обращения: 2026-08-19.
+
+325. Becker J., Rush N., Barnes B., Rein D. [Measuring the Impact of Early-2025 AI on Experienced Open-Source Developer Productivity](https://metr.org/Early_2025_AI_Experienced_OS_Devs_Study-paper.pdf). Model Evaluation & Threat Research, 2025. Дата обращения: 2026-08-19.
+
+326. Becker J., Rush N., Cunningham T., Rein D., Mahamud K. [We are Changing our Developer Productivity Experiment Design](https://metr.org/blog/2026-02-24-uplift-update/). Model Evaluation & Threat Research, 2026. Дата обращения: 2026-08-19.
+
+327. Zhang L. et al. [SWE-bench Goes Live!](https://arxiv.org/abs/2505.23419). arXiv:2505.23419. 2025. Препринт. Дата обращения: 2026-08-19.
+
+328. Garg S., Steenhoek B., Huang Y. [Saving SWE-Bench: A Benchmark Mutation Approach for Realistic Agent Evaluation](https://arxiv.org/abs/2510.08996). arXiv:2510.08996. 2025. Препринт. Дата обращения: 2026-08-19.
+
+329. Jha S. et al. [ProdCodeBench: A Production-Derived Benchmark for Evaluating AI Coding Agents](https://arxiv.org/abs/2604.01527). arXiv:2604.01527. 2026. Препринт. Дата обращения: 2026-08-19.
+
+330. Rein D. [Research Update: Algorithmic vs. Holistic Evaluation](https://metr.org/blog/2025-08-12-research-update-towards-reconciling-slowdown-with-time-horizons/). Model Evaluation & Threat Research, 2025. Дата обращения: 2026-08-19.
+
+331. Zhan Q., Liang Z., Ying Z., Kang D. [InjecAgent: Benchmarking Indirect Prompt Injections in Tool-Integrated Large Language Model Agents](https://doi.org/10.18653/v1/2024.findings-acl.624). *Findings of the Association for Computational Linguistics: ACL 2024*. 2024. P. 10471–10506. DOI: 10.18653/v1/2024.findings-acl.624. Дата обращения: 2026-08-19.
+
+332. Debenedetti E., Zhang J., Balunović M., Beurer-Kellner L., Fischer M., Tramèr F. [AgentDojo: A Dynamic Environment to Evaluate Prompt Injection Attacks and Defenses for LLM Agents](https://proceedings.neurips.cc/paper_files/paper/2024/hash/97091a5177d8dc64b1da8bf3e1f6fb54-Abstract-Datasets_and_Benchmarks_Track.html). *Advances in Neural Information Processing Systems, Datasets and Benchmarks Track*. 2024. Дата обращения: 2026-08-19.
+
+333. Debenedetti E. et al. [Defeating Prompt Injections by Design](https://arxiv.org/abs/2503.18813). *IEEE Conference on Secure and Trustworthy Machine Learning (SaTML 2026)*. 2026. arXiv:2503.18813. Дата обращения: 2026-08-19.
+
+334. Costa M. et al. [Securing AI Agents with Information-Flow Control](https://arxiv.org/abs/2505.23643). arXiv:2505.23643. 2025. Препринт. Дата обращения: 2026-08-19.
+
+335. Beurer-Kellner L. et al. [Design Patterns for Securing LLM Agents against Prompt Injections](https://arxiv.org/abs/2506.08837). arXiv:2506.08837. 2025. Препринт. Дата обращения: 2026-08-19.
+
+336. Schmotz D., Beurer-Kellner L., Abdelnabi S., Andriushchenko M. [Skill-Inject: Measuring Agent Vulnerability to Skill File Attacks](https://arxiv.org/abs/2602.20156). arXiv:2602.20156. 2026. Препринт. Дата обращения: 2026-08-19.
+
+337. Dziemian M. et al. [How Vulnerable Are AI Agents to Indirect Prompt Injections? Insights from a Large-Scale Public Competition](https://arxiv.org/abs/2603.15714). arXiv:2603.15714. 2026. Препринт. Дата обращения: 2026-08-19.
+
+338. Dash P., Ge T., Jain A., Shah T., Shang Z. [From Untrusted Input to Trusted Memory: A Systematic Study of Memory Poisoning Attacks in LLM Agents](https://arxiv.org/abs/2606.04329). arXiv:2606.04329. 2026. Препринт. Дата обращения: 2026-08-19.
+
+339. Albada M. [Building Applications with AI Agents: Designing and Implementing Multiagent Systems](https://www.oreilly.com/library/view/building-applications-with/9781098176495/). First Edition. O’Reilly Media, 2025. ISBN 978-1-098-17650-1. Дата обращения: 2026-08-19.
