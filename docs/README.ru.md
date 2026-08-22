@@ -23,7 +23,7 @@ CHLOYA — методология управления созданием и р�
 | 3 | [Свод базовых принципов CHLOYA](ru/core-principles/core-principles.md) | `0.3.1` | в разработке |
 | 4 | [Операционная модель CHLOYA](ru/operational-model/operational-model.md) | `0.3.1` | на обсуждении |
 | 5 | [Детерминированное ядро, политики и границы применения ИИ](ru/deterministic-core-ai-policies-boundaries/deterministic-core-ai-policies-boundaries.md) | `0.3.1` | на обсуждении |
-| 6 | [Проверяемые гипотезы, риски и критерии полезности](ru/hypotheses-risks-usefulness/hypotheses-risks-usefulness.md) | `0.3.1` | к обсуждению |
+| 6 | [Проверяемые гипотезы, риски и критерии полезности](ru/hypotheses-risks-usefulness/hypotheses-risks-usefulness.md) | `0.3.1` | на обсуждении |
 | 7 | Роли и контуры управления | `0.3.1` | в разработке |
 | 8 | Управление контекстом и доверительными границами | `0.3.1` | в разработке |
 | 9 | Код как общий язык человека и ИИ | `0.3.1` | в разработке |

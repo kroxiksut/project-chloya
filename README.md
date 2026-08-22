@@ -25,6 +25,10 @@
   <strong>English</strong> · <a href="README.ru.md">Русский</a>
 </p>
 
+<p align="center">
+  <strong><a href="docs/README.md">Read the methodology →</a></strong>
+</p>
+
 # CHLOYA
 
 **An agent-modular approach to software development with AI.**

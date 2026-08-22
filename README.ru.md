@@ -25,6 +25,10 @@
   <a href="README.md">English</a> · <strong>Русский</strong>
 </p>
 
+<p align="center">
+  <strong><a href="docs/README.ru.md">Читать методологию →</a></strong>
+</p>
+
 # CHLOYA
 
 **Агентно-модульный подход к разработке программного обеспечения с участием ИИ.**

@@ -21,27 +21,27 @@ The following sections therefore describe not CHLOYA promises, but **the conditi
 
 ## Contents
 
-1. [6.1. Bureaucratization of Governance: When Control Starts to Obstruct Work](#61-bureaucratization-of-governance-when-control-starts-to-obstruct-work)
-2. [6.2. Local Decision-Making and the Limits of Independence](#62-local-decision-making-and-the-limits-of-independence)
-3. [6.3. The Central Coordinator Becomes a Bottleneck](#63-the-central-coordinator-becomes-a-bottleneck)
-4. [6.4. Contracts Fall Behind Code](#64-contracts-fall-behind-code)
-5. [6.5. Excessive Trust in AI by a Non-technical Person](#65-excessive-trust-in-ai-by-a-non-technical-person)
-6. [6.6. The Human Becomes a Bottleneck](#66-the-human-becomes-a-bottleneck)
-7. [6.7. Different Models Interpret Project Memory Differently](#67-different-models-interpret-project-memory-differently)
-8. [6.8. Leakage of Confidential Information](#68-leakage-of-confidential-information)
-9. [6.9. Compromise of the Tooling Contour](#69-compromise-of-the-tooling-contour)
-10. [6.10. Destructive and Hard-to-Reverse Actions](#610-destructive-and-hard-to-reverse-actions)
-11. [6.11. Tests Confirm an Incorrect Interpretation](#611-tests-confirm-an-incorrect-interpretation)
-12. [6.12. Integration Conflicts and Degradation of Change History](#612-integration-conflicts-and-degradation-of-change-history)
-13. [6.13. Excessive Documentation](#613-excessive-documentation)
-14. [6.14. A Contract as a Boundary of Execution, Not Solution Search](#614-a-contract-as-a-boundary-of-execution-not-solution-search)
-15. [6.15. Incorrect Routing of Models and Compute Effort](#615-incorrect-routing-of-models-and-compute-effort)
-16. [6.16. Dependence on Proprietary Tooling and Loss of Portability](#616-dependence-on-proprietary-tooling-and-loss-of-portability)
-17. [6.17. The Gap Between Methodological Coherence and Practical Utility](#617-the-gap-between-methodological-coherence-and-practical-utility)
-18. [6.18. Violation of the Trust Boundary Between Context, Authority, and Action](#618-violation-of-the-trust-boundary-between-context-authority-and-action)
-19. [6.19. Trust in a New Dependency Version and Promotion of External Artifacts](#619-trust-in-a-new-dependency-version-and-promotion-of-external-artifacts)
-20. [6.20. Cascading Coordination and Handoff Errors](#620-cascading-coordination-and-handoff-errors)
-21. [6.21. Growth of Project Memory and Degradation of Working Context](#621-growth-of-project-memory-and-degradation-of-working-context)
+- [6.1. Bureaucratization of Governance: When Control Starts to Obstruct Work](#61-bureaucratization-of-governance-when-control-starts-to-obstruct-work)
+- [6.2. Local Decision-Making and the Limits of Independence](#62-local-decision-making-and-the-limits-of-independence)
+- [6.3. The Central Coordinator Becomes a Bottleneck](#63-the-central-coordinator-becomes-a-bottleneck)
+- [6.4. Contracts Fall Behind Code](#64-contracts-fall-behind-code)
+- [6.5. Excessive Trust in AI by a Non-technical Person](#65-excessive-trust-in-ai-by-a-non-technical-person)
+- [6.6. The Human Becomes a Bottleneck](#66-the-human-becomes-a-bottleneck)
+- [6.7. Different Models Interpret Project Memory Differently](#67-different-models-interpret-project-memory-differently)
+- [6.8. Leakage of Confidential Information](#68-leakage-of-confidential-information)
+- [6.9. Compromise of the Tooling Contour](#69-compromise-of-the-tooling-contour)
+- [6.10. Destructive and Hard-to-Reverse Actions](#610-destructive-and-hard-to-reverse-actions)
+- [6.11. Tests Confirm an Incorrect Interpretation](#611-tests-confirm-an-incorrect-interpretation)
+- [6.12. Integration Conflicts and Degradation of Change History](#612-integration-conflicts-and-degradation-of-change-history)
+- [6.13. Excessive Documentation](#613-excessive-documentation)
+- [6.14. A Contract as a Boundary of Execution, Not Solution Search](#614-a-contract-as-a-boundary-of-execution-not-solution-search)
+- [6.15. Incorrect Routing of Models and Compute Effort](#615-incorrect-routing-of-models-and-compute-effort)
+- [6.16. Dependence on Proprietary Tooling and Loss of Portability](#616-dependence-on-proprietary-tooling-and-loss-of-portability)
+- [6.17. The Gap Between Methodological Coherence and Practical Utility](#617-the-gap-between-methodological-coherence-and-practical-utility)
+- [6.18. Violation of the Trust Boundary Between Context, Authority, and Action](#618-violation-of-the-trust-boundary-between-context-authority-and-action)
+- [6.19. Trust in a New Dependency Version and Promotion of External Artifacts](#619-trust-in-a-new-dependency-version-and-promotion-of-external-artifacts)
+- [6.20. Cascading Coordination and Handoff Errors](#620-cascading-coordination-and-handoff-errors)
+- [6.21. Growth of Project Memory and Degradation of Working Context](#621-growth-of-project-memory-and-degradation-of-working-context)
 
 ## 6.1. Bureaucratization of Governance: When Control Starts to Obstruct Work
 
@@ -126,6 +126,8 @@ The second testable hypothesis concerns the time at which control is performed:
 This approach must not be extended to irreversible, legally material, external, or potentially dangerous actions without separate justification. At this stage it is a CHLOYA research hypothesis that requires experimental comparison of ex ante and ex post control.
 
 The discussion leads to a broader conclusion: **control is not a free resource and must itself be designed, measured, and verified**. The control plane must prevent dangerous autonomy, but its complexity must not become an end in itself. CHLOYA's task is to preserve system governability without turning governance into an obstacle to useful work.
+
+[↑ Back to contents](#contents)
 
 ## 6.2. Local Decision-Making and the Limits of Independence
 
@@ -393,6 +395,8 @@ It is especially important not to conflate two effects: a good model may attempt
 
 When a necessary decision no longer fits within the established scope, the control plane must not enlarge the executor's rights automatically. It must hand the specific out-of-boundary decision to the appropriate owner. That mechanism is the subject of the next section.
 
+[↑ Back to contents](#contents)
+
 ## 6.3. The Central Coordinator Becomes a Bottleneck
 
 A multi-agent architecture does not become distributed merely because several agents participate. If task decomposition, work allocation, interpretation of local results, conflict resolution, and selection of every next action continually return to one managing agent, execution is distributed, but decision-making remains centralized.
@@ -625,6 +629,8 @@ Increasing the number of executors does not provide scalability if each of them 
 CHLOYA therefore does not prescribe one universal interaction arrangement. It requires preservation of [local ownership](../../research/GLOSSARY.en.md#local-ownership), accounting for [coordination overhead](../../research/GLOSSARY.en.md#coordination-overhead), limitation of central context to information needed for alignment, and engagement of the coordinator primarily where a genuine dependency between local domains arises.
 
 > **A coordinator should connect local decisions, not become the place where all local decisions are made again.**
+
+[↑ Back to contents](#contents)
 
 ## 6.4. Contracts Fall Behind Code
 
@@ -861,6 +867,8 @@ An agent need not repeatedly investigate the internal implementation of a neighb
 Neither code nor contract receives automatic absolute priority solely because of its artifact type. Code shows the factual behavior of implementation; a contract records an accepted obligation. When they diverge, the direction of intentional change must be established before the system is brought to a new aligned state.
 
 > **A contract reduces the need to read another domain's implementation only while there is a verifiable basis for treating that contract as current. A detected material divergence must lead to verification and a decision about the direction of synchronization, not silent correction of one side from the other.**
+[↑ Back to contents](#contents)
+
 ## 6.5. Excessive Trust in AI by a Non-technical Person
 
 Formal human participation in a decision does not guarantee meaningful human control. If a person lacks the knowledge and experience needed to assess material properties of the proposed solution independently, their confirmation can amount not to verification but to trust in the executor.
@@ -1030,6 +1038,8 @@ CHLOYA therefore does not treat human confirmation as sufficient evidence merely
 A non-technical person must not be excluded from system governance. Their goals, constraints, domain rules, and material tradeoffs should remain theirs. Technical properties they cannot assess independently must, however, be confirmed by suitable means: verifiable evidence, deterministic mechanisms, a competent specialist, or a combination of these, in proportion to risk.
 
 > **A person should make the decisions that genuinely belong to them, but their presence must not be used as formal evidence of correctness for something they cannot actually verify.**
+
+[↑ Back to contents](#contents)
 
 ## 6.6. The Human Becomes a Bottleneck
 
@@ -1324,6 +1334,8 @@ CHLOYA's task is different: automate reproducible checks, collect evidence in ad
 Automated review must itself remain subject to evaluation: increasing its speed is not a sufficient result if the ability to detect significant defects deteriorates at the same time.
 
 > **The productivity of an agentic system is limited not by the number of results agents can create, but by the number of results the entire loop can bring to a verified and accepted state with the required level of reliability.**
+
+[↑ Back to contents](#contents)
 
 ## 6.7. Different Models Interpret Project Memory Differently
 
@@ -1664,6 +1676,8 @@ Project memory should therefore remain canonical and model-independent, while en
 
 > **Project memory is portable not when any executor can read it, but when supported executors preserve the material project constraints contained in it.**
 
+[↑ Back to contents](#contents)
+
 ## 6.8. Leakage of Confidential Information
 
 An agentic system can work with a substantially larger volume of project information than a person ordinarily sends to a model manually. An AI executor can read source code, configuration, work logs, documentation, project memory, and tool outputs, then independently decide what information is needed for the next model call, external service, or other participant in the process.
@@ -1945,6 +1959,8 @@ Confidentiality protection therefore cannot be reduced to the rule “do not put
 CHLOYA treats external disclosure as a distinct controlled effect. A model may read data, determine their relevance, and propose the content of an action, but authorization for the information flow is determined separately. For credentials, where possible, the preferable design is to give the agent a constrained capability to perform an authorized operation without disclosing the secret itself to the reasoning contour.
 
 > **Access to information is not permission to transmit it further. The confidentiality of an agentic system is determined not only by what an executor can read, but also by which information flows the architecture allows it to create.**
+
+[↑ Back to contents](#contents)
 
 ## 6.9. Compromise of the Tooling Contour
 
@@ -2348,6 +2364,8 @@ MCP is an important modern example of such a tooling layer but does not define t
 
 > **A tooling component should be treated as an external principal with constrained authority, not as an unconditionally trusted extension of the AI executor. A tool call is a potential external effect, its response is potentially untrusted external input, and initially granted trust remains valid only while the material properties of the verified configuration are preserved.**
 
+[↑ Back to contents](#contents)
+
 ## 6.10. Destructive and Hard-to-Reverse Actions
 
 Giving an AI executor tools turns a reasoning error from incorrect text into a possible change to real state. An agent can delete data, modify infrastructure, publish an artifact, send a message, change access rights, or initiate an external operation. Harm does not require compromise of the model, tool, or external service: every component may operate normally while the executor chooses the wrong action, object, time, or parameters.
@@ -2735,6 +2753,8 @@ A correct result may be not only an action but also a justified refusal to act w
 After execution, the result must be confirmed against authoritative state. Uncertainty should automatically become neither an assumption of success nor a repeated operation.
 
 > **An AI executor may propose and prepare material changes, but the harder their consequences are to reverse, the less the commitment decision should depend solely on the executor's own confidence.**
+
+[↑ Back to contents](#contents)
 
 ## 6.11. Tests Confirm an Incorrect Interpretation
 
@@ -3146,6 +3166,8 @@ CHLOYA proposes evaluating not only the number and outcome of tests, but also th
 Independence should not be measured by the number of models. Two agents can inherit the same error, while one model can participate in a more independent process if expected behavior was fixed in advance on the basis of a separate accepted requirement.
 
 > **Strong verification must be capable of refuting an implementation, not merely repeating the assumption from which the implementation was created.**
+
+[↑ Back to contents](#contents)
 
 ## 6.12. Integration Conflicts and Degradation of Change History
 
@@ -3630,6 +3652,8 @@ Isolated workspaces reduce direct interference by executors in one another's unf
 At the same time, CHLOYA separates executor working history from long-term integration history. An agent may use as many intermediate checkpoints as it needs, but project history should receive units that reflect the logical structure of the accepted change.
 
 > **Parallelism is useful only when the cost of subsequent integration does not erase the gains from simultaneous work. Isolation protects execution, integration verification protects shared state, and project history should reflect accepted changes rather than the executor's internal sequence of attempts.**
+
+[↑ Back to contents](#contents)
 
 ## 6.13. Excessive Documentation
 
@@ -4176,6 +4200,8 @@ The same logic applies to source-code comments. A comment is useful not because 
 
 > **Not everything useful to write down during work is useful to retain after it is complete. Not everything that can be restated in words should be duplicated in words beside self-explanatory code. Long-term documentation is justified where the knowledge it preserves exceeds the cost of its continued existence in the project.**
 
+[↑ Back to contents](#contents)
+
 ## 6.14. A Contract as a Boundary of Execution, Not Solution Search
 
 Constraining an executor's work by contract reduces uncertainty, simplifies result verification, and limits the consequences of an erroneous action. If applied too early or too rigidly, however, the same mechanism can have the opposite effect: it can fix not only the permissible boundaries of change but also the particular way in which the task must be solved. The contract then ceases to be solely a means of governing execution and begins prematurely narrowing the space of solutions considered.
@@ -4337,6 +4363,8 @@ The second is solution search so unconstrained that previously accepted decision
 Between these extremes, a governed transition is used:
 
 > **preserve the search space where a decision has genuinely not yet been made, and narrow the action space after the decision has been selected and formalized as a contract.**
+
+[↑ Back to contents](#contents)
 
 ## 6.15. Incorrect Routing of Models and Compute Effort
 
@@ -4713,6 +4741,8 @@ The mechanism's complexity should increase only when accumulated data demonstrat
 The main principle of this section is:
 
 > **CHLOYA routes work according to required capabilities and risk, while treating price as a mutable economic parameter. A model does not become less capable because it becomes cheaper over time, and does not become sufficient for a task merely because it costs more today.**
+
+[↑ Back to contents](#contents)
 
 ## 6.16. Dependence on Proprietary Tooling and Loss of Portability
 
@@ -5220,6 +5250,8 @@ The main principle of this section is:
 
 > **CHLOYA must not become a mandatory server for projects that follow CHLOYA. The methodology must outlive its own tools.**
 
+[↑ Back to contents](#contents)
+
 ## 6.17. The Gap Between Methodological Coherence and Practical Utility
 
 A methodology can be internally consistent, thoroughly formalized, and technically implementable while providing no practically meaningful improvement to real development. This risk is especially significant for CHLOYA because every additional mechanism—project memory, contracts, context capsules, checkpoints, handoffs between executors, model routing, decision logs, and other elements—itself creates compute, time, and human costs.
@@ -5711,6 +5743,8 @@ More generally:
 
 > **CHLOYA's value is determined not by the completeness of its specification, but by whether it solves real development problems better than a simpler comparable process.**
 
+[↑ Back to contents](#contents)
+
 ## 6.18. Violation of the Trust Boundary Between Context, Authority, and Action
 
 During development, an AI executor receives information from many sources: source code, documentation, comments, tasks, logs, command outputs, web pages, external services, tools, project memory, instructions from other agents, and attached skills. This information is necessary for useful work, but the sources do not have equal provenance, currency, or normative force.
@@ -6199,6 +6233,8 @@ And the practical consequence is:
 
 > **CHLOYA protection succeeds not because the model recognized malicious content, but because untrusted context could not become an impermissible action or trusted project state without separate authorization.**
 
+[↑ Back to contents](#contents)
+
 ## 6.19. Trust in a New Dependency Version and Promotion of External Artifacts
 
 Using an external dependency entails trust not only in its purpose and interface, but also in the specific code that actually enters the project. The accumulated reputation of a library or its maintainers is easily transferred automatically to a new version: when earlier releases have been used for years without serious problems, the next release is psychologically perceived as a continuation of the known object.
@@ -6474,6 +6510,8 @@ The second principle is:
 And the third:
 
 > **A [protective delay](../../research/GLOSSARY.en.md#protective-delay) buys time for additional evidence to emerge, but does not replace verification of the update's provenance, content, and consequences.**
+
+[↑ Back to contents](#contents)
 
 ## 6.20. Cascading Coordination and Handoff Errors
 
@@ -6809,6 +6847,8 @@ And the third:
 > **Discovery of an error in a shared premise must be able to propagate back to its source and stop only work that genuinely depends on it.**
 
 CHLOYA's goal is not to eliminate every coordinator or executor error. The more achievable objective is to **limit one error's ability to become many consistent, expensive, and outwardly plausible results without detection**.
+
+[↑ Back to contents](#contents)
 
 ## 6.21. Growth of Project Memory and Degradation of Working Context
 
@@ -7182,6 +7222,8 @@ The third:
 And the section's final formula:
 
 > **Good project memory does not force an executor to remember everything. It supplies the knowledge needed now and allows recovery of the fuller basis when the task requires it.**
+
+[↑ Back to contents](#contents)
 
 ## Chapter 6 Summary
 
