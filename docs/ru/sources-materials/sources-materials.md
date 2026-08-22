@@ -29,9 +29,9 @@
 18. Dhanorkar S., Passi S., Vorvoreanu M. [Human Oversight of Agentic Systems in Practice](https://arxiv.org/abs/2606.05391) (2026, preprint). Дата обращения: 2026-07-19.
 19. Kang R. [Governed AI-Assisted Engineering: Graduated Human Oversight for Agentic Code Generation in Regulated Domains](https://arxiv.org/abs/2606.22484) (2026, preprint). Дата обращения: 2026-07-19.
 20. Tomašev N. et al. [Intelligent AI Delegation](https://arxiv.org/abs/2602.11865) (2026, preprint). Дата обращения: 2026-07-19.
-21. Cemri M. et al. [Why Do Multi-Agent LLM Systems Fail?](https://arxiv.org/abs/2503.13657) (2025). Дата обращения: 2026-07-19.
+21. Cemri M., Pan M. Z., Yang S., Agrawal L. A., Chopra B., Tiwari R., Keutzer K., Parameswaran A., Klein D., Ramchandran K., Zaharia M., Gonzalez J. E., Stoica I. [Why Do Multi-Agent LLM Systems Fail?](https://doi.org/10.52202/085713-4082). *Advances in Neural Information Processing Systems 38, Datasets and Benchmarks Track*. 2025. DOI: 10.52202/085713-4082. Дата обращения: 2026-08-21.
 22. Vasilopoulos A. [Codified Context: Infrastructure for AI Agents in a Complex Codebase](https://arxiv.org/abs/2602.20478) (2026, preprint). Дата обращения: 2026-07-19.
-23. PROJECTMEM. [A Local-First, Event-Sourced Memory and Context System for Software-Engineering Agents](https://arxiv.org/html/2606.12329v1) (2026, preprint). Дата обращения: 2026-07-19.
+23. Malo R. C., Qiu T. [PROJECTMEM: A Local-First, Event-Sourced Memory and Judgment Layer for AI Coding Agents](https://arxiv.org/abs/2606.12329). arXiv:2606.12329. 2026. Препринт. Дата обращения: 2026-08-21.
 24. OWASP GenAI Security Project. [LLM01:2025 Prompt Injection](https://genai.owasp.org/llmrisk/llm01-prompt-injection/). Дата обращения: 2026-07-19.
 25. NIST. [Artificial Intelligence Risk Management Framework and Generative AI Profile](https://www.nist.gov/itl/ai-risk-management-framework). Дата обращения: 2026-07-19.
 26. OpenAI. [Codex custom instructions with AGENTS.md](https://developers.openai.com/codex/agent-configuration/agents-md). Дата обращения: 2026-07-19.
@@ -58,7 +58,7 @@
 47. OpenAI. [Pricing | OpenAI API](https://developers.openai.com/api/docs/pricing). Дата обращения: 2026-07-19.
 
 
-48. Liu N. F. et al. [Lost in the Middle: How Language Models Use Long Contexts](https://arxiv.org/abs/2307.03172) (2023/2024). Дата обращения: 2026-07-19.
+48. Liu N. F., Lin K., Hewitt J., Paranjape A., Bevilacqua M., Petroni F., Liang P. [Lost in the Middle: How Language Models Use Long Contexts](https://doi.org/10.1162/tacl_a_00638). *Transactions of the Association for Computational Linguistics*. 2024. Vol. 12. P. 157–173. DOI: 10.1162/tacl_a_00638. Дата обращения: 2026-08-21.
 49. Anthropic. [Effective context engineering for AI agents](https://www.anthropic.com/engineering/effective-context-engineering-for-ai-agents) (2025). Дата обращения: 2026-07-19.
 50. OpenAI. [Prompt caching | OpenAI API](https://developers.openai.com/api/docs/guides/prompt-caching). Дата обращения: 2026-07-19.
 51. Wu D. et al. [Repoformer: Selective Retrieval for Repository-Level Code Completion](https://arxiv.org/abs/2403.10059) (2024). Дата обращения: 2026-07-19.
@@ -551,3 +551,11 @@
 338. Dash P., Ge T., Jain A., Shah T., Shang Z. [From Untrusted Input to Trusted Memory: A Systematic Study of Memory Poisoning Attacks in LLM Agents](https://arxiv.org/abs/2606.04329). arXiv:2606.04329. 2026. Препринт. Дата обращения: 2026-08-19.
 
 339. Albada M. [Building Applications with AI Agents: Designing and Implementing Multiagent Systems](https://www.oreilly.com/library/view/building-applications-with/9781098176495/). First Edition. O’Reilly Media, 2025. ISBN 978-1-098-17650-1. Дата обращения: 2026-08-19.
+
+340. Python Package Index. [Releases now reject new files after 14 days](https://blog.pypi.org/posts/2026-07-22-releases-now-reject-new-files-after-14-days/). PyPI Blog, 22 July 2026. Дата обращения: 2026-08-21.
+
+341. Lin B. et al. [AgentAsk: Multi-Agent Systems Need to Ask](https://doi.org/10.18653/v1/2026.acl-long.1294). *Proceedings of the 64th Annual Meeting of the Association for Computational Linguistics, Volume 1*. 2026. P. 28055–28077. DOI: 10.18653/v1/2026.acl-long.1294. Дата обращения: 2026-08-21.
+
+342. Xie Y. et al. [From Spark to Fire: Modeling and Mitigating Error Cascades in LLM-Based Multi-Agent Collaboration](https://arxiv.org/abs/2603.04474). arXiv:2603.04474. 2026. Препринт. Дата обращения: 2026-08-21.
+
+343. Kostka A., Chudziak J. A. [Controlling Uncertainty and Hallucination Risk in Multi-Agent Fact Verification](https://proceedings.mlr.press/v337/kostka26a.html). *Proceedings of the 42nd Conference on Uncertainty in Artificial Intelligence*. PMLR 337, 2026. P. 3143–3161. Дата обращения: 2026-08-21.
