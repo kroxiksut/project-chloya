@@ -559,3 +559,11 @@
 342. Xie Y. et al. [From Spark to Fire: Modeling and Mitigating Error Cascades in LLM-Based Multi-Agent Collaboration](https://arxiv.org/abs/2603.04474). arXiv:2603.04474. 2026. Препринт. Дата обращения: 2026-08-21.
 
 343. Kostka A., Chudziak J. A. [Controlling Uncertainty and Hallucination Risk in Multi-Agent Fact Verification](https://proceedings.mlr.press/v337/kostka26a.html). *Proceedings of the 42nd Conference on Uncertainty in Artificial Intelligence*. PMLR 337, 2026. P. 3143–3161. Дата обращения: 2026-08-21.
+
+344. Doshi A., Hong Y., Xu C., Kang E., Kapravelos A., Kästner C. [Towards Verifiably Safe Tool Use for LLM Agents](https://doi.org/10.1145/3786582.3786839). *Proceedings of the IEEE/ACM 48th International Conference on Software Engineering*. 2026. P. 201–205. DOI: 10.1145/3786582.3786839. Дата обращения: 2026-08-23.
+
+345. Chowa S. S., Alvi R., Rahman S. S., Rahman M. A., Raiaan M. A. K., Islam M. R., Hussain M., Azam S. [From language to action: a review of large language models as autonomous agents and tool users](https://doi.org/10.1007/s10462-025-11471-9). *Artificial Intelligence Review*. 2026. Vol. 59, No. 2. Article 71. DOI: 10.1007/s10462-025-11471-9. Дата обращения: 2026-08-23.
+
+346. Odersky M., Zhao Y., Xu Y., Bračevac O., Pham C. N. [Securing Agents With Tracked Capabilities](https://doi.org/10.1145/3786335.3813127). *Proceedings of the ACM Conference on AI and Agentic Systems*. 2026. P. 812–838. DOI: 10.1145/3786335.3813127. Дата обращения: 2026-08-23.
+
+347. Li Z., Li K., Ma B., Xu M., Zhang Y., Cheng X. [We Urgently Need Privilege Management in MCP: A Measurement of API Usage in MCP Ecosystems](https://arxiv.org/abs/2507.06250). arXiv:2507.06250. 2025. Препринт. Дата обращения: 2026-08-23.
