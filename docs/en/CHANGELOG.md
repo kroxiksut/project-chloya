@@ -25,4 +25,6 @@ This log concisely records substantive methodology changes between iterations. I
 
 - Added the complete English translation of chapter 5, synchronized shared bibliography entries [101]–[222], and expanded the global English glossary for the chapter; the translation is under discussion.
 
+- Added the complete English translation of chapter 7, preserving sections 7.1–7.9 and all five diagrams; synchronized shared bibliography entries [344]–[360] and expanded the global English glossary for the chapter. The translation is under discussion.
+
 Substantive changes will be recorded here as version `0.3.1` chapters are developed and agreed.

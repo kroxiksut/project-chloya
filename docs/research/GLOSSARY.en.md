@@ -76,6 +76,12 @@ Active context is a deliberately selected working set, not a copy of repository 
 
 The accountability of an authorized person or role for accepting a specific versioned result or effect within stated scope and conditions. It does not create a standing authorization for later changes.
 
+<a id="action-authorization"></a>
+
+### Action Authorization
+
+An explicit decision, or one derived from a previously approved policy, that a particular action is permissible under defined conditions.
+
 <a id="action-proposal"></a>
 
 ### Action Proposal
@@ -99,6 +105,14 @@ The observed sequence of policy-material states, proposals, decisions, operation
 ### Agent Trajectory
 
 See [Agent Execution Trajectory](#agent-execution-trajectory).
+
+<a id="agentic-executor"></a>
+
+### Agentic Executor
+
+A software execution plane that uses an AI model to formulate or select actions and can affect external state through provided tools within defined capabilities, scope, and authority.
+
+An agentic executor differs from an AI model by having an external execution layer, tools, and channels through which it can affect system state.
 
 <a id="ai-control-cost"></a>
 
@@ -147,6 +161,12 @@ In CHLOYA, modularity applies not only to source code, but also to project knowl
 An AI model, agent system, or AI-based software tool assigned limited project work. Its ability to propose or technically perform an action does not itself authorize that action.
 
 An AI executor is treated as a temporary executor: its session, budget, task, and authority can end without making the project dependent on its private interaction history.
+
+<a id="ai-model"></a>
+
+### AI Model
+
+A probabilistic computational component that transforms supplied context into textual or structured output. Access to long-term memory, tools, an external environment, and the ability to change its state are not properties of the model when they are provided by external components.
 
 <a id="api"></a>
 
@@ -319,6 +339,14 @@ Caveats make delegation narrower and inspectable. They should be enforceable by 
 An open agent-modular methodology for governing software development involving people, AI executors, and engineering tools. It is not a model, a model aggregator, or a mandatory orchestration platform.
 
 CHLOYA places human control over goals, architecture, risk, and acceptance alongside constrained authority for temporary executors, portable project memory, and evidence-based readiness.
+
+<a id="chloya-governance-plane"></a>
+
+### CHLOYA Governance Plane
+
+The logical combination of policies, decision mechanisms, and policy enforcement points that determines whether system actions and transitions are permissible in view of the participant, role and profile, task, scope, environment state, execution path, risk level, and available evidence.
+
+The governance plane is logically separated from the execution it governs and does not permit an executor to expand its own authority.
 
 <a id="ci-cd"></a>
 
@@ -832,6 +860,12 @@ The verification results and explanations sufficient to decide whether a change 
 
 The package can combine automated checks, review, records of performed operations, and an explicit account of residual risk. It supports a decision; it does not replace the decision owner.
 
+<a id="execution-plan"></a>
+
+### Execution Plan
+
+A revisable representation of functions, dependencies, transition conditions, and required execution methods used to achieve an objective within established constraints.
+
 <a id="execution-plane"></a>
 
 ### Execution Plane
@@ -975,6 +1009,20 @@ The controlled transition of a particular version and artifact from an external 
 A semantic area of an operating model that groups related functions, decisions, and artifacts without having to coincide with one program, role, or organizational unit.
 
 Functional contours help allocate ownership and evidence without pretending that a real operational responsibility always maps one-to-one to an application component.
+
+<a id="functional-role"></a>
+
+### Functional Role
+
+A participant’s function in a process, defined by the purpose of the work performed and the expected verifiable result. A role name alone does not determine available capabilities, authority, or implementation method.
+
+<a id="functional-role-profile"></a>
+
+### Functional Role Profile
+
+A governed description of the context, available capabilities, scope, and constraints provided to a participant for performing a particular functional role. The profile may also define result criteria and the evidence required to establish their satisfaction.
+
+A functional role profile describes the configuration of a particular function and differs from a capability profile for a model or execution class.
 [Back to top](#alphabetical-contents)
 
 
@@ -1075,6 +1123,12 @@ A check of the permissibility of a proposed operation by a mechanism that does n
 ### Independent Implementation
 
 An implementation of CHLOYA built from published specifications and formats without depending on the internal logic or undocumented semantics of the main reference implementation.
+
+<a id="independent-verification"></a>
+
+### Independent Verification
+
+Verification of a result that uses a source of criteria, evidence, or an error-detection mechanism that does not depend entirely on the process that produced the result being verified. The presence of a physically separate agent does not by itself provide verification independence.
 
 <a id="information-influence"></a>
 
@@ -1343,6 +1397,12 @@ A service or platform that provides access to several models or providers throug
 
 CHLOYA does not aim to replace aggregators or create a universal one. An aggregator may be suitable for an acceptable-risk task only when routing, data retention, actual execution provider, cost, confidentiality constraints, and terms of use are understood.
 
+<a id="model-output"></a>
+
+### Model Output
+
+A result generated by an AI model, including text, code, an assessment, a plan, or a structured proposal to invoke a tool. Model output is not by itself an executed action, authorization to act, or evidence that the result is correct.
+
 <a id="model-token"></a>
 
 ### Model Token
@@ -1368,6 +1428,14 @@ Work divided among several AI executors or agents whose tasks, context, authorit
 Adding agents does not distribute accountability away. Each handoff must preserve decision context, the delegation envelope, and the integration conditions for the resulting artifacts.
 [Back to top](#alphabetical-contents)
 
+
+<a id="meat-proxy"></a>
+
+### Meat Proxy
+
+An anti-pattern of human participation in which a person is formally present in an interaction chain with an AI system but merely relays requests, responses, or comments mechanically, without adding necessary understanding, verification, context, or an independent decision.
+
+Such intermediation is not considered meaningful human control in CHLOYA.
 
 <a id="meaningful-human-control"></a>
 
@@ -1414,6 +1482,12 @@ The selection of a model or execution class for a task, stage, or call based on 
 <a id="n"></a>
 
 ## N
+
+<a id="non-delegable-decision"></a>
+
+### Non-delegable Decision
+
+A decision that, under the established governance model, cannot be made independently by an automated executor or orchestrator and requires a subject with explicitly defined authority. The specific set of such decisions depends on the environment, risk level, and active policies.
 
 <a id="nist-ai-rmf"></a>
 
@@ -1788,6 +1862,12 @@ A trusted mechanism that mediates each protected access according to policy, rem
 
 Risk remaining after prescribed checks and controls have been applied. Verifiable readiness does not mean that all risk has disappeared.
 
+<a id="result-contract"></a>
+
+### Result Contract
+
+A description of the verifiable result of a functional role: the property to be achieved or confirmed, its acceptance criteria, and the evidence required to recognize the function as complete.
+
 <a id="reversibility"></a>
 
 ### Reversibility
@@ -1898,6 +1978,12 @@ The structural separation between proposing or analyzing an action, deciding whe
 
 One participant may serve more than one function only when the distinction remains explicit, attributable, and controlled. The separation prevents a probabilistic suggestion from silently becoming both its own authorization and its own external effect.
 
+<a id="separation-of-privilege"></a>
+
+### Separation of Privilege
+
+An engineering principle according to which performance of a critical action, at the corresponding risk level, must not depend on a single uncontrolled subject or condition.
+
 <a id="service-for-issuing-temporary-tokens"></a>
 
 ### Service for Issuing Temporary Tokens
@@ -1905,6 +1991,14 @@ One participant may serve more than one function only when the distinction remai
 A trusted service that issues short-lived, limited tokens or other technical authority for an authorized action and can revoke, rotate, or constrain that authority.
 
 It limits the need to give a model persistent credentials. Issuance should follow a specific authorization decision and bind the authority to the intended operation, resource, and workload where feasible.
+
+<a id="service-orchestrator"></a>
+
+### Service Orchestrator
+
+A logical component or role that coordinates execution of interdependent functions by creating and revising an execution plan, assigning profiles and execution methods, managing dependencies, resource constraints, and context handoffs, and collecting results.
+
+The service orchestrator operates within granted authority and does not independently determine the policy governing permissible actions.
 
 <a id="skill"></a>
 
