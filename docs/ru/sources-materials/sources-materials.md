@@ -593,3 +593,19 @@
 359. Kim Y., Park C., Kim T., Park E., Schmidgall S., Rahman S., Park C., Breazeal C., Liu X., Palangi H., Park H. W., McDuff D. [TeamBench: Evaluating Agent Coordination under Enforced Role Separation](https://arxiv.org/abs/2605.07073). arXiv:2605.07073. 2026. Препринт. Исследование многоагентной координации при разделении ролей Planner, Executor и Verifier, поддерживаемом ограничениями среды исполнения; используется для анализа различия между формальным назначением роли и фактическим разделением возможностей, а также издержек и ограничений многоагентной специализации. Дата обращения: 2026-08-29.
 
 360. Chen N., Tong Y., Yang Y., He Y., Zhang X., Zou Q., Wang Q., He B. [Diversity Collapse in Multi-Agent LLM Systems: Structural Coupling and Collective Failure in Open-Ended Idea Generation](https://aclanthology.org/2026.findings-acl.13/). *Findings of the Association for Computational Linguistics: ACL 2026*. Association for Computational Linguistics, 2026. P. 251–306. DOI: 10.18653/v1/2026.findings-acl.13. Исследование структурной связанности многоагентных систем и преждевременного схождения решений; используется для обоснования различия между физическим разделением участников и фактической независимостью их поиска и оценки. Дата обращения: 2026-08-29.
+
+361. Du Y., Tian M., Ronanki S., Rongali S., Bodapati S. B., Galstyan A., Wells A., Schwartz R., Huerta E. A., Peng H. [Context Length Alone Hurts LLM Performance Despite Perfect Retrieval](https://aclanthology.org/2025.findings-emnlp.1264/). *Findings of the Association for Computational Linguistics: EMNLP 2025*. Association for Computational Linguistics, 2025. P. 23281–23298. DOI: 10.18653/v1/2025.findings-emnlp.1264. Дата обращения: 2026-08-31.
+
+362. Wallace E., Xiao K., Leike R., Weng L., Heidecke J., Beutel A. [The Instruction Hierarchy: Training LLMs to Prioritize Privileged Instructions](https://arxiv.org/abs/2404.13208). arXiv:2404.13208. 2024. Препринт. Дата обращения: 2026-08-31.
+
+363. Lu M., Sun W., Du W., Ling Z., Yao X., Liu K., Chen J. [Beyond the Context Window: Scaling Agentic RL via End-to-end Optimized Context Compression](https://aclanthology.org/2026.acl-long.966/). *Proceedings of the 64th Annual Meeting of the Association for Computational Linguistics, Volume 1: Long Papers*. Association for Computational Linguistics, 2026. P. 21074–21125. DOI: 10.18653/v1/2026.acl-long.966. Дата обращения: 2026-08-31.
+
+364. Ganz R., Nacson M. S., Kalyanpur A., Litman R. [The Handoff Tax: Continuing Non-Native Trajectories in LLM Agents](https://arxiv.org/abs/2608.24358). arXiv:2608.24358. 2026. Препринт. Дата обращения: 2026-08-31.
+
+365. Sun Y., Wang H., Zhu Y., Li Z., Zhao Z., Yuan Y. [When "Must" Becomes "Maybe": Constraint Weakening in LLM Agent Workflows](https://arxiv.org/abs/2608.24569). arXiv:2608.24569. 2026. Препринт. Дата обращения: 2026-08-31.
+
+366. Shadwell T., Spânu A. [Designing AI agents to resist prompt injection](https://openai.com/index/designing-agents-to-resist-prompt-injection/). *OpenAI*. 11 March 2026. Дата обращения: 2026-08-31.
+
+367. Joren H., Zhang J., Ferng C.-S., Juan D.-C., Taly A., Rashtchian C. [Sufficient Context: A New Lens on Retrieval-Augmented Generation Systems](https://arxiv.org/abs/2411.06037). *International Conference on Learning Representations (ICLR 2025)*. 2025. Дата обращения: 2026-08-31.
+
+368. Machcha S., Yerra S., Gupta S., Sahoo A., Sultana S., Yu H., Yao Z. [Knowing When to Abstain: Medical LLMs Under Clinical Uncertainty](https://aclanthology.org/2026.eacl-long.291/). *Proceedings of the 19th Conference of the European Chapter of the Association for Computational Linguistics, Volume 1: Long Papers*. Association for Computational Linguistics, 2026. P. 6153–6182. DOI: 10.18653/v1/2026.eacl-long.291. Дата обращения: 2026-08-31.
