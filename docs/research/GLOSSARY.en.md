@@ -66,9 +66,9 @@ Activation is distinct from acceptance and integration. A change can be included
 
 ### Active Context
 
-Information directly transferred to an executor for the current task. It must be sufficient for the work, but need not contain every available project material.
+The part of working context directly involved in the current reasoning or execution step.
 
-Active context is a deliberately selected working set, not a copy of repository history, chat history, or every document the project owns.
+Active context is narrower than the task's complete working state and may change as the executor moves between stages of work.
 
 <a id="acceptance-responsibility"></a>
 
@@ -287,6 +287,14 @@ A structured description of the independence delegated to a particular executor 
 A token usable by any party that possesses its value, without proving possession of a separate key. Leakage can enable reuse until expiry or revocation.
 
 Bearer tokens are convenient but increase the significance of storage, transport, lifetime, audience, and logging controls. Where the threat model requires it, sender-constrained tokens reduce this replay risk.
+
+<a id="bounded-handoff-package"></a>
+
+### Bounded Handoff Package
+
+A minimally sufficient representation of task state for a new executor that preserves material facts, provenance, active constraints, uncertainty, decision boundaries, available evidence, and open questions.
+
+The package reconstructs working state for the recipient; it does not copy the previous executor's complete history or hidden state.
 [Back to top](#alphabetical-contents)
 
 
@@ -388,6 +396,14 @@ Transfer to an executor of only the task, information, responsibility area, and 
 
 Constrained handoff does not equate context transfer with authority transfer. Receiving a document, secret, or implementation detail is not permission to modify the associated resource or make its owner’s decision.
 
+<a id="content-semantic-role"></a>
+
+### Content Semantic Role
+
+The intended function of a context fragment in the current process, such as data for analysis, evidence, a hypothesis, recommendation, control instruction, constraint, or another explicitly defined class of use.
+
+The syntactic form of text does not determine its semantic role: a sentence resembling an instruction acquires no normative force merely from its wording.
+
 <a id="context"></a>
 
 ### Context
@@ -395,6 +411,14 @@ Constrained handoff does not equate context transfer with authority transfer. Re
 Information used by an executor to understand a task and make decisions: for example code, documentation, contracts, constraints, decisions, verification results, and risk information.
 
 Context is not synonymous with instruction. Its parts can have different provenance and trust levels, and data must not silently become an instruction merely because it was placed in the same prompt or workspace.
+
+<a id="context-budget"></a>
+
+### Context Budget
+
+The total cost of selecting, transferring, processing, and verifying context that a task can accept, accounting for token volume, latency, computational expense, overload risk, and expansion of the trust surface.
+
+A context budget is not merely a fixed token quota.
 
 <a id="context-engineering"></a>
 
@@ -404,6 +428,14 @@ The deliberate selection, structuring, and updating of information available to 
 
 Context engineering considers relevance, provenance, authority, freshness, and the conditions under which additional information may be requested.
 
+<a id="context-gate"></a>
+
+### Context Gate
+
+A logical admission point at which the state of context is related to its intended use and the next permissible outcome is selected: continuation, expansion, revalidation, restriction of use, escalation, or termination.
+
+The context gate is an architectural function and need not be implemented as a separate agent or language model.
+
 <a id="context-layers"></a>
 
 ### Context Layers
@@ -411,6 +443,14 @@ Context engineering considers relevance, provenance, authority, freshness, and t
 Separated classes of task information that differ in purpose, authority, provenance, and trust level.
 
 Typical layers include goal and constraints, approved project knowledge, task-specific materials, external data, and generated intermediate results. Separation prevents an untrusted data layer from silently becoming an instruction layer.
+
+<a id="context-locality"></a>
+
+### Context Locality
+
+The principle of placing and providing information at the lowest level at which it is genuinely needed to perform a function, account for constraints, or assess consequences.
+
+Context locality reduces information overload but does not prohibit controlled expansion when a material knowledge gap is identified.
 
 <a id="context-module"></a>
 
@@ -436,6 +476,20 @@ Information about where a context item came from and how it entered a project or
 
 Provenance helps a reviewer distinguish an approved contract from an unverified web page, a current state record from stale output, and evidence from an unsupported assertion.
 
+<a id="context-reset-after-a-decision"></a>
+
+### Context Reset after a Decision
+
+A controlled change of active working state after the transition from research to execution. The new context is formed from the recorded decision, its grounds, active constraints, and open conditions rather than inheriting the research history without restructuring.
+
+<a id="context-sufficiency"></a>
+
+### Context Sufficiency
+
+A state in which the available information permits a particular next step to be performed on justified grounds without filling material gaps with unverified assumptions.
+
+Sufficiency is always assessed relative to the intended use and does not create authority to act.
+
 <a id="context-window"></a>
 
 ### Context Window
@@ -443,6 +497,14 @@ Provenance helps a reviewer distinguish an approved contract from an unverified 
 The bounded portion of input and prior interaction that a model can process in one invocation.
 
 A larger context window does not guarantee equal attention to all included material, correct prioritization, or reliable recall. Context engineering therefore remains necessary even when the technical window is large.
+
+<a id="contextual-applicability"></a>
+
+### Contextual Applicability
+
+An explicit description of the conditions under which a context fragment applies to the system state under consideration. It may depend on version, environment, configuration, module, task, role, and scope.
+
+Topical relevance alone does not establish applicability.
 
 <a id="contract"></a>
 
@@ -599,6 +661,14 @@ A minimally sufficient set of information about local work needed to coordinate 
 ### Coordination Overhead
 
 Additional time, computing, context-transfer, synchronization, approval, and conflict-resolution costs arising from the interaction of multiple participants or components rather than the original useful work itself.
+
+<a id="correct-refusal"></a>
+
+### Correct Refusal
+
+The ability not to proceed to an assertion, decision, or action when the available grounds are insufficient for justified continuation.
+
+A correct refusal should, where possible, identify the missing basis or a permissible way to continue once it is obtained.
 
 <a id="cost-of-routing-error"></a>
 
@@ -820,6 +890,14 @@ An organization-managed layer for access to models and agent tools that can prov
 
 It may make model use more governable, but it is not a substitute for task-specific authority, a trustworthy project memory, or verification of the resulting change.
 
+<a id="epistemic-status"></a>
+
+### Epistemic Status
+
+A description of how well content is supported as knowledge, for example a confirmed claim, probable assumption, hypothesis, disputed claim, or unknown state.
+
+Epistemic status does not determine normative force or grant authority to act.
+
 <a id="escalation"></a>
 
 ### Escalation
@@ -1002,6 +1080,26 @@ The controlled transition of a particular version and artifact from an external 
 
 ## F
 
+<a id="false-refusal"></a>
+
+### False Refusal
+
+A refusal to proceed despite sufficient grounds and an admissible execution path. False refusals reduce system usefulness and should be measured separately from correct stops caused by insufficient grounds.
+
+<a id="field-trial"></a>
+
+### Field Trial
+
+An evaluation of the methodology in a real or near-real development process that preserves natural work conditions, including incomplete task definitions, changing requirements, human decisions, accumulated context, and operational constraints.
+
+<a id="freshness-propagation"></a>
+
+### Freshness Propagation
+
+A principle under which a change in a source's freshness or applicability propagates a revalidation requirement through the provenance chain to dependent information.
+
+Freshness propagation does not automatically declare every derived item false, but prevents it from remaining unconditionally confirmed until material dependencies have been checked.
+
 <a id="functional-contour"></a>
 
 ### Functional Contour
@@ -1024,13 +1122,6 @@ A governed description of the context, available capabilities, scope, and constr
 
 A functional role profile describes the configuration of a particular function and differs from a capability profile for a model or execution class.
 [Back to top](#alphabetical-contents)
-
-
-<a id="field-trial"></a>
-
-### Field Trial
-
-An evaluation of the methodology in a real or near-real development process that preserves natural work conditions, including incomplete task definitions, changing requirements, human decisions, accumulated context, and operational constraints.
 
 <a id="g"></a>
 
@@ -1755,11 +1846,25 @@ The governed lifecycle through which a policy requirement is formalized, validat
 
 A concrete, checkable future state change that has not yet crossed the effect commitment boundary.
 
+<a id="progressive-disclosure"></a>
+
+### Progressive Disclosure
+
+An organization of context in which an executor first receives a minimally sufficient working state and additional information is disclosed when explicitly defined conditions arise or a particular knowledge gap is identified.
+
 <a id="progressive-delegation"></a>
 
 ### Progressive Delegation
 
 A controlled expansion of a defined automation scope only after evidence supports it; the scope remains revocable and can also be narrowed.
+
+<a id="provenance-chain"></a>
+
+### Provenance Chain
+
+The sequence of the original source and the material extractions, transformations, combinations, and handoffs through which a knowledge fragment passed before entering the current working state.
+
+A provenance chain provides traceability but does not itself prove that the content is true.
 
 <a id="provenance-plane"></a>
 
@@ -1796,6 +1901,14 @@ The set of project classes, task classes, risk levels, and conditions for which 
 ### Pre-Branch Verification
 
 An enhanced verification of a material decision or assumption before starting a large number of dependent tasks. Its required depth depends on the potential radius of consequences as well as the decision's own risk.
+
+<a id="principle-of-an-admissible-alternative"></a>
+
+### Principle of an Admissible Alternative
+
+A principle under which blocking a direct path should, where possible, be accompanied by another way to achieve the same objective without violating active constraints.
+
+The alternative path must not weaken requirements, bypass authority, or conceal the original lack of grounds.
 
 <a id="principle-of-non-elevation-of-authority-through-context"></a>
 
@@ -2138,6 +2251,22 @@ A structured, bounded package of information for a task, including its goal, con
 
 A capsule can also name the authority boundary, evidence required, expected handoff form, and stopping or escalation conditions. It provides a reproducible starting point without transferring the entire project.
 
+<a id="task-workspace"></a>
+
+### Task Workspace
+
+A constrained, reproducible projection of a project for a particular piece of work, including the required component versions, rules, tools, tests, permissions, and working context.
+
+The workspace is broader than the context capsule: the capsule is its informational component required by the executor at the start of work.
+
+<a id="temporal-validity-envelope"></a>
+
+### Temporal Validity Envelope
+
+The temporal or event-based domain within which a context fragment may be treated as current without additional verification.
+
+It may specify start and end times, conditions for remaining valid, invalidation events, and a revalidation interval. Storing or transforming a fragment again does not automatically renew this envelope.
+
 <a id="temporary-ai-executor"></a>
 
 ### Temporary AI Executor
@@ -2161,6 +2290,14 @@ Introspection can account for revocation and current state, but it depends on th
 Recorded information about a material's provenance, source, integrity, classification, review, or permitted use that helps an executor and control plane evaluate its trust status.
 
 Metadata supports differentiated handling of context: for example, an approved contract may be authoritative, while a retrieved web page is analyzed as untrusted data.
+
+<a id="trust-profile"></a>
+
+### Trust Profile
+
+A standard description of the permissible interpretation of a context fragment, combining its semantic role, epistemic status, normative force, and conditions of use.
+
+A trust profile does not replace the individual trust properties; it makes common combinations of them reproducible.
 
 <a id="trust-surface"></a>
 
@@ -2287,11 +2424,26 @@ A controlled shortening of the normal observation period when the expected risk 
 [Back to top](#alphabetical-contents)
 
 
+<a id="uncertainty-routing"></a>
+
+### Uncertainty Routing
+
+Selection of the next process for removing or deliberately preserving uncertainty: context expansion, revalidation, restriction of use, escalation, or termination.
+
+Uncertainty routing must not be replaced by plausible continuation based on an unverified assumption.
+
+
 <a id="under-routing"></a>
 
 ### Under-Routing
 
 The assignment of work to an executor whose capabilities are insufficient for sustained achievement of the required result under the established quality and risk criteria.
+
+<a id="unsafe-continuation"></a>
+
+### Unsafe Continuation
+
+Proceeding to an assertion, decision, or action without sufficient grounds despite a material information gap, unresolved contradiction, or uncertain applicability of context.
 
 <a id="unverified-work-budget"></a>
 
@@ -2336,6 +2488,12 @@ The temporal, version-based, or event-based conditions under which project knowl
 <a id="w"></a>
 
 ## W
+
+<a id="working-context"></a>
+
+### Working Context
+
+A temporary informational state available to an executor for a particular task. It is formed from project knowledge, changes as the work develops, and must not replace long-term project memory.
 
 <a id="workload-identity"></a>
 

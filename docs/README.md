@@ -24,7 +24,7 @@ CHLOYA is a methodology for governing the creation and evolution of software. Hu
 | 5 | [Deterministic Core, Policies, and Boundaries of AI Use](en/deterministic-core-ai-policies-boundaries/deterministic-core-ai-policies-boundaries.md) | `0.3.1` | under discussion |
 | 6 | [Testable Hypotheses, Risks, and Usefulness Criteria](en/hypotheses-risks-usefulness/hypotheses-risks-usefulness.md) | `0.3.1` | under discussion |
 | 7 | [Roles and Governance Boundaries](en/roles-governance/roles-governance.md) | `0.3.1` | under discussion |
-| 8 | Context Management and Trust Boundaries | `0.3.1` | in development |
+| 8 | [Context Management and Trust Boundaries](en/context-and-trust-boundaries/context-and-trust-boundaries.md) | `0.3.1` | under discussion |
 | 9 | Code as a Shared Language for Humans and AI | `0.3.1` | in development |
 | 10 | Human Profile and Adaptive Autonomy | `0.3.1` | in development |
 | 11 | Scale and Levels of Application | `0.3.1` | in development |
