@@ -6,6 +6,7 @@ This log concisely records substantive methodology changes between iterations. I
 
 ### Implemented
 
+- Added the complete English version of the standalone “Philosophical Questions and Open Tensions” section, including its internal contents, fifteen open questions, glossary references, and shared bibliography citations.
 - Created Russian and English tables of contents, chapter directory structure, and chapter statuses for iteration `0.3.1`.
 - Established the Russian version as the source version; the English table of contents is maintained as a working translation.
 - Refined the brief CHLOYA definition and the name expansion: Constrained Handoffs, Local Ownership, and Yield Assurance.

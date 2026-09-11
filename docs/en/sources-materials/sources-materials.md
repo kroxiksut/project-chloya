@@ -469,3 +469,159 @@ The content of external materials, especially GitHub repositories, may change af
 367. Joren H., Zhang J., Ferng C.-S., Juan D.-C., Taly A., Rashtchian C. [Sufficient Context: A New Lens on Retrieval-Augmented Generation Systems](https://arxiv.org/abs/2411.06037). *International Conference on Learning Representations (ICLR 2025)*. 2025. Accessed: 2026-08-31.
 
 368. Machcha S., Yerra S., Gupta S., Sahoo A., Sultana S., Yu H., Yao Z. [Knowing When to Abstain: Medical LLMs Under Clinical Uncertainty](https://aclanthology.org/2026.eacl-long.291/). *Proceedings of the 19th Conference of the European Chapter of the Association for Computational Linguistics, Volume 1: Long Papers*. Association for Computational Linguistics, 2026. P. 6153–6182. DOI: 10.18653/v1/2026.eacl-long.291. Accessed: 2026-08-31.
+
+369. Abelson H., Sussman G. J., Sussman J. [*Structure and Interpretation of Computer Programs*](https://mitpress.mit.edu/9780262510875/structure-and-interpretation-of-computer-programs/). 2nd ed. Cambridge, MA: MIT Press, 1996. ISBN 978-0-262-51087-5. Accessed: 2026-09-04.
+
+370. Knuth D. E. [Literate Programming](https://doi.org/10.1093/comjnl/27.2.97). *The Computer Journal*. 1984. Vol. 27, No. 2. P. 97–111. DOI: 10.1093/comjnl/27.2.97. Accessed: 2026-09-04.
+
+371. Heinonen A., Lehtelä B., Hellas A., Fagerholm F. [Synthesizing research on programmers’ mental models of programs, tasks and concepts — A systematic literature review](https://doi.org/10.1016/j.infsof.2023.107300). *Information and Software Technology*. 2023. Vol. 164. Article 107300. DOI: 10.1016/j.infsof.2023.107300. Accessed: 2026-09-04.
+
+372. Naur P. [Programming as Theory Building](https://doi.org/10.1016/0165-6074(85)90032-8). *Microprocessing and Microprogramming*. 1985. Vol. 15, No. 5. P. 253–261. DOI: 10.1016/0165-6074(85)90032-8. Accessed: 2026-09-04.
+
+373. Hindle A., Barr E. T., Su Z., Gabel M., Devanbu P. [On the Naturalness of Software](https://doi.org/10.1109/ICSE.2012.6227135). *Proceedings of the 34th International Conference on Software Engineering (ICSE)*. 2012. P. 837–847. DOI: 10.1109/ICSE.2012.6227135. Accessed: 2026-09-04.
+
+374. Hou X., Zhao Y., Liu Y., Yang Z., Wang K., Li L., Luo X., Lo D., Grundy J., Wang H. [Large Language Models for Software Engineering: A Systematic Literature Review](https://doi.org/10.1145/3695988). *ACM Transactions on Software Engineering and Methodology*. 2024. Vol. 33, No. 8. Article 220. P. 1–79. DOI: 10.1145/3695988. Accessed: 2026-09-04.
+
+375. Barke S., James M. B., Polikarpova N. [Grounded Copilot: How Programmers Interact with Code-Generating Models](https://doi.org/10.1145/3586030). *Proceedings of the ACM on Programming Languages*. 2023. Vol. 7, OOPSLA1. Article 78. 27 p. DOI: 10.1145/3586030. Accessed: 2026-09-04.
+
+376. Star S. L., Griesemer J. R. [Institutional Ecology, “Translations” and Boundary Objects: Amateurs and Professionals in Berkeley's Museum of Vertebrate Zoology, 1907–39](https://doi.org/10.1177/030631289019003001). *Social Studies of Science*. 1989. Vol. 19, No. 3. P. 387–420. DOI: 10.1177/030631289019003001. Accessed: 2026-09-04.
+
+377. Ouriques R., Fagerholm F., Mendez D., Gorschek T., Gislason Bern B., Vucic V. [Crafting Effective Boundary Artefacts in Software Engineering: A Guideline-Based Approach](https://doi.org/10.1007/s10664-026-10847-x). *Empirical Software Engineering*. 2026. Vol. 31, No. 4. Article 100. P. 1–32. DOI: 10.1007/s10664-026-10847-x. Accessed: 2026-09-04.
+
+378. Wing J. M. [A Specifier's Introduction to Formal Methods](https://doi.org/10.1109/2.58215). *Computer*. 1990. Vol. 23, No. 9. P. 8–24. DOI: 10.1109/2.58215. Accessed: 2026-09-04.
+
+379. Hayes I. J., Jones C. B. [Specifications Are Not (Necessarily) Executable](https://doi.org/10.1049/sej.1989.0045). *Software Engineering Journal*. 1989. Vol. 4, No. 6. P. 330–338. DOI: 10.1049/sej.1989.0045. Accessed: 2026-09-04.
+
+380. Fuchs N. E. [Specifications Are (Preferably) Executable](https://doi.org/10.1049/sej.1992.0033). *Software Engineering Journal*. 1992. Vol. 7, No. 5. P. 323–334. DOI: 10.1049/sej.1992.0033. Accessed: 2026-09-04.
+
+381. Rahman A., Mahdavi-Hezaveh R., Williams L. [A Systematic Mapping Study of Infrastructure as Code Research](https://doi.org/10.1016/j.infsof.2018.12.004). *Information and Software Technology*. 2019. Vol. 108. P. 65–77. DOI: 10.1016/j.infsof.2018.12.004. Accessed: 2026-09-04.
+
+382. Harel D., Marron A. [From Executable Specifications to Hard-to-Specify Requirements: Challenges in Describing Reactive System Behavior](https://doi.org/10.1109/TSE.2025.3534572). *IEEE Transactions on Software Engineering*. 2025. Vol. 51, No. 3. P. 741–745. DOI: 10.1109/TSE.2025.3534572. Accessed: 2026-09-04.
+
+383. Jain N. [*Synthesizing Executable Specifications to Improve AI Programming Agents*](https://www2.eecs.berkeley.edu/Pubs/TechRpts/2026/EECS-2026-158.html). Technical Report UCB/EECS-2026-158. University of California, Berkeley, 2026. Accessed: 2026-09-04.
+
+384. Parnas D. L. Information Distribution Aspects of Design Methodology. *Information Processing 71: Proceedings of IFIP Congress 71*. Vol. 1. Ljubljana, Yugoslavia, 1971. P. 339–344. [Online source](https://dblp.org/rec/conf/ifip/Parnas71). Accessed: 2026-09-11.
+
+385. Soloway E., Pinto J., Letovsky S., Littman D. C., Lampert R. Designing Documentation to Compensate for Delocalized Plans. *Communications of the ACM*. 1988. Vol. 31, No. 11. P. 1259–1267. DOI: [10.1145/50087.50088](https://doi.org/10.1145/50087.50088). Accessed: 2026-09-11.
+
+386. Ko A. J., Myers B. A., Coblenz M. J., Aung H. H. An Exploratory Study of How Developers Seek, Relate, and Collect Relevant Information during Software Maintenance Tasks. *IEEE Transactions on Software Engineering*. 2006. Vol. 32, No. 12. P. 971–987. DOI: [10.1109/TSE.2006.116](https://doi.org/10.1109/TSE.2006.116). Accessed: 2026-09-11.
+
+387. Sillito J., Murphy G. C., De Volder K. Asking and Answering Questions during a Programming Change Task. *IEEE Transactions on Software Engineering*. 2008. Vol. 34, No. 4. P. 434–451. DOI: [10.1109/TSE.2008.26](https://doi.org/10.1109/TSE.2008.26). Accessed: 2026-09-11.
+
+388. Zhang F., Chen B., Zhang Y., Keung J., Liu J., Zan D., Mao Y., Lou J.-G., Chen W. RepoCoder: Repository-Level Code Completion Through Iterative Retrieval and Generation. *Proceedings of the 2023 Conference on Empirical Methods in Natural Language Processing*. 2023. P. 2471–2484. DOI: [10.18653/v1/2023.emnlp-main.151](https://doi.org/10.18653/v1/2023.emnlp-main.151). Accessed: 2026-09-11.
+
+389. Gu W., Chen J., Wang Y., Jiang T., Li X., Liu M., Liu X., Ma Y., Zheng Z. What to Retrieve for Effective Retrieval-Augmented Code Generation? An Empirical Study and Beyond. 2025. [arXiv:2503.20589](https://arxiv.org/abs/2503.20589). Accessed: 2026-09-11.
+
+390. Khan Z., Farhadi A., Krishna R., Weihs L., Bansal M., Gupta T. MutaGReP: Execution-Free Repository-Grounded Plan Search for Code-Use. 2025. [arXiv:2502.15872](https://arxiv.org/abs/2502.15872). Accessed: 2026-09-11.
+
+391. Hu C., Zeng W., Shi Y., Shen B., Gu X. In Line with Context: Repository-Level Code Generation via Context Inlining. *Proceedings of the ACM on Software Engineering*. 2026. Vol. 3, FSE. P. 1469–1491. DOI: [10.1145/3797094](https://doi.org/10.1145/3797094). Accessed: 2026-09-11.
+
+392. Chatlatanagulchai W., Li H., Kashiwa Y., Reid B., Thonglek K., Leelaprute P., Rungsawang A., Manaskasemsak B., Adams B., Hassan A. E., Iida H. Agent READMEs: An Empirical Study of Context Files for Agentic Coding. 2025. [arXiv:2511.12884](https://arxiv.org/abs/2511.12884). Accessed: 2026-09-11.
+
+393. Ahmad M. O. Comprehension Debt in GenAI-Assisted Software Engineering Projects. 2026. [arXiv:2604.13277](https://arxiv.org/abs/2604.13277). Accessed: 2026-09-11.
+
+394. Liskov B., Zilles S. Programming with Abstract Data Types. *Proceedings of the ACM SIGPLAN Symposium on Very High Level Languages*. 1974. P. 50–59. DOI: [10.1145/800233.807045](https://doi.org/10.1145/800233.807045). Accessed: 2026-09-11.
+
+395. Parnas D. L., Clements P. C., Weiss D. M. The Modular Structure of Complex Systems. *IEEE Transactions on Software Engineering*. 1985. Vol. SE-11, No. 3. P. 259–266. DOI: [10.1109/TSE.1985.232209](https://doi.org/10.1109/TSE.1985.232209). Accessed: 2026-09-11.
+
+396. Green T. R. G., Petre M. Usability Analysis of Visual Programming Environments: A ‘Cognitive Dimensions’ Framework. *Journal of Visual Languages & Computing*. 1996. Vol. 7, No. 2. P. 131–174. DOI: [10.1006/jvlc.1996.0009](https://doi.org/10.1006/jvlc.1996.0009). Accessed: 2026-09-11.
+
+397. Meyer B. Applying ‘Design by Contract’. *Computer*. 1992. Vol. 25, No. 10. P. 40–51. DOI: [10.1109/2.161279](https://doi.org/10.1109/2.161279). Accessed: 2026-09-11.
+
+398. Avidan E., Feitelson D. G. Effects of Variable Names on Comprehension: An Empirical Study. *Proceedings of the 25th IEEE International Conference on Program Comprehension (ICPC)*. 2017. P. 55–65. DOI: [10.1109/ICPC.2017.27](https://doi.org/10.1109/ICPC.2017.27). Accessed: 2026-09-11.
+
+399. Bogner J., Kotstein S., Pfaff T. Do RESTful API Design Rules Have an Impact on the Understandability of Web APIs?. *Empirical Software Engineering*. 2023. Vol. 28. Article 132. DOI: [10.1007/s10664-023-10367-y](https://doi.org/10.1007/s10664-023-10367-y). Accessed: 2026-09-11.
+
+400. Gong L., Elhoushi M., Cheung A. AST-T5: Structure-Aware Pretraining for Code Generation and Understanding. *Proceedings of the 41st International Conference on Machine Learning*. Proceedings of Machine Learning Research. 2024. Vol. 235. P. 15839–15853. [Online source](https://proceedings.mlr.press/v235/gong24c.html). Accessed: 2026-09-11.
+
+401. Alznauer N., Peitek N., Abdelsalam Y., Bergum A., Wyrich M., Apel S. Eye-Tracking Insights into the Effects of Type Annotations and Identifier Naming. *Proceedings of the 34th IEEE/ACM International Conference on Program Comprehension (ICPC)*. 2026. P. 85–96. DOI: [10.1145/3794763.3794801](https://doi.org/10.1145/3794763.3794801). Accessed: 2026-09-11.
+
+402. Abdelsalam Y., Peitek N., Maurer A.-M., Toneva M., Apel S. Are Humans and LLMs Confused by the Same Code? An Empirical Study on Fixation-Related Potentials and LLM Perplexity. *Proceedings of the 48th IEEE/ACM International Conference on Software Engineering (ICSE)*. 2026. DOI: [10.1145/3744916.3773219](https://doi.org/10.1145/3744916.3773219). Accessed: 2026-09-11.
+
+403. Pascarella L., Bruntink M., Bacchelli A. Classifying Code Comments in Java Software Systems. *Empirical Software Engineering*. 2019. Vol. 24, No. 3. P. 1499–1537. DOI: [10.1007/s10664-019-09694-w](https://doi.org/10.1007/s10664-019-09694-w). Accessed: 2026-09-11.
+
+404. Fluri B., Würsch M., Gall H. C. Do Code and Comments Co-Evolve? On the Relation between Source Code and Comment Changes. *14th Working Conference on Reverse Engineering (WCRE 2007)*. 2007. P. 70–79. DOI: [10.1109/WCRE.2007.21](https://doi.org/10.1109/WCRE.2007.21). Accessed: 2026-09-11.
+
+405. Abdelsalam Y., Peitek N., Bergum A. et al. The Effect of Comments on Program Comprehension: An Eye-tracking Study. *Empirical Software Engineering*. 2026. Vol. 31. Article 94. DOI: [10.1007/s10664-025-10721-2](https://doi.org/10.1007/s10664-025-10721-2). Accessed: 2026-09-11.
+
+406. Tang A., Babar M. A., Gorton I., Han J. A Survey of Architecture Design Rationale. *Journal of Systems and Software*. 2006. Vol. 79, No. 12. P. 1792–1804. DOI: [10.1016/j.jss.2006.04.029](https://doi.org/10.1016/j.jss.2006.04.029). Accessed: 2026-09-11.
+
+407. Jansen A., Avgeriou P., van der Ven J. S. Enriching Software Architecture Documentation. *Journal of Systems and Software*. 2009. Vol. 82, No. 8. P. 1232–1248. DOI: [10.1016/j.jss.2009.04.052](https://doi.org/10.1016/j.jss.2009.04.052). Accessed: 2026-09-11.
+
+408. Codoban M., Ragavan S. S., Dig D., Bailey B. Software History under the Lens: A Study on Why and How Developers Examine It. *2015 IEEE 31st International Conference on Software Maintenance and Evolution (ICSME)*. 2015. P. 1–10. DOI: [10.1109/ICSM.2015.7332446](https://doi.org/10.1109/ICSM.2015.7332446). Accessed: 2026-09-11.
+
+409. Al Safwan K., Elarnaoty M., Servant F. Developers’ Need for the Rationale of Code Commits: An In-Breadth and In-Depth Study. *Journal of Systems and Software*. 2022. Vol. 189. Article 111320. DOI: [10.1016/j.jss.2022.111320](https://doi.org/10.1016/j.jss.2022.111320). Accessed: 2026-09-11.
+
+410. Ahmeti B., Linder M., Groner R., Wohlrab R. Architecture Decision Records in Practice: An Action Research Study. *Software Architecture: 18th European Conference, ECSA 2024*. Lecture Notes in Computer Science. Vol. 14889. 2024. P. 333–349. DOI: [10.1007/978-3-031-70797-1_22](https://doi.org/10.1007/978-3-031-70797-1_22). Accessed: 2026-09-11.
+
+411. Hoare C. A. R. An Axiomatic Basis for Computer Programming. *Communications of the ACM*. 1969. Vol. 12, No. 10. P. 576–580, 583. DOI: [10.1145/363235.363259](https://doi.org/10.1145/363235.363259). Accessed: 2026-09-11.
+
+412. Pierce B. C. *Types and Programming Languages*. Cambridge, MA: MIT Press, 2002. 648 p. ISBN 978-0-262-16209-8. [Online source](https://mitpress.mit.edu/9780262162098/types-and-programming-languages/). Accessed: 2026-09-11.
+
+413. Cousot P., Cousot R. Abstract Interpretation: A Unified Lattice Model for Static Analysis of Programs by Construction or Approximation of Fixpoints. *Proceedings of the 4th ACM SIGACT-SIGPLAN Symposium on Principles of Programming Languages*. 1977. P. 238–252. DOI: [10.1145/512950.512973](https://doi.org/10.1145/512950.512973). Accessed: 2026-09-11.
+
+414. Papadakis M., Kintis M., Zhang J., Jia Y., Le Traon Y., Harman M. Mutation Testing Advances: An Analysis and Survey. *Advances in Computers*. 2019. Vol. 112. P. 275–378. DOI: [10.1016/bs.adcom.2018.03.015](https://doi.org/10.1016/bs.adcom.2018.03.015). Accessed: 2026-09-11.
+
+415. Necula G. C. Proof-Carrying Code. *Proceedings of the 24th ACM SIGPLAN-SIGACT Symposium on Principles of Programming Languages*. 1997. P. 106–119. DOI: [10.1145/263699.263712](https://doi.org/10.1145/263699.263712). Accessed: 2026-09-11.
+
+416. Ni A., Iyer S., Radev D., Stoyanov V., Yih W.-T., Wang S., Lin X. V. LEVER: Learning to Verify Language-to-Code Generation with Execution. *Proceedings of the 40th International Conference on Machine Learning*. Proceedings of Machine Learning Research. 2023. Vol. 202. P. 26106–26128. [Online source](https://proceedings.mlr.press/v202/ni23b.html). Accessed: 2026-09-11.
+
+417. Yang J., Jimenez C. E., Wettig A., Lieret K., Yao S., Narasimhan K., Press O. SWE-agent: Agent-Computer Interfaces Enable Automated Software Engineering. *Advances in Neural Information Processing Systems*. 2024. Vol. 37. DOI: [10.52202/079017-1601](https://doi.org/10.52202/079017-1601). Accessed: 2026-09-11.
+
+418. Chen X., Tao Z., Zhang K., Zhou C., Zhang X., Gu W., He Y., Zhang M., Cai X., Zhao H., Jin Z. Revisit Self-Debugging with Self-Generated Tests for Code Generation. *Proceedings of the 63rd Annual Meeting of the Association for Computational Linguistics*. 2025. P. 18003–18023. DOI: [10.18653/v1/2025.acl-long.881](https://doi.org/10.18653/v1/2025.acl-long.881). Accessed: 2026-09-11.
+
+419. Opdyke W. F. *Refactoring Object-Oriented Frameworks*. PhD Dissertation. University of Illinois at Urbana-Champaign, 1992. [Online source](https://hdl.handle.net/2142/72072). Accessed: 2026-09-11.
+
+420. Mens T., Tourwé T. A Survey of Software Refactoring. *IEEE Transactions on Software Engineering*. 2004. Vol. 30, No. 2. P. 126–139. DOI: [10.1109/TSE.2004.1265817](https://doi.org/10.1109/TSE.2004.1265817). Accessed: 2026-09-11.
+
+421. Visser E. A Survey of Strategies in Rule-Based Program Transformation Systems. *Journal of Symbolic Computation*. 2005. Vol. 40, No. 1. P. 831–873. DOI: [10.1016/j.jsc.2004.12.011](https://doi.org/10.1016/j.jsc.2004.12.011). Accessed: 2026-09-11.
+
+422. Bohner S. A., Arnold R. S., eds. *Software Change Impact Analysis*. Los Alamitos, CA: IEEE Computer Society Press, 1996. 396 p. ISBN 978-0-8186-7384-9. [Online source](https://www.wiley-vch.de/en?isbn=9780818673849&option=com_eshop&title=Software+Change+Impact+Analysis&view=product). Accessed: 2026-09-11.
+
+423. Ampatzoglou A. et al. Change Impact Analysis: A Systematic Mapping Study. *Journal of Systems and Software*. 2021. Vol. 174. Article 110892. DOI: [10.1016/j.jss.2020.110892](https://doi.org/10.1016/j.jss.2020.110892). Accessed: 2026-09-11.
+
+424. Padioleau Y., Lawall J., Hansen R. R., Muller G. Documenting and Automating Collateral Evolutions in Linux Device Drivers. *Proceedings of the European Conference on Computer Systems (EuroSys 2008)*. 2008. P. 247–260. DOI: [10.1145/1352592.1352618](https://doi.org/10.1145/1352592.1352618). Accessed: 2026-09-11.
+
+425. Fei Z. et al. Patch Correctness Assessment: A Survey. *ACM Transactions on Software Engineering and Methodology*. 2025. Vol. 34, No. 2. P. 1–50. DOI: [10.1145/3702972](https://doi.org/10.1145/3702972). Accessed: 2026-09-11.
+
+426. Cornelissen B., Zaidman A., van Deursen A., Moonen L., Koschke R. A Systematic Survey of Program Comprehension through Dynamic Analysis. *IEEE Transactions on Software Engineering*. 2009. Vol. 35, No. 5. P. 684–702. DOI: [10.1109/TSE.2009.28](https://doi.org/10.1109/TSE.2009.28). Accessed: 2026-09-11.
+
+427. Agrawal H., Horgan J. R. Dynamic Program Slicing. *Proceedings of the ACM SIGPLAN 1990 Conference on Programming Language Design and Implementation*. 1990. P. 246–256. DOI: [10.1145/93548.93576](https://doi.org/10.1145/93548.93576). Accessed: 2026-09-11.
+
+428. Zeller A., Hildebrandt R. Simplifying and Isolating Failure-Inducing Input. *IEEE Transactions on Software Engineering*. 2002. Vol. 28, No. 2. P. 183–200. DOI: [10.1109/32.988498](https://doi.org/10.1109/32.988498). Accessed: 2026-09-11.
+
+429. Zeller A. Isolating Cause-Effect Chains from Computer Programs. *Proceedings of the 10th ACM SIGSOFT Symposium on Foundations of Software Engineering*. 2002. P. 1–10. DOI: [10.1145/587051.587053](https://doi.org/10.1145/587051.587053). Accessed: 2026-09-11.
+
+430. Jiang N., Li X., Wang S., Zhou Q., Hossain S. B., Ray B., Kumar V., Ma X., Deoras A. LeDex: Training LLMs to Better Self-Debug and Explain Code. *Advances in Neural Information Processing Systems*. 2024. Vol. 37. P. 35517–35543. DOI: [10.52202/079017-1120](https://doi.org/10.52202/079017-1120). Accessed: 2026-09-11.
+
+431. Li J., Le H., Zhou Y., Xiong C., Savarese S., Sahoo D. CodeTree: Agent-guided Tree Search for Code Generation with Large Language Models. *Proceedings of the 2025 Conference of the Nations of the Americas Chapter of the Association for Computational Linguistics: Human Language Technologies*. 2025. P. 3711–3726. DOI: [10.18653/v1/2025.naacl-long.189](https://doi.org/10.18653/v1/2025.naacl-long.189). Accessed: 2026-09-11.
+
+432. Maddila C., Tait A., Chang C., Cheng D., Ahmad N., Murali V. et al. Agentic Program Repair from Test Failures at Scale: A Neuro-Symbolic Approach with Static Analysis and Test Execution Feedback. 2025. [arXiv:2507.18755](https://arxiv.org/abs/2507.18755). Accessed: 2026-09-11.
+
+433. Guo C., Liu X., Xie C., Zhou A., Zeng Y., Lin Z., Song D., Li B. RedCode: Risky Code Execution and Generation Benchmark for Code Agents. *Advances in Neural Information Processing Systems*. 2024. Vol. 37. Datasets and Benchmarks Track. DOI: [10.52202/079017-3369](https://doi.org/10.52202/079017-3369). Accessed: 2026-09-11.
+
+434. Taleb R., Hallé S., Khoury R. Uncertainty in Runtime Verification: A Survey. *Computer Science Review*. 2023. Vol. 50. Article 100594. DOI: [10.1016/j.cosrev.2023.100594](https://doi.org/10.1016/j.cosrev.2023.100594). Accessed: 2026-09-11.
+
+435. Tao Y., Dang Y., Xie T., Zhang D., Kim S. How Do Software Engineers Understand Code Changes? An Exploratory Study in Industry. *Proceedings of the ACM SIGSOFT 20th International Symposium on the Foundations of Software Engineering*. 2012. Article 51. DOI: [10.1145/2393596.2393656](https://doi.org/10.1145/2393596.2393656). Accessed: 2026-09-11.
+
+436. KC D., Budathoki A. Handoff Debt: The Rediscovery Cost When Coding Agents Take Over Interrupted Tasks. 2026. [arXiv:2606.02875](https://arxiv.org/abs/2606.02875). Preprint. Accessed: 2026-09-11.
+
+437. Brooks F. P. Jr. No Silver Bullet — Essence and Accidents of Software Engineering. *Computer*. 1987. Vol. 20, No. 4. P. 10–19. DOI: [10.1109/MC.1987.1663532](https://doi.org/10.1109/MC.1987.1663532). Accessed: 2026-09-11.
+
+438. Zave P., Jackson M. Four Dark Corners of Requirements Engineering. *ACM Transactions on Software Engineering and Methodology*. 1997. Vol. 6, No. 1. P. 1–30. DOI: [10.1145/237432.237434](https://doi.org/10.1145/237432.237434). Accessed: 2026-09-11.
+
+439. Ryan S., O'Connor R. V. Acquiring and Sharing Tacit Knowledge in Software Development Teams: An Empirical Study. *Information and Software Technology*. 2013. Vol. 55, No. 9. P. 1614–1624. DOI: [10.1016/j.infsof.2013.02.013](https://doi.org/10.1016/j.infsof.2013.02.013). Accessed: 2026-09-11.
+
+440. Franch X., Palomares C., Quer C., Chatzipetrou P. et al. The State-of-Practice in Requirements Specification: An Extended Interview Study at 12 Companies. *Requirements Engineering*. 2023. Vol. 28. P. 377–409. DOI: [10.1007/s00766-023-00399-7](https://doi.org/10.1007/s00766-023-00399-7). Accessed: 2026-09-11.
+
+441. Shahin M., Hussain W., Nurwidyantoro A., Perera H., Shams R., Grundy J., Whittle J. Operationalizing Human Values in Software Engineering: A Survey. *IEEE Access*. 2022. Vol. 10. P. 75269–75295. DOI: [10.1109/ACCESS.2022.3190975](https://doi.org/10.1109/ACCESS.2022.3190975). Accessed: 2026-09-11.
+
+442. Rice H. G. Classes of Recursively Enumerable Sets and Their Decision Problems. *Transactions of the American Mathematical Society*. 1953. Vol. 74, No. 2. P. 358–366. DOI: [10.1090/S0002-9947-1953-0053041-6](https://doi.org/10.1090/S0002-9947-1953-0053041-6). Accessed: 2026-09-11.
+
+443. Brain M., Polgreen E. A Pyramid of (Formal) Software Verification. *Formal Methods: 26th International Symposium, FM 2024, Part II*. Lecture Notes in Computer Science. Vol. 14934. Springer, 2024. P. 393–419. DOI: [10.1007/978-3-031-71177-0_24](https://doi.org/10.1007/978-3-031-71177-0_24). Accessed: 2026-09-11.
+
+444. Morampudi A., Irrinki U., Grandhi R. et al. A Survey of Reward Hacking in Agentic Large Language Model Systems. *Discover Artificial Intelligence*. 2026. Vol. 6. Article 825. DOI: [10.1007/s44163-026-01980-z](https://doi.org/10.1007/s44163-026-01980-z). Accessed: 2026-09-11.
+
+445. Dong T., Shi S., Sampath H., Macvean A. Towards AI as a Collaborative Partner: A Taxonomy of AI Agent Behavior in Software Engineering. *Proceedings of the 3rd ACM International Conference on AI-Powered Software (AIware '26)*. 2026. [Online source](https://research.google/pubs/towards-ai-as-a-collaborative-partner-a-taxonomy-of-ai-agent-behavior-in-software-engineering/). Accessed: 2026-09-11.
+
+446. Tolzin A., Janson A. Uncovering the Mechanisms of Common Ground in Human–Agent Interaction: Review and Future Directions for Conversational Agent Research. *Internet Research*. 2026. Vol. 36, No. 1. P. 292–315. DOI: [10.1108/INTR-06-2023-0514](https://doi.org/10.1108/INTR-06-2023-0514). Accessed: 2026-09-11.

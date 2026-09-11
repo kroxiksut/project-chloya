@@ -288,6 +288,12 @@ A token usable by any party that possesses its value, without proving possession
 
 Bearer tokens are convenient but increase the significance of storage, transport, lifetime, audience, and logging controls. Where the threat model requires it, sender-constrained tokens reduce this replay risk.
 
+<a id="bottleneck-shift"></a>
+
+### Bottleneck Shift
+
+**Bottleneck shift** is the transfer of the principal constraint on system throughput from production or generation to another stage, such as problem formulation, contextualization, verification, integration, or decision-making, as intellectual production becomes cheaper and faster.
+
 <a id="bounded-handoff-package"></a>
 
 ### Bounded Handoff Package
@@ -827,6 +833,12 @@ Recording both the holder of the authority used and the actual executor that per
 ### Data Portability
 
 The ability to export project data from one implementation and transfer it to another in an open or documented representation. It does not by itself guarantee semantic or process portability.
+
+<a id="demand-validation-threshold"></a>
+
+### Demand Validation Threshold
+
+**The demand validation threshold** is the transition at which users begin paying for a product, providing the first empirical confirmation of its commercial value. Reaching this threshold does not mean that revenue already covers accumulated or current expenditure.
 
 <a id="decision-owner"></a>
 
@@ -1902,6 +1914,14 @@ The set of project classes, task classes, risk levels, and conditions for which 
 
 An enhanced verification of a material decision or assumption before starting a large number of dependent tasks. Its required depth depends on the potential radius of consequences as well as the decision's own risk.
 
+<a id="positive-marginal-return-on-machine-labor"></a>
+
+### Positive Marginal Return on Machine Labor
+
+**Positive marginal return on machine labor** is the state of a commercial process in which each additional expenditure on AI resources produces, with sufficient repeatability, additional profit greater than the cost of the corresponding development cycle and its associated expenses.
+
+The measure concerns the incremental costs and effects of a particular next cycle, not the recovery of all accumulated project expenditure.
+
 <a id="principle-of-an-admissible-alternative"></a>
 
 ### Principle of an Admissible Alternative
@@ -1927,6 +1947,12 @@ A rule that an agent's retelling, summarization, translation, structuring, or ot
 ### Principle of Provenance Preservation
 
 A requirement to retain material information about the provenance and trust of information when it is transformed, transferred between executors, and written to long-lived state, until a separately verifiable status-changing event occurs.
+
+<a id="principle-of-the-minimum-necessary-number-of-agents"></a>
+
+### Principle of the Minimum Necessary Number of Agents
+
+**The principle of the minimum necessary number of agents** is a CHLOYA principle under which an agent system should use no more independent executors than are justified by useful specialization, genuine parallelism, separation of authority, or independent verification. Additional agents are not valuable by themselves and must justify their coordination cost and added failure paths.
 
 <a id="process-portability"></a>
 
@@ -2013,6 +2039,12 @@ An OAuth parameter that associates a token with a particular protected resource 
 
 An operating mode that reduces permitted functionality after normal grounds are lost while retaining mandatory guarantees and explicit restoration conditions.
 
+<a id="scarcity-shift"></a>
+
+### Scarcity Shift
+
+**Scarcity shift** is a working CHLOYA hypothesis that, as generating intellectual artifacts becomes cheaper, the scarce resource moves from production toward problem formulation, architectural understanding, context, verification, integration, responsibility, human attention, and preservation of competence.
+
 <a id="scope"></a>
 
 ### Scope
@@ -2066,6 +2098,20 @@ The risk of continuing to use an earlier accepted component after known vulnerab
 A task or system state in which stopping does not continue unauthorized impact and retained information is sufficient for later analysis and decision by a competent owner.
 
 It does not require completing the task or discarding every earlier result. It does exclude automatic continuation of a potentially harmful operation after the executor has been suspended.
+
+<a id="self-financing-agentic-development-loop"></a>
+
+### Self-Financing Agentic Development Loop
+
+**A self-financing agentic development loop** is a system in which previously created economic value supplies resources for subsequent cycles of machine labor, while continued use of AI is supported by the results of its earlier use.
+
+Self-financing does not imply unlimited automatic growth: the loop remains constrained by demand, competition, decision quality, human attention, and other external factors.
+
+<a id="self-financing-threshold"></a>
+
+### Self-Financing Threshold
+
+**The self-financing threshold** is the state at which product revenue can cover operation and a reasonable amount of continued development without constant external funding from the creator.
 
 <a id="semantic-change-handoff"></a>
 
@@ -2462,6 +2508,12 @@ The permitted volume of dependent tasks or results that may develop at once from
 A result state in which conformity with the task, contracts, and constraints is confirmed by sufficient evidence.
 
 Completion of generation or a confident executor statement is not enough. Readiness is judged against the required evidence package, remaining risk, and the decision needed for the next transition.
+
+<a id="verification-competence-paradox"></a>
+
+### Verification Competence Paradox
+
+**The verification competence paradox** is the tension in which transferring more low-level intellectual work to AI reduces the natural opportunities through which people acquire and maintain the skills needed to recognize errors in that work and intervene effectively when automation fails.
 
 <a id="verified-result"></a>
 

@@ -12,6 +12,10 @@
 
 CHLOYA is a methodology for governing the creation and evolution of software. Humans set goals, participate in task definition and decomposition, and approve consequential decisions and outcomes. Temporary AI executors carry out work within a constrained, portable, trust-labelled, and verifiable context.
 
+## Philosophical Questions
+
+- [Philosophical Questions and Open Tensions](en/philosophical-questions/philosophical-questions.md)
+
 ## Chapter status
 
 > Until iteration `0.3.1` is finally approved, the set, titles, and order of sections may change. A link appears once a chapter contains substantive text; a draft placeholder remains unlinked.
