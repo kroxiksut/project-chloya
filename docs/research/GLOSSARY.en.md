@@ -120,6 +120,12 @@ An agentic executor differs from an AI model by having an external execution lay
 
 The total cost of governing AI use, including integration, verification, policy enforcement, monitoring, human review, incident response, and maintenance—not only the price of a model call.
 
+<a id="architecture-decision-record"></a>
+
+### Architecture Decision Record (ADR)
+
+An **Architecture Decision Record (ADR)** is a compact, maintained artifact that records a material architectural decision, its context, and rationale. It may also record alternatives, consequences, scope, and status. CHLOYA treats it as one possible form of project memory, not its only format.
+
 <a id="attenuation"></a>
 
 ### Attenuation
@@ -294,6 +300,12 @@ Bearer tokens are convenient but increase the significance of storage, transport
 
 **Bottleneck shift** is the transfer of the principal constraint on system throughput from production or generation to another stage, such as problem formulation, contextualization, verification, integration, or decision-making, as intellectual production becomes cheaper and faster.
 
+<a id="boundary-object"></a>
+
+### Boundary Object / Boundary Artifact
+
+A **boundary object / boundary artifact** is an established concept for a shared object used by different groups in their own contexts. It permits differing local interpretations while retaining enough stability for coordination. CHLOYA uses it as an analogy for formalized human–agent artifacts, without equating them directly.
+
 <a id="bounded-handoff-package"></a>
 
 ### Bounded Handoff Package
@@ -346,6 +358,24 @@ An additional, verifiable condition on use of a delegated capability, such as a 
 
 Caveats make delegation narrower and inspectable. They should be enforceable by a trusted component rather than left to an executor's interpretation alone.
 
+<a id="change-artifact"></a>
+
+### Change Artifact
+
+A **change artifact** represents a difference or transformation rule between an initial and resulting state. It may be a version diff, migration, program-transformation rule, infrastructure plan, or another machine-interpretable transition representation. Its meaning is relative to its initial state.
+
+<a id="change-contract"></a>
+
+### Change Contract
+
+A **change contract** is a methodological representation combining a transformation's initial state, goal, executor authority, preserved and changed properties, and verification mechanisms. Its parts may reside across a task, architectural constraints, policies, tests, and other CHLOYA artifacts rather than one document.
+
+<a id="change-impact-scope"></a>
+
+### Change Impact Scope
+
+The **change impact scope** is the set of system elements, states, and properties a change may materially affect, whether or not they were edited directly. It differs from and may extend beyond the permitted editing scope.
+
 <a id="chloya"></a>
 
 ### CHLOYA
@@ -377,6 +407,12 @@ Automation of integration or deployment does not replace authority checks, conse
 *Command-Line Interface* — a text-based interface for operating a program or service.
 
 In an agentic workflow, CLI access is a technical capability. It must still be bounded by the executor's authority and the environment's controls.
+
+<a id="code-as-a-shared-language"></a>
+
+### Code as a Shared Language
+
+**Code as a shared language** treats code as a formalized environment through which people, AI, and computing tools interact with one software-system state. Shared language does not imply identical understanding: each participant reads, transforms, executes, or verifies the representation according to its role and capabilities.
 
 <a id="confirmed-state"></a>
 
@@ -425,6 +461,12 @@ Context is not synonymous with instruction. Its parts can have different provena
 The total cost of selecting, transferring, processing, and verifying context that a task can accept, accounting for token volume, latency, computational expense, overload risk, and expansion of the trust surface.
 
 A context budget is not merely a fixed token quota.
+
+<a id="context-debt"></a>
+
+### Context Debt
+
+**Context debt** is the accumulated additional search, reconstruction, and interpretation required for safe action because material context is distributed, implicit, outdated, contradictory, or accessible only through a disproportionately large project area. In agentic systems it creates cognitive, computational, and economic costs.
 
 <a id="context-engineering"></a>
 
@@ -512,6 +554,18 @@ An explicit description of the conditions under which a context fragment applies
 
 Topical relevance alone does not establish applicability.
 
+<a id="contextual-self-sufficiency"></a>
+
+### Contextual Self-Sufficiency
+
+**Contextual self-sufficiency** is a property of an artifact or bounded system area whereby context required for typical safe work can be recovered from that area and a small number of explicitly discoverable related artifacts, without reconstructing much of the project or its work history.
+
+<a id="continuation-cost"></a>
+
+### Continuation Cost
+
+**Continuation cost** is the additional effort the next participant spends reconstructing working context before beginning new substantive work. For agents it includes repeated reading, search, tool calls, exploratory execution, and model computation; it is context debt at a participant-change boundary.
+
 <a id="contract"></a>
 
 ### Contract
@@ -527,6 +581,12 @@ Contracts make a boundary explicit. They allow a local change to be assessed aga
 Obtaining additional information after the initial context proves insufficient, while stating the uncertainty, requested material, its relation to the task, and any changed boundaries or risk.
 
 The request is itself a governed transition: it should make clear whether more context resolves an information gap only or also requires a new authority decision.
+
+<a id="controlled-state-transformation"></a>
+
+### Controlled State Transformation
+
+A **controlled state transformation** moves an identifiable initial project state through a bounded, semantically coherent transformation to a resulting state relative to a defined goal, authority, and preserved properties, after which an external verification loop assesses the transition's admissibility.
 
 <a id="credential-broker"></a>
 
@@ -731,6 +791,14 @@ Attenuation protects against a chain of agents gradually acquiring broader right
 A CHLOYA entity describing the boundaries of authority transferred to a particular agent execution: its owner, actual executor, task, operations, resources, environment, duration, scale, and onward-delegation rules.
 
 The envelope makes the delegation inspectable and supplies a stopping point when a proposed operation does not fit the original grant.
+
+<a id="delocalized-plan"></a>
+
+### Delocalized Plan
+
+a conceptually related solution distributed across physically separated parts of a program, so that no individual local fragment reveals the full material relationship.
+
+[Back to letter](#d)
 
 <a id="deterministic-core"></a>
 
@@ -950,6 +1018,14 @@ The verification results and explanations sufficient to decide whether a change 
 
 The package can combine automated checks, review, records of performed operations, and an explicit account of residual risk. It supports a decision; it does not replace the decision owner.
 
+<a id="executable-artifact"></a>
+
+### Executable Artifact
+
+a [machine-interpretable artifact](#machine-interpretable-artifact) whose processing directly produces a computation, a state change, or other observable behavior. Executability is a means of applying and verifying an artifact, not a mandatory property of every artifact.
+
+[Back to letter](#e)
+
 <a id="execution-plan"></a>
 
 ### Execution Plan
@@ -971,6 +1047,14 @@ It must not expand the operation's meaning, resources, or scope on its own. The 
 A component or configuration that derives CHLOYA instructions, contracts, permissions, and tool connections from the portable core for a particular executor or agent environment.
 
 An adapter accounts for provider-specific behavior, but must not become a competing source of truth about the project, its decisions, or its policies.
+
+<a id="exploratory-execution"></a>
+
+### Exploratory Execution
+
+controlled execution performed primarily to acquire knowledge about a system and reduce uncertainty. It may vary inputs or experimental state, collect traces, or introduce temporary instrumentation; its observations apply only under the conditions of the experiment.
+
+[Back to letter](#e)
 
 <a id="external-contract"></a>
 
@@ -1087,6 +1171,14 @@ The set of characteristics that uniquely identify an admitted software object: c
 ### External Artifact Promotion
 
 The controlled transition of a particular version and artifact from an external candidate to one permitted for a specified project, environment, or use class.
+<a id="external-verification-loop"></a>
+
+### External Verification Loop
+
+a set of mechanisms that receives a result or system state and establishes relevant properties independently of the executor's verbal self-assessment. Such mechanisms include compilers, type systems, analyzers, tests, validators, formal methods, and human acceptance.
+
+[Back to letter](#e)
+
 
 <a id="f"></a>
 
@@ -1295,6 +1387,14 @@ An obligation applying inside a context module or a limited project area.
 
 Its change can remain local if it does not affect external consumers, cross-module contracts, or system requirements. The classification must be reassessed when new dependencies are found.
 
+<a id="interpretation-remainder"></a>
+
+### Interpretation Remainder
+
+the material part of meaning that has not yet been represented sufficiently in persistent formal or unambiguous artifacts and therefore still requires contextual judgment. It is not inherently impossible to formalize and may later be transferred into requirements, code, types, contracts, tests, or project memory.
+
+[Back to letter](#i)
+
 <a id="invariant"></a>
 
 ### Invariant
@@ -1418,6 +1518,14 @@ Restriction of only the affected functions and dependencies when normal grounds 
 
 A CHLOYA principle under which each stable system domain, material decision, contract, or change has a clear responsibility boundary and an owner accountable for the relevant class of decisions.
 
+<a id="locally-necessary-knowledge"></a>
+
+### Locally Necessary Knowledge
+
+knowledge required to read or change a specific area safely that cannot be recovered reliably from its [structural context](#structural-context). It may be recorded in a comment or a link; the criterion is whether it enables safe local work.
+
+[Back to letter](#l)
+
 <a id="longitudinal-field-use"></a>
 
 ### Longitudinal Field Use
@@ -1427,6 +1535,22 @@ An evaluation of the methodology across a sequence of related changes over a suf
 <a id="m"></a>
 
 ## M
+
+<a id="machine-interpretable-artifact"></a>
+
+### Machine-Interpretable Artifact
+
+a representation whose material elements have defined semantics that allow a tool to analyze, verify, decide upon, transform, or execute them. Machine interpretability arises from the combination of structure, semantics, and the interpreting tool.
+
+[Back to letter](#m)
+
+<a id="machine-readable-artifact"></a>
+
+### Machine-Readable Artifact
+
+a structured representation whose elements tools can identify and process reliably. Access to the structure alone does not imply that the semantics of its use are defined.
+
+[Back to letter](#m)
 
 <a id="managed-autonomy"></a>
 
@@ -1766,6 +1890,30 @@ An artifact created by an executor that has not necessarily been accepted, integ
 
 Examples include an analysis, patch, migration, test, document, or escalation package. Calling it “prepared” preserves the distinction between a technically available output and a project-approved result.
 
+<a id="principle-of-minimally-sufficient-change"></a>
+
+### Principle of Minimally Sufficient Change
+
+the principle that a change must include every element required to reach the target state and account for its material consequences, while excluding unrelated modifications. Minimality is determined by the meaning of the operation, not by the number of changed lines or files.
+
+[Back to letter](#p)
+
+<a id="principle-of-separating-current-state-from-history"></a>
+
+### Principle of Separating Current State from History
+
+the principle that the current organization of a system and the history of how it was formed belong in artifacts suited to those purposes: code and comments describe the current state, change history records transformations, project memory preserves reasons, alternatives, and context, and agent logs preserve action provenance.
+
+[Back to letter](#p)
+
+<a id="principle-of-structural-explicitness"></a>
+
+### Principle of Structural Explicitness
+
+the principle that material relationships and constraints naturally expressible through structure should be fixed in the structure of software artifacts, rather than left only in implicit conventions, comments, or internal context. It does not require maximum abstraction; the structure must reduce the cost of recovering meaning.
+
+[Back to letter](#p)
+
 <a id="privileged-intermediary-problem"></a>
 
 ### Privileged Intermediary Problem
@@ -1995,6 +2143,14 @@ The part of an architecture in which a person or probabilistic component interpr
 
 A trusted mechanism that mediates each protected access according to policy, remains protected from modification, and is small enough to be analyzed [116], [117].
 
+<a id="required-context"></a>
+
+### Required Context
+
+a bounded set of current information about state, relationships, constraints, provenance, and expected behavior without which an operation cannot be performed with the required reliability. Required context is relative to a particular operation.
+
+[Back to letter](#r)
+
 <a id="residual-risk"></a>
 
 ### Residual Risk
@@ -2159,6 +2315,14 @@ A logical component or role that coordinates execution of interdependent functio
 
 The service orchestrator operates within granted authority and does not independently determine the policy governing permissible actions.
 
+<a id="shared-working-surface"></a>
+
+### Shared Working Surface
+
+a persistent external representation of system state accessible to different types of participants, through which they can perceive, change, and verify that state. Code and other formal artifacts provide such continuity because it depends on external state rather than only on a participant's internal context.
+
+[Back to letter](#s)
+
 <a id="skill"></a>
 
 ### Skill
@@ -2199,6 +2363,14 @@ An implementation of SPIFFE specifications that attests nodes and workloads and 
 
 It is one possible implementation for workload identity and short-lived credentials, rather than a required CHLOYA component.
 
+<a id="state-transferability"></a>
+
+### State Transferability
+
+the property that allows another admissible participant to reconstruct the required working context and continue an operation with a bounded cost of repeated investigation. It is achieved by materializing state in canonical artifacts and preserving necessary temporary state, not by retaining the maximum possible amount of information.
+
+[Back to letter](#s)
+
 <a id="stopping-condition"></a>
 
 ### Stopping Condition
@@ -2207,6 +2379,14 @@ A predefined circumstance in which an executor must not continue an action.
 
 Examples include missing required context, sensitive data outside the approved boundary, an unverified result, a conflict with an invariant, or an irreversible external action. A stopping condition makes suspension or escalation a specified response, not an improvised failure.
 
+<a id="structural-context"></a>
+
+### Structural Context
+
+the part of [required context](#required-context) expressed by the organization of software artifacts, including names, signatures, types, interfaces, component membership, and dependencies. It enables a participant to recover roles and relationships without separate prose where those relationships are naturally structural.
+
+[Back to letter](#s)
+
 <a id="structured-authorization-request"></a>
 
 ### Structured Authorization Request
@@ -2214,6 +2394,14 @@ Examples include missing required context, sensitive data outside the approved b
 A machine-readable request that expresses an action, resource, parameters, and constraints so authorization can be decided with more precision than broad scopes alone.
 
 It can carry the details needed for typed authorization, such as the actual target, amount, environment, and conditions, while retaining a record of what was requested.
+
+<a id="sufficient-formalization"></a>
+
+### Sufficient Formalization
+
+a CHLOYA principle requiring intent or a constraint to be moved to the level of machine interpretability needed for the task's verification, application, or execution, while avoiding formalization for its own sake and material loss of meaning.
+
+[Back to letter](#s)
 
 <a id="suspension"></a>
 
@@ -2328,6 +2516,14 @@ It must not become the only holder of project memory, architectural decisions, s
 An inquiry to an authorization server to determine whether a token is active and what authority it carries.
 
 Introspection can account for revocation and current state, but it depends on the central server’s availability and on clear semantics for which returned claims the enforcement point trusts.
+
+<a id="transferable-state"></a>
+
+### Transferable State
+
+an externally represented state of a completed or incomplete operation that is sufficient for the next admissible participant to continue, verify, or accept the work without reconstructing substantial context. It relies on canonical artifacts and only the necessary residual temporary context, not on preserving the full history of actions and reasoning.
+
+[Back to letter](#t)
 
 <a id="trust-metadata"></a>
 
@@ -2501,6 +2697,14 @@ The permitted volume of dependent tasks or results that may develop at once from
 
 ## V
 
+<a id="verifiable-property"></a>
+
+### Verifiable Property
+
+a property of a result or state with a sufficiently definite criterion for a tool or formal method to establish satisfaction, violation, or indeterminacy. It is narrower than general system correctness and is tied to stated conditions.
+
+[Back to letter](#v)
+
 <a id="verifiable-readiness"></a>
 
 ### Verifiable Readiness
@@ -2514,6 +2718,22 @@ Completion of generation or a confident executor statement is not enough. Readin
 ### Verification Competence Paradox
 
 **The verification competence paradox** is the tension in which transferring more low-level intellectual work to AI reduces the natural opportunities through which people acquire and maintain the skills needed to recognize errors in that work and intervene effectively when automation fails.
+
+<a id="verification-evidence"></a>
+
+### Verification Evidence
+
+a preserved instrumental or formal result tied to a specific artifact state that confirms, refutes, or leaves indeterminate a property within a stated scope. It may record the tool, version, parameters, environment, and checked state; it is not proof of complete correctness.
+
+[Back to letter](#v)
+
+<a id="verification-scope"></a>
+
+### Verification Scope
+
+the set of properties, input states, execution conditions, environmental constraints, and assumptions for which a verification mechanism can provide meaningful evidence. A positive result does not extend beyond this scope.
+
+[Back to letter](#v)
 
 <a id="verified-result"></a>
 

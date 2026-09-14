@@ -6,7 +6,7 @@ This log concisely records substantive methodology changes between iterations. I
 
 ### Implemented
 
-- Added the complete English version of the standalone “Philosophical Questions and Open Tensions” section, including its internal contents, fifteen open questions, glossary references, and shared bibliography citations.
+- Added the complete English version of chapter 35, “Philosophical Questions and Open Tensions,” including its internal contents, fifteen open questions, glossary references, and shared bibliography citations.
 - Created Russian and English tables of contents, chapter directory structure, and chapter statuses for iteration `0.3.1`.
 - Established the Russian version as the source version; the English table of contents is maintained as a working translation.
 - Refined the brief CHLOYA definition and the name expansion: Constrained Handoffs, Local Ownership, and Yield Assurance.
@@ -29,5 +29,7 @@ This log concisely records substantive methodology changes between iterations. I
 - Added the complete English translation of chapter 7, preserving sections 7.1–7.9 and all five diagrams; synchronized shared bibliography entries [344]–[360] and expanded the global English glossary for the chapter. The translation is under discussion.
 
 - Added the complete English translation of chapter 8, preserving sections 8.1–8.7 and the local table of contents; synchronized shared bibliography entries [361]–[368] and expanded the global English glossary. Both language versions are under discussion.
+
+- Added the complete English translation of chapter 9, preserving sections 9.1–9.11, the chapter conclusion, the local table of contents, and shared bibliography citations; expanded the global English glossary with the chapter's terminology. Both language versions are under discussion.
 
 Substantive changes will be recorded here as version `0.3.1` chapters are developed and agreed.

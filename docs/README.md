@@ -12,10 +12,6 @@
 
 CHLOYA is a methodology for governing the creation and evolution of software. Humans set goals, participate in task definition and decomposition, and approve consequential decisions and outcomes. Temporary AI executors carry out work within a constrained, portable, trust-labelled, and verifiable context.
 
-## Philosophical Questions
-
-- [Philosophical Questions and Open Tensions](en/philosophical-questions/philosophical-questions.md)
-
 ## Chapter status
 
 > Until iteration `0.3.1` is finally approved, the set, titles, and order of sections may change. A link appears once a chapter contains substantive text; a draft placeholder remains unlinked.
@@ -25,11 +21,12 @@ CHLOYA is a methodology for governing the creation and evolution of software. Hu
 | 1 | [Why a New Methodology Is Needed](en/why-new-methodology/why-new-methodology.md) | `0.3.1` | under discussion |
 | 2 | [Boundaries, Scope, and Non-goals](en/boundaries-scope-non-goals/boundaries-scope-non-goals.md) | `0.3.1` | under discussion |
 | 3 | [CHLOYA Core Principles at a Glance](en/core-principles/core-principles.md) | `0.3.1` | in translation |
+| 4 | [CHLOYA Operational Model](en/operational-model/operational-model.md) | `0.3.1` | under discussion |
 | 5 | [Deterministic Core, Policies, and Boundaries of AI Use](en/deterministic-core-ai-policies-boundaries/deterministic-core-ai-policies-boundaries.md) | `0.3.1` | under discussion |
 | 6 | [Testable Hypotheses, Risks, and Usefulness Criteria](en/hypotheses-risks-usefulness/hypotheses-risks-usefulness.md) | `0.3.1` | under discussion |
 | 7 | [Roles and Governance Boundaries](en/roles-governance/roles-governance.md) | `0.3.1` | under discussion |
 | 8 | [Context Management and Trust Boundaries](en/context-and-trust-boundaries/context-and-trust-boundaries.md) | `0.3.1` | under discussion |
-| 9 | Code as a Shared Language for Humans and AI | `0.3.1` | in development |
+| 9 | [Code as a Shared Language for Humans and AI](en/code-shared-language/code-shared-language.md) | `0.3.1` | under discussion |
 | 10 | Human Profile and Adaptive Autonomy | `0.3.1` | in development |
 | 11 | Scale and Levels of Application | `0.3.1` | in development |
 | 12 | Context Module as a Unit of Local Work | `0.3.1` | in development |
@@ -48,7 +45,6 @@ CHLOYA is a methodology for governing the creation and evolution of software. Hu
 | 25 | Documentation and Language Policy | `0.3.1` | in development |
 | 26 | New Projects and Technology Choices | `0.3.1` | in development |
 | 27 | Application to Existing Projects | `0.3.1` | in development |
-| 4 | [CHLOYA Operational Model](en/operational-model/operational-model.md) | `0.3.1` | under discussion |
 | 28 | Minimum Implementation Profile of CHLOYA | `0.3.1` | in development |
 | 29 | Skills and Adapters for Popular Agents | `0.3.1` | in development |
 | 30 | A Dedicated MCP Server | `0.3.1` | in development |
@@ -56,7 +52,8 @@ CHLOYA is a methodology for governing the creation and evolution of software. Hu
 | 32 | Pilot Validation Plan | `0.3.1` | in development |
 | 33 | Decisions for the Next Iteration | `0.3.1` | in development |
 | 34 | Open Research Questions | `0.3.1` | in development |
-| 35 | [Sources and Materials](en/sources-materials/sources-materials.md) | `0.3.1` | in development |
+| 35 | [Philosophical Questions and Open Tensions](en/philosophical-questions/philosophical-questions.md) | `0.3.1` | in development |
+| 36 | [Sources and Materials](en/sources-materials/sources-materials.md) | `0.3.1` | in development |
 | — | [Glossary](research/GLOSSARY.en.md) | `0.3.1` | public reference |
 | — | Conclusion | `0.3.1` | in development |
 
