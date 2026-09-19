@@ -26,9 +26,9 @@ This log concisely records substantive methodology changes between iterations. I
 
 - Added the complete English translation of chapter 5, synchronized shared bibliography entries [101]–[222], and expanded the global English glossary for the chapter; the translation is under discussion.
 
-- Added the complete English translation of chapter 7, preserving sections 7.1–7.9 and all five diagrams; synchronized shared bibliography entries [344]–[360] and expanded the global English glossary for the chapter. The translation is under discussion.
+- Added the complete English translation of chapter 7, preserving sections 7.1–7.9 and all five diagrams; synchronized shared bibliography entries [343]–[359] and expanded the global English glossary for the chapter. The translation is under discussion.
 
-- Added the complete English translation of chapter 8, preserving sections 8.1–8.7 and the local table of contents; synchronized shared bibliography entries [361]–[368] and expanded the global English glossary. Both language versions are under discussion.
+- Added the complete English translation of chapter 8, preserving sections 8.1–8.7 and the local table of contents; synchronized shared bibliography entries [360]–[367] and expanded the global English glossary. Both language versions are under discussion.
 
 - Added the complete English translation of chapter 9, preserving sections 9.1–9.11, the chapter conclusion, the local table of contents, and shared bibliography citations; expanded the global English glossary with the chapter's terminology. Both language versions are under discussion.
 

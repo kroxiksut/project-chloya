@@ -17,7 +17,7 @@
 
 The ability of modern models to accept long inputs creates a temptation to solve the context problem simply by increasing the amount of information provided. For an agentic system, this approach is insufficient. The technical ability to place code, documentation, decision history, tool results, and previous messages into a single [context window][g-context-window] does not mean that all this information will be interpreted and used equally well.
 
-As shown in Section 1.3, CHLOYA treats context as a constrained architectural resource. Research on long context shows that model performance may depend on where relevant information appears [48]. Later experiments demonstrated an even stricter limitation: on a number of tasks, performance declined as input length increased even when all relevant information was retrieved correctly [361]. A large [context window][g-context-window] therefore solves the problem of physically accommodating information, but not the problem of using it effectively.
+As shown in Section 1.3, CHLOYA treats context as a constrained architectural resource. Research on long context shows that model performance may depend on where relevant information appears [48]. Later experiments demonstrated an even stricter limitation: on a number of tasks, performance declined as input length increased even when all relevant information was retrieved correctly [360]. A large [context window][g-context-window] therefore solves the problem of physically accommodating information, but not the problem of using it effectively.
 
 For CHLOYA, this implies a fundamental distinction between **the existence of knowledge** and **its inclusion in the [working context][g-working-context]**. A project may retain substantially more information than a particular executor needs. Complete project knowledge makes it possible to reconstruct the state of the system, the provenance of decisions, and the required dependencies; working context is a constrained projection of that knowledge, formed for a particular task, executor, and current state of work.
 
@@ -75,7 +75,7 @@ Good system decomposition therefore creates both **boundaries of change and boun
 
 In CHLOYA, a [context budget][g-context-budget] should not be understood as a fixed token quota. Token volume is only one component of cost. Additional context must be found, transferred, and interpreted; it may increase latency and model cost; it expands the body of information whose applicability and trust must be assessed; and it complicates subsequent verification of the result.
 
-Work on long context further shows that this cost may appear directly in reasoning quality: in experiments by Du et al., increasing the input degraded model performance even though relevant information was retained and the length remained within the declared [context window][g-context-window] [361]. A [context budget][g-context-budget] therefore constrains not only computational cost but also the risk of degraded model performance.
+Work on long context further shows that this cost may appear directly in reasoning quality: in experiments by Du et al., increasing the input degraded model performance even though relevant information was retained and the length remained within the declared [context window][g-context-window] [360]. A [context budget][g-context-budget] therefore constrains not only computational cost but also the risk of degraded model performance.
 
 The budget must not, however, prevent critical knowledge from being obtained. If an unknown dependency, a contradiction in a contract, or a system constraint outside the initial scope is discovered during execution, preserving the original context size ceases to be a virtue. The correct response is controlled expansion, task decomposition, or escalation, rather than continuing on a basis known to be insufficient.
 
@@ -307,7 +307,7 @@ When several sources make different factual claims about the state of a system, 
 
 For example, project documentation may say that a system uses PostgreSQL 15, while `SELECT version()` executed in the current environment reports PostgreSQL 16. The document may remain an important normative artifact while containing a stale description of the observed state. The correct response is to record the discrepancy and investigate its cause, not to force a preference for the text merely because it sits higher in the document hierarchy.
 
-The situation differs when instructions conflict. Here the question concerns permissible behavior, not truth. Research on Instruction Hierarchy proposes explicitly separating instructions by privilege level and preventing lower-priority content from overriding more privileged rules [362]. CHLOYA finds this principle useful, but applies it specifically to the **normative plane**, not to every form of knowledge.
+The situation differs when instructions conflict. Here the question concerns permissible behavior, not truth. Research on Instruction Hierarchy proposes explicitly separating instructions by privilege level and preventing lower-priority content from overriding more privileged rules [361]. CHLOYA finds this principle useful, but applies it specifically to the **normative plane**, not to every form of knowledge.
 
 Consequently:
 
@@ -374,7 +374,7 @@ Detailed mechanisms for inheriting provenance and trust during inter-agent hando
 
 A contradiction between two context fragments does not itself determine how the conflict should be resolved. The first step is to establish **what type of claims are in conflict**.
 
-If instructions conflict, normative priority is decisive: an instruction with less [normative force][g-normative-strength] must not override a more privileged one. The absence of this distinction underlies a substantial share of [prompt injection][g-prompt-injection]: third-party text begins to compete with control instructions as though it had comparable status [362].
+If instructions conflict, normative priority is decisive: an instruction with less [normative force][g-normative-strength] must not override a more privileged one. The absence of this distinction underlies a substantial share of [prompt injection][g-prompt-injection]: third-party text begins to compete with control instructions as though it had comparable status [361].
 
 If factual claims conflict, an instruction hierarchy is insufficient. Evidence, provenance, freshness, applicability, and direct verification results must be analyzed. Two applicable sources may both be in good faith while describing different times or states of the system.
 
@@ -466,7 +466,7 @@ This distinction replaces the simplistic question “what can be deleted to free
 
 > **What must be retained directly, what may be compressed, and what may be removed provided that the source material can be recovered reliably?**
 
-Contemporary approaches to context management in long-running agentic tasks similarly seek to distinguish stable task semantics, compressed history, and high-fidelity recent information [276]. Research on adaptive compression further shows that excessively aggressive reduction can prematurely destroy information needed for later reasoning, while retaining the complete history leads to context saturation and rising cost [363].
+Contemporary approaches to context management in long-running agentic tasks similarly seek to distinguish stable task semantics, compressed history, and high-fidelity recent information [276]. Research on adaptive compression further shows that excessively aggressive reduction can prematurely destroy information needed for later reasoning, while retaining the complete history leads to context saturation and rising cost [362].
 
 CHLOYA resolves this tradeoff not through a single universal strategy, but through **different retention policies for different context classes**.
 
@@ -492,7 +492,7 @@ If a long tool output is replaced by several conclusions, a reference to the ori
 
 Transformation must not elevate trust or automatically renew temporal validity. The rules introduced in Sections 8.2 and 8.3 continue to apply during compression: a new summary does not become fresher or more reliable merely because it was created later.
 
-Contemporary research on context compression likewise shows the need to optimize not only the size of the reduced state, but also its ability to preserve information critical to long-running tasks [363].
+Contemporary research on context compression likewise shows the need to optimize not only the size of the reduced state, but also its ability to preserve information critical to long-running tasks [362].
 
 ### 8.4.5. Event-Driven Context Maintenance
 
@@ -618,7 +618,7 @@ rather than:
 
 The distinction is fundamental. The first form implies selection, preservation of material properties, and subsequent assessment by the recipient. The second effectively turns the new executor into a continuation of the previous session and transfers the entire accumulated information trajectory together with useful knowledge.
 
-Research on handing off long-running agentic tasks shows that retaining the full preceding trajectory does not itself guarantee better continuation. In some experiments, excessively detailed inheritance of a previous agent's actions imposed additional cost and could impair the performance of a stronger successor [364]. For CHLOYA, this supports the general principle: **handoff should transfer task state, not the history of the path by which the previous subject reached it**.
+Research on handing off long-running agentic tasks shows that retaining the full preceding trajectory does not itself guarantee better continuation. In some experiments, excessively detailed inheritance of a previous agent's actions imposed additional cost and could impair the performance of a stronger successor [363]. For CHLOYA, this supports the general principle: **handoff should transfer task state, not the history of the path by which the previous subject reached it**.
 
 ### 8.5.1. Handoff as Reconstruction of Working State
 
@@ -672,7 +672,7 @@ After several retellings, this constraint may become:
 
 Topically, the information has formally survived: coordination is still mentioned. The meaning of the process, however, has changed radically. A prohibition has become a recommendation.
 
-Experimental research on multi-stage agentic processes shows that such weakening of constraints can indeed occur during summarization and state handoff: expressions of obligation, preconditions, and consequences of violation gradually lose their original strictness [365].
+Experimental research on multi-stage agentic processes shows that such weakening of constraints can indeed occur during summarization and state handoff: expressions of obligation, preconditions, and consequences of violation gradually lose their original strictness [364].
 
 CHLOYA therefore requires preserving not only the content of a constraint, but also its **[normative force][g-normative-strength]**.
 
@@ -1000,7 +1000,7 @@ For example, a document may contain the sentence:
 
 For a system analyzing the document, this sequence of characters must remain **data about the document's content**. The mere fact that the text is grammatically phrased as a command must not give it control force.
 
-Contemporary research on agent security shows that this threat is not limited to simple strings such as “ignore previous instructions.” More sophisticated influence may use plausible explanations, goal substitution, false context, or other techniques resembling social engineering. OpenAI therefore treats resistance to [prompt injection][g-prompt-injection] not only as detection of suspicious strings, but also as containment of the consequences if the model is nevertheless persuaded to perform an undesirable action [366].
+Contemporary research on agent security shows that this threat is not limited to simple strings such as “ignore previous instructions.” More sophisticated influence may use plausible explanations, goal substitution, false context, or other techniques resembling social engineering. OpenAI therefore treats resistance to [prompt injection][g-prompt-injection] not only as detection of suspicious strings, but also as containment of the consequences if the model is nevertheless persuaded to perform an undesirable action [365].
 
 For CHLOYA, this means the security model must not assume:
 
@@ -1042,7 +1042,7 @@ This relationship can be represented as:
 
 `influence source -> context transformation -> sensitive capability`
 
-OpenAI applies a related “source–sink” analysis model to agentic systems: for a material violation, an attacker needs both a source of influence on the model and a capability that becomes dangerous when misused [366].
+OpenAI applies a related “source–sink” analysis model to agentic systems: for a material violation, an attacker needs both a source of influence on the model and a capability that becomes dangerous when misused [365].
 
 For CHLOYA, this approach is especially useful because it shifts attention from “does this text contain an attack?” to a more engineering-oriented question:
 
@@ -1218,7 +1218,7 @@ The gate should not recompute all context semantics either. It uses properties a
 
 One of the central properties for the [context gate][g-context-gate] is **[context sufficiency][g-context-sufficiency]**.
 
-Research by Joren et al. [367] demonstrates the importance of distinguishing cases in which a model received sufficient information but used it incorrectly from cases in which the provided context itself contained insufficient grounds for an answer. The authors also showed that, under insufficient context, stronger models often continue to produce an answer instead of abstaining from an unsupported conclusion.
+Research by Joren et al. [366] demonstrates the importance of distinguishing cases in which a model received sufficient information but used it incorrectly from cases in which the provided context itself contained insufficient grounds for an answer. The authors also showed that, under insufficient context, stronger models often continue to produce an answer instead of abstaining from an unsupported conclusion.
 
 CHLOYA extends the concept of sufficiency beyond question-answering systems.
 
@@ -1280,7 +1280,7 @@ CHLOYA treats **[correct refusal][g-correct-refusal]** as a system quality in it
 
 In the context of this chapter, the reason may be insufficient [working context][g-working-context], absence of required verification, an unresolved contradiction, or uncertain applicability of a material source. In the broader CHLOYA architecture, insufficient authority and safety conditions are added to this list.
 
-The study by Machcha et al. [368], conducted on medical tasks, shows that high language-model accuracy does not by itself provide a reliable ability to abstain under uncertainty. Even strong models may continue answering where the grounds are insufficient. The study's domain differs from engineering agentic systems, but the distinction between **the ability to find an answer** and **the ability to determine when not to answer** is more general.
+The study by Machcha et al. [367], conducted on medical tasks, shows that high language-model accuracy does not by itself provide a reliable ability to abstain under uncertainty. Even strong models may continue answering where the grounds are insufficient. The study's domain differs from engineering agentic systems, but the distinction between **the ability to find an answer** and **the ability to determine when not to answer** is more general.
 
 Excessive refusal is also an error.
 

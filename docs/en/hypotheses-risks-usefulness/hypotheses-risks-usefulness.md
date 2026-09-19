@@ -5823,7 +5823,7 @@ A context fragment may additionally record:
 * the time or version for which it is valid;
 * transformations through which it passed.
 
-Albada's practical book likewise emphasizes provenance and data integrity in agentic systems and recommends constraining available operations and applying least privilege when tools can modify state [339]. These recommendations align with CHLOYA's separation of analysis, authorization, and execution.
+Albada's practical book likewise emphasizes provenance and data integrity in agentic systems and recommends constraining available operations and applying least privilege when tools can modify state [194]. These recommendations align with CHLOYA's separation of analysis, authorization, and execution.
 
 CHLOYA does not require combining every property into one numerical “trust score.” Such a sum can hide a critical factor. A source may have verified provenance and integrity but be stale, or be current and factually accurate without possessing authority to establish project policy.
 
@@ -6010,7 +6010,7 @@ The unit of authorization in CHLOYA is therefore not just a tool, but **a partic
 
 Policy may consider operation type, parameters, target object, provenance and class of data used, task state, contract, risk level, and the need for human confirmation.
 
-CaMeL and Fides are examples of systemic approaches in which permission and data flow are checked outside the model's unconstrained reasoning [333], [334]. Albada similarly recommends narrow predefined functions with least privilege rather than broad operations such as arbitrary SQL [339].
+CaMeL and Fides are examples of systemic approaches in which permission and data flow are checked outside the model's unconstrained reasoning [333], [334]. Albada similarly recommends narrow predefined functions with least privilege rather than broad operations such as arbitrary SQL [194].
 
 > **Availability of a capability is not authority to use it.**
 
@@ -6287,7 +6287,7 @@ For material dependencies, the identity of an accepted component should therefor
 
 > **package + version + source + particular artifact + checksum + available provenance information.**
 
-A current example is PyPI's July 2026 policy change. The registry began prohibiting new files from being added to releases older than fourteen days. One risk under consideration was that, after compromising publication authority, an attacker could add a malicious binary artifact to an old version users had already learned to trust [340].
+A current example is PyPI's July 2026 policy change. The registry began prohibiting new files from being added to releases older than fourteen days. One risk under consideration was that, after compromising publication authority, an attacker could add a malicious binary artifact to an old version users had already learned to trust [339].
 
 This yields an important distinction:
 
@@ -6533,7 +6533,7 @@ The situation differs when a coordinator incorrectly decides before parallel wor
 
 What matters is therefore not only error probability but **where the error arises in the work-dependency graph**.
 
-Xie et al. model multi-agent interaction as a directed dependency graph and show that a local error can be amplified as it propagates among participants, while interaction structure materially affects the final failure scale [342].
+Xie et al. model multi-agent interaction as a directed dependency graph and show that a local error can be amplified as it propagates among participants, while interaction structure materially affects the final failure scale [341].
 
 For CHLOYA:
 
@@ -6551,7 +6551,7 @@ Another failure class occurs when all local results are individually correct but
 
 Section 6.20 therefore concerns **cascading coordination error**, not merely an “orchestrator error.”
 
-The handoff boundary is especially important. AgentAsk shows that multi-agent interaction failures often arise directly at such boundaries, including loss of necessary data, distortion of transmitted signals, changed meaning of object references, and mismatch between recipient capability and task requirements [341].
+The handoff boundary is especially important. AgentAsk shows that multi-agent interaction failures often arise directly at such boundaries, including loss of necessary data, distortion of transmitted signals, changed meaning of object references, and mismatch between recipient capability and task requirements [340].
 
 This aligns with CHLOYA's treatment of handoff not as arbitrary text forwarding but as a controlled transformation of task state.
 
@@ -6685,7 +6685,7 @@ This is true only when their grounds are sufficiently independent.
 
 If three agents receive the same erroneous task statement, compressed memory, and architectural premise, their agreement may merely reproduce one error several times.
 
-Kostka and Chudziak show a related problem in multi-agent fact checking: agreement can create false confidence under correlated errors [343].
+Kostka and Chudziak show a related problem in multi-agent fact checking: agreement can create false confidence under correlated errors [342].
 
 Therefore:
 
@@ -6747,7 +6747,7 @@ A local executor may understand its own domain much more deeply.
 
 The coordinator's role is therefore primarily ownership of decomposition and integration, not unconditional truth of every technical premise.
 
-Albada likewise emphasizes that adding agents creates communication, coordination, and resource cost, and recommends the minimum sufficient number of participants [339].
+Albada likewise emphasizes that adding agents creates communication, coordination, and resource cost, and recommends the minimum sufficient number of participants [194].
 
 CHLOYA does not assume that a more complex multi-agent structure is automatically better than one executor.
 
@@ -6818,13 +6818,13 @@ Artificially introduced errors are a material threat. An overly obvious false pr
 
 Model differences create a second threat. A strong local executor may discover a coordinator error independently, while a weaker one reproduces it. The result cannot be attributed only to architecture unless the models used are fixed.
 
-Verification independence can also be measured incorrectly. Two agents may appear organizationally independent while using the same model, context, and false premise, leaving their errors strongly correlated [343].
+Verification independence can also be measured incorrectly. Two agents may appear organizationally independent while using the same model, context, and false premise, leaving their errors strongly correlated [342].
 
 Excessive preliminary verification has its own cost. If every minor branch is checked as thoroughly as a system-level decision with dozens of dependents, coordination cost may erase the benefit of parallelism.
 
 Stopping dependent work creates another threat. An overly aggressive signal may suspend branches that do not actually depend on the erroneous premise. The system must preserve real dependencies rather than assume every change to a parent decision invalidates all downstream work.
 
-Finally, success of one multi-agent scheme should not be transferred automatically to other task classes. Research shows substantial dependence on interaction structure, framing, and verification mechanism [21], [341], [342].
+Finally, success of one multi-agent scheme should not be transferred automatically to other task classes. Research shows substantial dependence on interaction structure, framing, and verification mechanism [21], [340], [341].
 
 ### Scope of Applicability
 

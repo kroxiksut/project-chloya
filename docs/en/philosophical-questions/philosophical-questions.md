@@ -68,7 +68,7 @@ The question is therefore not only **how many people can be replaced**, but also
 
 ## PQ-03. Are Functional Departments Needed If Agents Can Perform Their Work?
 
-The same tension extends beyond software development. Market research, publication preparation, audience analysis, documentation, user support, analytics, parts of project management, and many other functions can already be performed partly by AI. Current literature on agent systems separately considers functional- and organizational-level agents capable of operating in support, finance, human resources, compliance, and marketing [339].
+The same tension extends beyond software development. Market research, publication preparation, audience analysis, documentation, user support, analytics, parts of project management, and many other functions can already be performed partly by AI. Current literature on agent systems separately considers functional- and organizational-level agents capable of operating in support, finance, human resources, compliance, and marketing [194].
 
 The disappearance of particular operations does not yet mean the disappearance of the function. A marketing department is not merely a group of people who write copy. It accumulates knowledge of its audience, chooses objectives, reconciles conflicting signals, interacts with other units, and bears organizational responsibility for decisions. Development, analytics, and support likewise represent more than a set of produced artifacts.
 
@@ -122,7 +122,7 @@ The preceding question has a temporal dimension. Even if an experienced speciali
 
 This creates the **[verification competence paradox][g-verification-competence-paradox]**: the more low-level work is delegated to AI, the fewer natural opportunities people receive to acquire the skills needed to recognize errors in that work. CHLOYA's working concepts already identify this problem.
 
-It is not solely an internal hypothesis of the methodology. In *Building Applications with AI Agents*, Michael Albada explicitly identifies skill degradation as a vulnerability of human oversight in agent systems: as routine operations are handed to agents, it may become harder for a person to intervene effectively in critical situations. The same discussion identifies [automation bias][g-automation-bias] and [alert fatigue][g-alert-fatigue] [339].
+It is not solely an internal hypothesis of the methodology. In *Building Applications with AI Agents*, Michael Albada explicitly identifies skill degradation as a vulnerability of human oversight in agent systems: as routine operations are handed to agents, it may become harder for a person to intervene effectively in critical situations. The same discussion identifies [automation bias][g-automation-bias] and [alert fatigue][g-alert-fatigue] [194].
 
 The problem may be especially visible in professions with long learning trajectories. If a junior engineer no longer performs the work that once enabled the formation of internal models of typical failures, productivity gains today may create a competence shortage tomorrow.
 
@@ -136,7 +136,7 @@ Keeping a human in the loop is often treated as a universal safety measure. The 
 
 If an agent performs thousands of actions while an operator receives hundreds of confirmation requests, human attention becomes the constraining resource. Confirmation gradually changes from a decision into a ritual. The person becomes accustomed to accepting the system's recommendation, particularly when the overwhelming majority of previous requests were safe.
 
-This problem is directly grounded in the literature. Work on human oversight of agent systems considers the need to scale human participation according to risk [18], [19]. Albada's applied analysis specifically names [automation bias][g-automation-bias] and [alert fatigue][g-alert-fatigue]: an excessive number of low-priority signals can reduce the likelihood that an operator will pay close attention to the critical case [339].
+This problem is directly grounded in the literature. Work on human oversight of agent systems considers the need to scale human participation according to risk [18], [19]. Albada's applied analysis specifically names [automation bias][g-automation-bias] and [alert fatigue][g-alert-fatigue]: an excessive number of low-priority signals can reduce the likelihood that an operator will pay close attention to the critical case [194].
 
 CHLOYA's question therefore cannot be reduced to the presence of a “Confirm” button. [Meaningful control][g-meaningful-human-control] requires that a person have time, competence, the necessary [context][g-context], and a genuine ability to alter the decision. If even one of these conditions is absent, a formal approval point may create only the appearance of responsibility.
 

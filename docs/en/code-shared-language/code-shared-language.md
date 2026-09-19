@@ -22,17 +22,17 @@
 
 Software code has traditionally been viewed primarily as a means of specifying computation. In this view, a human formulates a solution in a programming language, after which a compiler, interpreter, or other computing environment transforms the recorded description into a sequence of executable actions. Classic work on programming, however, already showed that this view is too narrow. A program is not intended only for a machine. It also serves as a way to express ideas about a computational process, communicate intent to other developers, and preserve part of the knowledge about the system that has been built.
 
-*Structure and Interpretation of Computer Programs* treats a programming language as a means of formally expressing computational processes and a program not merely as a set of instructions for a computing machine, but also as a way of recording human thought about the problem being solved [369]. Donald Knuth approached a similar issue from another direction when he proposed literate programming: a program should be organized so that its structure can be explained coherently to a person and its machine representation is not completely separated from the human account of its intent [370]. These approaches differ in their goals and practical implementation, but they agree on one important point: source code has more than one audience.
+*Structure and Interpretation of Computer Programs* treats a programming language as a means of formally expressing computational processes and a program not merely as a set of instructions for a computing machine, but also as a way of recording human thought about the problem being solved [368]. Donald Knuth approached a similar issue from another direction when he proposed literate programming: a program should be organized so that its structure can be explained coherently to a person and its machine representation is not completely separated from the human account of its intent [369]. These approaches differ in their goals and practical implementation, but they agree on one important point: source code has more than one audience.
 
-In classical software engineering, those audiences were primarily the computing system and other developers. The machine requires formal correctness from a program, whereas a person must reconstruct the program's purpose, organization, and relationship to its surrounding system from its text. These processes are fundamentally different. A computing system does not need to understand the program's domain intent: it is enough for the representation to satisfy the language rules and be executable. A person, by contrast, constructs a mental model while reading code, relating individual constructs to known architectural decisions, the problem domain, and the system's expected behavior. Research on program comprehension shows that this process is not reducible to reading source lines in sequence. A developer uses the project structure, documentation, prior knowledge, element names, relationships between modules, and other sources of context [371].
+In classical software engineering, those audiences were primarily the computing system and other developers. The machine requires formal correctness from a program, whereas a person must reconstruct the program's purpose, organization, and relationship to its surrounding system from its text. These processes are fundamentally different. A computing system does not need to understand the program's domain intent: it is enough for the representation to satisfy the language rules and be executable. A person, by contrast, constructs a mental model while reading code, relating individual constructs to known architectural decisions, the problem domain, and the system's expected behavior. Research on program comprehension shows that this process is not reducible to reading source lines in sequence. A developer uses the project structure, documentation, prior knowledge, element names, relationships between modules, and other sources of context [370].
 
-Even well-written code, therefore, has never been a complete equivalent of knowledge about a software system. In *Programming as Theory Building*, Peter Naur observed that the outcome of programming cannot be reduced to the resulting program text. Developers form a certain account—a “theory”—of why the system has its particular structure, how individual decisions relate to the original problem, and under what conditions those decisions may be changed [372]. Part of this theory is expressed in source code, but some of it inevitably remains outside the code.
+Even well-written code, therefore, has never been a complete equivalent of knowledge about a software system. In *Programming as Theory Building*, Peter Naur observed that the outcome of programming cannot be reduced to the resulting program text. Developers form a certain account—a “theory”—of why the system has its particular structure, how individual decisions relate to the original problem, and under what conditions those decisions may be changed [371]. Part of this theory is expressed in source code, but some of it inevitably remains outside the code.
 
 This limitation is fundamental to CHLOYA. Describing [code as a shared language][g-code-shared-language] does not mean that code contains all knowledge required about a project or can replace natural language, documentation, and [project memory][g-project-memory]. The claim concerns a different property: code is a formalized object on which different participants in the system can perform different but interrelated operations.
 
 The emergence of modern AI models substantially changes the set of those participants.
 
-The statistical regularity of software code was studied long before modern [large language models][g-llm] appeared. Hindle et al. showed that software code exhibits enough repetition and predictability for statistical language-modeling techniques to be applied to it [373]. This line of research subsequently led to models capable not only of predicting individual program elements, but also of analyzing large bodies of source code, generating new implementations, performing transformations, finding defects, producing tests, and participating in other software-lifecycle tasks. Recent surveys of [large language model][g-llm] use in software engineering show that their application is no longer limited to generating code from a textual prompt; it now spans dozens of task classes involving the analysis, maintenance, testing, and modification of software systems [374].
+The statistical regularity of software code was studied long before modern [large language models][g-llm] appeared. Hindle et al. showed that software code exhibits enough repetition and predictability for statistical language-modeling techniques to be applied to it [372]. This line of research subsequently led to models capable not only of predicting individual program elements, but also of analyzing large bodies of source code, generating new implementations, performing transformations, finding defects, producing tests, and participating in other software-lifecycle tasks. Recent surveys of [large language model][g-llm] use in software engineering show that their application is no longer limited to generating code from a textual prompt; it now spans dozens of task classes involving the analysis, maintenance, testing, and modification of software systems [373].
 
 This introduces a new active participant between the human and the computing system.
 
@@ -62,11 +62,11 @@ The interaction therefore becomes cyclical:
 
 In this model, code ceases to be merely the end product of generation. It becomes a persistent intermediate state of collaborative work.
 
-Empirical research on programmers' use of generative assistants already shows that human–AI interaction is not limited to the one-way delivery of a finished solution. Developers use such systems both to accelerate actions they already understand and to explore possible solutions, successively accepting, modifying, or rejecting proposed variants [375]. As development moves from an individual assistant to agentic systems, this property becomes more important: one executor may work with another's result, while a new model invocation often lacks the complete internal context of the previous interaction.
+Empirical research on programmers' use of generative assistants already shows that human–AI interaction is not limited to the one-way delivery of a finished solution. Developers use such systems both to accelerate actions they already understand and to explore possible solutions, successively accepting, modifying, or rejecting proposed variants [374]. As development moves from an individual assistant to agentic systems, this property becomes more important: one executor may work with another's result, while a new model invocation often lacks the complete internal context of the previous interaction.
 
 Under these conditions, external representations of state that persist between individual acts of work become especially valuable.
 
-An analogy with the **[boundary object][g-boundary-object]** concept introduced by Susan Star and James Griesemer is useful in describing this function. [Boundary objects][g-boundary-object] allow different groups to interact through a shared artifact even when each group uses it in its own context and interprets it according to its own tasks [376]. In software engineering, similar reasoning is applied to artifacts that support coordination between participants with different areas of responsibility and professional contexts [377].
+An analogy with the **[boundary object][g-boundary-object]** concept introduced by Susan Star and James Griesemer is useful in describing this function. [Boundary objects][g-boundary-object] allow different groups to interact through a shared artifact even when each group uses it in its own context and interprets it according to its own tasks [375]. In software engineering, similar reasoning is applied to artifacts that support coordination between participants with different areas of responsibility and professional contexts [376].
 
 Directly identifying source code with the classic [boundary object][g-boundary-object] would be inaccurate: the original concept describes interaction between social groups, whereas a human–agent system includes a computational executor as one of its participants. The functional similarity is nevertheless significant. The same code can be used by a person to analyze architectural intent, by a model to construct and apply a transformation, by a testing tool to verify properties, and by a computing system to execute it.
 
@@ -110,7 +110,7 @@ Natural language is well suited to expressing uncertainty, discussing alternativ
 
 Formalization allows part of this risk to be moved from interpretation to tool-enforced control.
 
-The history of software engineering contains several approaches to this transition. Formal methods use mathematically defined representations to describe and analyze properties of software systems [378]. Their fundamental advantage is that a substantial part of the claims about a system ceases to exist only in natural language and acquires stricter semantics that specialized tools can analyze.
+The history of software engineering contains several approaches to this transition. Formal methods use mathematically defined representations to describe and analyze properties of software systems [377]. Their fundamental advantage is that a substantial part of the claims about a system ceases to exist only in natural language and acquires stricter semantics that specialized tools can analyze.
 
 CHLOYA does not assume that every project should adopt a complete formal specification. In many applied systems, the cost of doing so would be disproportionate to the benefit. What matters methodologically is not maximum rigor, but the principle of progressively externalizing material constraints into representations that software tools can interpret independently.
 
@@ -130,9 +130,9 @@ Machine interpretability therefore does not arise from a filename extension or a
 
 Executability is a still stronger property, but it should not be treated as a universal goal either.
 
-Software engineering has long debated the advantages and limitations of executable specifications. Hayes and Jones observed that requiring every specification to be executable can restrict its expressiveness and prematurely bring a description of required properties closer to a particular implementation [379]. If making a requirement executable entails already determining algorithmic details or discarding important uncertainty, formalization begins to change the meaning of the original requirement.
+Software engineering has long debated the advantages and limitations of executable specifications. Hayes and Jones observed that requiring every specification to be executable can restrict its expressiveness and prematurely bring a description of required properties closer to a particular implementation [378]. If making a requirement executable entails already determining algorithmic details or discarding important uncertainty, formalization begins to change the meaning of the original requirement.
 
-Executable specifications also offer a substantial practical advantage. Fuchs emphasized that executing a specification makes it possible to explore the described behavior before a final implementation exists, identify inconsistencies, and involve the user earlier in evaluating the system under development [380].
+Executable specifications also offer a substantial practical advantage. Fuchs emphasized that executing a specification makes it possible to explore the described behavior before a final implementation exists, identify inconsistencies, and involve the user earlier in evaluating the system under development [379].
 
 These positions are less contradictory than they may appear. They describe two sides of the same problem.
 
@@ -160,7 +160,7 @@ The same constraint can be expressed in a data schema. It then becomes available
 
 A similar transition is possible for interfaces. A programming-interface method may be described in documentation, but an interface contract allows software tools to determine its operations, parameters, message structures, and other properties formally. Validators, client generators, documentation tools, and compatibility checks can then be built from that representation.
 
-Infrastructure provides another characteristic example. A natural-language instruction may enumerate required servers, networks, access rules, and dependencies. A declarative infrastructure description converts some of this information into a representation from which a specialized tool can directly create or modify infrastructure state. Research into Infrastructure as Code practices documents precisely this transition from manual, primarily documentary descriptions of infrastructure to reproducible representations managed through software [381].
+Infrastructure provides another characteristic example. A natural-language instruction may enumerate required servers, networks, access rules, and dependencies. A declarative infrastructure description converts some of this information into a representation from which a specialized tool can directly create or modify infrastructure state. Research into Infrastructure as Code practices documents precisely this transition from manual, primarily documentary descriptions of infrastructure to reproducible representations managed through software [380].
 
 Different kinds of artifacts therefore have different degrees of operational capacity.
 
@@ -168,7 +168,7 @@ A requirements document may explain a desired state to a person and an agent. A 
 
 These representations do not form a linear scale on which each successive level is always better than the preceding one. They perform different functions. A greater degree of formalization is useful only when it matches the nature of the knowledge being recorded.
 
-Some requirements are inherently difficult to reduce in advance to a fully defined executable form. Harel and Marron draw attention to the persistent problem of hard-to-specify requirements, where a material part of the task is discovering what the user regards as the correct result [382]. Uncertainty, subjective judgment, a changing context, and incomplete domain understanding do not disappear when a description is transferred into a formal syntax.
+Some requirements are inherently difficult to reduce in advance to a fully defined executable form. Harel and Marron draw attention to the persistent problem of hard-to-specify requirements, where a material part of the task is discovering what the user regards as the correct result [381]. Uncertainty, subjective judgment, a changing context, and incomplete domain understanding do not disappear when a description is transferred into a formal syntax.
 
 CHLOYA therefore does not treat formalization as a substitute for human discussion.
 
@@ -192,7 +192,7 @@ and
 
 The second arrangement is more robust because it moves part of the control out of the model's probabilistic behavior.
 
-Recent research on coding agents has begun to use this capability directly. Jain treats executable specifications as runnable artifacts through which a coding agent or its surrounding system can observe properties of a candidate implementation by means of tests, input generators, dynamic analysis, and other tools [383]. In such a loop, the agent receives not only a textual description of expected behavior, but also a mechanism by which the result of its actions can be compared with that behavior.
+Recent research on coding agents has begun to use this capability directly. Jain treats executable specifications as runnable artifacts through which a coding agent or its surrounding system can observe properties of a candidate implementation by means of tests, input generators, dynamic analysis, and other tools [382]. In such a loop, the agent receives not only a textual description of expected behavior, but also a mechanism by which the result of its actions can be compared with that behavior.
 
 CHLOYA can therefore formulate a more general principle:
 
@@ -250,7 +250,7 @@ Artifact quality is therefore determined not only by how rigorously it expresses
 
 This problem predates AI.
 
-In his work on information distribution in design, David Parnas observed that giving every participant all available information about a system does not necessarily make development easier. Architecture and documentation should instead limit the information that must be considered when making a particular decision [384]. He later developed information hiding as a criterion for decomposing software systems: modules should conceal design decisions whose change should not require knowledge of the entire system's internal organization [76].
+In his work on information distribution in design, David Parnas observed that giving every participant all available information about a system does not necessarily make development easier. Architecture and documentation should instead limit the information that must be considered when making a particular decision [383]. He later developed information hiding as a criterion for decomposing software systems: modules should conceal design decisions whose change should not require knowledge of the entire system's internal organization [76].
 
 In this sense, modularity governs not only technical dependencies. It also governs the **distribution of knowledge**.
 
@@ -258,11 +258,11 @@ A good module boundary reduces the number of elements whose behavior must be und
 
 One fundamental property of good architecture is therefore that it limits the body of knowledge required for local action.
 
-Merely dividing a program physically into files and modules does not guarantee this property. A conceptually unified solution may be distributed among several distant parts of the system. Soloway et al. described such constructs as **[delocalized plans][g-delocalized-plan]**: elements of one plan may occur in different program fragments, so local reading reveals only part of the relevant picture [385].
+Merely dividing a program physically into files and modules does not guarantee this property. A conceptually unified solution may be distributed among several distant parts of the system. Soloway et al. described such constructs as **[delocalized plans][g-delocalized-plan]**: elements of one plan may occur in different program fragments, so local reading reveals only part of the relevant picture [384].
 
 An individual fragment may consequently appear understandable and logically complete while a correct change depends on a constraint in another module, a non-obvious order of calls, the behavior of an external component, or a reason for a decision that cannot be reconstructed directly from the code.
 
-Research on software maintenance shows that much of a developer's work consists precisely of reconstructing such context. Ko et al. observed developers searching for supposedly relevant code, following incoming and outgoing dependencies, returning to elements found earlier, and gradually constructing a working area for the task. About 35% of the observed time was spent on mechanical navigation within source code and between files [386]. In their study of changes to existing systems, Sillito et al. identified a broad class of questions about the purpose, relationships, uses, behavior, and consequences of changing program elements that programmers must answer before they can confidently perform a local task [387].
+Research on software maintenance shows that much of a developer's work consists precisely of reconstructing such context. Ko et al. observed developers searching for supposedly relevant code, following incoming and outgoing dependencies, returning to elements found earlier, and gradually constructing a working area for the task. About 35% of the observed time was spent on mechanical navigation within source code and between files [385]. In their study of changes to existing systems, Sillito et al. identified a broad class of questions about the purpose, relationships, uses, behavior, and consequences of changing program elements that programmers must answer before they can confidently perform a local task [386].
 
 The cost of understanding is therefore not determined only by the number of lines of code.
 
@@ -274,17 +274,17 @@ A model can process far more text than a person can hold in working attention at
 
 Recent research on repository-level code work shows the opposite.
 
-RepoCoder bases generation on iterative retrieval of relevant repository fragments because information useful for changing a particular part of a program may be distributed across several files [388]. The effectiveness of this approach itself demonstrates an important distinction: **access to the entire project is not the same as having the right working context**.
+RepoCoder bases generation on iterative retrieval of relevant repository fragments because information useful for changing a particular part of a program may be distributed across several files [387]. The effectiveness of this approach itself demonstrates an important distinction: **access to the entire project is not the same as having the right working context**.
 
-Moreover, different kinds of retrieved information are not equally useful. Gu et al. showed that information about directly related code and potentially used programming interfaces can improve repository-level generation, whereas superficially similar code fragments can create noise and, under some conditions, degrade results by as much as 15% [389].
+Moreover, different kinds of retrieved information are not equally useful. Gu et al. showed that information about directly related code and potentially used programming interfaces can improve repository-level generation, whereas superficially similar code fragments can create noise and, under some conditions, degrade results by as much as 15% [388].
 
 Context is therefore characterized not only by volume, but also by relevance.
 
 Excess information can compete with material constraints, present a model with outdated or alternative implementation patterns, and increase the number of plausible but incorrect relationships. A larger context window expands the available search space but does not determine which part of that space is required for a particular action.
 
-MutaGReP is especially illustrative: rather than filling the context with a substantial portion of the repository, it searches for a plan linked to particular codebase symbols. In experiments, the resulting working context occupied less than 5% of an available 128,000-token window while producing results comparable to those obtained by supplying a much larger portion of the repository [390].
+MutaGReP is especially illustrative: rather than filling the context with a substantial portion of the repository, it searches for a plan linked to particular codebase symbols. In experiments, the resulting working context occupied less than 5% of an available 128,000-token window while producing results comparable to those obtained by supplying a much larger portion of the repository [389].
 
-Modern repository-level generation methods increasingly use the structural dependencies of code itself. InlineCoder, for example, constructs context around callers and callees because textual similarity does not necessarily reflect the actual semantic relationship between program elements [391].
+Modern repository-level generation methods increasingly use the structural dependencies of code itself. InlineCoder, for example, constructs context around callers and callees because textual similarity does not necessarily reflect the actual semantic relationship between program elements [390].
 
 These results support a distinction important to CHLOYA between **available context** and **[required context][g-required-context]**.
 
@@ -340,7 +340,7 @@ In another case, all required information may be present in the repository but d
 
 [Context debt][g-context-debt] also arises from the opposite problem: excess. Several documents may contain different versions of the same rule. Old instructions remain beside new ones. Exceptions, temporary decisions, and information about components that no longer exist gradually accumulate in an agent's persistent context file.
 
-Research into persistent context files for coding agents shows that such documents are already becoming complex artifacts in their own right. An analysis of 2,303 files from 1,925 repositories found that they change regularly and contain substantial information about project implementation, architecture, building, and execution, while security and performance requirements appear far less often [392].
+Research into persistent context files for coding agents shows that such documents are already becoming complex artifacts in their own right. An analysis of 2,303 files from 1,925 repositories found that they change regularly and contain substantial information about project implementation, architecture, building, and execution, while security and performance requirements appear far less often [391].
 
 A single large instruction file is therefore not a universal solution to the context problem.
 
@@ -370,7 +370,7 @@ This is particularly important for systems in which AI becomes a permanent devel
 
 Architectural quality thus begins to affect not only the cost of human maintenance, but also the economics of agent execution directly.
 
-This relates to another problem observed in development with generative models: new code may appear faster than people can form a durable understanding of the system. Ahmad describes this condition as **comprehension debt**—the gap between what a team actually knows about a codebase and what it must know to maintain it reliably [393].
+This relates to another problem observed in development with generative models: new code may appear faster than people can form a durable understanding of the system. Ahmad describes this condition as **comprehension debt**—the gap between what a team actually knows about a codebase and what it must know to maintain it reliably [392].
 
 [Context debt][g-context-debt] is related to this phenomenon, but is not identical to it.
 
@@ -426,7 +426,7 @@ It organizes computation, and it organizes knowledge about that computation.
 
 This view directly extends the classic idea of information hiding. In Parnas's approach, a module boundary conceals design decisions that the rest of the system should not need to know [76]. Information hiding does not mean that information disappears. It redistributes it: internal complexity remains inside the component, while a more stable and bounded representation required to use it is exposed.
 
-The abstract data types proposed by Liskov and Zilles follow the same logic. An abstract object is characterized primarily by the operations available on it rather than by its particular internal storage and implementation [394]. Its external interaction contract matters to a user, while its implementation may change independently.
+The abstract data types proposed by Liskov and Zilles follow the same logic. An abstract object is characterized primarily by the operations available on it rather than by its particular internal storage and implementation [393]. Its external interaction contract matters to a user, while its implementation may change independently.
 
 Abstraction can therefore be treated not only as a way to manage implementation complexity, but also as a **context boundary**.
 
@@ -434,7 +434,7 @@ If using a component requires knowing all its internal algorithms, data structur
 
 A good abstraction thereby reduces the knowledge required outside it while preserving the necessary interaction guarantees.
 
-Parnas, Clements, and Weiss developed this idea for complex software systems and proposed supplementing modular decomposition with a hierarchical module guide that helps a developer determine which parts of a system must actually be understood for a particular task [395]. The direction of this approach is important: architecture should not only divide a program into elements, but also help a participant navigate the space of knowledge about them.
+Parnas, Clements, and Weiss developed this idea for complex software systems and proposed supplementing modular decomposition with a hierarchical module guide that helps a developer determine which parts of a system must actually be understood for a particular task [394]. The direction of this approach is important: architecture should not only divide a program into elements, but also help a participant navigate the space of knowledge about them.
 
 System structure can therefore be viewed as a mechanism for **routing understanding**.
 
@@ -448,7 +448,7 @@ For example, two functions with identical bodies but the names `process()` and `
 
 An identifier should therefore be treated not as a decorative label, but as a **claim about an entity's meaning**.
 
-Empirical research confirms that naming can affect program comprehension, although the effect is not mechanical. Avidan and Feitelson found that meaningful parameter names can substantially aid code comprehension, whereas the effect of local names was weaker. At the same time, in some production methods they examined, the original names were so poor or misleading that they offered no advantage over meaningless identifiers [398].
+Empirical research confirms that naming can affect program comprehension, although the effect is not mechanical. Avidan and Feitelson found that meaningful parameter names can substantially aid code comprehension, whereas the effect of local names was weaker. At the same time, in some production methods they examined, the original names were so poor or misleading that they offered no advantage over meaningless identifiers [397].
 
 This observation is especially important to CHLOYA.
 
@@ -480,7 +480,7 @@ This distinction matters.
 
 What is narrowed is not the space of possible implementations, but the space of admissible external interpretations.
 
-Meyer's Design by Contract strengthens this idea by explicitly representing preconditions, postconditions, and invariants of interacting components [397]. The interface then conveys not only the shape of a call, but also some of the parties' obligations: which state is assumed before an operation and which properties must hold afterward.
+Meyer's Design by Contract strengthens this idea by explicitly representing preconditions, postconditions, and invariants of interacting components [396]. The interface then conveys not only the shape of a call, but also some of the parties' obligations: which state is assumed before an operation and which properties must hold afterward.
 
 In Section 9.4, the contract matters primarily as a means of conveying meaning.
 
@@ -494,7 +494,7 @@ Part of the [required context][g-required-context] becomes embedded in the struc
 
 These properties are not limited to internal programming interfaces.
 
-Research by Bogner, Kotstein, and Pfaff shows that the design of an external programming interface directly affects its comprehensibility. In a controlled experiment with 105 participants, violating 11 of 12 studied REST API design rules produced statistically worse performance on comprehension tasks; for nine rules, participants also rated the violating variants as more difficult [399].
+Research by Bogner, Kotstein, and Pfaff shows that the design of an external programming interface directly affects its comprehensibility. In a controlled experiment with 105 participants, violating 11 of 12 studied REST API design rules produced statistically worse performance on comprehension tasks; for nine rules, participants also rated the violating variants as more difficult [398].
 
 The particular set of REST rules is not the central point for CHLOYA.
 
@@ -512,7 +512,7 @@ Different domain entities may require different structures. The problem arises w
 
 Structural heterogeneity then becomes additional context that every subsequent executor must reconstruct.
 
-From this perspective, Green and Petre's cognitive dimensions of notations are useful. They consider properties of representations that affect the difficulty of working with them, including hidden dependencies, viscosity of change, and secondary notation [396]. The idea of a **hidden dependency** is especially important to CHLOYA: one element may be logically related to another while the representation makes that relationship difficult for its user to see.
+From this perspective, Green and Petre's cognitive dimensions of notations are useful. They consider properties of representations that affect the difficulty of working with them, including hidden dependencies, viscosity of change, and secondary notation [395]. The idea of a **hidden dependency** is especially important to CHLOYA: one element may be logically related to another while the representation makes that relationship difficult for its user to see.
 
 Such dependencies can take many forms in a software system.
 
@@ -556,7 +556,7 @@ Type information can substantially narrow the set of admissible states and expli
 
 It does not follow, however, that adding more type annotations automatically improves program comprehension.
 
-A 2026 eye-tracking study by Alznauer et al. found an interesting difference between subjective perceptions of types and objective comprehension measures. Almost all participants considered type annotations useful, yet the experiment with 40 developers found only limited effects on measured behavior and understanding; on average, annotations even slightly increased the time spent on the fragments [401].
+A 2026 eye-tracking study by Alznauer et al. found an interesting difference between subjective perceptions of types and objective comprehension measures. Almost all participants considered type annotations useful, yet the experiment with 40 developers found only limited effects on measured behavior and understanding; on average, annotations even slightly increased the time spent on the fragments [400].
 
 This aligns well with the [sufficient formalization][g-sufficient-formalization] principle from 9.2.
 
@@ -580,9 +580,9 @@ In every case, the criterion is the same: the structural element must reduce the
 
 This issue also directly concerns AI.
 
-Large language models can process source code as a sequence of tokens, but the code's structure can provide an additional source of information. AST-T5 uses a program's abstract syntax tree during model pretraining and demonstrates advantages of a structure-oriented representation on code generation, transformation, and comprehension tasks compared with similarly sized models that do not use such processing [400].
+Large language models can process source code as a sequence of tokens, but the code's structure can provide an additional source of information. AST-T5 uses a program's abstract syntax tree during model pretraining and demonstrates advantages of a structure-oriented representation on code generation, transformation, and comprehension tasks compared with similarly sized models that do not use such processing [399].
 
-At repository level, the same idea appears in InlineCoder [391], where relevant context is determined not only by textual similarity, but also by the structural relationships between callers and callees.
+At repository level, the same idea appears in InlineCoder [390], where relevant context is determined not only by textual similarity, but also by the structural relationships between callers and callees.
 
 This supports a significant conclusion.
 
@@ -600,7 +600,7 @@ It gives compilers, analyzers, and other software tools formally extractable rel
 
 This does not mean that people, models, and tools interpret structure identically. As Section 9.1 showed, the ways in which they interact with code differ fundamentally. Well-organized structure can nevertheless reduce uncertainty for several kinds of participants at once.
 
-Particularly interesting evidence comes from a 2026 study by Abdelsalam et al. The authors compared the responses of programmers and large language models to code regions containing known comprehension obstacles. Human difficulty was assessed using neurophysiological measures, while model difficulty was assessed through changes in perplexity. Increased model uncertainty correlated with the location and severity of regions that produced signs of difficulty in people [402].
+Particularly interesting evidence comes from a 2026 study by Abdelsalam et al. The authors compared the responses of programmers and large language models to code regions containing known comprehension obstacles. Human difficulty was assessed using neurophysiological measures, while model difficulty was assessed through changes in perplexity. Increased model uncertainty correlated with the location and severity of regions that produced signs of difficulty in people [401].
 
 This does not mean that a person and a large language model understand a program in the same way.
 
@@ -710,7 +710,7 @@ The [principle of structural explicitness][g-structural-explicitness] introduced
 
 Empirical research does not support that conclusion.
 
-Pascarella, Bruntink, and Bacchelli analyzed more than 40,000 lines of comments from open and closed projects and showed that comments perform many different functions [403]. They may briefly describe an element's purpose, explain behavioral details, give reasons for a decision, warn about usage characteristics, record tasks, or provide other information related to the code.
+Pascarella, Bruntink, and Bacchelli analyzed more than 40,000 lines of comments from open and closed projects and showed that comments perform many different functions [402]. They may briefly describe an element's purpose, explain behavioral details, give reasons for a decision, warn about usage characteristics, record tasks, or provide other information related to the code.
 
 The common rule that “a comment should explain why, not what” is therefore a useful practical heuristic, but an insufficient methodological principle.
 
@@ -736,7 +736,7 @@ If the increment occurs at that exact location because of a nontrivial event-pro
 
 A comment's usefulness is thus determined by its **added semantic information**, not by its mere presence.
 
-A 2026 study of comments' effect on code comprehension also shows a mixed picture. In an experiment by Abdelsalam et al., comments in different fragments both improved and worsened measured comprehension; the effect depended on the particular code and comment. Comments nevertheless directed participants' visual attention noticeably and were subjectively perceived as useful in difficult fragments [405].
+A 2026 study of comments' effect on code comprehension also shows a mixed picture. In an experiment by Abdelsalam et al., comments in different fragments both improved and worsened measured comprehension; the effect depended on the particular code and comment. Comments nevertheless directed participants' visual attention noticeably and were subjectively perceived as useful in difficult fragments [404].
 
 A comment is therefore not a cost-free improvement.
 
@@ -750,7 +750,7 @@ A comment cannot be treated as an independent historical explanation that is add
 
 If a comment describes the current system, it must evolve with the system.
 
-Fluri, Würsch, and Gall studied the co-evolution of code and comments and showed that changes to these two representations are far from always synchronized [404]. A mismatch between them creates one of the most dangerous forms of documentary information: a comment appears to offer additional knowledge but describes a previous program state.
+Fluri, Würsch, and Gall studied the co-evolution of code and comments and showed that changes to these two representations are far from always synchronized [403]. A mismatch between them creates one of the most dangerous forms of documentary information: a comment appears to offer additional knowledge but describes a previous program state.
 
 An outdated comment can be more dangerous than a missing one.
 
@@ -798,7 +798,7 @@ Some information about a program's provenance is naturally preserved by version 
 
 Commits, differences between versions, authorship, and temporal sequence make it possible to determine when a fragment arose, which elements changed together, and how the system evolved.
 
-An empirical study by Codoban et al. demonstrates how important this information is in practice. In a survey of 217 developers, 85% regarded a software project's history as important to their work, and 61% consulted it several times a day or more. Developers used history to discover reasons for existing solutions, reconstruct requirements, analyze change impact, and understand current work [408].
+An empirical study by Codoban et al. demonstrates how important this information is in practice. In a survey of 217 developers, 85% regarded a software project's history as important to their work, and 61% consulted it several times a day or more. Developers used history to discover reasons for existing solutions, reconstruct requirements, analyze change impact, and understand current work [407].
 
 This supports an important proposition: history is an independent source of knowledge that current code cannot replace completely.
 
@@ -808,7 +808,7 @@ Having Git history does not mean a project automatically has a complete memory o
 
 Change history primarily records a sequence of changes. A decision's rationale may be distributed across task text, discussion, several commits, experimental results, and the knowledge of the people who performed the work.
 
-Research by Al Safwan, Elarnaoty, and Servant shows that developers regularly need to reconstruct change rationales and that rationale itself includes many elements: purpose, necessity, constraints, alternatives, the selected option, dependencies, verification, side effects, and other information. In complex cases, finding that rationale can take substantial time, and developers sometimes abandon the search without finding an adequate answer [409].
+Research by Al Safwan, Elarnaoty, and Servant shows that developers regularly need to reconstruct change rationales and that rationale itself includes many elements: purpose, necessity, constraints, alternatives, the selected option, dependencies, verification, side effects, and other information. In complex cases, finding that rationale can take substantial time, and developers sometimes abandon the search without finding an adequate answer [408].
 
 Change history therefore primarily answers the question:
 
@@ -846,9 +846,9 @@ This often includes reasons for architectural decisions, constraints that existe
 
 The idea of preserving such knowledge has a substantial history in software-architecture research.
 
-Tang, Babar, Gorton, and Han showed that practicing architects recognize the value of preserving design rationale, especially for later modification and impact analysis, even though such information remains incompletely documented in practice [406].
+Tang, Babar, Gorton, and Han showed that practicing architects recognize the value of preserving design rationale, especially for later modification and impact analysis, even though such information remains incompletely documented in practice [405].
 
-Jansen, Avgeriou, and van der Ven treat architectural knowledge as a separate object of management and emphasize the problems of losing, finding, and tracing such knowledge in large systems [407].
+Jansen, Avgeriou, and van der Ven treat architectural knowledge as a separate object of management and emphasize the problems of losing, finding, and tracing such knowledge in large systems [406].
 
 CHLOYA's [project memory][g-project-memory] thus continues an established line of design- and architectural-knowledge management while extending it to the human–agent working loop.
 
@@ -918,7 +918,7 @@ One practical form of such preservation is an **[architecture decision record][g
 
 ADRs record a particular decision together with its context and rationale, preserving architectural knowledge alongside an evolving project.
 
-A 2024 action-research study by Ahmeti et al. found that introducing such records helped a team develop its documentation culture, transfer knowledge, and determine which information to preserve. The authors also found that documentation location materially affects perceived usefulness and that a single centralized storage approach does not suit every kind of distributed knowledge [410].
+A 2024 action-research study by Ahmeti et al. found that introducing such records helped a team develop its documentation culture, transfer knowledge, and determine which information to preserve. The authors also found that documentation location materially affects perceived usefulness and that a single centralized storage approach does not suit every kind of distributed knowledge [409].
 
 For CHLOYA, this finding aligns with [contextual self-sufficiency][g-context-self-sufficiency].
 
@@ -1078,7 +1078,7 @@ AI can generate an implementation and also produce a confident account of its co
 
 An agent's statement about a result therefore cannot be treated as independent confirmation of that result.
 
-This limitation is not specific to AI. Much of the history of software engineering concerns attempts to separate writing a program from establishing its properties. As early as 1969, Hoare proposed an axiomatic approach for reasoning about programs through formally specified preconditions and postconditions and proving program properties relative to those conditions [411].
+This limitation is not specific to AI. Much of the history of software engineering concerns attempts to separate writing a program from establishing its properties. As early as 1969, Hoare proposed an axiomatic approach for reasoning about programs through formally specified preconditions and postconditions and proving program properties relative to those conditions [410].
 
 For CHLOYA, the important point is not the particular mathematical apparatus, but the underlying idea:
 
@@ -1132,7 +1132,7 @@ Section 9.4 considered types as part of [structural context][g-structural-contex
 
 Section 9.6 considers another aspect of a type system: its ability to reject certain classes of programs automatically.
 
-Pierce defines a type system as a tractable syntactic method for proving the absence of certain program behaviors by classifying phrases according to the kinds of values they compute [412].
+Pierce defines a type system as a tractable syntactic method for proving the absence of certain program behaviors by classifying phrases according to the kinds of values they compute [411].
 
 The word **“certain”** is especially important here.
 
@@ -1152,7 +1152,7 @@ This is not because a compiler “understands the task better than the agent,”
 
 Static analysis plays a similar role.
 
-The classic abstract-interpretation theory of Cousot and Cousot shows how properties of actual computations can be studied through a simpler abstract representation of their possible behavior [413]. Abstract analysis can obtain useful information about a program without executing every possible trajectory, although by its nature the result may be incomplete or conservative.
+The classic abstract-interpretation theory of Cousot and Cousot shows how properties of actual computations can be studied through a simpler abstract representation of their possible behavior [412]. Abstract analysis can obtain useful information about a program without executing every possible trajectory, although by its nature the result may be incomplete or conservative.
 
 This highlights another important property of external verification.
 
@@ -1272,7 +1272,7 @@ If a test is used as a basis for accepting an implementation, another question a
 
 A test suite may pass not because the program is correct, but because its checks are insensitive to material errors.
 
-Mutation testing offers one way to assess this sensitivity. Small artificial changes are deliberately introduced into the program, after which the existing test suite is checked to see whether it detects them. A modern survey by Papadakis et al. treats mutation analysis as a mature way to assess test-suite adequacy and support other testing tasks [414].
+Mutation testing offers one way to assess this sensitivity. Small artificial changes are deliberately introduced into the program, after which the existing test suite is checked to see whether it detects them. A modern survey by Papadakis et al. treats mutation analysis as a mature way to assess test-suite adequacy and support other testing tasks [413].
 
 For CHLOYA, the broader idea matters beyond the particular technique:
 
@@ -1358,7 +1358,7 @@ In practice, this mechanism can indeed be useful.
 
 Tests created by the same executor from the same understanding of the task nevertheless inherit the risk of a shared interpretive error.
 
-In a study of code-model self-correction using self-generated tests, Chen et al. found **self-test bias**: incorrectly formed tests can give a model misleading positive feedback, especially when implementation and verification arise from the same representation of the task [418]. They showed that using intermediate execution state can reduce the problem in part, but the result remains dependent on the quality of self-generated tests.
+In a study of code-model self-correction using self-generated tests, Chen et al. found **self-test bias**: incorrectly formed tests can give a model misleading positive feedback, especially when implementation and verification arise from the same representation of the task [417]. They showed that using intermediate execution state can reduce the problem in part, but the result remains dependent on the quality of self-generated tests.
 
 CHLOYA therefore makes an important distinction.
 
@@ -1410,9 +1410,9 @@ External verification is not needed only when a task is completed.
 
 It can participate in the solution trajectory itself.
 
-Modern code-generation systems demonstrate the value of using actual execution as feedback. In LEVER, Ni et al. use execution results from generated programs together with the code and original problem to train a verifier that selects correct candidates more effectively [416].
+Modern code-generation systems demonstrate the value of using actual execution as feedback. In LEVER, Ni et al. use execution results from generated programs together with the code and original problem to train a verifier that selects correct candidates more effectively [415].
 
-SWE-agent likewise places test and program execution directly in the interface through which an agent interacts with the computing environment. The authors show that a purpose-designed interface allowing a model to navigate a repository, edit files, and receive execution results materially affects its ability to solve software-engineering tasks [417].
+SWE-agent likewise places test and program execution directly in the interface through which an agent interacts with the computing environment. The authors show that a purpose-designed interface allowing a model to navigate a repository, edit files, and receive execution results materially affects its ability to solve software-engineering tasks [416].
 
 Verification therefore performs at least two distinct functions.
 
@@ -1476,7 +1476,7 @@ An agent may interpret the result for a person, but its retelling should not rep
 
 This arrangement has a historical analogue in stricter systems for trusting code.
 
-In Necula's Proof-Carrying Code, an untrusted producer of program code must supply the program together with a proof that it complies with a predefined security policy, and the receiving party independently checks the proof before execution [415].
+In Necula's Proof-Carrying Code, an untrusted producer of program code must supply the program together with a proof that it complies with a predefined security policy, and the receiving party independently checks the proof before execution [414].
 
 CHLOYA does not assume that every agent result must be accompanied by a mathematical proof.
 
@@ -1658,9 +1658,9 @@ This notation appears simple, but fundamentally changes the object being governe
 
 For CHLOYA, a transition between states must therefore be considered together with intent, constraints, and verification.
 
-Research on program transformation provides a historical basis for this view. Visser defines program transformation as mechanically changing a program, making the program itself the object of processing, while a complex transformation may be constructed as a sequence of simpler rules [421]. The program here is not only text intended for execution, but also state to which a transformation is applied.
+Research on program transformation provides a historical basis for this view. Visser defines program transformation as mechanically changing a program, making the program itself the object of processing, while a complex transformation may be constructed as a sequence of simpler rules [420]. The program here is not only text intended for execution, but also state to which a transformation is applied.
 
-The classic research tradition on refactoring is especially close to the issue at hand. Opdyke's dissertation describes refactorings as program transformations intended to change structure while preserving behavior; whether individual transformations may be applied depends on corresponding preconditions [419]. Later refactoring research systematized questions of behavior preservation, applicability conditions, and transformation automation [420].
+The classic research tradition on refactoring is especially close to the issue at hand. Opdyke's dissertation describes refactorings as program transformations intended to change structure while preserving behavior; whether individual transformations may be applied depends on corresponding preconditions [418]. Later refactoring research systematized questions of behavior preservation, applicability conditions, and transformation automation [419].
 
 CHLOYA does not reduce every change to refactoring. When a new function is implemented, a defect is corrected, or a requirement is deliberately changed, system behavior is expected to change. Refactoring research nevertheless supplies a broader principle: **a change operation has applicability conditions and a set of properties that must either be preserved or changed in a specified way**.
 
@@ -1708,7 +1708,7 @@ This is especially important in agentic development. If an executor returns only
 
 A [change artifact][g-change-artifact] need not be an ordinary line-based diff.
 
-Research on automated program evolution shows that a change itself can be expressed at a higher level. Padioleau, Lawall, Hansen, and Muller studied collateral changes to Linux drivers caused by the evolution of internal kernel interfaces. They used Coccinelle semantic patches to document and automate them, expressing not a concrete set of lines in one file but a transformation rule applicable to related areas of a program [424]. This automation was motivated in part by the fact that manually performing many dependent changes was labor-intensive and produced inconsistent modifications.
+Research on automated program evolution shows that a change itself can be expressed at a higher level. Padioleau, Lawall, Hansen, and Muller studied collateral changes to Linux drivers caused by the evolution of internal kernel interfaces. They used Coccinelle semantic patches to document and automate them, expressing not a concrete set of lines in one file but a transformation rule applicable to related areas of a program [423]. This automation was motivated in part by the fact that manually performing many dependent changes was labor-intensive and produced inconsistent modifications.
 
 CHLOYA therefore uses a broader concept of a **[change artifact][g-change-artifact]**.
 
@@ -1746,7 +1746,7 @@ The two scopes need not coincide.
 
 Changing one function may affect many callers. Changing a shared type may affect every component that uses it. Changing a data schema may affect software code, migrations, reports, and external integrations. Modifying an infrastructure declaration may affect real resources that are not represented by individual repository files at all.
 
-The need to investigate such consequences gave rise to change-impact analysis. A systematic study defines Change Impact Analysis as examining the potential effects of a change in other parts of a system; its review of 111 papers connects such analysis to lower maintenance cost and failure risk [423].
+The need to investigate such consequences gave rise to change-impact analysis. A systematic study defines Change Impact Analysis as examining the potential effects of a change in other parts of a system; its review of 111 papers connects such analysis to lower maintenance cost and failure risk [422].
 
 This distinction is especially important to CHLOYA because agent authority is bounded.
 
@@ -1842,7 +1842,7 @@ Representing a change as a separate artifact creates a risk of focusing on prope
 
 A change may be small, syntactically valid, well formatted, and apply cleanly to the initial state. That does not mean the resulting state meets the actual requirement.
 
-This problem is well known in research on automated program repair. A survey of methods for evaluating automatically generated patches emphasizes that passing an available test suite is insufficient to declare a patch correct automatically: incomplete tests allow patches to satisfy existing checks without matching the expected repair semantics [425].
+This problem is well known in research on automated program repair. A survey of methods for evaluating automatically generated patches emphasizes that passing an available test suite is insufficient to declare a patch correct automatically: incomplete tests allow patches to satisfy existing checks without matching the expected repair semantics [424].
 
 This directly extends the conclusions of 9.6.
 
@@ -1942,13 +1942,13 @@ In verification execution, the question is known in advance: does property \(P\)
 
 In [exploratory execution][g-exploratory-execution], the executor does not yet have a sufficient behavioral model and attempts to determine what happens in the system, which elements actually participate in the observed behavior, which conditions affect the result, and which of several hypotheses best fits actual execution.
 
-Investigating programs through observed execution has a long history. A systematic review by Cornelissen et al. shows that dynamic analysis is widely used specifically to understand existing programs. The authors selected 176 studies of program comprehension through execution analysis and systematized methods in which actual-behavior data helps developers reconstruct a software system's organization [426].
+Investigating programs through observed execution has a long history. A systematic review by Cornelissen et al. shows that dynamic analysis is widely used specifically to understand existing programs. The authors selected 176 studies of program comprehension through execution analysis and systematized methods in which actual-behavior data helps developers reconstruct a software system's organization [425].
 
 This extends the earlier account of context.
 
 Structural analysis shows which relationships and trajectories **may** exist according to the program's current organization. Observing a particular execution shows which actually appeared for the given system state and input.
 
-Dynamic program slicing makes the distinction especially clear. Agrawal and Horgan contrast a static slice, which contains statements that could potentially affect a value, with a dynamic slice containing the statements that actually affected that value in a particular execution with a particular input [427].
+Dynamic program slicing makes the distinction especially clear. Agrawal and Horgan contrast a static slice, which contains statements that could potentially affect a value, with a dynamic slice containing the statements that actually affected that value in a particular execution with a particular input [426].
 
 Execution can thereby narrow the area of investigation dramatically.
 
@@ -1964,13 +1964,13 @@ Suppose an observed error has several possible explanations. The executor hypoth
 
 The program then becomes not only an object of reading, but an **object of experiment**.
 
-Delta debugging is a classic example. Zeller and Hildebrandt proposed systematically changing the conditions under which a failure is reproduced and repeating execution, gradually reducing the set of factors necessary for the problem to occur [428]. In one example, a sequence of 95 user actions was automatically reduced to three actions that preserved the failure, while an 896-line HTML input was reduced to one line sufficient to reproduce the error.
+Delta debugging is a classic example. Zeller and Hildebrandt proposed systematically changing the conditions under which a failure is reproduced and repeating execution, gradually reducing the set of factors necessary for the problem to occur [427]. In one example, a sequence of 95 user actions was automatically reduced to three actions that preserved the failure, while an 896-line HTML input was reduced to one line sufficient to reproduce the error.
 
 What matters here is not the particular minimization algorithm, but the way knowledge is obtained.
 
 A cause is not merely inferred by reading the program. The system is subjected to a series of controlled interventions, and differences between successful and unsuccessful runs are used to narrow the space of possible explanations.
 
-In later work, Zeller applied similar reasoning to internal states of a running program. Systematically manipulating differences between successful and failing executions can isolate values and states associated with failure development and construct a causal chain from the initial condition to the observed error [429].
+In later work, Zeller applied similar reasoning to internal states of a running program. Systematically manipulating differences between successful and failing executions can isolate values and states associated with failure development and construct a causal chain from the initial condition to the observed error [428].
 
 This approach is especially important for an agent executor because it counters one of the most dangerous automated-change strategies: fixing the first plausible explanation.
 
@@ -2000,9 +2000,9 @@ An observation from the first execution may change the question rather than answ
 
 In this sense, execution is not only a source of answers, but a mechanism for **restructuring the working model of the system**.
 
-Recent work on coding models already uses such cycles. LeDex uses actual execution feedback to train models to explain errors sequentially and refine previously created code. Execution results allow the model to move beyond its initial solution and continue iterative correction [430].
+Recent work on coding models already uses such cycles. LeDex uses actual execution feedback to train models to explain errors sequentially and refine previously created code. Execution results allow the model to move beyond its initial solution and continue iterative correction [429].
 
-CodeTree develops a similar idea as managed search. Different strategies and candidate solutions are explored in sequence, while decisions to expand, refine, or stop the search use both model feedback and environment execution results [431].
+CodeTree develops a similar idea as managed search. Different strategies and candidate solutions are explored in sequence, while decisions to expand, refine, or stop the search use both model feedback and environment execution results [430].
 
 The coding agent's interaction with a project thus ceases to be a one-way process of reading and writing files.
 
@@ -2010,7 +2010,7 @@ The environment begins to answer the executor through its own behavior.
 
 Code provides structure and possible dependencies. The compiler reports formal violations. A test reveals a mismatch with an expectation. Execution provides traces, values, and errors. The agent's next action is determined not only by the initial textual instruction, but also by the system's observed response.
 
-An industrial study of agentic program repair from failing tests also demonstrates the value of this combination. Maddila et al. describe an agent loop in which the model receives the initial failure and uses static-analysis and test-execution results as feedback while constructing and refining a repair [432].
+An industrial study of agentic program repair from failing tests also demonstrates the value of this combination. Maddila et al. describe an agent loop in which the model receives the initial failure and uses static-analysis and test-execution results as feedback while constructing and refining a repair [431].
 
 Execution can therefore be treated as a mechanism for reducing uncertainty before a [controlled state transformation][g-controlled-state-transformation].
 
@@ -2058,7 +2058,7 @@ There is another limitation: an observed execution trace is not necessarily a co
 
 Logs, traces, telemetry, and other observability mechanisms have bounded visibility. Absence of an event from a log does not prove that the event did not occur when that part of the program was not logged at all. A truncated trace may hide a preceding state. A telemetry collection error may create a false account of event order.
 
-Research on uncertainty in runtime verification shows that incomplete or imprecise traces are a problem in their own right: when events are missing or ambiguous, even a formal monitor may be unable to reach a reliable verdict [434].
+Research on uncertainty in runtime verification shows that incomplete or imprecise traces are a problem in their own right: when events are missing or ambiguous, even a formal monitor may be unable to reach a reliable verdict [433].
 
 An observation's instrumental provenance therefore does not make it absolute truth.
 
@@ -2106,7 +2106,7 @@ Unlike reading a program, executing it is itself an action on an environment.
 
 Code may modify files, access a network, write database data, send messages, execute operating-system commands, create external resources, or destroy existing ones. Permission to read code and permission to execute it are therefore not equivalent authority.
 
-RedCode research demonstrates the relevance of this problem to coding agents. The benchmark specifically covers risky code-generation and execution scenarios and uses real environment interactions; its RedCode-Exec portion contains more than four thousand potentially unsafe execution scenarios [433].
+RedCode research demonstrates the relevance of this problem to coding agents. The benchmark specifically covers risky code-generation and execution scenarios and uses real environment interactions; its RedCode-Exec portion contains more than four thousand potentially unsafe execution scenarios [432].
 
 CHLOYA therefore imposes a direct limitation:
 
@@ -2190,7 +2190,7 @@ In every case, the same problem arises: the next participant lacks the previous 
 
 Knowledge material to continuation must therefore exist outside a particular executor.
 
-The problem is well known in traditional software engineering. Tao et al. studied how developers understand other people's code changes in an industrial setting. Among the most difficult information needs were determining a change's completeness and consistency and, especially, its potential effects on other components [435]. They also showed the value of presenting complex changes in parts corresponding to individual development tasks.
+The problem is well known in traditional software engineering. Tao et al. studied how developers understand other people's code changes in an industrial setting. Among the most difficult information needs were determining a change's completeness and consistency and, especially, its potential effects on other components [434]. They also showed the value of presenting complex changes in parts corresponding to individual development tasks.
 
 This finding connects directly to the [controlled state transformation][g-controlled-state-transformation] model from 9.7.
 
@@ -2240,7 +2240,7 @@ If part of the system remains unexplored, that uncertainty must also be preserve
 
 The next participant then receives not a story about the previous executor's work, but a point from which continuing the work makes sense.
 
-Empirical research on coding agents is beginning to show the cost of violating this property directly. In a 2026 study, KC and Budathoki examined interrupted-task handoffs between agents. They recorded intermediate repository state and compared continuation under different forms of context transfer. In their experiments, supplying information about prior work state rather than only the repository reduced the next agent's median action count by about 20–59% and total input-token volume by about 42–63%; the effect on eventual task resolution was smaller and depended on the model used [436]. Because the work is a preprint, these quantitative results should be treated as contemporary empirical evidence rather than a definitive universal relationship.
+Empirical research on coding agents is beginning to show the cost of violating this property directly. In a 2026 study, KC and Budathoki examined interrupted-task handoffs between agents. They recorded intermediate repository state and compared continuation under different forms of context transfer. In their experiments, supplying information about prior work state rather than only the repository reduced the next agent's median action count by about 20–59% and total input-token volume by about 42–63%; the effect on eventual task resolution was smaller and depended on the model used [435]. Because the work is a preprint, these quantitative results should be treated as contemporary empirical evidence rather than a definitive universal relationship.
 
 The authors call the resulting rediscovery cost *handoff debt*. CHLOYA need not introduce another independent kind of debt for it. The phenomenon is naturally a particular case of [context debt][g-context-debt]: knowledge existed for the previous participant but was not left in a form the next could recover cheaply.
 
@@ -2264,7 +2264,7 @@ A project that routinely forces a new agent to reconstruct architecture, depende
 
 This does not mean that every executor should leave the most detailed possible account of its work.
 
-Recent research on transferring trajectories between different models shows a more complex picture. In a 2026 preprint, Ganz et al. studied continuation of agent trajectories after switching between cheaper and more capable models. Transferring the full previous trajectory did not always produce the best result: the effect depended on the direction of transfer, and in some scenarios shortening or omitting part of the previous trajectory improved the next model's result [364].
+Recent research on transferring trajectories between different models shows a more complex picture. In a 2026 preprint, Ganz et al. studied continuation of agent trajectories after switching between cheaper and more capable models. Transferring the full previous trajectory did not always produce the best result: the effect depended on the direction of transfer, and in some scenarios shortening or omitting part of the previous trajectory improved the next model's result [363].
 
 This aligns with CHLOYA's broader reasoning.
 
@@ -2404,7 +2404,7 @@ It means a system in which knowledge critical to continuation does not remain so
 
 There is nevertheless a fundamental limit to such transfer.
 
-As Naur showed [372], programming involves a developer forming a theory of the program that cannot be reduced completely to source text and documentation. No process can guarantee that every subsequent participant instantly acquires the same understanding formed by a person or agent through extended investigation.
+As Naur showed [371], programming involves a developer forming a theory of the program that cannot be reduced completely to source text and documentation. No process can guarantee that every subsequent participant instantly acquires the same understanding formed by a person or agent through extended investigation.
 
 CHLOYA does not attempt to eliminate this fundamental limitation.
 
@@ -2446,7 +2446,7 @@ Code can indeed become a [shared working surface][g-shared-working-surface] for 
 
 This limit predates modern AI.
 
-In analyzing software-engineering complexity, Brooks distinguished difficulties arising from the technical means used from difficulties inherent in the software system being created [437]. A material part of the work consists not merely of translating a finished solution into syntactically valid code, but of forming the conceptual construct: deciding which entities exist in the system, how they relate, and which behavior should emerge from their interaction.
+In analyzing software-engineering complexity, Brooks distinguished difficulties arising from the technical means used from difficulties inherent in the software system being created [436]. A material part of the work consists not merely of translating a finished solution into syntactically valid code, but of forming the conceptual construct: deciding which entities exist in the system, how they relate, and which behavior should emerge from their interaction.
 
 Modern generative models can substantially reduce the cost of producing program text. They accelerate the creation of standard constructs, transformation of existing code, information search, and many other operations that previously required direct developer labor. Making implementation cheaper, however, does not answer **which implementation should be created at all**.
 
@@ -2464,7 +2464,7 @@ Even when a program interacts directly with physical devices, financial operatio
 
 Before a type, function, database table, or programming interface appears, someone must decide which concepts matter, which distinctions must be preserved, and which may be discarded.
 
-Zave and Jackson's work on requirements engineering demonstrates this boundary particularly well. They distinguish the environment in which the problem exists, requirements for the desired state of that environment, and a specification of the machine's behavior [438]. The levels are related but are not the same representation.
+Zave and Jackson's work on requirements engineering demonstrates this boundary particularly well. They distinguish the environment in which the problem exists, requirements for the desired state of that environment, and a specification of the machine's behavior [437]. The levels are related but are not the same representation.
 
 A requirement may concern the real world:
 
@@ -2500,7 +2500,7 @@ Section 9.2 showed that material requirements should be moved into machine-inter
 
 It does not follow that natural language is merely a temporary, imperfect stage that mature engineering should eliminate completely.
 
-Franch et al. studied requirements-specification practice in twelve companies and found that natural language remains the primary medium for requirements, usually supplemented by other forms and tools [440]. Ambiguity, inconsistency, and incompleteness in natural-language requirements also remain among the most common practical problems.
+Franch et al. studied requirements-specification practice in twelve companies and found that natural language remains the primary medium for requirements, usually supplemented by other forms and tools [439]. Ambiguity, inconsistency, and incompleteness in natural-language requirements also remain among the most common practical problems.
 
 This situation reflects more than a shortcoming of formalization methods.
 
@@ -2522,13 +2522,13 @@ Otherwise, a formal artifact becomes a way to conceal ambiguity rather than redu
 
 The limits of code as a carrier of knowledge remain visible after a system exists.
 
-Naur [372] treated programming as the construction of a theory of the program in a developer's mind. Source text is an important outcome of this process, but does not exhaust the understanding of why a system has its particular structure or how it should change when new requirements appear.
+Naur [371] treated programming as the construction of a theory of the program in a developer's mind. Source text is an important outcome of this process, but does not exhaust the understanding of why a system has its particular structure or how it should change when new requirements appear.
 
 The preceding CHLOYA sections reduced much of this problem through [structural context][g-structural-context], [project memory][g-project-memory], verification evidence, and [transferable state][g-transferable-state].
 
 Reducing dependence on implicit knowledge is not the same as eliminating it completely.
 
-Ryan and O'Connor studied the acquisition and sharing of tacit knowledge in development teams and showed its substantial role in team work [439]. Such knowledge forms through experience and social interaction and does not always exist in a form a participant can immediately articulate in full.
+Ryan and O'Connor studied the acquisition and sharing of tacit knowledge in development teams and showed its substantial role in team work [438]. Such knowledge forms through experience and social interaction and does not always exist in a form a participant can immediately articulate in full.
 
 An experienced specialist may notice a suspicious combination of symptoms before being able to state a precise diagnostic rule.
 
@@ -2570,7 +2570,7 @@ The limits of code representation are especially clear in tasks that require cho
 
 Software systems implement decisions about privacy, accessibility, usability, acceptable risk, distribution of authority, and many other properties affecting people.
 
-Shahin et al. systematized 51 studies on incorporating human values into software engineering and showed that translating such values into concrete engineering decisions is a complex task in its own right [441]. Much of the existing work concerns requirements elicitation and design—the stages preceding direct implementation.
+Shahin et al. systematized 51 studies on incorporating human values into software engineering and showed that translating such values into concrete engineering decisions is a complex task in its own right [440]. Much of the existing work concerns requirements elicitation and design—the stages preceding direct implementation.
 
 This supports an important distinction between **operationalizing a decision** and **choosing the decision itself**.
 
@@ -2600,7 +2600,7 @@ Every operational criterion represents only one aspect of the actual intent.
 
 If an agent optimizes a solution against that criterion, it may find a state that fully satisfies the formal condition while diverging from the result the person intended.
 
-In research on intelligent systems, this problem appears in various forms of optimization against an incomplete specification or evaluation signal. A recent survey by Morampudi et al. treats reward hacking in large-language-model agent systems as a class of situations in which an agent exploits properties of an evaluation function, verification mechanism, or other signal rather than achieving the intended goal [444].
+In research on intelligent systems, this problem appears in various forms of optimization against an incomplete specification or evaluation signal. A recent survey by Morampudi et al. treats reward hacking in large-language-model agent systems as a class of situations in which an agent exploits properties of an evaluation function, verification mechanism, or other signal rather than achieving the intended goal [443].
 
 For software engineering, whether such behavior constitutes “deception” is not the main question.
 
@@ -2634,13 +2634,13 @@ Greater autonomy therefore raises requirements not only for the agent's ability 
 
 Even when a property can be stated with complete precision, there need not be a general algorithm capable of deciding automatically whether an arbitrary program has that property.
 
-Rice's classic result establishes the undecidability of every nontrivial semantic property of the function computed by a program for a general class of programs [442].
+Rice's classic result establishes the undecidability of every nontrivial semantic property of the function computed by a program for a general class of programs [441].
 
 For engineering practice, this does not mean that programs cannot be verified at all.
 
 Practical tools successfully verify many useful properties precisely because they work with restricted languages, defined models, particular classes of states, or incomplete analysis.
 
-Brain and Polgreen's modern presentation of different schools of formal verification likewise emphasizes that verification methods have different strengths, assumptions, and practical areas of application [443].
+Brain and Polgreen's modern presentation of different schools of formal verification likewise emphasizes that verification methods have different strengths, assumptions, and practical areas of application [442].
 
 Even within the formalized part of a project, therefore, no universal mechanism can answer every question about the behavior of an arbitrary system automatically and exhaustively.
 
@@ -2688,7 +2688,7 @@ Code is a powerful representation of the machine, but the meaning of the machine
 
 Recent research on professional coding agents shows a similar shift.
 
-Dong, Shi, Sampath, and Macvean analyzed 91 rule sets developers had defined for coding agents and validated the resulting classification through interviews with 15 experienced developers. Expectations of an effective agent included not only code quality and reliability, but also compliance with processes and standards, effective problem solving, and collaboration with the developer [445].
+Dong, Shi, Sampath, and Macvean analyzed 91 rule sets developers had defined for coding agents and validated the resulting classification through interviews with 15 experienced developers. Expectations of an effective agent included not only code quality and reliability, but also compliance with processes and standards, effective problem solving, and collaboration with the developer [444].
 
 This is especially important to CHLOYA.
 
@@ -2854,7 +2854,7 @@ These forms of interaction cannot be reduced to one kind of “understanding.”
 
 The working surface is shared in a different sense: participants address **one external state**, although they extract different kinds of information from it and have different means of affecting it.
 
-The analogy with [boundary artifacts][g-boundary-object] introduced in 9.1 is therefore useful but must retain its qualifications. Star and Griesemer's classic [boundary object][g-boundary-object] concept [376] described coordination between social groups, not interaction between a person and a computational model. Modern research on [boundary artifacts][g-boundary-object] in software engineering likewise focuses primarily on collaboration among different professional and organizational participants [377].
+The analogy with [boundary artifacts][g-boundary-object] introduced in 9.1 is therefore useful but must retain its qualifications. Star and Griesemer's classic [boundary object][g-boundary-object] concept [375] described coordination between social groups, not interaction between a person and a computational model. Modern research on [boundary artifacts][g-boundary-object] in software engineering likewise focuses primarily on collaboration among different professional and organizational participants [376].
 
 The functional similarity is nevertheless significant.
 
@@ -2868,7 +2868,7 @@ A test may serve as an example of expected behavior for a person, a machine-inte
 
 Collaborative activity thereby becomes possible not because internal models match completely, but because a sufficiently persistent external basis exists.
 
-Research on common ground in human–agent interaction provides additional theoretical support for the distinction. In a systematic review of 38 studies, Tolzin and Janson treat the formation of *common ground* as one mechanism of successful coordination between a person and a conversational agent [446]. CHLOYA does not import the entire conversational-interaction model into software engineering. The relevant general conclusion is that effective interaction requires some shared basis against which participants can coordinate subsequent actions.
+Research on common ground in human–agent interaction provides additional theoretical support for the distinction. In a systematic review of 38 studies, Tolzin and Janson treat the formation of *common ground* as one mechanism of successful coordination between a person and a conversational agent [445]. CHLOYA does not import the entire conversational-interaction model into software engineering. The relevant general conclusion is that effective interaction requires some shared basis against which participants can coordinate subsequent actions.
 
 A codebase and its related artifacts can perform precisely this operational function.
 
@@ -2962,7 +2962,7 @@ A [shared working surface][g-shared-working-surface] is therefore not one univer
 
 This fundamentally distinguishes it from attempts to solve the context problem with one large instruction file.
 
-Research on persistent context files for coding agents already shows that such documents become complex, evolving maintenance objects in their own right [392]. If all project information is moved into them, [context debt][g-context-debt] does not disappear; it becomes concentrated in a new place.
+Research on persistent context files for coding agents already shows that such documents become complex, evolving maintenance objects in their own right [391]. If all project information is moved into them, [context debt][g-context-debt] does not disappear; it becomes concentrated in a new place.
 
 A [shared working surface][g-shared-working-surface] must work differently.
 
