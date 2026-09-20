@@ -27,7 +27,7 @@ CHLOYA — методология управления созданием и р�
 | 7 | [Роли и контуры управления](ru/roles-governance/roles-governance.md) | `0.3.1` | на обсуждении |
 | 8 | [Управление контекстом и доверительными границами](ru/context-and-trust-boundaries/context-and-trust-boundaries.md) | `0.3.1` | на обсуждении |
 | 9 | [Код как общий язык человека и ИИ](ru/code-shared-language/code-shared-language.md) | `0.3.1` | на обсуждении |
-| 10 | [Профиль человека и адаптивная автономность](ru/human-profile-adaptive-autonomy/human-profile-adaptive-autonomy.md) | `0.3.1` | в разработке |
+| 10 | [Профиль человека и адаптивная автономность](ru/human-profile-adaptive-autonomy/human-profile-adaptive-autonomy.md) | `0.3.1` | на обсуждении |
 | 11 | Масштаб и уровни применения | `0.3.1` | в разработке |
 | 12 | Контекстный модуль как единица локальной работы | `0.3.1` | в разработке |
 | 13 | Проектная память и форматы контекста | `0.3.1` | в разработке |

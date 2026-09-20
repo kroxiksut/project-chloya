@@ -27,7 +27,7 @@ CHLOYA is a methodology for governing the creation and evolution of software. Hu
 | 7 | [Roles and Governance Boundaries](en/roles-governance/roles-governance.md) | `0.3.1` | under discussion |
 | 8 | [Context Management and Trust Boundaries](en/context-and-trust-boundaries/context-and-trust-boundaries.md) | `0.3.1` | under discussion |
 | 9 | [Code as a Shared Language for Humans and AI](en/code-shared-language/code-shared-language.md) | `0.3.1` | under discussion |
-| 10 | Human Profile and Adaptive Autonomy | `0.3.1` | in development |
+| 10 | [Human Profile and Adaptive Autonomy](en/human-profile-adaptive-autonomy/human-profile-adaptive-autonomy.md) | `0.3.1` | under discussion |
 | 11 | Scale and Levels of Application | `0.3.1` | in development |
 | 12 | Context Module as a Unit of Local Work | `0.3.1` | in development |
 | 13 | Project Memory and Context Formats | `0.3.1` | in development |

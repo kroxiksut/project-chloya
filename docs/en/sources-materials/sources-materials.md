@@ -628,3 +628,7 @@ The content of external materials, especially GitHub repositories, may change af
 446. Feng K. J. K., McDonald D. W., Zhang A. X. Levels of Autonomy for AI Agents. 2025. [arXiv:2506.12469](https://arxiv.org/abs/2506.12469). Accessed: 2026-09-19.
 
 447. Zheng H., Dong Q., Depena R. K., Bhatia J. D., Xiao F., Xu P. Separating Capability from Permission: A Governance Framework for Agentic AI Autonomy Levels. 2026. [arXiv:2607.23438](https://arxiv.org/abs/2607.23438). Accessed: 2026-09-19.
+
+448. International Scientific Exchange on AI Safety. [The 2026 Singapore Consensus on Global AI Safety Research Priorities. Companion Report: Agentic Risk Management Framework](https://aisafetypriorities.org/). Singapore, 2026. Accessed: 2026-09-20.
+
+449. Turan E. [Oversight Has a Capacity: Calibrating Agent Guards to a Subjective, Fatiguing Human](https://arxiv.org/abs/2606.08919). 2026. arXiv:2606.08919. Accessed: 2026-09-20.

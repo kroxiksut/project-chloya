@@ -32,4 +32,6 @@ This log concisely records substantive methodology changes between iterations. I
 
 - Added the complete English translation of chapter 9, preserving sections 9.1–9.11, the chapter conclusion, the local table of contents, and shared bibliography citations; expanded the global English glossary with the chapter's terminology. Both language versions are under discussion.
 
+- Added the complete English translation of chapter 10, preserving sections 10.1–10.11, its local table of contents, diagrams, and shared bibliography citations; expanded the global English glossary with the chapter's terminology. Both language versions are under discussion.
+
 Substantive changes will be recorded here as version `0.3.1` chapters are developed and agreed.
